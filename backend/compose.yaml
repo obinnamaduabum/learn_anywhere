@@ -1,0 +1,46 @@
+services:
+  backend:
+    build: .
+    environment:
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8084
+      JDBC_DATABASE_URL: jdbc:postgresql://postgres:5432/learning
+      POSTGRES_USER: learning
+      POSTGRES_PASSWORD: local-dev-only
+      MIGRATE_AT_START: "true"
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.3-70b-versatile}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-}
+    ports:
+      - "0.0.0.0:8084:8084"
+    depends_on:
+      postgres:
+        condition: service_healthy
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: learning
+      POSTGRES_USER: learning
+      POSTGRES_PASSWORD: local-dev-only
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - learning_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U learning -d learning"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  adminer:
+    image: adminer:5
+    environment:
+      ADMINER_DEFAULT_SERVER: postgres
+    ports:
+      - "127.0.0.1:8083:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  learning_pg:
