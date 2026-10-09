@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-13",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Redes Neurais",
+      "subtitle": "Semana 13: Por dentro dos sistemas modernos de IA",
+      "body": "Uma rede neural combina camadas de transformações matemáticas com parâmetros aprendidos. O termo neurônio descreve uma unidade computacional, não uma célula cerebral humana.\n\nPrática off-line: desenhe um diagrama simplificado de camada de entrada e saída e rotule-o como uma ilustração conceitual. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma rede neural combina camadas de transformações matemáticas com parâmetros aprendidos. O termo neurônio descreve uma unidade computacional, não uma célula cerebral humana.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Redes Neurais”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma rede neural combina camadas de transformações matemáticas com parâmetros aprendidos. O termo neurônio descreve uma unidade computacional, não uma célula cerebral humana."
+          ],
+          "correct": 3,
+          "explanation": "Uma rede neural combina camadas de transformações matemáticas com parâmetros aprendidos. O termo neurônio descreve uma unidade computacional, não uma célula cerebral humana.",
+          "id": "understanding-ai-week-13-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Desenhe um diagrama simplificado da camada de entrada-saída e rotule-o como uma ilustração conceitual.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-13-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Redes Neurais” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-13-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Incorporações",
+      "subtitle": "Semana 13: Por dentro dos sistemas modernos de IA",
+      "body": "Uma incorporação representa um item como números usados para capturar relacionamentos úteis. Posições semelhantes podem apoiar a comparação, mas não garantem significado idêntico.\n\nPrática offline: Organize palavras fictícias no papel por semelhança e explique por que seu esboço não é uma incorporação treinada. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma incorporação representa um item como números usados para capturar relacionamentos úteis. Posições semelhantes podem apoiar a comparação, mas não garantem significado idêntico.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Embeddings”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma incorporação representa um item como números usados para capturar relacionamentos úteis. Posições semelhantes podem apoiar a comparação, mas não garantem significado idêntico.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Uma incorporação representa um item como números usados para capturar relacionamentos úteis. Posições semelhantes podem apoiar a comparação, mas não garantem significado idêntico.",
+          "id": "understanding-ai-week-13-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Organize as palavras fictícias no papel por semelhança e explique por que o seu esboço não é uma incorporação treinada.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-13-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Incorporações” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-13-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Atenção",
+      "subtitle": "Semana 13: Por dentro dos sistemas modernos de IA",
+      "body": "Os mecanismos de atenção permitem que um modelo pondere as relações entre partes de uma entrada. A atenção é uma operação matemática, não uma evidência de consciência ou compreensão humana.\n\nPrática offline: explique como o contexto de uma frase pode ajudar a interpretar uma palavra ambígua. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Os mecanismos de atenção permitem que um modelo pondere as relações entre partes de uma entrada. A atenção é uma operação matemática, não uma evidência de consciência ou compreensão humana.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Atenção”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Os mecanismos de atenção permitem que um modelo pondere as relações entre partes de uma entrada. A atenção é uma operação matemática, não uma evidência de consciência ou compreensão humana.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Os mecanismos de atenção permitem que um modelo pondere as relações entre partes de uma entrada. A atenção é uma operação matemática, não uma evidência de consciência ou compreensão humana.",
+          "id": "understanding-ai-week-13-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Explique como o contexto de uma frase pode ajudar a interpretar uma palavra ambígua.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-13-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Atenção” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-13-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Geração com suporte de recuperação",
+      "subtitle": "Semana 13: Por dentro dos sistemas modernos de IA",
+      "body": "A geração com suporte de recuperação fornece documentos relevantes para uma resposta. Pode melhorar o aterramento, mas erros de recuperação e reivindicações geradas sem suporte ainda precisam de verificações.\n\nPrática off-line: crie um fluxo de trabalho que selecione uma nota do curso antes de redigir uma resposta e, em seguida, verifique a resposta. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A geração com suporte de recuperação fornece documentos relevantes para uma resposta. Pode melhorar o aterramento, mas erros de recuperação e reivindicações geradas sem suporte ainda precisam de verificações.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “geração apoiada pela recuperação”?",
+          "options": [
+            "A geração com suporte de recuperação fornece documentos relevantes para uma resposta. Pode melhorar o aterramento, mas erros de recuperação e reivindicações geradas sem suporte ainda precisam de verificações.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "A geração com suporte de recuperação fornece documentos relevantes para uma resposta. Pode melhorar o aterramento, mas erros de recuperação e reivindicações geradas sem suporte ainda precisam de verificações.",
+          "id": "understanding-ai-week-13-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Projete um fluxo de trabalho que selecione uma nota do curso antes de redigir uma resposta e depois verifique a resposta.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-13-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Geração com suporte de recuperação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-13-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ajustando e escolhendo ferramentas",
+      "subtitle": "Semana 13: Por dentro dos sistemas modernos de IA",
+      "body": "O ajuste fino adapta um modelo pré-treinado usando treinamento adicional. Solicitação, recuperação e ajuste fino são abordagens diferentes; o treinamento nem sempre é necessário.\n\nPrática off-line: escolha uma consulta simples de documento, um prompt ou treinamento adicional para três tarefas fictícias e justifique a opção mais simples e adequada. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "O ajuste fino adapta um modelo pré-treinado usando treinamento adicional. Solicitação, recuperação e ajuste fino são abordagens diferentes; o treinamento nem sempre é necessário.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Ajuste e escolha de ferramentas”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "O ajuste fino adapta um modelo pré-treinado usando treinamento adicional. Solicitação, recuperação e ajuste fino são abordagens diferentes; o treinamento nem sempre é necessário."
+          ],
+          "correct": 3,
+          "explanation": "O ajuste fino adapta um modelo pré-treinado usando treinamento adicional. Solicitação, recuperação e ajuste fino são abordagens diferentes; o treinamento nem sempre é necessário.",
+          "id": "understanding-ai-week-13-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escolha uma consulta simples de documento, um prompt ou treinamento adicional para três tarefas fictícias e justifique a opção mais simples e adequada.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-13-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Ajuste e escolha de ferramentas” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-13-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

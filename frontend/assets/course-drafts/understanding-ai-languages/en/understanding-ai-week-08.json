@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-08",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Privacy before prompting",
+      "subtitle": "Week 8: Second milestone: responsible AI use",
+      "body": "An online prompt sends information to a service. Use fictional examples and review applicable privacy rules before sharing information about yourself or others.\n\nOffline practice: Rewrite a fictional prompt so it avoids passwords, names, and identifying personal details. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "An online prompt sends information to a service. Use fictional examples and review applicable privacy rules before sharing information about yourself or others.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Privacy before prompting”?",
+          "options": [
+            "An online prompt sends information to a service. Use fictional examples and review applicable privacy rules before sharing information about yourself or others.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "An online prompt sends information to a service. Use fictional examples and review applicable privacy rules before sharing information about yourself or others.",
+          "id": "understanding-ai-week-08-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Rewrite a fictional prompt so it avoids passwords, names, and identifying personal details.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-08-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Privacy before prompting” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-08-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Bias and representation",
+      "subtitle": "Week 8: Second milestone: responsible AI use",
+      "body": "Data and design decisions can produce uneven outcomes. Examine who is represented, who is missing, and whether the system works appropriately for different users.\n\nOffline practice: Review a fictional study plan that assumes every learner owns a laptop and revise the assumption. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Data and design decisions can produce uneven outcomes. Examine who is represented, who is missing, and whether the system works appropriately for different users.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Bias and representation”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Data and design decisions can produce uneven outcomes. Examine who is represented, who is missing, and whether the system works appropriately for different users."
+          ],
+          "correct": 3,
+          "explanation": "Data and design decisions can produce uneven outcomes. Examine who is represented, who is missing, and whether the system works appropriately for different users.",
+          "id": "understanding-ai-week-08-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Review a fictional study plan that assumes every learner owns a laptop and revise the assumption.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-08-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Bias and representation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-08-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Academic integrity",
+      "subtitle": "Week 8: Second milestone: responsible AI use",
+      "body": "Schools and workplaces can have different rules for AI assistance. Follow the applicable policy and disclose assistance when required; generated work is not automatically your own independent work.\n\nOffline practice: Write an honest contribution note for a fictional AI-assisted study resource. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Schools and workplaces can have different rules for AI assistance. Follow the applicable policy and disclose assistance when required; generated work is not automatically your own independent work.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Academic integrity”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Schools and workplaces can have different rules for AI assistance. Follow the applicable policy and disclose assistance when required; generated work is not automatically your own independent work.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "Schools and workplaces can have different rules for AI assistance. Follow the applicable policy and disclose assistance when required; generated work is not automatically your own independent work.",
+          "id": "understanding-ai-week-08-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Write an honest contribution note for a fictional AI-assisted study resource.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-08-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Academic integrity” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-08-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Accessibility",
+      "subtitle": "Week 8: Second milestone: responsible AI use",
+      "body": "Clear structure, plain language, and text alternatives improve access. Important meaning should not depend only on colour, audio, or animation.\n\nOffline practice: Rewrite a diagram description so someone can understand it without seeing the picture. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Clear structure, plain language, and text alternatives improve access. Important meaning should not depend only on colour, audio, or animation.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Accessibility”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Clear structure, plain language, and text alternatives improve access. Important meaning should not depend only on colour, audio, or animation.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Clear structure, plain language, and text alternatives improve access. Important meaning should not depend only on colour, audio, or animation.",
+          "id": "understanding-ai-week-08-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Rewrite a diagram description so someone can understand it without seeing the picture.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-08-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Accessibility” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-08-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Month-two demonstration",
+      "subtitle": "Week 8: Second milestone: responsible AI use",
+      "body": "A reviewed resource should include a useful prompt, a draft, evidence checks, corrections, and a contribution note. Offline drafts can be reviewed before an optional online trial.\n\nOffline practice: Create a one-page study aid, document two checks, and explain one correction. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A reviewed resource should include a useful prompt, a draft, evidence checks, corrections, and a contribution note. Offline drafts can be reviewed before an optional online trial.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Month-two demonstration”?",
+          "options": [
+            "A reviewed resource should include a useful prompt, a draft, evidence checks, corrections, and a contribution note. Offline drafts can be reviewed before an optional online trial.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A reviewed resource should include a useful prompt, a draft, evidence checks, corrections, and a contribution note. Offline drafts can be reviewed before an optional online trial.",
+          "id": "understanding-ai-week-08-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Create a one-page study aid, document two checks, and explain one correction.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-08-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Month-two demonstration” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-08-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

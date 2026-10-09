@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-10",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Elaboração de mensagens",
+      "subtitle": "Semana 10: Comunicação e escrita",
+      "body": "Um rascunho de mensagem deve se adequar ao seu propósito, público e contexto. Verifique detalhes e tom antes de enviar; um rascunho gerado não deve ser enviado automaticamente.\n\nPrática off-line: elabore uma solicitação fictícia para um espaço de estudo em uma biblioteca e verifique seus detalhes. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um rascunho de mensagem deve se adequar ao seu propósito, público e contexto. Verifique detalhes e tom antes de enviar; um rascunho gerado não deve ser enviado automaticamente.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Elaboração de mensagens”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um rascunho de mensagem deve se adequar ao seu propósito, público e contexto. Verifique detalhes e tom antes de enviar; um rascunho gerado não deve ser enviado automaticamente.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um rascunho de mensagem deve se adequar ao seu propósito, público e contexto. Verifique detalhes e tom antes de enviar; um rascunho gerado não deve ser enviado automaticamente.",
+          "id": "understanding-ai-week-10-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Elabore um pedido fictício para um espaço de estudo de biblioteca e verifique seus detalhes.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-10-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Elaboração de mensagens” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-10-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Edição sem distorção",
+      "subtitle": "Semana 10: Comunicação e escrita",
+      "body": "A edição pode melhorar a clareza e ao mesmo tempo preservar o significado. Verifique se um rascunho mais curto não removeu uma condição ou alterou um compromisso.\n\nPrática offline: encurte um anúncio inventado e compare cada detalhe importante com o original. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A edição pode melhorar a clareza e ao mesmo tempo preservar o significado. Verifique se um rascunho mais curto não removeu uma condição ou alterou um compromisso.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Editar sem distorção”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A edição pode melhorar a clareza e ao mesmo tempo preservar o significado. Verifique se um rascunho mais curto não removeu uma condição ou alterou um compromisso.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "A edição pode melhorar a clareza e ao mesmo tempo preservar o significado. Verifique se um rascunho mais curto não removeu uma condição ou alterou um compromisso.",
+          "id": "understanding-ai-week-10-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Encurte um anúncio inventado e compare cada detalhe importante com o original.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-10-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Editando sem distorção” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-10-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Resumindo",
+      "subtitle": "Semana 10: Comunicação e escrita",
+      "body": "Um resumo seleciona ideias-chave de uma fonte. Não deve inventar detalhes ou omitir qualificações que alterem o significado.\n\nPrática off-line: resuma seu projeto do segundo mês em três frases e, em seguida, compare-o com o original. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um resumo seleciona ideias-chave de uma fonte. Não deve inventar detalhes ou omitir qualificações que alterem o significado.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Resumindo”?",
+          "options": [
+            "Um resumo seleciona ideias-chave de uma fonte. Não deve inventar detalhes ou omitir qualificações que alterem o significado.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um resumo seleciona ideias-chave de uma fonte. Não deve inventar detalhes ou omitir qualificações que alterem o significado.",
+          "id": "understanding-ai-week-10-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Resuma o seu projeto do segundo mês em três frases e depois compare-o com o original.”, que abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-10-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Resumindo” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-10-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Revisão de tradução",
+      "subtitle": "Semana 10: Comunicação e escrita",
+      "body": "A tradução deve preservar o significado, o tom, os nomes e as instruções importantes. O texto fluente por si só não prova que uma tradução é precisa.\n\nPrática off-line: liste cinco termos que um falante fluente deve revisar em um recurso de estudo traduzido. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A tradução deve preservar o significado, o tom, os nomes e as instruções importantes. O texto fluente por si só não prova que uma tradução é precisa.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “Revisão da tradução”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A tradução deve preservar o significado, o tom, os nomes e as instruções importantes. O texto fluente por si só não prova que uma tradução é precisa."
+          ],
+          "correct": 3,
+          "explanation": "A tradução deve preservar o significado, o tom, os nomes e as instruções importantes. O texto fluente por si só não prova que uma tradução é precisa.",
+          "id": "understanding-ai-week-10-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Liste cinco termos que um falante fluente deve revisar em um recurso de estudo traduzido.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-10-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Revisão da tradução” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-10-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Portfólio de comunicação",
+      "subtitle": "Semana 10: Comunicação e escrita",
+      "body": "Um portfólio pode mostrar um rascunho original, revisão e explicação das escolhas. Use exemplos fictícios e descreva a assistência honestamente.\n\nPrática offline: salve uma mensagem de antes e depois com uma breve nota explicando duas melhorias. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um portfólio pode mostrar um rascunho original, revisão e explicação das escolhas. Use exemplos fictícios e descreva a assistência honestamente.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “portfólio de comunicação”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um portfólio pode mostrar um rascunho original, revisão e explicação das escolhas. Use exemplos fictícios e descreva a assistência honestamente.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um portfólio pode mostrar um rascunho original, revisão e explicação das escolhas. Use exemplos fictícios e descreva a assistência honestamente.",
+          "id": "understanding-ai-week-10-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Salve uma mensagem de antes e depois com uma breve nota explicando duas melhorias.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-10-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Portfólio de comunicação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-10-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

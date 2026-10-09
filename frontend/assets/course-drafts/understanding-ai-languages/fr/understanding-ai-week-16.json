@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-16",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Présentez vos preuves",
+      "subtitle": "Semaine 16 : Démonstration et prochaines étapes",
+      "body": "Une présentation utile montre la tâche, l'artefact, l'évaluation, les améliorations et les limites. Séparez les résultats démontrés des possibilités futures.\n\nPratique hors ligne : préparez une explication de deux minutes ou une présentation écrite d'une page de votre projet. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une présentation utile montre la tâche, l'artefact, l'évaluation, les améliorations et les limites. Séparez les résultats démontrés des possibilités futures.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Présentez vos preuves » ?",
+          "options": [
+            "Une présentation utile montre la tâche, l'artefact, l'évaluation, les améliorations et les limites. Séparez les résultats démontrés des possibilités futures.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une présentation utile montre la tâche, l'artefact, l'évaluation, les améliorations et les limites. Séparez les résultats démontrés des possibilités futures.",
+          "id": "understanding-ai-week-16-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Préparez une explication de deux minutes ou une présentation écrite d’une page de votre projet. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-16-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Présentez vos preuves » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-16-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Expliquez votre contribution",
+      "subtitle": "Semaine 16 : Démonstration et prochaines étapes",
+      "body": "Décrivez ce que vous avez choisi, créé, vérifié et amélioré, et identifiez l'assistance de l'IA, le cas échéant. Ne prétendez pas qu’un badge de réussite d’application est une qualification accréditée.\n\nPratique hors ligne : rédigez une note de contribution avec une décision indépendante et une correction vérifiée. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Décrivez ce que vous avez choisi, créé, vérifié et amélioré, et identifiez l'assistance de l'IA, le cas échéant. Ne prétendez pas qu’un badge de réussite d’application est une qualification accréditée.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Expliquez votre contribution » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Décrivez ce que vous avez choisi, créé, vérifié et amélioré, et identifiez l'assistance de l'IA, le cas échéant. Ne prétendez pas qu’un badge de réussite d’application est une qualification accréditée."
+          ],
+          "correct": 3,
+          "explanation": "Décrivez ce que vous avez choisi, créé, vérifié et amélioré, et identifiez l'assistance de l'IA, le cas échéant. Ne prétendez pas qu’un badge de réussite d’application est une qualification accréditée.",
+          "id": "understanding-ai-week-16-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Rédiger une note de contribution avec une décision indépendante et une correction vérifiée. », quelle approche démontre un apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-16-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Expliquez votre contribution » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-16-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Construisez un portefeuille portable",
+      "subtitle": "Semaine 16 : Démonstration et prochaines étapes",
+      "body": "Un portfolio portable peut contenir un artefact PDF ou texte, une rubrique, une liste de sources et une réflexion. Supprimez les données privées avant de partager des copies.\n\nPratique hors ligne : organisez vos fichiers finaux et rédigez un court index afin qu'une autre personne puisse les comprendre hors ligne. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un portfolio portable peut contenir un artefact PDF ou texte, une rubrique, une liste de sources et une réflexion. Supprimez les données privées avant de partager des copies.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Construire un portefeuille portable » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un portfolio portable peut contenir un artefact PDF ou texte, une rubrique, une liste de sources et une réflexion. Supprimez les données privées avant de partager des copies.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un portfolio portable peut contenir un artefact PDF ou texte, une rubrique, une liste de sources et une réflexion. Supprimez les données privées avant de partager des copies.",
+          "id": "understanding-ai-week-16-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Organisez vos fichiers finaux et rédigez un court index pour qu’une autre personne puisse les comprendre hors ligne. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-16-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Construire un portfolio portable » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-16-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Choisissez un parcours d'apprentissage",
+      "subtitle": "Semaine 16 : Démonstration et prochaines étapes",
+      "body": "Choisissez le prochain apprentissage en fonction de votre objectif et de vos prérequis. L'utilisation des outils, la maîtrise des données et la programmation sont des voies différentes ; vérifiez les détails du cours ou de l’opportunité actuel avant de vous engager.\n\nPratique hors ligne : sélectionnez une compétence suivante et rédigez un plan pour vérifier les cours pertinents, les coûts, l'éligibilité et l'accès. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Choisissez le prochain apprentissage en fonction de votre objectif et de vos prérequis. L'utilisation des outils, la maîtrise des données et la programmation sont des voies différentes ; vérifiez les détails du cours ou de l’opportunité actuel avant de vous engager.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Choisir un parcours d’apprentissage » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Choisissez le prochain apprentissage en fonction de votre objectif et de vos prérequis. L'utilisation des outils, la maîtrise des données et la programmation sont des voies différentes ; vérifiez les détails du cours ou de l’opportunité actuel avant de vous engager.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Choisissez le prochain apprentissage en fonction de votre objectif et de vos prérequis. L'utilisation des outils, la maîtrise des données et la programmation sont des voies différentes ; vérifiez les détails du cours ou de l’opportunité actuel avant de vous engager.",
+          "id": "understanding-ai-week-16-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Sélectionnez une compétence suivante et rédigez un plan pour vérifier les cours pertinents, les coûts, l'éligibilité et l'accès. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-16-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Choisir un parcours » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-16-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Démonstration finale du cours",
+      "subtitle": "Semaine 16 : Démonstration et prochaines étapes",
+      "body": "L'achèvement signifie montrer ce que vous pouvez expliquer et appliquer. Présentez un artefact révisé, des preuves de corrections, une solution de secours hors ligne et un plan réaliste pour la prochaine étape.\n\nPratique hors ligne : Tâche finale : récapituler une limitation de l'IA ; entraînez-vous avec votre artefact ; planifier comment vérifier les réclamations ; démontrer une amélioration et expliquer ses preuves. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "L'achèvement signifie montrer ce que vous pouvez expliquer et appliquer. Présentez un artefact révisé, des preuves de corrections, une solution de secours hors ligne et un plan réaliste pour la prochaine étape.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux la « Démonstration finale du cours » ?",
+          "options": [
+            "L'achèvement signifie montrer ce que vous pouvez expliquer et appliquer. Présentez un artefact révisé, des preuves de corrections, une solution de secours hors ligne et un plan réaliste pour la prochaine étape.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "L'achèvement signifie montrer ce que vous pouvez expliquer et appliquer. Présentez un artefact révisé, des preuves de corrections, une solution de secours hors ligne et un plan réaliste pour la prochaine étape.",
+          "id": "understanding-ai-week-16-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Tâche finale : récapituler une limitation de l'IA ; pratiquer avec votre artefact ; planifier comment vérifier les affirmations ; démontrer une amélioration et expliquer ses preuves. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-16-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Démonstration finale du cours » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-16-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

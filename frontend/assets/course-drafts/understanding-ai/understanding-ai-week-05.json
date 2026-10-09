@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-05",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Language models",
+      "subtitle": "Week 5: Generative AI",
+      "body": "Language models learn statistical patterns in sequences of text units and generate continuations. Fluent output can still contain incorrect information.\n\nOffline practice: Compare a plausible invented answer with your own course notes and mark unsupported claims. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Language models learn statistical patterns in sequences of text units and generate continuations. Fluent output can still contain incorrect information.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Language models”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Language models learn statistical patterns in sequences of text units and generate continuations. Fluent output can still contain incorrect information."
+          ],
+          "correct": 3,
+          "explanation": "Language models learn statistical patterns in sequences of text units and generate continuations. Fluent output can still contain incorrect information.",
+          "id": "understanding-ai-week-05-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Compare a plausible invented answer with your own course notes and mark unsupported claims.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-05-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Language models” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-05-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Tokens and context",
+      "subtitle": "Week 5: Generative AI",
+      "body": "A token is a unit used to represent text, not necessarily a whole word. Context is the input available for a response; context capacity varies by model.\n\nOffline practice: Break a sentence into possible pieces and explain why this is only a tokenisation illustration. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A token is a unit used to represent text, not necessarily a whole word. Context is the input available for a response; context capacity varies by model.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Tokens and context”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A token is a unit used to represent text, not necessarily a whole word. Context is the input available for a response; context capacity varies by model.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "A token is a unit used to represent text, not necessarily a whole word. Context is the input available for a response; context capacity varies by model.",
+          "id": "understanding-ai-week-05-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Break a sentence into possible pieces and explain why this is only a tokenisation illustration.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-05-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Tokens and context” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-05-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Image and audio generation",
+      "subtitle": "Week 5: Generative AI",
+      "body": "Generative systems can create images or audio as well as text. Generated media can misrepresent events or people, so origin and consent matter.\n\nOffline practice: Draft a text description of an educational diagram without depicting a real private person. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Generative systems can create images or audio as well as text. Generated media can misrepresent events or people, so origin and consent matter.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Image and audio generation”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Generative systems can create images or audio as well as text. Generated media can misrepresent events or people, so origin and consent matter.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Generative systems can create images or audio as well as text. Generated media can misrepresent events or people, so origin and consent matter.",
+          "id": "understanding-ai-week-05-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Draft a text description of an educational diagram without depicting a real private person.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-05-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Image and audio generation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-05-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hallucinations",
+      "subtitle": "Week 5: Generative AI",
+      "body": "A hallucination is generated content that is inaccurate or unsupported, including invented references. Asking for a citation does not guarantee a real source.\n\nOffline practice: Inspect three invented citations and write how you would check whether they exist. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A hallucination is generated content that is inaccurate or unsupported, including invented references. Asking for a citation does not guarantee a real source.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Hallucinations”?",
+          "options": [
+            "A hallucination is generated content that is inaccurate or unsupported, including invented references. Asking for a citation does not guarantee a real source.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A hallucination is generated content that is inaccurate or unsupported, including invented references. Asking for a citation does not guarantee a real source.",
+          "id": "understanding-ai-week-05-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Inspect three invented citations and write how you would check whether they exist.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-05-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Hallucinations” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-05-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Useful boundaries",
+      "subtitle": "Week 5: Generative AI",
+      "body": "Generative tools can help with drafts and alternatives, while humans check facts and suitability. For a known answer, a reliable document may be more useful than generation.\n\nOffline practice: Choose between a textbook, a calculator, and an AI draft for three learning tasks and justify each choice. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Generative tools can help with drafts and alternatives, while humans check facts and suitability. For a known answer, a reliable document may be more useful than generation.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Useful boundaries”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Generative tools can help with drafts and alternatives, while humans check facts and suitability. For a known answer, a reliable document may be more useful than generation."
+          ],
+          "correct": 3,
+          "explanation": "Generative tools can help with drafts and alternatives, while humans check facts and suitability. For a known answer, a reliable document may be more useful than generation.",
+          "id": "understanding-ai-week-05-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Choose between a textbook, a calculator, and an AI draft for three learning tasks and justify each choice.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-05-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Useful boundaries” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-05-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

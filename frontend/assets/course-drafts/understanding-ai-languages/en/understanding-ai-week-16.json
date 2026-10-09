@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-16",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Present your evidence",
+      "subtitle": "Week 16: Demonstration and next steps",
+      "body": "A useful presentation shows the task, artifact, evaluation, improvements, and limitations. Separate demonstrated results from future possibilities.\n\nOffline practice: Prepare a two-minute explanation or a one-page written presentation of your project. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A useful presentation shows the task, artifact, evaluation, improvements, and limitations. Separate demonstrated results from future possibilities.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Present your evidence”?",
+          "options": [
+            "A useful presentation shows the task, artifact, evaluation, improvements, and limitations. Separate demonstrated results from future possibilities.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A useful presentation shows the task, artifact, evaluation, improvements, and limitations. Separate demonstrated results from future possibilities.",
+          "id": "understanding-ai-week-16-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Prepare a two-minute explanation or a one-page written presentation of your project.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-16-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Present your evidence” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-16-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Explain your contribution",
+      "subtitle": "Week 16: Demonstration and next steps",
+      "body": "Describe what you chose, created, checked, and improved, and identify AI assistance when applicable. Do not claim an app completion badge is an accredited qualification.\n\nOffline practice: Write a contribution note with one independent decision and one verified correction. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Describe what you chose, created, checked, and improved, and identify AI assistance when applicable. Do not claim an app completion badge is an accredited qualification.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Explain your contribution”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Describe what you chose, created, checked, and improved, and identify AI assistance when applicable. Do not claim an app completion badge is an accredited qualification."
+          ],
+          "correct": 3,
+          "explanation": "Describe what you chose, created, checked, and improved, and identify AI assistance when applicable. Do not claim an app completion badge is an accredited qualification.",
+          "id": "understanding-ai-week-16-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Write a contribution note with one independent decision and one verified correction.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-16-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Explain your contribution” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-16-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Build a portable portfolio",
+      "subtitle": "Week 16: Demonstration and next steps",
+      "body": "A portable portfolio can contain a PDF or text artifact, a rubric, a source list, and a reflection. Remove private data before sharing copies.\n\nOffline practice: Organise your final files and write a short index so another person can understand them offline. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A portable portfolio can contain a PDF or text artifact, a rubric, a source list, and a reflection. Remove private data before sharing copies.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Build a portable portfolio”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A portable portfolio can contain a PDF or text artifact, a rubric, a source list, and a reflection. Remove private data before sharing copies.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "A portable portfolio can contain a PDF or text artifact, a rubric, a source list, and a reflection. Remove private data before sharing copies.",
+          "id": "understanding-ai-week-16-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Organise your final files and write a short index so another person can understand them offline.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-16-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Build a portable portfolio” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-16-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Choose a learning pathway",
+      "subtitle": "Week 16: Demonstration and next steps",
+      "body": "Choose next learning based on your goal and prerequisites. Tool use, data literacy, and programming are different paths; verify current course or opportunity details before committing.\n\nOffline practice: Select one next skill and write a plan for checking relevant courses, costs, eligibility, and access. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Choose next learning based on your goal and prerequisites. Tool use, data literacy, and programming are different paths; verify current course or opportunity details before committing.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Choose a learning pathway”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Choose next learning based on your goal and prerequisites. Tool use, data literacy, and programming are different paths; verify current course or opportunity details before committing.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Choose next learning based on your goal and prerequisites. Tool use, data literacy, and programming are different paths; verify current course or opportunity details before committing.",
+          "id": "understanding-ai-week-16-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Select one next skill and write a plan for checking relevant courses, costs, eligibility, and access.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-16-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Choose a learning pathway” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-16-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Final course demonstration",
+      "subtitle": "Week 16: Demonstration and next steps",
+      "body": "Completion means showing what you can explain and apply. Present a reviewed artifact, evidence of corrections, an offline fallback, and a realistic next-step plan.\n\nOffline practice: Final task: recap an AI limitation; practice with your artifact; plan how to verify claims; demonstrate an improvement and explain its evidence. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Completion means showing what you can explain and apply. Present a reviewed artifact, evidence of corrections, an offline fallback, and a realistic next-step plan.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Final course demonstration”?",
+          "options": [
+            "Completion means showing what you can explain and apply. Present a reviewed artifact, evidence of corrections, an offline fallback, and a realistic next-step plan.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "Completion means showing what you can explain and apply. Present a reviewed artifact, evidence of corrections, an offline fallback, and a realistic next-step plan.",
+          "id": "understanding-ai-week-16-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Final task: recap an AI limitation; practice with your artifact; plan how to verify claims; demonstrate an improvement and explain its evidence.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-16-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Final course demonstration” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-16-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

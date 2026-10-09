@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-03",
+  "language": "ha",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Horowa da zance",
+      "subtitle": "Mako na 3: Horo da gama gari",
+      "body": "Horon yana daidaita sigogin ƙira ta amfani da bayanai. Inference yana amfani da samfurin horarwa don samar da fitarwa. Tsayawa na yau da kullun ba yana nufin kai da kanka kake sake horar da ƙirar ba.\n\nAyyukan kan layi: Zana horo daban-daban da zane-zane don rarraba saƙo. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Horon yana daidaita sigogin ƙira ta amfani da bayanai. Inference yana amfani da samfurin horarwa don samar da fitarwa. Tsayawa na yau da kullun ba yana nufin kai da kanka kake sake horar da ƙirar ba.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Course Koyon Injin Google - ƙarin karatu",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi yin bayanin \"Transing versus inference\"?",
+          "options": [
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Horon yana daidaita sigogin ƙira ta amfani da bayanai. Inference yana amfani da samfurin horarwa don samar da fitarwa. Tsayawa na yau da kullun ba yana nufin kai da kanka kake sake horar da ƙirar ba.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon."
+          ],
+          "correct": 1,
+          "explanation": "Horon yana daidaita sigogin ƙira ta amfani da bayanai. Inference yana amfani da samfurin horarwa don samar da fitarwa. Tsayawa na yau da kullun ba yana nufin kai da kanka kake sake horar da ƙirar ba.",
+          "id": "understanding-ai-week-03-lesson-01-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Zana horo daban-daban da zane-zane don rarraba saƙo.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe."
+          ],
+          "correct": 1,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-03-lesson-01-question-02"
+        },
+        {
+          "prompt": "Kuna komawa darasin \"Training versus inference\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya."
+          ],
+          "correct": 1,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-03-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Misalin horo da gwaji",
+      "subtitle": "Mako na 3: Horo da gama gari",
+      "body": "Misalan horo suna taimakawa dacewa da abin ƙira. Misalai daban-daban na ƙima suna taimakawa kimanta aiki akan bayanan da ba a sani ba. Bai kamata a yi amfani da bayanan gwaji akai-akai don zaɓar haɓakawa ba.\n\nAyyukan kan layi: Rarraba misalan almara goma sha biyu zuwa haɓakawa da ƙungiyoyin gwaji na ƙarshe da bayyana rabuwar. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Misalan horo suna taimakawa dacewa da abin ƙira. Misalai daban-daban na ƙima suna taimakawa kimanta aiki akan bayanan da ba a sani ba. Bai kamata a yi amfani da bayanan gwaji akai-akai don zaɓar haɓakawa ba.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Course Koyon Injin Google - ƙarin karatu",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Wanne bayani ya fi dacewa da \"Misalan horo da gwaji\"?",
+          "options": [
+            "Misalan horo suna taimakawa dacewa da abin ƙira. Misalai daban-daban na ƙima suna taimakawa kimanta aiki akan bayanan da ba a sani ba. Bai kamata a yi amfani da bayanan gwaji akai-akai don zaɓar haɓakawa ba.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri."
+          ],
+          "correct": 0,
+          "explanation": "Misalan horo suna taimakawa dacewa da abin ƙira. Misalai daban-daban na ƙima suna taimakawa kimanta aiki akan bayanan da ba a sani ba. Bai kamata a yi amfani da bayanan gwaji akai-akai don zaɓar haɓakawa ba.",
+          "id": "understanding-ai-week-03-lesson-02-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Raba misalai na almara goma sha biyu zuwa ƙungiyoyin haɓakawa da ƙungiyoyin gwaji na ƙarshe da bayyana rabuwa.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa."
+          ],
+          "correct": 0,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-03-lesson-02-question-02"
+        },
+        {
+          "prompt": "Kuna komawa zuwa darasi na \"Training and Test Misalan\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin."
+          ],
+          "correct": 0,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-03-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ficewa",
+      "subtitle": "Mako na 3: Horo da gama gari",
+      "body": "Ƙarfafawa yana faruwa lokacin da ƙirar ta dace da misalan horo sosai kuma ba ta yin aiki mara kyau akan sabbin misalai. Haddar amsoshi aiki ya bambanta da fahimtar ƙa'ida.\n\nAyyukan kan layi: Ƙirƙirar ƙa'idar rarrabawa wacce ta dace da misalai uku amma ta gaza akan ta huɗu. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ƙarfafawa yana faruwa lokacin da ƙirar ta dace da misalan horo sosai kuma ba ta yin aiki mara kyau akan sabbin misalai. Haddar amsoshi aiki ya bambanta da fahimtar ƙa'ida.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Course Koyon Injin Google - ƙarin karatu",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi dacewa da \"Mai girma\"?",
+          "options": [
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Ƙarfafawa yana faruwa lokacin da ƙirar ta dace da misalan horo sosai kuma ba ta yin aiki mara kyau akan sabbin misalai. Haddar amsoshi aiki ya bambanta da fahimtar ƙa'ida."
+          ],
+          "correct": 3,
+          "explanation": "Ƙarfafawa yana faruwa lokacin da ƙirar ta dace da misalan horo sosai kuma ba ta yin aiki mara kyau akan sabbin misalai. Haddar amsoshi aiki ya bambanta da fahimtar ƙa'ida.",
+          "id": "understanding-ai-week-03-lesson-03-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Kirƙirar ƙa'idar rarrabawa wacce ta dace da misalai uku amma ta gaza akan na huɗu.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance."
+          ],
+          "correct": 3,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-03-lesson-03-question-02"
+        },
+        {
+          "prompt": "Kuna komawa darasi na \"Overfitting\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi."
+          ],
+          "correct": 3,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-03-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Rashin dacewa",
+      "subtitle": "Mako na 3: Horo da gama gari",
+      "body": "Rashin dacewa yana faruwa lokacin da samfurin ba zai iya ɗaukar alamu masu mahimmanci ba. Ka'idar da ke hasashen sakamako iri ɗaya ga kowane shigarwar na iya rasa bambance-bambance masu amfani.\n\nAyyukan kan layi: Kwatanta hasashen koyaushe iri ɗaya tare da ƙa'ida ta amfani da fasalin da ya dace. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Rashin dacewa yana faruwa lokacin da samfurin ba zai iya ɗaukar alamu masu mahimmanci ba. Ka'idar da ke hasashen sakamako iri ɗaya ga kowane shigarwar na iya rasa bambance-bambance masu amfani.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Course Koyon Injin Google - ƙarin karatu",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi dacewa da \"Ƙarfafawa\"?",
+          "options": [
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Rashin dacewa yana faruwa lokacin da samfurin ba zai iya ɗaukar alamu masu mahimmanci ba. Ka'idar da ke hasashen sakamako iri ɗaya ga kowane shigarwar na iya rasa bambance-bambance masu amfani.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce."
+          ],
+          "correct": 2,
+          "explanation": "Rashin dacewa yana faruwa lokacin da samfurin ba zai iya ɗaukar alamu masu mahimmanci ba. Ka'idar da ke hasashen sakamako iri ɗaya ga kowane shigarwar na iya rasa bambance-bambance masu amfani.",
+          "id": "understanding-ai-week-03-lesson-04-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Kwanta hasashen ko da yaushe iri ɗaya tare da ƙa'ida ta amfani da fasalin da ya dace.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya."
+          ],
+          "correct": 2,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-03-lesson-04-question-02"
+        },
+        {
+          "prompt": "Kuna komawa darasi na \"Underfitting\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba."
+          ],
+          "correct": 2,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-03-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kwatancen tushe",
+      "subtitle": "Mako na 3: Horo da gama gari",
+      "body": "Tushen tushe hanya ce mai sauƙi. Ya kamata a kwatanta ƙima mai rikitarwa tare da tushe mai dacewa ta amfani da yanayin ƙima iri ɗaya.\n\nAyyukan kan layi: Kwatanta shirin bita na AI na almara tare da sauƙi na mintuna goma sha biyar na yau da kullun ta amfani da ma'aunin nasara bayyananne. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.\n\nAyyukan kammala mako-mako: ajiye kayan aikin wannan makon. Tabbatar da matakai huɗu: bayyana mahimmin ra'ayi (sake sakewa); kammala aikin aikin (aiki); rubuta abin da za ku tabbatar da kuma inda (shiri); nuna kayan aikinku kuma ku bayyana ingantawa ɗaya (nuna).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Tushen tushe hanya ce mai sauƙi. Ya kamata a kwatanta ƙima mai rikitarwa tare da tushe mai dacewa ta amfani da yanayin ƙima iri ɗaya.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Course Koyon Injin Google - ƙarin karatu",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi dacewa da “kwatancen tushe”?",
+          "options": [
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Tushen tushe hanya ce mai sauƙi. Ya kamata a kwatanta ƙima mai rikitarwa tare da tushe mai dacewa ta amfani da yanayin ƙima iri ɗaya.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon."
+          ],
+          "correct": 1,
+          "explanation": "Tushen tushe hanya ce mai sauƙi. Ya kamata a kwatanta ƙima mai rikitarwa tare da tushe mai dacewa ta amfani da yanayin ƙima iri ɗaya.",
+          "id": "understanding-ai-week-03-lesson-05-question-01"
+        },
+        {
+          "prompt": "Don aikin \" Kwatanta shirin bita na AI na almara tare da sauƙi na minti goma sha biyar na yau da kullun ta amfani da ma'aunin nasara bayyananne.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe."
+          ],
+          "correct": 1,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-03-lesson-05-question-02"
+        },
+        {
+          "prompt": "Za ku koma darasin \"Kwantawar asali\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya."
+          ],
+          "correct": 1,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-03-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-02",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Exemplos e conjuntos de dados",
+      "subtitle": "Semana 2: Aprendendo com os dados",
+      "body": "Um conjunto de dados é uma coleção de exemplos. Os exemplos podem conter texto, números, imagens ou rótulos. Mais exemplos não significam automaticamente dados de melhor qualidade.\n\nPrática off-line: crie seis exemplos fictícios de visitas à biblioteca com dias da semana e contagem de visitantes. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um conjunto de dados é uma coleção de exemplos. Os exemplos podem conter texto, números, imagens ou rótulos. Mais exemplos não significam automaticamente dados de melhor qualidade.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Exemplos e conjuntos de dados”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um conjunto de dados é uma coleção de exemplos. Os exemplos podem conter texto, números, imagens ou rótulos. Mais exemplos não significam automaticamente dados de melhor qualidade.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um conjunto de dados é uma coleção de exemplos. Os exemplos podem conter texto, números, imagens ou rótulos. Mais exemplos não significam automaticamente dados de melhor qualidade.",
+          "id": "understanding-ai-week-02-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie seis exemplos fictícios de visitas à biblioteca com dias da semana e contagem de visitantes.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-02-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Exemplos e conjuntos de dados” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-02-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Recursos e rótulos",
+      "subtitle": "Semana 2: Aprendendo com os dados",
+      "body": "Recursos são entradas usadas por um modelo. Na aprendizagem supervisionada, um rótulo é o resultado alvo fornecido para o treinamento. Escolha os recursos disponíveis quando a previsão deve ser feita.\n\nPrática offline: para prever um atraso de barramento fictício, separe as entradas disponíveis do rótulo de atraso. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Recursos são entradas usadas por um modelo. Na aprendizagem supervisionada, um rótulo é o resultado alvo fornecido para o treinamento. Escolha os recursos disponíveis quando a previsão deve ser feita.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Recursos e rótulos”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Recursos são entradas usadas por um modelo. Na aprendizagem supervisionada, um rótulo é o resultado alvo fornecido para o treinamento. Escolha os recursos disponíveis quando a previsão deve ser feita.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Recursos são entradas usadas por um modelo. Na aprendizagem supervisionada, um rótulo é o resultado alvo fornecido para o treinamento. Escolha os recursos disponíveis quando a previsão deve ser feita.",
+          "id": "understanding-ai-week-02-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Para prever um atraso de ônibus fictício, separe as entradas disponíveis do rótulo de atraso.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-02-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Recursos e rótulos” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-02-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Aprendizagem supervisionada",
+      "subtitle": "Semana 2: Aprendendo com os dados",
+      "body": "A aprendizagem supervisionada usa exemplos combinados com resultados desejados. Um classificador de mensagens pode aprender com mensagens rotuladas como spam ou não spam. Rótulos incorretos podem enganar o treinamento.\n\nPrática off-line: rotule seis mensagens inventadas e explique por que uma mensagem ambígua precisa ser revisada. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A aprendizagem supervisionada usa exemplos combinados com resultados desejados. Um classificador de mensagens pode aprender com mensagens rotuladas como spam ou não spam. Rótulos incorretos podem enganar o treinamento.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “aprendizagem supervisionada”?",
+          "options": [
+            "A aprendizagem supervisionada usa exemplos combinados com resultados desejados. Um classificador de mensagens pode aprender com mensagens rotuladas como spam ou não spam. Rótulos incorretos podem enganar o treinamento.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "A aprendizagem supervisionada usa exemplos combinados com resultados desejados. Um classificador de mensagens pode aprender com mensagens rotuladas como spam ou não spam. Rótulos incorretos podem enganar o treinamento.",
+          "id": "understanding-ai-week-02-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Rotule seis mensagens inventadas e explique por que uma mensagem ambígua precisa de revisão.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-02-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Aprendizagem supervisionada” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-02-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Aprendizagem não supervisionada",
+      "subtitle": "Semana 2: Aprendendo com os dados",
+      "body": "A aprendizagem não supervisionada procura estrutura sem rótulos de destino fornecidos. Grupos de exemplos semelhantes não possuem automaticamente nomes significativos ou explicações causais.\n\nPrática offline: Agrupe seis livros de ficção por semelhança e descreva como uma regra de agrupamento diferente altera o resultado. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A aprendizagem não supervisionada procura estrutura sem rótulos de destino fornecidos. Grupos de exemplos semelhantes não possuem automaticamente nomes significativos ou explicações causais.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “aprendizagem não supervisionada”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A aprendizagem não supervisionada procura estrutura sem rótulos de destino fornecidos. Grupos de exemplos semelhantes não possuem automaticamente nomes significativos ou explicações causais."
+          ],
+          "correct": 3,
+          "explanation": "A aprendizagem não supervisionada procura estrutura sem rótulos de destino fornecidos. Grupos de exemplos semelhantes não possuem automaticamente nomes significativos ou explicações causais.",
+          "id": "understanding-ai-week-02-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Agrupe seis livros de ficção por semelhança e descreva como uma regra de agrupamento diferente altera o resultado.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-02-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Aprendizagem não supervisionada” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-02-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Aprendizagem por reforço",
+      "subtitle": "Semana 2: Aprendendo com os dados",
+      "body": "A aprendizagem por reforço envolve ações, feedback e um objetivo de recompensa. Uma recompensa é uma escolha de design; maximizá-lo pode produzir um comportamento que o designer não pretendia.\n\nPrática off-line: crie uma recompensa fictícia de jogo de estudo e identifique uma maneira pela qual alguém poderia ganhá-la sem aprender. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A aprendizagem por reforço envolve ações, feedback e um objetivo de recompensa. Uma recompensa é uma escolha de design; maximizá-lo pode produzir um comportamento que o designer não pretendia.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “aprendizagem por reforço”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A aprendizagem por reforço envolve ações, feedback e um objetivo de recompensa. Uma recompensa é uma escolha de design; maximizá-lo pode produzir um comportamento que o designer não pretendia.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "A aprendizagem por reforço envolve ações, feedback e um objetivo de recompensa. Uma recompensa é uma escolha de design; maximizá-lo pode produzir um comportamento que o designer não pretendia.",
+          "id": "understanding-ai-week-02-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Projete uma recompensa de jogo de estudo fictício e identifique uma maneira pela qual alguém poderia ganhá-la sem aprender.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-02-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Aprendizado por reforço” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-02-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

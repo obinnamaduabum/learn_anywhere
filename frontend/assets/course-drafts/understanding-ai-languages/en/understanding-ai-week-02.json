@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-02",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Examples and datasets",
+      "subtitle": "Week 2: Learning from data",
+      "body": "A dataset is a collection of examples. Examples may contain text, numbers, images, or labels. More examples do not automatically mean better-quality data.\n\nOffline practice: Create six fictional examples of library visits with weekday and visitor count. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A dataset is a collection of examples. Examples may contain text, numbers, images, or labels. More examples do not automatically mean better-quality data.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Examples and datasets”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A dataset is a collection of examples. Examples may contain text, numbers, images, or labels. More examples do not automatically mean better-quality data.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "A dataset is a collection of examples. Examples may contain text, numbers, images, or labels. More examples do not automatically mean better-quality data.",
+          "id": "understanding-ai-week-02-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Create six fictional examples of library visits with weekday and visitor count.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-02-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Examples and datasets” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-02-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Features and labels",
+      "subtitle": "Week 2: Learning from data",
+      "body": "Features are inputs used by a model. In supervised learning, a label is the target outcome provided for training. Choose features available when the prediction must be made.\n\nOffline practice: For predicting a fictional bus delay, separate available inputs from the delay label. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Features are inputs used by a model. In supervised learning, a label is the target outcome provided for training. Choose features available when the prediction must be made.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Features and labels”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Features are inputs used by a model. In supervised learning, a label is the target outcome provided for training. Choose features available when the prediction must be made.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Features are inputs used by a model. In supervised learning, a label is the target outcome provided for training. Choose features available when the prediction must be made.",
+          "id": "understanding-ai-week-02-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “For predicting a fictional bus delay, separate available inputs from the delay label.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-02-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Features and labels” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-02-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Supervised learning",
+      "subtitle": "Week 2: Learning from data",
+      "body": "Supervised learning uses examples paired with target outcomes. A message classifier can learn from messages labelled spam or not spam. Incorrect labels can mislead training.\n\nOffline practice: Label six invented messages and explain why an ambiguous message needs review. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Supervised learning uses examples paired with target outcomes. A message classifier can learn from messages labelled spam or not spam. Incorrect labels can mislead training.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Supervised learning”?",
+          "options": [
+            "Supervised learning uses examples paired with target outcomes. A message classifier can learn from messages labelled spam or not spam. Incorrect labels can mislead training.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "Supervised learning uses examples paired with target outcomes. A message classifier can learn from messages labelled spam or not spam. Incorrect labels can mislead training.",
+          "id": "understanding-ai-week-02-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Label six invented messages and explain why an ambiguous message needs review.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-02-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Supervised learning” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-02-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Unsupervised learning",
+      "subtitle": "Week 2: Learning from data",
+      "body": "Unsupervised learning looks for structure without supplied target labels. Groups of similar examples do not automatically have meaningful names or causal explanations.\n\nOffline practice: Group six fictional books by similarity and describe how a different grouping rule changes the result. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Unsupervised learning looks for structure without supplied target labels. Groups of similar examples do not automatically have meaningful names or causal explanations.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Unsupervised learning”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Unsupervised learning looks for structure without supplied target labels. Groups of similar examples do not automatically have meaningful names or causal explanations."
+          ],
+          "correct": 3,
+          "explanation": "Unsupervised learning looks for structure without supplied target labels. Groups of similar examples do not automatically have meaningful names or causal explanations.",
+          "id": "understanding-ai-week-02-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Group six fictional books by similarity and describe how a different grouping rule changes the result.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-02-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Unsupervised learning” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-02-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Reinforcement learning",
+      "subtitle": "Week 2: Learning from data",
+      "body": "Reinforcement learning involves actions, feedback, and a reward objective. A reward is a design choice; maximising it may produce behaviour the designer did not intend.\n\nOffline practice: Design a fictional study-game reward and identify one way someone could earn it without learning. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Reinforcement learning involves actions, feedback, and a reward objective. A reward is a design choice; maximising it may produce behaviour the designer did not intend.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Reinforcement learning”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Reinforcement learning involves actions, feedback, and a reward objective. A reward is a design choice; maximising it may produce behaviour the designer did not intend.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "Reinforcement learning involves actions, feedback, and a reward objective. A reward is a design choice; maximising it may produce behaviour the designer did not intend.",
+          "id": "understanding-ai-week-02-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Design a fictional study-game reward and identify one way someone could earn it without learning.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-02-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Reinforcement learning” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-02-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

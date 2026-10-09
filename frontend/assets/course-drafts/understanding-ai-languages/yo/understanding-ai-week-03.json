@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-03",
+  "language": "yo",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Ikẹkọ dipo itọkasi",
+      "subtitle": "Ọsẹ 3: Ikẹkọ ati gbogbogbo",
+      "body": "Ikẹkọ n ṣatunṣe awọn paramita awoṣe nipa lilo data. Itọkasi nlo awoṣe oṣiṣẹ lati ṣe agbejade ohun kan. Iṣeduro deede ko tumọ si pe o n ṣe atunṣe awoṣe funrararẹ.\n\nIwaṣe aisinipo: Fa ikẹkọ lọtọ ati awọn aworan atọka fun ikasi ifiranṣẹ kan. Kọ ero rẹ ṣaaju wiwo awọn idahun ibeere naa. Ṣe igbasilẹ aropin kan tabi aidaniloju. O le lo iwe tabi awọn akọsilẹ agbegbe; ohun elo AI online jẹ iyan.\n\nAtunṣe: ṣe alaye imọran bọtini lana lati iranti, lẹhinna ṣayẹwo awọn akọsilẹ rẹ. Lẹhin isinmi, bẹrẹ pẹlu atunṣe yii ati igbesẹ kekere akọkọ ti iṣẹ oni.\n\nPari gbogbo awọn ibeere idanwo mẹta ṣaaju gbigbe siwaju.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ikẹkọ n ṣatunṣe awọn paramita awoṣe nipa lilo data. Itọkasi nlo awoṣe oṣiṣẹ lati ṣe agbejade ohun kan. Iṣeduro deede ko tumọ si pe o n ṣe atunṣe awoṣe funrararẹ.",
+        "Waye imọran nipasẹ iṣẹ aisinipo.",
+        "Jeki ero, ẹri, ati awọn idiwọn pẹlu iṣẹ-ọnà rẹ."
+      ],
+      "sourceName": "Ẹkọ ijamba Ẹkọ ẹrọ Google - kika siwaju",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Gbólóhùn wo ni o ṣe alaye ti o dara julọ “Ikẹkọ dipo itọkasi”?",
+          "options": [
+            "Gbogbo iṣẹ-ṣiṣe nilo ikẹkọ awoṣe tuntun.",
+            "Ikẹkọ n ṣatunṣe awọn paramita awoṣe nipa lilo data. Itọkasi nlo awoṣe oṣiṣẹ lati ṣe agbejade ohun kan. Iṣeduro deede ko tumọ si pe o n ṣe atunṣe awoṣe funrararẹ.",
+            "Idahun AI didan jẹ ẹri to pe gbogbo ẹtọ ni ẹtọ.",
+            "Akẹẹkọ eniyan ko nilo lati ṣayẹwo abajade."
+          ],
+          "correct": 1,
+          "explanation": "Ikẹkọ n ṣatunṣe awọn paramita awoṣe nipa lilo data. Itọkasi nlo awoṣe oṣiṣẹ lati ṣe agbejade ohun kan. Iṣeduro deede ko tumọ si pe o n ṣe atunṣe awoṣe funrararẹ.",
+          "id": "understanding-ai-week-03-lesson-01-question-01"
+        },
+        {
+          "prompt": "Fun iṣẹ naa “Fa ikẹkọ lọtọ ati awọn aworan atọka fun iyasọtọ ifiranṣẹ.”, ọna wo ni o ṣe afihan ẹkọ?",
+          "options": [
+            "Rekọja iṣẹ naa ki o daakọ idahun ti ko ni ibatan.",
+            "Pari iṣẹ naa, ṣalaye ero inu rẹ, ki o ṣe igbasilẹ aropin kan.",
+            "Pin alaye ikọkọ ti elomiran lati jẹ ki apẹẹrẹ jẹ ojulowo.",
+            "Ṣe itọju idahun ti ipilẹṣẹ ti ko rii daju bi ẹri ikẹhin."
+          ],
+          "correct": 1,
+          "explanation": "Iṣẹ naa beere lọwọ rẹ lati lo ẹkọ yii. Alaye ti a kọ ati aropin jẹ ki oye rẹ ṣe atunyẹwo; esi daakọ nikan ko.",
+          "id": "understanding-ai-week-03-lesson-01-question-02"
+        },
+        {
+          "prompt": "O pada si ẹkọ “Ikẹkọ dipo itọkasi” lẹhin isinmi laisi intanẹẹti. Kini o le ṣe nigbamii?",
+          "options": [
+            "Pa iṣẹ iṣaaju rẹ rẹ ki o tun bẹrẹ gbogbo iṣẹ ikẹkọ lẹẹkansi.",
+            "Ranti ero bọtini, ṣayẹwo awọn akọsilẹ ti o fipamọ, ati pari iṣẹ aisinipo.",
+            "Ro pe oluranlọwọ awọsanma yoo dahun laisi asopọ kan.",
+            "Duro titi o fi le ra ṣiṣe alabapin AI ti o san."
+          ],
+          "correct": 1,
+          "explanation": "Ẹkọ ati adaṣe ko nilo ohun elo ori ayelujara. Imupadabọ ati iṣẹ ṣiṣe ti o fipamọ kekere ṣe iranlọwọ fun ọ lati bẹrẹ pada.",
+          "id": "understanding-ai-week-03-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Ikẹkọ ati awọn apẹẹrẹ idanwo",
+      "subtitle": "Ọsẹ 3: Ikẹkọ ati gbogbogbo",
+      "body": "Awọn apẹẹrẹ ikẹkọ ṣe iranlọwọ fun awoṣe kan. Awọn apẹẹrẹ igbelewọn lọtọ ṣe iranlọwọ ṣiro iṣẹ ṣiṣe lori data aimọ. Awọn data idanwo ko yẹ ki o lo leralera lati yan awọn ilọsiwaju.\n\nIwa aisinipo: Pipin awọn apẹẹrẹ itan-akọọlẹ mejila si idagbasoke ati awọn ẹgbẹ idanwo-ipari ati ṣalaye ipinya naa. Kọ ero rẹ ṣaaju wiwo awọn idahun ibeere naa. Ṣe igbasilẹ aropin kan tabi aidaniloju. O le lo iwe tabi awọn akọsilẹ agbegbe; ohun elo AI online jẹ iyan.\n\nAtunṣe: ṣe alaye imọran bọtini lana lati iranti, lẹhinna ṣayẹwo awọn akọsilẹ rẹ. Lẹhin isinmi, bẹrẹ pẹlu atunṣe yii ati igbesẹ kekere akọkọ ti iṣẹ oni.\n\nPari gbogbo awọn ibeere idanwo mẹta ṣaaju gbigbe siwaju.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Awọn apẹẹrẹ ikẹkọ ṣe iranlọwọ fun awoṣe kan. Awọn apẹẹrẹ igbelewọn lọtọ ṣe iranlọwọ ṣiro iṣẹ ṣiṣe lori data aimọ. Awọn data idanwo ko yẹ ki o lo leralera lati yan awọn ilọsiwaju.",
+        "Waye imọran nipasẹ iṣẹ aisinipo.",
+        "Jeki ero, ẹri, ati awọn idiwọn pẹlu iṣẹ-ọnà rẹ."
+      ],
+      "sourceName": "Ẹkọ ijamba Ẹkọ ẹrọ Google - kika siwaju",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Gbólóhùn wo ni o ṣe alaye ti o dara julọ “Ikẹkọ ati awọn apẹẹrẹ idanwo”?",
+          "options": [
+            "Awọn apẹẹrẹ ikẹkọ ṣe iranlọwọ fun awoṣe kan. Awọn apẹẹrẹ igbelewọn lọtọ ṣe iranlọwọ ṣiro iṣẹ ṣiṣe lori data aimọ. Awọn data idanwo ko yẹ ki o lo leralera lati yan awọn ilọsiwaju.",
+            "Idahun AI didan jẹ ẹri to pe gbogbo ẹtọ ni ẹtọ.",
+            "Akẹẹkọ eniyan ko nilo lati ṣayẹwo abajade.",
+            "Gbogbo iṣẹ-ṣiṣe nilo ikẹkọ awoṣe tuntun."
+          ],
+          "correct": 0,
+          "explanation": "Awọn apẹẹrẹ ikẹkọ ṣe iranlọwọ fun awoṣe kan. Awọn apẹẹrẹ igbelewọn lọtọ ṣe iranlọwọ ṣiro iṣẹ ṣiṣe lori data aimọ. Awọn data idanwo ko yẹ ki o lo leralera lati yan awọn ilọsiwaju.",
+          "id": "understanding-ai-week-03-lesson-02-question-01"
+        },
+        {
+          "prompt": "Fun iṣẹ naa “Pipin awọn apẹẹrẹ itan-akọọlẹ mejila si idagbasoke ati awọn ẹgbẹ idanwo-ipari ati ṣalaye ipinya.”, ọna wo ni o ṣe afihan ẹkọ?",
+          "options": [
+            "Pari iṣẹ naa, ṣalaye ero inu rẹ, ki o ṣe igbasilẹ aropin kan.",
+            "Pin alaye ikọkọ ti elomiran lati jẹ ki apẹẹrẹ jẹ ojulowo.",
+            "Ṣe itọju idahun ti ipilẹṣẹ ti ko rii daju bi ẹri ikẹhin.",
+            "Rekọja iṣẹ naa ki o daakọ idahun ti ko ni ibatan."
+          ],
+          "correct": 0,
+          "explanation": "Iṣẹ naa beere lọwọ rẹ lati lo ẹkọ yii. Alaye ti a kọ ati aropin jẹ ki oye rẹ ṣe atunyẹwo; esi daakọ nikan ko.",
+          "id": "understanding-ai-week-03-lesson-02-question-02"
+        },
+        {
+          "prompt": "O pada si ẹkọ “Ikẹkọ ati awọn apẹẹrẹ idanwo” lẹhin isinmi laisi intanẹẹti. Kini o le ṣe nigbamii?",
+          "options": [
+            "Ranti ero bọtini, ṣayẹwo awọn akọsilẹ ti o fipamọ, ati pari iṣẹ aisinipo.",
+            "Ro pe oluranlọwọ awọsanma yoo dahun laisi asopọ kan.",
+            "Duro titi o fi le ra ṣiṣe alabapin AI ti o san.",
+            "Pa iṣẹ iṣaaju rẹ rẹ ki o tun bẹrẹ gbogbo iṣẹ ikẹkọ lẹẹkansi."
+          ],
+          "correct": 0,
+          "explanation": "Ẹkọ ati adaṣe ko nilo ohun elo ori ayelujara. Imupadabọ ati iṣẹ ṣiṣe ti o fipamọ kekere ṣe iranlọwọ fun ọ lati bẹrẹ pada.",
+          "id": "understanding-ai-week-03-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Aṣeju pupọ",
+      "subtitle": "Ọsẹ 3: Ikẹkọ ati gbogbogbo",
+      "body": "Overfitting waye nigbati awoṣe ba baamu awọn apẹẹrẹ ikẹkọ ni pẹkipẹki ati pe ko ṣiṣẹ daradara lori awọn apẹẹrẹ tuntun. Ṣiṣaro awọn idahun adaṣe adaṣe yatọ si agbọye ofin kan.\n\nIṣe aisinipo: Ṣe agbekalẹ ofin yiyan ti o baamu awọn apẹẹrẹ mẹta ṣugbọn kuna lori kẹrin. Kọ ero rẹ ṣaaju wiwo awọn idahun ibeere naa. Ṣe igbasilẹ aropin kan tabi aidaniloju. O le lo iwe tabi awọn akọsilẹ agbegbe; ohun elo AI online jẹ iyan.\n\nAtunṣe: ṣe alaye imọran bọtini lana lati iranti, lẹhinna ṣayẹwo awọn akọsilẹ rẹ. Lẹhin isinmi, bẹrẹ pẹlu atunṣe yii ati igbesẹ kekere akọkọ ti iṣẹ oni.\n\nPari gbogbo awọn ibeere idanwo mẹta ṣaaju gbigbe siwaju.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Overfitting waye nigbati awoṣe ba baamu awọn apẹẹrẹ ikẹkọ ni pẹkipẹki ati pe ko ṣiṣẹ daradara lori awọn apẹẹrẹ tuntun. Ṣiṣaro awọn idahun adaṣe adaṣe yatọ si agbọye ofin kan.",
+        "Waye imọran nipasẹ iṣẹ aisinipo.",
+        "Jeki ero, ẹri, ati awọn idiwọn pẹlu iṣẹ-ọnà rẹ."
+      ],
+      "sourceName": "Ẹkọ ijamba Ẹkọ ẹrọ Google - kika siwaju",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Gbólóhùn wo ni o ṣe alaye ti o dara julọ “Overfitting”?",
+          "options": [
+            "Idahun AI didan jẹ ẹri to pe gbogbo ẹtọ ni ẹtọ.",
+            "Akẹẹkọ eniyan ko nilo lati ṣayẹwo abajade.",
+            "Gbogbo iṣẹ-ṣiṣe nilo ikẹkọ awoṣe tuntun.",
+            "Overfitting waye nigbati awoṣe ba baamu awọn apẹẹrẹ ikẹkọ ni pẹkipẹki ati pe ko ṣiṣẹ daradara lori awọn apẹẹrẹ tuntun. Ṣiṣaro awọn idahun adaṣe adaṣe yatọ si agbọye ofin kan."
+          ],
+          "correct": 3,
+          "explanation": "Overfitting waye nigbati awoṣe ba baamu awọn apẹẹrẹ ikẹkọ ni pẹkipẹki ati pe ko ṣiṣẹ daradara lori awọn apẹẹrẹ tuntun. Ṣiṣaro awọn idahun adaṣe adaṣe yatọ si agbọye ofin kan.",
+          "id": "understanding-ai-week-03-lesson-03-question-01"
+        },
+        {
+          "prompt": "Fun iṣẹ naa “Ṣẹda ofin yiyan ti o baamu awọn apẹẹrẹ mẹta ṣugbọn kuna lori kẹrin.”, ọna wo ni o ṣe afihan ikẹkọ?",
+          "options": [
+            "Pin alaye ikọkọ ti elomiran lati jẹ ki apẹẹrẹ jẹ ojulowo.",
+            "Ṣe itọju idahun ti ipilẹṣẹ ti ko rii daju bi ẹri ikẹhin.",
+            "Rekọja iṣẹ naa ki o daakọ idahun ti ko ni ibatan.",
+            "Pari iṣẹ naa, ṣalaye ero inu rẹ, ki o ṣe igbasilẹ aropin kan."
+          ],
+          "correct": 3,
+          "explanation": "Iṣẹ naa beere lọwọ rẹ lati lo ẹkọ yii. Alaye ti a kọ ati aropin jẹ ki oye rẹ ṣe atunyẹwo; esi daakọ nikan ko.",
+          "id": "understanding-ai-week-03-lesson-03-question-02"
+        },
+        {
+          "prompt": "O pada si ẹkọ “Overfitting” lẹhin isinmi laisi intanẹẹti. Kini o le ṣe nigbamii?",
+          "options": [
+            "Ro pe oluranlọwọ awọsanma yoo dahun laisi asopọ kan.",
+            "Duro titi o fi le ra ṣiṣe alabapin AI ti o san.",
+            "Pa iṣẹ iṣaaju rẹ rẹ ki o tun bẹrẹ gbogbo iṣẹ ikẹkọ lẹẹkansi.",
+            "Ranti ero bọtini, ṣayẹwo awọn akọsilẹ ti o fipamọ, ati pari iṣẹ aisinipo."
+          ],
+          "correct": 3,
+          "explanation": "Ẹkọ ati adaṣe ko nilo ohun elo ori ayelujara. Imupadabọ ati iṣẹ ṣiṣe ti o fipamọ kekere ṣe iranlọwọ fun ọ lati bẹrẹ pada.",
+          "id": "understanding-ai-week-03-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ibamu",
+      "subtitle": "Ọsẹ 3: Ikẹkọ ati gbogbogbo",
+      "body": "Underfitting waye nigbati awoṣe ko le gba awọn ilana pataki. Ofin ti o sọ asọtẹlẹ abajade kanna fun gbogbo titẹ sii le padanu awọn iyatọ to wulo.\n\nIwa aisinipo: Ṣe afiwe asọtẹlẹ-kanna nigbagbogbo pẹlu ofin kan nipa lilo ẹya kan ti o yẹ. Kọ ero rẹ ṣaaju wiwo awọn idahun ibeere naa. Ṣe igbasilẹ aropin kan tabi aidaniloju. O le lo iwe tabi awọn akọsilẹ agbegbe; ohun elo AI online jẹ iyan.\n\nAtunṣe: ṣe alaye imọran bọtini lana lati iranti, lẹhinna ṣayẹwo awọn akọsilẹ rẹ. Lẹhin isinmi, bẹrẹ pẹlu atunṣe yii ati igbesẹ kekere akọkọ ti iṣẹ oni.\n\nPari gbogbo awọn ibeere idanwo mẹta ṣaaju gbigbe siwaju.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Underfitting waye nigbati awoṣe ko le gba awọn ilana pataki. Ofin ti o sọ asọtẹlẹ abajade kanna fun gbogbo titẹ sii le padanu awọn iyatọ to wulo.",
+        "Waye imọran nipasẹ iṣẹ aisinipo.",
+        "Jeki ero, ẹri, ati awọn idiwọn pẹlu iṣẹ-ọnà rẹ."
+      ],
+      "sourceName": "Ẹkọ ijamba Ẹkọ ẹrọ Google - kika siwaju",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Eyi ti gbólóhùn ti o dara ju salaye \"Underfitting\"?",
+          "options": [
+            "Akẹẹkọ eniyan ko nilo lati ṣayẹwo abajade.",
+            "Gbogbo iṣẹ-ṣiṣe nilo ikẹkọ awoṣe tuntun.",
+            "Underfitting waye nigbati awoṣe ko le gba awọn ilana pataki. Ofin ti o sọ asọtẹlẹ abajade kanna fun gbogbo titẹ sii le padanu awọn iyatọ to wulo.",
+            "Idahun AI didan jẹ ẹri to pe gbogbo ẹtọ ni ẹtọ."
+          ],
+          "correct": 2,
+          "explanation": "Underfitting waye nigbati awoṣe ko le gba awọn ilana pataki. Ofin ti o sọ asọtẹlẹ abajade kanna fun gbogbo titẹ sii le padanu awọn iyatọ to wulo.",
+          "id": "understanding-ai-week-03-lesson-04-question-01"
+        },
+        {
+          "prompt": "Fun iṣẹ naa “Ṣe afiwe asọtẹlẹ-kanna nigbagbogbo pẹlu ofin kan nipa lilo ẹya kan ti o yẹ.”, Ọna wo ni o ṣe afihan ẹkọ?",
+          "options": [
+            "Ṣe itọju idahun ti ipilẹṣẹ ti ko rii daju bi ẹri ikẹhin.",
+            "Rekọja iṣẹ naa ki o daakọ idahun ti ko ni ibatan.",
+            "Pari iṣẹ naa, ṣalaye ero inu rẹ, ki o ṣe igbasilẹ aropin kan.",
+            "Pin alaye ikọkọ ti elomiran lati jẹ ki apẹẹrẹ jẹ ojulowo."
+          ],
+          "correct": 2,
+          "explanation": "Iṣẹ naa beere lọwọ rẹ lati lo ẹkọ yii. Alaye ti a kọ ati aropin jẹ ki oye rẹ ṣe atunyẹwo; esi daakọ nikan ko.",
+          "id": "understanding-ai-week-03-lesson-04-question-02"
+        },
+        {
+          "prompt": "O pada si ẹkọ “Underfitting” lẹhin isinmi laisi intanẹẹti. Kini o le ṣe nigbamii?",
+          "options": [
+            "Duro titi o fi le ra ṣiṣe alabapin AI ti o san.",
+            "Pa iṣẹ iṣaaju rẹ rẹ ki o tun bẹrẹ gbogbo iṣẹ ikẹkọ lẹẹkansi.",
+            "Ranti ero bọtini, ṣayẹwo awọn akọsilẹ ti o fipamọ, ati pari iṣẹ aisinipo.",
+            "Ro pe oluranlọwọ awọsanma yoo dahun laisi asopọ kan."
+          ],
+          "correct": 2,
+          "explanation": "Ẹkọ ati adaṣe ko nilo ohun elo ori ayelujara. Imupadabọ ati iṣẹ ṣiṣe ti o fipamọ kekere ṣe iranlọwọ fun ọ lati bẹrẹ pada.",
+          "id": "understanding-ai-week-03-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "A ipetele lafiwe",
+      "subtitle": "Ọsẹ 3: Ikẹkọ ati gbogbogbo",
+      "body": "Ipilẹṣẹ jẹ ọna itọkasi ti o rọrun. Awoṣe idiju yẹ ki o ṣe afiwe pẹlu ipilẹ ti o yẹ ni lilo awọn ipo igbelewọn kanna.\n\nIwaṣe aisinipo: Ṣe afiwe ero atunyẹwo AI aijẹ-kikan pẹlu atokọ ayẹwo ojoojumọ-iṣẹju mẹdogun ti o rọrun ni lilo iwọn aṣeyọri to yege. Kọ ero rẹ ṣaaju wiwo awọn idahun ibeere naa. Ṣe igbasilẹ aropin kan tabi aidaniloju. O le lo iwe tabi awọn akọsilẹ agbegbe; ohun elo AI online jẹ iyan.\n\nAtunṣe: ṣe alaye imọran bọtini lana lati iranti, lẹhinna ṣayẹwo awọn akọsilẹ rẹ. Lẹhin isinmi, bẹrẹ pẹlu atunṣe yii ati igbesẹ kekere akọkọ ti iṣẹ oni.\n\nPari gbogbo awọn ibeere idanwo mẹta ṣaaju gbigbe siwaju.\n\nIṣẹ-ṣiṣe Ipari ọsẹ: ṣafipamọ iṣẹ iṣe ti ọsẹ yii. Jẹrisi awọn igbesẹ mẹrin: ṣe alaye imọran bọtini kan (atunṣe); pari iṣẹ ṣiṣe (iwa); ṣe igbasilẹ ohun ti iwọ yoo rii daju ati nibo (ètò); ṣe afihan ohun-ọṣọ rẹ ki o ṣe alaye ilọsiwaju kan (ṣe afihan).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ipilẹṣẹ jẹ ọna itọkasi ti o rọrun. Awoṣe idiju yẹ ki o ṣe afiwe pẹlu ipilẹ ti o yẹ ni lilo awọn ipo igbelewọn kanna.",
+        "Waye imọran nipasẹ iṣẹ aisinipo.",
+        "Jeki ero, ẹri, ati awọn idiwọn pẹlu iṣẹ-ọnà rẹ."
+      ],
+      "sourceName": "Ẹkọ ijamba Ẹkọ ẹrọ Google - kika siwaju",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Gbólóhùn wo ni o ṣe alaye ti o dara julọ “Lafiwe ipilẹ”?",
+          "options": [
+            "Gbogbo iṣẹ-ṣiṣe nilo ikẹkọ awoṣe tuntun.",
+            "Ipilẹṣẹ jẹ ọna itọkasi ti o rọrun. Awoṣe idiju yẹ ki o ṣe afiwe pẹlu ipilẹ ti o yẹ ni lilo awọn ipo igbelewọn kanna.",
+            "Idahun AI didan jẹ ẹri to pe gbogbo ẹtọ ni ẹtọ.",
+            "Akẹẹkọ eniyan ko nilo lati ṣayẹwo abajade."
+          ],
+          "correct": 1,
+          "explanation": "Ipilẹṣẹ jẹ ọna itọkasi ti o rọrun. Awoṣe idiju yẹ ki o ṣe afiwe pẹlu ipilẹ ti o yẹ ni lilo awọn ipo igbelewọn kanna.",
+          "id": "understanding-ai-week-03-lesson-05-question-01"
+        },
+        {
+          "prompt": "Fun iṣẹ naa “Ṣe afiwe ero atunyẹwo AI aijẹ kan pẹlu atokọ ayẹwo ojoojumọ iṣẹju mẹdogun ti o rọrun nipa lilo iwọn aṣeyọri ti o han.”, ọna wo ni o ṣe afihan ẹkọ?",
+          "options": [
+            "Rekọja iṣẹ naa ki o daakọ idahun ti ko ni ibatan.",
+            "Pari iṣẹ naa, ṣalaye ero inu rẹ, ki o ṣe igbasilẹ aropin kan.",
+            "Pin alaye ikọkọ ti elomiran lati jẹ ki apẹẹrẹ jẹ ojulowo.",
+            "Ṣe itọju idahun ti ipilẹṣẹ ti ko rii daju bi ẹri ikẹhin."
+          ],
+          "correct": 1,
+          "explanation": "Iṣẹ naa beere lọwọ rẹ lati lo ẹkọ yii. Alaye ti a kọ ati aropin jẹ ki oye rẹ ṣe atunyẹwo; esi daakọ nikan ko.",
+          "id": "understanding-ai-week-03-lesson-05-question-02"
+        },
+        {
+          "prompt": "O pada si ẹkọ “Lafiwe ipilẹ” lẹhin isinmi laisi intanẹẹti. Kini o le ṣe nigbamii?",
+          "options": [
+            "Pa iṣẹ iṣaaju rẹ rẹ ki o tun bẹrẹ gbogbo iṣẹ ikẹkọ lẹẹkansi.",
+            "Ranti ero bọtini, ṣayẹwo awọn akọsilẹ ti o fipamọ, ati pari iṣẹ aisinipo.",
+            "Ro pe oluranlọwọ awọsanma yoo dahun laisi asopọ kan.",
+            "Duro titi o fi le ra ṣiṣe alabapin AI ti o san."
+          ],
+          "correct": 1,
+          "explanation": "Ẹkọ ati adaṣe ko nilo ohun elo ori ayelujara. Imupadabọ ati iṣẹ ṣiṣe ti o fipamọ kekere ṣe iranlọwọ fun ọ lati bẹrẹ pada.",
+          "id": "understanding-ai-week-03-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

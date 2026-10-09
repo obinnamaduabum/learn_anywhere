@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-13",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Neural networks",
+      "subtitle": "Week 13: Inside modern AI systems",
+      "body": "A neural network combines layers of mathematical transformations with learned parameters. The term neuron describes a computational unit, not a human brain cell.\n\nOffline practice: Draw a simplified input-layer-output diagram and label it as a conceptual illustration. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A neural network combines layers of mathematical transformations with learned parameters. The term neuron describes a computational unit, not a human brain cell.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Neural networks”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A neural network combines layers of mathematical transformations with learned parameters. The term neuron describes a computational unit, not a human brain cell."
+          ],
+          "correct": 3,
+          "explanation": "A neural network combines layers of mathematical transformations with learned parameters. The term neuron describes a computational unit, not a human brain cell.",
+          "id": "understanding-ai-week-13-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Draw a simplified input-layer-output diagram and label it as a conceptual illustration.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-13-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Neural networks” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-13-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Embeddings",
+      "subtitle": "Week 13: Inside modern AI systems",
+      "body": "An embedding represents an item as numbers used to capture useful relationships. Similar positions can support comparison, but do not guarantee identical meaning.\n\nOffline practice: Arrange fictional words on paper by similarity and explain why your sketch is not a trained embedding. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "An embedding represents an item as numbers used to capture useful relationships. Similar positions can support comparison, but do not guarantee identical meaning.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Embeddings”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "An embedding represents an item as numbers used to capture useful relationships. Similar positions can support comparison, but do not guarantee identical meaning.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "An embedding represents an item as numbers used to capture useful relationships. Similar positions can support comparison, but do not guarantee identical meaning.",
+          "id": "understanding-ai-week-13-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Arrange fictional words on paper by similarity and explain why your sketch is not a trained embedding.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-13-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Embeddings” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-13-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Attention",
+      "subtitle": "Week 13: Inside modern AI systems",
+      "body": "Attention mechanisms let a model weight relationships between parts of an input. Attention is a mathematical operation, not evidence of awareness or human understanding.\n\nOffline practice: Explain how the context of a sentence can help interpret an ambiguous word. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Attention mechanisms let a model weight relationships between parts of an input. Attention is a mathematical operation, not evidence of awareness or human understanding.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Attention”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Attention mechanisms let a model weight relationships between parts of an input. Attention is a mathematical operation, not evidence of awareness or human understanding.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Attention mechanisms let a model weight relationships between parts of an input. Attention is a mathematical operation, not evidence of awareness or human understanding.",
+          "id": "understanding-ai-week-13-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Explain how the context of a sentence can help interpret an ambiguous word.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-13-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Attention” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-13-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Retrieval-supported generation",
+      "subtitle": "Week 13: Inside modern AI systems",
+      "body": "Retrieval-supported generation supplies relevant documents for an answer. It can improve grounding, but retrieval errors and unsupported generated claims still need checks.\n\nOffline practice: Design a workflow that selects a course note before drafting an answer and then verifies the answer. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Retrieval-supported generation supplies relevant documents for an answer. It can improve grounding, but retrieval errors and unsupported generated claims still need checks.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Retrieval-supported generation”?",
+          "options": [
+            "Retrieval-supported generation supplies relevant documents for an answer. It can improve grounding, but retrieval errors and unsupported generated claims still need checks.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "Retrieval-supported generation supplies relevant documents for an answer. It can improve grounding, but retrieval errors and unsupported generated claims still need checks.",
+          "id": "understanding-ai-week-13-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Design a workflow that selects a course note before drafting an answer and then verifies the answer.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-13-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Retrieval-supported generation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-13-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Fine-tuning and choosing tools",
+      "subtitle": "Week 13: Inside modern AI systems",
+      "body": "Fine-tuning adapts a pretrained model using additional training. Prompting, retrieval, and fine-tuning are different approaches; training is not always necessary.\n\nOffline practice: Choose a simple document lookup, a prompt, or additional training for three fictional tasks and justify the simplest suitable option. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Fine-tuning adapts a pretrained model using additional training. Prompting, retrieval, and fine-tuning are different approaches; training is not always necessary.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Fine-tuning and choosing tools”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Fine-tuning adapts a pretrained model using additional training. Prompting, retrieval, and fine-tuning are different approaches; training is not always necessary."
+          ],
+          "correct": 3,
+          "explanation": "Fine-tuning adapts a pretrained model using additional training. Prompting, retrieval, and fine-tuning are different approaches; training is not always necessary.",
+          "id": "understanding-ai-week-13-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Choose a simple document lookup, a prompt, or additional training for three fictional tasks and justify the simplest suitable option.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-13-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Fine-tuning and choosing tools” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-13-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

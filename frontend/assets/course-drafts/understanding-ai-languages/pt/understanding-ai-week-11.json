@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-11",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Lendo tabelas",
+      "subtitle": "Semana 11: Dados e decisões cotidianas",
+      "body": "Uma tabela possui linhas e colunas com significados definidos. Verifique títulos, unidades e valores ausentes antes de calcular ou tirar conclusões.\n\nPrática offline: crie uma tabela fictícia de minutos de estudo semanais e explique cada coluna. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma tabela possui linhas e colunas com significados definidos. Verifique títulos, unidades e valores ausentes antes de calcular ou tirar conclusões.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Leitura de tabelas”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma tabela possui linhas e colunas com significados definidos. Verifique títulos, unidades e valores ausentes antes de calcular ou tirar conclusões.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Uma tabela possui linhas e colunas com significados definidos. Verifique títulos, unidades e valores ausentes antes de calcular ou tirar conclusões.",
+          "id": "understanding-ai-week-11-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie uma tabela fictícia de atas de estudo semanais e explique cada coluna.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-11-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Leitura de tabelas” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-11-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Médias e variação",
+      "subtitle": "Semana 11: Dados e decisões cotidianas",
+      "body": "Uma média resume os dados, mas pode ocultar diferenças. Compare valores individuais e observações extremas antes de descrever uma experiência típica.\n\nPrática offline: Encontre a média de 10, 10, 10 e 50 minutos; explique por que a média por si só é incompleta. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma média resume os dados, mas pode ocultar diferenças. Compare valores individuais e observações extremas antes de descrever uma experiência típica.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Médias e variação”?",
+          "options": [
+            "Uma média resume os dados, mas pode ocultar diferenças. Compare valores individuais e observações extremas antes de descrever uma experiência típica.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Uma média resume os dados, mas pode ocultar diferenças. Compare valores individuais e observações extremas antes de descrever uma experiência típica.",
+          "id": "understanding-ai-week-11-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Encontre a média de 10, 10, 10 e 50 minutos; explique por que a média sozinha está incompleta.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-11-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Médias e variação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-11-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Dados ausentes e incorretos",
+      "subtitle": "Semana 11: Dados e decisões cotidianas",
+      "body": "Os dados ausentes não são automaticamente zero. Entradas incorretas e duplicatas podem distorcer os resultados; as correções devem ter uma explicação.\n\nPrática off-line: inspecione uma tabela de presença fictícia com uma em branco e outra duplicada e registre suas decisões. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Os dados ausentes não são automaticamente zero. Entradas incorretas e duplicatas podem distorcer os resultados; as correções devem ter uma explicação.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Dados ausentes e incorretos”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Os dados ausentes não são automaticamente zero. Entradas incorretas e duplicatas podem distorcer os resultados; as correções devem ter uma explicação."
+          ],
+          "correct": 3,
+          "explanation": "Os dados ausentes não são automaticamente zero. Entradas incorretas e duplicatas podem distorcer os resultados; as correções devem ter uma explicação.",
+          "id": "understanding-ai-week-11-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Inspecione uma tabela de frequência fictícia com uma em branco e outra duplicada e registe as suas decisões.”, que abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-11-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Dados ausentes e incorretos” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-11-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Medidas de avaliação",
+      "subtitle": "Semana 11: Dados e decisões cotidianas",
+      "body": "A precisão conta a proporção de classificações corretas, mas pode ser enganosa com categorias desiguais. Inspecione os erros e também o propósito da tarefa.\n\nPrática off-line: explique por que a previsão de que não é spam para todas as mensagens parece precisa quando apenas uma em cem mensagens é spam. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A precisão conta a proporção de classificações corretas, mas pode ser enganosa com categorias desiguais. Inspecione os erros e também o propósito da tarefa.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Medidas de avaliação”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A precisão conta a proporção de classificações corretas, mas pode ser enganosa com categorias desiguais. Inspecione os erros e também o propósito da tarefa.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "A precisão conta a proporção de classificações corretas, mas pode ser enganosa com categorias desiguais. Inspecione os erros e também o propósito da tarefa.",
+          "id": "understanding-ai-week-11-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Explique por que a previsão de que não é spam para todas as mensagens parece precisa quando apenas uma em cem mensagens é spam.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-11-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Medidas de avaliação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-11-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uma recomendação baseada em evidências",
+      "subtitle": "Semana 11: Dados e decisões cotidianas",
+      "body": "Uma recomendação deve mostrar suas evidências, suposições, limitações e alternativas. Os dados podem informar uma escolha sem fazer a escolha automaticamente.\n\nPrática offline: Escreva uma recomendação fictícia para o horário da sessão de estudo usando uma pequena tabela e uma declaração de limitação. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma recomendação deve mostrar suas evidências, suposições, limitações e alternativas. Os dados podem informar uma escolha sem fazer a escolha automaticamente.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Uma recomendação baseada em evidências”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma recomendação deve mostrar suas evidências, suposições, limitações e alternativas. Os dados podem informar uma escolha sem fazer a escolha automaticamente.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Uma recomendação deve mostrar suas evidências, suposições, limitações e alternativas. Os dados podem informar uma escolha sem fazer a escolha automaticamente.",
+          "id": "understanding-ai-week-11-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva uma recomendação fictícia para o horário da sessão de estudo usando uma pequena tabela e uma declaração de limitação.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-11-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Uma recomendação baseada em evidências” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-11-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

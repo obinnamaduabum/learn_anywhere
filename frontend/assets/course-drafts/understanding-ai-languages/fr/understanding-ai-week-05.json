@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-05",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Modèles de langage",
+      "subtitle": "Semaine 5 : IA générative",
+      "body": "Les modèles de langage apprennent des modèles statistiques dans des séquences d'unités de texte et génèrent des continuations. Une sortie fluide peut toujours contenir des informations incorrectes.\n\nPratique hors ligne : comparez une réponse inventée plausible avec vos propres notes de cours et marquez les affirmations non fondées. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les modèles de langage apprennent des modèles statistiques dans des séquences d'unités de texte et génèrent des continuations. Une sortie fluide peut toujours contenir des informations incorrectes.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « modèles linguistiques » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les modèles de langage apprennent des modèles statistiques dans des séquences d'unités de texte et génèrent des continuations. Une sortie fluide peut toujours contenir des informations incorrectes."
+          ],
+          "correct": 3,
+          "explanation": "Les modèles de langage apprennent des modèles statistiques dans des séquences d'unités de texte et génèrent des continuations. Une sortie fluide peut toujours contenir des informations incorrectes.",
+          "id": "understanding-ai-week-05-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Comparez une réponse inventée plausible avec vos propres notes de cours et notez les affirmations non étayées. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-05-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Modèles de langage » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-05-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Jetons et contexte",
+      "subtitle": "Semaine 5 : IA générative",
+      "body": "Un jeton est une unité utilisée pour représenter du texte, pas nécessairement un mot entier. Le contexte est l'entrée disponible pour une réponse ; la capacité du contexte varie selon le modèle.\n\nPratique hors ligne : divisez une phrase en morceaux possibles et expliquez pourquoi il ne s'agit que d'une illustration de tokenisation. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un jeton est une unité utilisée pour représenter du texte, pas nécessairement un mot entier. Le contexte est l'entrée disponible pour une réponse ; la capacité du contexte varie selon le modèle.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Jetons et contexte » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un jeton est une unité utilisée pour représenter du texte, pas nécessairement un mot entier. Le contexte est l'entrée disponible pour une réponse ; la capacité du contexte varie selon le modèle.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un jeton est une unité utilisée pour représenter du texte, pas nécessairement un mot entier. Le contexte est l'entrée disponible pour une réponse ; la capacité du contexte varie selon le modèle.",
+          "id": "understanding-ai-week-05-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Divisez une phrase en morceaux possibles et expliquez pourquoi il ne s’agit que d’une illustration de tokenisation. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-05-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Jetons et contexte » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-05-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Génération d'images et de sons",
+      "subtitle": "Semaine 5 : IA générative",
+      "body": "Les systèmes génératifs peuvent créer des images ou du son ainsi que du texte. Les médias générés peuvent dénaturer des événements ou des personnes, c'est pourquoi l'origine et le consentement sont importants.\n\nPratique hors ligne : Rédigez une description textuelle d'un schéma pédagogique sans représenter une véritable personne privée. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les systèmes génératifs peuvent créer des images ou du son ainsi que du texte. Les médias générés peuvent dénaturer des événements ou des personnes, c'est pourquoi l'origine et le consentement sont importants.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « Génération d’images et d’audio » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les systèmes génératifs peuvent créer des images ou du son ainsi que du texte. Les médias générés peuvent dénaturer des événements ou des personnes, c'est pourquoi l'origine et le consentement sont importants.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Les systèmes génératifs peuvent créer des images ou du son ainsi que du texte. Les médias générés peuvent dénaturer des événements ou des personnes, c'est pourquoi l'origine et le consentement sont importants.",
+          "id": "understanding-ai-week-05-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Rédiger une description textuelle d’un schéma pédagogique sans représenter une personne réelle et privée. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-05-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Génération d'images et de sons » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-05-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hallucinations",
+      "subtitle": "Semaine 5 : IA générative",
+      "body": "Une hallucination est un contenu généré qui est inexact ou non étayé, y compris des références inventées. Demander une citation ne garantit pas une véritable source.\n\nPratique hors ligne : inspectez trois citations inventées et écrivez comment vous vérifieriez si elles existent. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une hallucination est un contenu généré qui est inexact ou non étayé, y compris des références inventées. Demander une citation ne garantit pas une véritable source.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « hallucinations » ?",
+          "options": [
+            "Une hallucination est un contenu généré qui est inexact ou non étayé, y compris des références inventées. Demander une citation ne garantit pas une véritable source.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une hallucination est un contenu généré qui est inexact ou non étayé, y compris des références inventées. Demander une citation ne garantit pas une véritable source.",
+          "id": "understanding-ai-week-05-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Inspectez trois citations inventées et écrivez comment vous vérifieriez si elles existent. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-05-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Hallucinations » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-05-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Limites utiles",
+      "subtitle": "Semaine 5 : IA générative",
+      "body": "Les outils génératifs peuvent aider avec les brouillons et les alternatives, tandis que les humains vérifient les faits et leur pertinence. Pour une réponse connue, un document fiable peut être plus utile que la génération.\n\nPratique hors ligne : choisissez entre un manuel, une calculatrice et un brouillon d'IA pour trois tâches d'apprentissage et justifiez chaque choix. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les outils génératifs peuvent aider avec les brouillons et les alternatives, tandis que les humains vérifient les faits et leur pertinence. Pour une réponse connue, un document fiable peut être plus utile que la génération.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « Limites utiles » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les outils génératifs peuvent aider avec les brouillons et les alternatives, tandis que les humains vérifient les faits et leur pertinence. Pour une réponse connue, un document fiable peut être plus utile que la génération."
+          ],
+          "correct": 3,
+          "explanation": "Les outils génératifs peuvent aider avec les brouillons et les alternatives, tandis que les humains vérifient les faits et leur pertinence. Pour une réponse connue, un document fiable peut être plus utile que la génération.",
+          "id": "understanding-ai-week-05-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Choisissez entre un manuel, une calculatrice et un brouillon d’IA pour trois tâches d’apprentissage et justifiez chaque choix. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-05-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Limites utiles » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-05-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

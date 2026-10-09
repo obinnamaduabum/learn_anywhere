@@ -1,0 +1,28 @@
+{
+  "courseId": "understanding-ai",
+  "title": "Understanding AI",
+  "parts": 16,
+  "lessonsPerPart": 5,
+  "languages": {
+    "en": "English (existing approved packs)",
+    "fr": "French",
+    "pt": "Portuguese",
+    "ar": "Arabic",
+    "ha": "Hausa",
+    "yo": "Yorùbá",
+    "ig": "Igbo"
+  },
+  "newDraftCount": 96,
+  "status": "Approved by local demo owner and published",
+  "translationProvider": "Google Translate automated draft",
+  "localization": "Language translations only; no unverified country-specific curricula, credentials or opportunities added.",
+  "reviewRequirements": [
+    "Bilingual accuracy and natural wording, especially technical terms and local languages",
+    "Arabic right-to-left reading and quiz layout",
+    "Quiz options and explanations retain equivalent meaning",
+    "Existing references are unchanged; translations are not expert-certified"
+  ],
+  "draftReceipts": "draft-receipts.json",
+  "approvalDate": "2026-10-04",
+  "reviewNote": "Owner approval for local demo; no bilingual expert certification claimed."
+}

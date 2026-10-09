@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-10",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Rédaction de messages",
+      "subtitle": "Semaine 10 : Communication et rédaction",
+      "body": "Un brouillon de message doit correspondre à son objectif, à son public et à son contexte. Vérifiez les détails et le ton avant d'envoyer ; un brouillon généré ne doit pas être envoyé automatiquement.\n\nPratique hors ligne : rédigez une demande fictive pour un espace d'étude en bibliothèque et vérifiez ses détails. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un brouillon de message doit correspondre à son objectif, à son public et à son contexte. Vérifiez les détails et le ton avant d'envoyer ; un brouillon généré ne doit pas être envoyé automatiquement.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « rédaction de messages » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un brouillon de message doit correspondre à son objectif, à son public et à son contexte. Vérifiez les détails et le ton avant d'envoyer ; un brouillon généré ne doit pas être envoyé automatiquement.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un brouillon de message doit correspondre à son objectif, à son public et à son contexte. Vérifiez les détails et le ton avant d'envoyer ; un brouillon généré ne doit pas être envoyé automatiquement.",
+          "id": "understanding-ai-week-10-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Rédiger une demande fictive pour un espace d’étude en bibliothèque et vérifier ses détails. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-10-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Rédaction de messages » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-10-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Montage sans distorsion",
+      "subtitle": "Semaine 10 : Communication et rédaction",
+      "body": "L'édition peut améliorer la clarté tout en préservant le sens. Vérifiez qu'un brouillon plus court n'a pas supprimé une condition ou modifié un engagement.\n\nPratique hors ligne : raccourcissez une annonce inventée et comparez chaque détail important avec l'original. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "L'édition peut améliorer la clarté tout en préservant le sens. Vérifiez qu'un brouillon plus court n'a pas supprimé une condition ou modifié un engagement.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Montage sans distorsion » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "L'édition peut améliorer la clarté tout en préservant le sens. Vérifiez qu'un brouillon plus court n'a pas supprimé une condition ou modifié un engagement.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "L'édition peut améliorer la clarté tout en préservant le sens. Vérifiez qu'un brouillon plus court n'a pas supprimé une condition ou modifié un engagement.",
+          "id": "understanding-ai-week-10-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Raccourcir une annonce inventée et comparer chaque détail important avec l’original. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-10-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Montage sans distorsion » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-10-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Résumer",
+      "subtitle": "Semaine 10 : Communication et rédaction",
+      "body": "Un résumé sélectionne les idées clés d’une source. Il ne faut pas inventer des détails ni omettre des précisions qui en changent le sens.\n\nPratique hors ligne : résumez votre projet du deuxième mois en trois phrases, puis comparez-le à l'original. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un résumé sélectionne les idées clés d’une source. Il ne faut pas inventer des détails ni omettre des précisions qui en changent le sens.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Résumer » ?",
+          "options": [
+            "Un résumé sélectionne les idées clés d’une source. Il ne faut pas inventer des détails ni omettre des précisions qui en changent le sens.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Un résumé sélectionne les idées clés d’une source. Il ne faut pas inventer des détails ni omettre des précisions qui en changent le sens.",
+          "id": "understanding-ai-week-10-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Résumez votre projet du deuxième mois en trois phrases, puis comparez-le à l’original. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-10-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Résumer » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-10-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Révision de traduction",
+      "subtitle": "Semaine 10 : Communication et rédaction",
+      "body": "La traduction doit préserver le sens, le ton, les noms et les instructions importantes. Une formulation fluide ne prouve pas à elle seule qu’une traduction est exacte.\n\nPratique hors ligne : énumérez cinq termes qu'un locuteur courant devrait réviser dans une ressource d'étude traduite. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La traduction doit préserver le sens, le ton, les noms et les instructions importantes. Une formulation fluide ne prouve pas à elle seule qu’une traduction est exacte.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « Révision de la traduction » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "La traduction doit préserver le sens, le ton, les noms et les instructions importantes. Une formulation fluide ne prouve pas à elle seule qu’une traduction est exacte."
+          ],
+          "correct": 3,
+          "explanation": "La traduction doit préserver le sens, le ton, les noms et les instructions importantes. Une formulation fluide ne prouve pas à elle seule qu’une traduction est exacte.",
+          "id": "understanding-ai-week-10-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Énumérez cinq termes qu’un locuteur courant devrait réviser dans une ressource d’étude traduite. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-10-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Révision de traduction » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-10-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Portefeuille de communications",
+      "subtitle": "Semaine 10 : Communication et rédaction",
+      "body": "Un portfolio peut montrer une ébauche originale, une révision et une explication des choix. Utilisez des exemples fictifs et décrivez honnêtement l’assistance.\n\nPratique hors ligne : enregistrez un message avant et après avec une courte note expliquant deux améliorations. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un portfolio peut montrer une ébauche originale, une révision et une explication des choix. Utilisez des exemples fictifs et décrivez honnêtement l’assistance.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « portefeuille de communication » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un portfolio peut montrer une ébauche originale, une révision et une explication des choix. Utilisez des exemples fictifs et décrivez honnêtement l’assistance.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un portfolio peut montrer une ébauche originale, une révision et une explication des choix. Utilisez des exemples fictifs et décrivez honnêtement l’assistance.",
+          "id": "understanding-ai-week-10-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Enregistrer un message avant et après avec une courte note expliquant deux améliorations. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-10-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Portfolio de communication » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-10-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

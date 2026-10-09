@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-06",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Tâche et public",
+      "subtitle": "Semaine 6 : Inviter avec un but",
+      "body": "Une invite utile précise la tâche et le public visé. Une demande d'explication d'un sujet à un débutant est plus dirigée qu'une demande de tout expliquer.\n\nPratique hors ligne : rédigez une invite expliquant les fractions à un débutant à l'aide de deux exemples. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une invite utile précise la tâche et le public visé. Une demande d'explication d'un sujet à un débutant est plus dirigée qu'une demande de tout expliquer.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Tâche et public » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une invite utile précise la tâche et le public visé. Une demande d'explication d'un sujet à un débutant est plus dirigée qu'une demande de tout expliquer.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Une invite utile précise la tâche et le public visé. Une demande d'explication d'un sujet à un débutant est plus dirigée qu'une demande de tout expliquer.",
+          "id": "understanding-ai-week-06-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Écrivez une invite expliquant les fractions à un débutant à l’aide de deux exemples. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-06-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Tâche et public » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-06-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Contexte pertinent",
+      "subtitle": "Semaine 6 : Inviter avec un but",
+      "body": "Le contexte donne les informations nécessaires à la tâche. Fournissez les contraintes pertinentes sans exposer de détails personnels ou confidentiels.\n\nPratique hors ligne : rédigez une invite de plan d'étude en utilisant le temps disponible fictif, le sujet et l'objectif d'apprentissage. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Le contexte donne les informations nécessaires à la tâche. Fournissez les contraintes pertinentes sans exposer de détails personnels ou confidentiels.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « contexte pertinent » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Le contexte donne les informations nécessaires à la tâche. Fournissez les contraintes pertinentes sans exposer de détails personnels ou confidentiels.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Le contexte donne les informations nécessaires à la tâche. Fournissez les contraintes pertinentes sans exposer de détails personnels ou confidentiels.",
+          "id": "understanding-ai-week-06-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Rédigez un plan d’étude en utilisant le temps disponible, le sujet et l’objectif d’apprentissage fictifs. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-06-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Contexte pertinent » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-06-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Format de sortie",
+      "subtitle": "Semaine 6 : Inviter avec un but",
+      "body": "Un format demandé permet de rendre le résultat utilisable : un tableau, une liste de contrôle, un court paragraphe ou des questions. Les instructions de format ne garantissent pas l’exactitude.\n\nPratique hors ligne : réécrivez la même demande sous forme d'invite de tableau et d'invite de liste de contrôle ; comparer l'utilité. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un format demandé permet de rendre le résultat utilisable : un tableau, une liste de contrôle, un court paragraphe ou des questions. Les instructions de format ne garantissent pas l’exactitude.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « Format de sortie » ?",
+          "options": [
+            "Un format demandé permet de rendre le résultat utilisable : un tableau, une liste de contrôle, un court paragraphe ou des questions. Les instructions de format ne garantissent pas l’exactitude.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Un format demandé permet de rendre le résultat utilisable : un tableau, une liste de contrôle, un court paragraphe ou des questions. Les instructions de format ne garantissent pas l’exactitude.",
+          "id": "understanding-ai-week-06-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Réécrire la même requête sous forme d'invite de tableau et d'invite de liste de contrôle ; comparer l'utilité. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-06-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Format de sortie » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-06-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Exemples et révisions",
+      "subtitle": "Semaine 6 : Inviter avec un but",
+      "body": "Un exemple peut démontrer le style de réponse souhaité. Une révision ciblée demande un changement spécifique plutôt que de répéter une demande peu claire.\n\nPratique hors ligne : rédigez un exemple de réponse et une demande de révision qui réduisent le jargon sans supprimer l'idée principale. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un exemple peut démontrer le style de réponse souhaité. Une révision ciblée demande un changement spécifique plutôt que de répéter une demande peu claire.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Exemples et révisions » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un exemple peut démontrer le style de réponse souhaité. Une révision ciblée demande un changement spécifique plutôt que de répéter une demande peu claire."
+          ],
+          "correct": 3,
+          "explanation": "Un exemple peut démontrer le style de réponse souhaité. Une révision ciblée demande un changement spécifique plutôt que de répéter une demande peu claire.",
+          "id": "understanding-ai-week-06-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Rédiger un exemple de réponse et une demande de révision qui réduit le jargon sans supprimer l’idée principale. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-06-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Exemples et révisions » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-06-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Portefeuille rapide",
+      "subtitle": "Semaine 6 : Inviter avec un but",
+      "body": "Un portefeuille d'invites enregistre la tâche, l'invite, le résultat attendu, les contrôles et la révision. Cela vous aide à expliquer pourquoi une approche a fonctionné.\n\nPratique hors ligne : enregistrez trois invites avec des exemples de réponses hors ligne et une note sur ce que vous voudriez vérifier en ligne. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un portefeuille d'invites enregistre la tâche, l'invite, le résultat attendu, les contrôles et la révision. Cela vous aide à expliquer pourquoi une approche a fonctionné.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « portefeuille rapide » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un portefeuille d'invites enregistre la tâche, l'invite, le résultat attendu, les contrôles et la révision. Cela vous aide à expliquer pourquoi une approche a fonctionné.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un portefeuille d'invites enregistre la tâche, l'invite, le résultat attendu, les contrôles et la révision. Cela vous aide à expliquer pourquoi une approche a fonctionné.",
+          "id": "understanding-ai-week-06-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Enregistrez trois invites avec des exemples de réponses hors ligne et une note sur ce que vous voudriez vérifier en ligne. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-06-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Prompt portfolio » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-06-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

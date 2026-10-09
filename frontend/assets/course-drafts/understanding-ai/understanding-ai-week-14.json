@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-14",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "A bounded problem",
+      "subtitle": "Week 14: Planning your practical project",
+      "body": "A practical project should address a specific task for a defined audience. Narrow scope makes it easier to evaluate whether the result is useful.\n\nOffline practice: Choose an AI-learning demonstration based on your own interests; write the audience and one measurable task. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A practical project should address a specific task for a defined audience. Narrow scope makes it easier to evaluate whether the result is useful.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “A bounded problem”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A practical project should address a specific task for a defined audience. Narrow scope makes it easier to evaluate whether the result is useful.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "A practical project should address a specific task for a defined audience. Narrow scope makes it easier to evaluate whether the result is useful.",
+          "id": "understanding-ai-week-14-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Choose an AI-learning demonstration based on your own interests; write the audience and one measurable task.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-14-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “A bounded problem” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-14-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Success criteria",
+      "subtitle": "Week 14: Planning your practical project",
+      "body": "Success criteria describe observable results, such as preserved facts and readable instructions. Define criteria before evaluating your output.\n\nOffline practice: Write four criteria for your chosen study resource and decide how to check each. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Success criteria describe observable results, such as preserved facts and readable instructions. Define criteria before evaluating your output.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Success criteria”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Success criteria describe observable results, such as preserved facts and readable instructions. Define criteria before evaluating your output.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Success criteria describe observable results, such as preserved facts and readable instructions. Define criteria before evaluating your output.",
+          "id": "understanding-ai-week-14-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Write four criteria for your chosen study resource and decide how to check each.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-14-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Success criteria” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-14-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Permitted inputs",
+      "subtitle": "Week 14: Planning your practical project",
+      "body": "Use inputs you are allowed to use and keep private information out of the project. A publicly visible item is not automatically free to redistribute.\n\nOffline practice: List your intended inputs, permissions to check, and fictional replacements for private data. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Use inputs you are allowed to use and keep private information out of the project. A publicly visible item is not automatically free to redistribute.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Permitted inputs”?",
+          "options": [
+            "Use inputs you are allowed to use and keep private information out of the project. A publicly visible item is not automatically free to redistribute.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "Use inputs you are allowed to use and keep private information out of the project. A publicly visible item is not automatically free to redistribute.",
+          "id": "understanding-ai-week-14-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “List your intended inputs, permissions to check, and fictional replacements for private data.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-14-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Permitted inputs” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-14-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Project schedule",
+      "subtitle": "Week 14: Planning your practical project",
+      "body": "A small project schedule allocates time to preparation, drafting, checking, and revision. Keep a fallback for lost connectivity and unexpected delays.\n\nOffline practice: Create a five-session schedule with one check or artifact per session. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A small project schedule allocates time to preparation, drafting, checking, and revision. Keep a fallback for lost connectivity and unexpected delays.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Project schedule”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A small project schedule allocates time to preparation, drafting, checking, and revision. Keep a fallback for lost connectivity and unexpected delays."
+          ],
+          "correct": 3,
+          "explanation": "A small project schedule allocates time to preparation, drafting, checking, and revision. Keep a fallback for lost connectivity and unexpected delays.",
+          "id": "understanding-ai-week-14-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Create a five-session schedule with one check or artifact per session.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-14-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Project schedule” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-14-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Project proposal",
+      "subtitle": "Week 14: Planning your practical project",
+      "body": "A proposal combines the problem, audience, inputs, method, review plan, and expected artifact. It describes an intention, not proven impact.\n\nOffline practice: Save a one-page proposal and ask a peer to identify unclear steps if a peer is available. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A proposal combines the problem, audience, inputs, method, review plan, and expected artifact. It describes an intention, not proven impact.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Project proposal”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A proposal combines the problem, audience, inputs, method, review plan, and expected artifact. It describes an intention, not proven impact.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "A proposal combines the problem, audience, inputs, method, review plan, and expected artifact. It describes an intention, not proven impact.",
+          "id": "understanding-ai-week-14-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Save a one-page proposal and ask a peer to identify unclear steps if a peer is available.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-14-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Project proposal” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-14-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

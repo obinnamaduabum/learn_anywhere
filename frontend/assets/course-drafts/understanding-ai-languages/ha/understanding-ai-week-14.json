@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-14",
+  "language": "ha",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Matsala mai iyaka",
+      "subtitle": "Mako na 14: Tsara aikin ku mai amfani",
+      "body": "Ya kamata aikin da ya dace ya magance takamaiman aiki don takamaiman masu sauraro. Matsakaicin iyaka yana sa sauƙin kimanta ko sakamakon yana da amfani.\n\nAyyukan kan layi: Zaɓi nunin koyo AI bisa abubuwan da kuke so; rubuta masu sauraro da aiki ɗaya mai iya aunawa. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ya kamata aikin da ya dace ya magance takamaiman aiki don takamaiman masu sauraro. Matsakaicin iyaka yana sa sauƙin kimanta ko sakamakon yana da amfani.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Jagorar UNESCO akan alhakin AI a cikin ilimi",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi bayyana \"Matsalar da aka iyaka\"?",
+          "options": [
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Ya kamata aikin da ya dace ya magance takamaiman aiki don takamaiman masu sauraro. Matsakaicin iyaka yana sa sauƙin kimanta ko sakamakon yana da amfani.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce."
+          ],
+          "correct": 2,
+          "explanation": "Ya kamata aikin da ya dace ya magance takamaiman aiki don takamaiman masu sauraro. Matsakaicin iyaka yana sa sauƙin kimanta ko sakamakon yana da amfani.",
+          "id": "understanding-ai-week-14-lesson-01-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Zaɓi zanga-zangar ilmantarwa ta AI bisa ga abubuwan da kuke so; rubuta masu sauraro da aiki ɗaya mai iya aunawa.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya."
+          ],
+          "correct": 2,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-14-lesson-01-question-02"
+        },
+        {
+          "prompt": "Kuna komawa darasin \"Matsala mai iyaka\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba."
+          ],
+          "correct": 2,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-14-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Ma'aunin nasara",
+      "subtitle": "Mako na 14: Tsara aikin ku mai amfani",
+      "body": "Sharuɗɗan nasara sun bayyana sakamako masu iya gani, kamar bayanan da aka adana da umarnin karantawa. Ƙayyade ma'auni kafin kimanta abubuwan da kuka fitar.\n\nAyyukan kan layi: Rubuta sharuɗɗa huɗu don albarkatun binciken da kuka zaɓa kuma yanke shawarar yadda ake bincika kowane. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Sharuɗɗan nasara sun bayyana sakamako masu iya gani, kamar bayanan da aka adana da umarnin karantawa. Ƙayyade ma'auni kafin kimanta abubuwan da kuka fitar.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Jagorar UNESCO akan alhakin AI a cikin ilimi",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi bayyana \"Sharuɗɗan Nasara\"?",
+          "options": [
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Sharuɗɗan nasara sun bayyana sakamako masu iya gani, kamar bayanan da aka adana da umarnin karantawa. Ƙayyade ma'auni kafin kimanta abubuwan da kuka fitar.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon."
+          ],
+          "correct": 1,
+          "explanation": "Sharuɗɗan nasara sun bayyana sakamako masu iya gani, kamar bayanan da aka adana da umarnin karantawa. Ƙayyade ma'auni kafin kimanta abubuwan da kuka fitar.",
+          "id": "understanding-ai-week-14-lesson-02-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Rubuta ma'auni guda hudu don zaɓaɓɓen albarkatun binciken da kuka zaɓa kuma ku yanke shawarar yadda za ku bincika kowane.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe."
+          ],
+          "correct": 1,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-14-lesson-02-question-02"
+        },
+        {
+          "prompt": "Kuna komawa darasin \"Sharuɗɗan Nasara\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya."
+          ],
+          "correct": 1,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-14-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Abubuwan da aka halatta",
+      "subtitle": "Mako na 14: Tsara aikin ku mai amfani",
+      "body": "Yi amfani da abubuwan da aka ba ku damar amfani da su kuma ku kiyaye keɓaɓɓun bayanan daga aikin. Abun da ke bayyane ba shi da 'yanci ta atomatik don sake rarrabawa.\n\nAyyukan kan layi: Jera abubuwan da aka yi niyya, izini don dubawa, da musanya ta almara don bayanan sirri. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Yi amfani da abubuwan da aka ba ku damar amfani da su kuma ku kiyaye keɓaɓɓun bayanan daga aikin. Abun da ke bayyane ba shi da 'yanci ta atomatik don sake rarrabawa.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Jagorar UNESCO akan alhakin AI a cikin ilimi",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi yin bayanin “An yarda da shigarwar”?",
+          "options": [
+            "Yi amfani da abubuwan da aka ba ku damar amfani da su kuma ku kiyaye keɓaɓɓun bayanan daga aikin. Abun da ke bayyane ba shi da 'yanci ta atomatik don sake rarrabawa.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri."
+          ],
+          "correct": 0,
+          "explanation": "Yi amfani da abubuwan da aka ba ku damar amfani da su kuma ku kiyaye keɓaɓɓun bayanan daga aikin. Abun da ke bayyane ba shi da 'yanci ta atomatik don sake rarrabawa.",
+          "id": "understanding-ai-week-14-lesson-03-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Jerin abubuwan da kuka yi niyya, izini don dubawa, da maye gurbin almara na bayanan sirri.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa."
+          ],
+          "correct": 0,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-14-lesson-03-question-02"
+        },
+        {
+          "prompt": "Za ku koma darasin \"An yarda da shigarwa\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin."
+          ],
+          "correct": 0,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-14-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Jadawalin aikin",
+      "subtitle": "Mako na 14: Tsara aikin ku mai amfani",
+      "body": "Ƙananan jadawalin aikin yana ba da lokaci don shiryawa, tsarawa, dubawa, da bita. Ci gaba da faɗuwa don asarar haɗin haɗin gwiwa da jinkirin da ba tsammani.\n\nAyyukan kan layi: Ƙirƙiri jadawalin zama biyar tare da cak ɗaya ko kayan tarihi a kowane zama. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ƙananan jadawalin aikin yana ba da lokaci don shiryawa, tsarawa, dubawa, da bita. Ci gaba da faɗuwa don asarar haɗin haɗin gwiwa da jinkirin da ba tsammani.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Jagorar UNESCO akan alhakin AI a cikin ilimi",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Wanne bayani ya fi dacewa da \"jadawalin aikin\"?",
+          "options": [
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce.",
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Ƙananan jadawalin aikin yana ba da lokaci don shiryawa, tsarawa, dubawa, da bita. Ci gaba da faɗuwa don asarar haɗin haɗin gwiwa da jinkirin da ba tsammani."
+          ],
+          "correct": 3,
+          "explanation": "Ƙananan jadawalin aikin yana ba da lokaci don shiryawa, tsarawa, dubawa, da bita. Ci gaba da faɗuwa don asarar haɗin haɗin gwiwa da jinkirin da ba tsammani.",
+          "id": "understanding-ai-week-14-lesson-04-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Kirƙiri jadawalin zama biyar tare da cak ɗaya ko kayan tarihi a kowane zama.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya.",
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance."
+          ],
+          "correct": 3,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-14-lesson-04-question-02"
+        },
+        {
+          "prompt": "Kuna komawa zuwa darasi na \"Tsarin Project\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba.",
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi."
+          ],
+          "correct": 3,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-14-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Shirin aikin",
+      "subtitle": "Mako na 14: Tsara aikin ku mai amfani",
+      "body": "Shawara ta haɗu da matsala, masu sauraro, abubuwan shigarwa, hanya, tsarin bita, da kayan aikin da ake tsammani. Yana bayyana wani niyya, ba tabbataccen tasiri ba.\n\nAyyukan kan layi: Ajiye shawara mai shafi ɗaya kuma tambayi takwarorinsu don gano matakan da ba su da tabbas idan akwai takwarorinsu. Rubuta dalilinku kafin duba amsoshin tambayoyin. Yi rikodin iyakance ɗaya ko rashin tabbas. Kuna iya amfani da takarda ko bayanan gida; kayan aikin AI na kan layi zaɓi ne.\n\nMaimaitawa: bayyana mahimmin ra'ayin jiya daga ƙwaƙwalwar ajiya, sannan duba bayanin kula. Bayan hutu, fara da wannan maimaitawa da ƙaramin matakin farko na ayyukan yau.\n\nCika duk tambayoyin tambayoyi guda uku kafin ci gaba.\n\nAyyukan kammala mako-mako: ajiye kayan aikin wannan makon. Tabbatar da matakai huɗu: bayyana mahimmin ra'ayi (sake sakewa); kammala aikin aikin (aiki); rubuta abin da za ku tabbatar da kuma inda (shiri); nuna kayan aikinku kuma ku bayyana ingantawa ɗaya (nuna).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Shawara ta haɗu da matsala, masu sauraro, abubuwan shigarwa, hanya, tsarin bita, da kayan aikin da ake tsammani. Yana bayyana wani niyya, ba tabbataccen tasiri ba.",
+        "Aiwatar da ra'ayin ta hanyar ayyukan layi.",
+        "Ci gaba da tunani, shaida, da iyakancewa tare da kayan aikin ku."
+      ],
+      "sourceName": "Jagorar UNESCO akan alhakin AI a cikin ilimi",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Wace magana ce ta fi yin bayanin \"Project Proposal\"?",
+          "options": [
+            "Koyon ɗan adam baya buƙatar bincika sakamakon.",
+            "Kowane ɗawainiya yana buƙatar horar da sabon samfuri.",
+            "Shawara ta haɗu da matsala, masu sauraro, abubuwan shigarwa, hanya, tsarin bita, da kayan aikin da ake tsammani. Yana bayyana wani niyya, ba tabbataccen tasiri ba.",
+            "Amsar AI mai gogewa ta isa shaida cewa kowace da'awar daidai ce."
+          ],
+          "correct": 2,
+          "explanation": "Shawara ta haɗu da matsala, masu sauraro, abubuwan shigarwa, hanya, tsarin bita, da kayan aikin da ake tsammani. Yana bayyana wani niyya, ba tabbataccen tasiri ba.",
+          "id": "understanding-ai-week-14-lesson-05-question-01"
+        },
+        {
+          "prompt": "Don aikin \"Ajiye shawara mai shafi ɗaya kuma ku tambayi abokin gaba don gano matakan da ba a sani ba idan akwai abokin tarayya.\", wace hanya ce ke nuna koyo?",
+          "options": [
+            "Bi da martanin da ba a tantance ba a matsayin shaida ta ƙarshe.",
+            "Tsallake aikin kuma kwafi amsar da ba ta da alaƙa.",
+            "Kammala aikin, bayyana dalilinku, kuma yi rikodin iyakance.",
+            "Raba bayanan sirri na wani don tabbatar da misalin gaskiya."
+          ],
+          "correct": 2,
+          "explanation": "Ayyukan yana buƙatar ku yi amfani da wannan darasi. Bayanin da aka rubuta da iyakancewa yana sa fahimtar ku ta zama abin bita; sakamakon da aka kwafi shi kaɗai ba ya yi.",
+          "id": "understanding-ai-week-14-lesson-05-question-02"
+        },
+        {
+          "prompt": "Kuna komawa zuwa darasi na \"Project Proposal\" bayan hutu ba tare da intanet ba. Me za ku iya yi a gaba?",
+          "options": [
+            "Jira har sai kun iya siyan biyan kuɗin AI da aka biya.",
+            "Share aikin da kuka yi a baya kuma ku sake fara duka darasin.",
+            "Tuna maɓalli na ra'ayin, bincika bayanan da aka adana, kuma kammala ayyukan layi.",
+            "A ɗauka mataimaki na girgije zai amsa ba tare da haɗi ba."
+          ],
+          "correct": 2,
+          "explanation": "Darasi da aiki ba sa buƙatar kayan aikin kan layi. Maidowa da ƙaramin ajiyayyen aiki yana taimaka muku ci gaba.",
+          "id": "understanding-ai-week-14-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

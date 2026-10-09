@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-06",
+  "language": "ig",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Ọrụ na ndị na-ege ntị",
+      "subtitle": "Izu 6: Na-eme ihe n'ebumnobi",
+      "body": "Ngwa ngwa bara uru na-akọwapụta ọrụ na ndị echere. Arịrịọ iji kọwaara onye mbido isiokwu ka eduzi karịa arịrịọ ịkọwa ihe niile.\n\nOmume na-anọghị n'ịntanetị: Jiri ihe atụ abụọ dee ngwa ngwa na-akọwara onye mbido ihe irighiri ihe. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ngwa ngwa bara uru na-akọwapụta ọrụ na ndị echere. Arịrịọ iji kọwaara onye mbido isiokwu ka eduzi karịa arịrịọ ịkọwa ihe niile.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Agụmakwụkwọ mkpọka nke igwe Google - ịgụkwu ya",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Ọrụ na ndị na-ege ntị\"?",
+          "options": [
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Ngwa ngwa bara uru na-akọwapụta ọrụ na ndị echere. Arịrịọ iji kọwaara onye mbido isiokwu ka eduzi karịa arịrịọ ịkọwa ihe niile.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi."
+          ],
+          "correct": 2,
+          "explanation": "Ngwa ngwa bara uru na-akọwapụta ọrụ na ndị echere. Arịrịọ iji kọwaara onye mbido isiokwu ka eduzi karịa arịrịọ ịkọwa ihe niile.",
+          "id": "understanding-ai-week-06-lesson-01-question-01"
+        },
+        {
+          "prompt": "Maka mmemme a \"Jiri ihe atụ abụọ dee ngwa ngwa na-akọwa ihe irighiri ihe nye onye mbido.\", olee usoro na-egosi mmụta?",
+          "options": [
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu."
+          ],
+          "correct": 2,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-06-lesson-01-question-02"
+        },
+        {
+          "prompt": "Ị laghachi na nkuzi \"Ọrụ na ndị na-ege ntị\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ."
+          ],
+          "correct": 2,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-06-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Ọnọdụ dị mkpa",
+      "subtitle": "Izu 6: Na-eme ihe n'ebumnobi",
+      "body": "Ọdịnaya na-enye ozi achọrọ maka ọrụ ahụ. Nyefee mmachi dị mkpa na-enweghị ikpughe nkọwa nkeonwe ma ọ bụ nzuzo.\n\nOmume na-anọghị n'ịntanetị: Dee ngwa ngwa-atụmatụ ọmụmụ site na iji oge, isiokwu, na ebumnuche mmụta dị. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ọdịnaya na-enye ozi achọrọ maka ọrụ ahụ. Nyefee mmachi dị mkpa na-enweghị ikpughe nkọwa nkeonwe ma ọ bụ nzuzo.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Agụmakwụkwọ mkpọka nke igwe Google - ịgụkwu ya",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"okwu dabara adaba\"?",
+          "options": [
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Ọdịnaya na-enye ozi achọrọ maka ọrụ ahụ. Nyefee mmachi dị mkpa na-enweghị ikpughe nkọwa nkeonwe ma ọ bụ nzuzo.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya."
+          ],
+          "correct": 1,
+          "explanation": "Ọdịnaya na-enye ozi achọrọ maka ọrụ ahụ. Nyefee mmachi dị mkpa na-enweghị ikpughe nkọwa nkeonwe ma ọ bụ nzuzo.",
+          "id": "understanding-ai-week-06-lesson-02-question-01"
+        },
+        {
+          "prompt": "Maka mmemme “Dee ngwa ngwa-atụmatụ ọmụmụ site n'iji oge, isiokwu na ebumnuche mmụta dị adị.”, Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ."
+          ],
+          "correct": 1,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-06-lesson-02-question-02"
+        },
+        {
+          "prompt": "Ị laghachi na nkuzi \"dị mkpa\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ."
+          ],
+          "correct": 1,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-06-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Usoro mmepụta",
+      "subtitle": "Izu 6: Na-eme ihe n'ebumnobi",
+      "body": "Ọkpụkpọ a rịọrọ na-enyere aka mee ka mmepụta dị: tebụl, ndepụta nlele, paragraf dị mkpirikpi, ma ọ bụ ajụjụ. Ntuziaka usoro anaghị ekwe nkwa izi ezi.\n\nOmume na-anọghị n'ịntanetị: Degharịa otu arịrịọ ahụ dị ka ngwa ngwa tebụl na ngwa ngwa ndetu; tụnyere uru. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ọkpụkpọ a rịọrọ na-enyere aka mee ka mmepụta dị: tebụl, ndepụta nlele, paragraf dị mkpirikpi, ma ọ bụ ajụjụ. Ntuziaka usoro anaghị ekwe nkwa izi ezi.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Agụmakwụkwọ mkpọka nke igwe Google - ịgụkwu ya",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"usoro mmepụta\"?",
+          "options": [
+            "Ọkpụkpọ a rịọrọ na-enyere aka mee ka mmepụta dị: tebụl, ndepụta nlele, paragraf dị mkpirikpi, ma ọ bụ ajụjụ. Ntuziaka usoro anaghị ekwe nkwa izi ezi.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ."
+          ],
+          "correct": 0,
+          "explanation": "Ọkpụkpọ a rịọrọ na-enyere aka mee ka mmepụta dị: tebụl, ndepụta nlele, paragraf dị mkpirikpi, ma ọ bụ ajụjụ. Ntuziaka usoro anaghị ekwe nkwa izi ezi.",
+          "id": "understanding-ai-week-06-lesson-03-question-01"
+        },
+        {
+          "prompt": "Maka mmemme a “Degharịa otu arịrịọ ahụ dị ka ngwa ngwa tebụl na ngwa ngwa ndetu; tulee uru.”, Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ."
+          ],
+          "correct": 0,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-06-lesson-03-question-02"
+        },
+        {
+          "prompt": "Ị laghachi na nkuzi \"Ọkpụkpọ mmepụta\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ."
+          ],
+          "correct": 0,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-06-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ọmụmaatụ na ngbanwe",
+      "subtitle": "Izu 6: Na-eme ihe n'ebumnobi",
+      "body": "Otu ihe atụ nwere ike igosi ụdị nzaghachi achọrọ. Ndozigharị lekwasịrị anya na-arịọ maka mgbanwe akọwapụtara kama ikwughachi arịrịọ edoghị anya.\n\nOmume na-anọghị n'ịntanetị: Depụta nzaghachi atụ yana arịrịọ ngbanwe na-ebelata jargon na-ewepụghị isi echiche. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Otu ihe atụ nwere ike igosi ụdị nzaghachi achọrọ. Ndozigharị lekwasịrị anya na-arịọ maka mgbanwe akọwapụtara kama ikwughachi arịrịọ edoghị anya.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Agụmakwụkwọ mkpọka nke igwe Google - ịgụkwu ya",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Ihe atụ na ngbanwe\"?",
+          "options": [
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Otu ihe atụ nwere ike igosi ụdị nzaghachi achọrọ. Ndozigharị lekwasịrị anya na-arịọ maka mgbanwe akọwapụtara kama ikwughachi arịrịọ edoghị anya."
+          ],
+          "correct": 3,
+          "explanation": "Otu ihe atụ nwere ike igosi ụdị nzaghachi achọrọ. Ndozigharị lekwasịrị anya na-arịọ maka mgbanwe akọwapụtara kama ikwughachi arịrịọ edoghị anya.",
+          "id": "understanding-ai-week-06-lesson-04-question-01"
+        },
+        {
+          "prompt": "Maka mmemme “Wepụta nzaghachi ihe atụ na arịrịọ ngbanwe nke na-ebelata jargon na-ewepụghị isi echiche.”, Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke."
+          ],
+          "correct": 3,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-06-lesson-04-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Ihe atụ na ntụgharị\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị."
+          ],
+          "correct": 3,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-06-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pọtụfoliyo ngwa ngwa",
+      "subtitle": "Izu 6: Na-eme ihe n'ebumnobi",
+      "body": "Pọtụfoliyo ngwa ngwa na-edekọ ọrụ ahụ, ngwa ngwa, nsonaazụ a tụrụ anya ya, nyocha na ngbanwe. Ọ na-enyere gị aka ịkọwa ihe kpatara otu ụzọ ji rụọ ọrụ.\n\nOmume na-anọghị n'ịntanetị: Chekwaa mkpali atọ na nzaghachi nlele na-anọghị n'ịntanetị yana ndetu na ihe ị ga-enyocha n'ịntanetị. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.\n\nỌrụ mmecha kwa izu: chekwaa ihe omume nke izu a. Kwado usoro anọ: kọwaa isi echiche (nchịkọta); mezue ọrụ omume (omume); dekọọ ihe ị ga-enyocha na ebe (atụmatụ); gosi arịa gị wee kọwaa otu nkwalite (gosipụta).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Pọtụfoliyo ngwa ngwa na-edekọ ọrụ ahụ, ngwa ngwa, nsonaazụ a tụrụ anya ya, nyocha na ngbanwe. Ọ na-enyere gị aka ịkọwa ihe kpatara otu ụzọ ji rụọ ọrụ.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Agụmakwụkwọ mkpọka nke igwe Google - ịgụkwu ya",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \" Pọtụfoliyo ngwa ngwa \"?",
+          "options": [
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Pọtụfoliyo ngwa ngwa na-edekọ ọrụ ahụ, ngwa ngwa, nsonaazụ a tụrụ anya ya, nyocha na ngbanwe. Ọ na-enyere gị aka ịkọwa ihe kpatara otu ụzọ ji rụọ ọrụ.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi."
+          ],
+          "correct": 2,
+          "explanation": "Pọtụfoliyo ngwa ngwa na-edekọ ọrụ ahụ, ngwa ngwa, nsonaazụ a tụrụ anya ya, nyocha na ngbanwe. Ọ na-enyere gị aka ịkọwa ihe kpatara otu ụzọ ji rụọ ọrụ.",
+          "id": "understanding-ai-week-06-lesson-05-question-01"
+        },
+        {
+          "prompt": "Maka mmemme ahụ \"Chekwaa mkpali atọ na nzaghachi nlele na-anọghị n'ịntanetị yana ndetu na ihe ị ga-enyocha n'ịntanetị.\", Kedu usoro na-egosi mmụta?",
+          "options": [
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu."
+          ],
+          "correct": 2,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-06-lesson-05-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Portfolio ngwa ngwa\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ."
+          ],
+          "correct": 2,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-06-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

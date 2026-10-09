@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-04",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Classificação",
+      "subtitle": "Semana 4: Primeiro marco: explicar um sistema de IA",
+      "body": "A classificação prevê uma categoria. Um classificador pode gerar pontuações ou probabilidades antes que uma categoria seja selecionada. Uma categoria prevista pode estar errada.\n\nPrática offline: Classifique oito mensagens fictícias e observe exemplos incertos. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A classificação prevê uma categoria. Um classificador pode gerar pontuações ou probabilidades antes que uma categoria seja selecionada. Uma categoria prevista pode estar errada.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Classificação”?",
+          "options": [
+            "A classificação prevê uma categoria. Um classificador pode gerar pontuações ou probabilidades antes que uma categoria seja selecionada. Uma categoria prevista pode estar errada.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "A classificação prevê uma categoria. Um classificador pode gerar pontuações ou probabilidades antes que uma categoria seja selecionada. Uma categoria prevista pode estar errada.",
+          "id": "understanding-ai-week-04-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Classifique oito mensagens fictícias e observe exemplos incertos.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-04-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à aula “Classificação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-04-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Regressão",
+      "subtitle": "Semana 4: Primeiro marco: explicar um sistema de IA",
+      "body": "A regressão prevê um valor numérico, como a duração de uma viagem. As previsões são estimativas; eles precisam de verificações de erros e limites realistas.\n\nPrática off-line: Preveja durações para três viagens inventadas e registre as diferenças em relação às durações reais fornecidas. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A regressão prevê um valor numérico, como a duração de uma viagem. As previsões são estimativas; eles precisam de verificações de erros e limites realistas.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Regressão”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A regressão prevê um valor numérico, como a duração de uma viagem. As previsões são estimativas; eles precisam de verificações de erros e limites realistas."
+          ],
+          "correct": 3,
+          "explanation": "A regressão prevê um valor numérico, como a duração de uma viagem. As previsões são estimativas; eles precisam de verificações de erros e limites realistas.",
+          "id": "understanding-ai-week-04-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Prever durações para três viagens inventadas e registar as diferenças em relação às durações reais fornecidas.”, que abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-04-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Regressão” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-04-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Correlação e causa",
+      "subtitle": "Semana 4: Primeiro marco: explicar um sistema de IA",
+      "body": "Uma relação entre duas variáveis não prova que uma causa a outra. Um terceiro fator ou coincidência pode explicar um padrão.\n\nPrática offline: Escreva duas explicações possíveis para uma relação fictícia entre visitas à biblioteca e resultados de exames. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma relação entre duas variáveis não prova que uma causa a outra. Um terceiro fator ou coincidência pode explicar um padrão.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Correlação e causa”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma relação entre duas variáveis não prova que uma causa a outra. Um terceiro fator ou coincidência pode explicar um padrão.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Uma relação entre duas variáveis não prova que uma causa a outra. Um terceiro fator ou coincidência pode explicar um padrão.",
+          "id": "understanding-ai-week-04-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva duas explicações possíveis para uma relação fictícia entre visitas à biblioteca e resultados de exames.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-04-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Correlação e causa” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-04-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Explique os limites claramente",
+      "subtitle": "Semana 4: Primeiro marco: explicar um sistema de IA",
+      "body": "Uma explicação clara indica o uso pretendido, evidências e limitações. Evite afirmações de que um modelo entende tudo ou está sempre correto.\n\nPrática offline: escreva uma explicação de sessenta palavras de um classificador fictício para alguém novo na IA. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma explicação clara indica o uso pretendido, evidências e limitações. Evite afirmações de que um modelo entende tudo ou está sempre correto.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Explique os limites claramente”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma explicação clara indica o uso pretendido, evidências e limitações. Evite afirmações de que um modelo entende tudo ou está sempre correto.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Uma explicação clara indica o uso pretendido, evidências e limitações. Evite afirmações de que um modelo entende tudo ou está sempre correto.",
+          "id": "understanding-ai-week-04-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva uma explicação de sessenta palavras de um classificador fictício para alguém novo na IA.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-04-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Explicar claramente os limites” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-04-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Demonstração do primeiro mês",
+      "subtitle": "Semana 4: Primeiro marco: explicar um sistema de IA",
+      "body": "Uma demonstração deve identificar entradas, um método de aprendizagem, resultados, um plano de avaliação e uma etapa de revisão humana. Um diagrama pode demonstrar compreensão sem codificação.\n\nPrática offline: crie um diagrama do sistema de IA de uma página; explique um possível erro e como uma pessoa lidaria com ele. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma demonstração deve identificar entradas, um método de aprendizagem, resultados, um plano de avaliação e uma etapa de revisão humana. Um diagrama pode demonstrar compreensão sem codificação.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “demonstração do primeiro mês”?",
+          "options": [
+            "Uma demonstração deve identificar entradas, um método de aprendizagem, resultados, um plano de avaliação e uma etapa de revisão humana. Um diagrama pode demonstrar compreensão sem codificação.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Uma demonstração deve identificar entradas, um método de aprendizagem, resultados, um plano de avaliação e uma etapa de revisão humana. Um diagrama pode demonstrar compreensão sem codificação.",
+          "id": "understanding-ai-week-04-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Criar um diagrama de sistema de IA de uma página; explicar um possível erro e como uma pessoa lidaria com ele.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-04-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Demonstração do primeiro mês” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-04-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

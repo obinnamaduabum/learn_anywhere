@@ -1,0 +1,234 @@
+{
+  "title": "Understanding AI",
+  "durationWeeks": 16,
+  "parts": [
+    {
+      "part": 1,
+      "title": "AI foundations",
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Generative AI and responsible use",
+      "weeks": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Practical applications",
+      "weeks": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Systems, project, and next steps",
+      "weeks": [
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "audience": "Adult beginners with basic smartphone skills; no coding prerequisite",
+  "language": "en",
+  "reviewStatus": "AI-generated draft; human review pending",
+  "schedule": "Five sessions per week, approximately 20\u201330 minutes each including practice, quizzes, recap, and portfolio work. Pace is flexible.",
+  "weeks": [
+    {
+      "week": 1,
+      "part": 1,
+      "id": "understanding-ai-week-01",
+      "title": "Understanding AI \u2014 Week 1: Recognising AI",
+      "description": "Five offline-first lessons on recognising ai, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-01.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 2,
+      "part": 1,
+      "id": "understanding-ai-week-02",
+      "title": "Understanding AI \u2014 Week 2: Learning from data",
+      "description": "Five offline-first lessons on learning from data, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-02.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 3,
+      "part": 1,
+      "id": "understanding-ai-week-03",
+      "title": "Understanding AI \u2014 Week 3: Training and generalisation",
+      "description": "Five offline-first lessons on training and generalisation, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-03.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 4,
+      "part": 1,
+      "id": "understanding-ai-week-04",
+      "title": "Understanding AI \u2014 Week 4: First milestone: explain an AI system",
+      "description": "Five offline-first lessons on first milestone: explain an ai system, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-04.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 5,
+      "part": 2,
+      "id": "understanding-ai-week-05",
+      "title": "Understanding AI \u2014 Week 5: Generative AI",
+      "description": "Five offline-first lessons on generative ai, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-05.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 6,
+      "part": 2,
+      "id": "understanding-ai-week-06",
+      "title": "Understanding AI \u2014 Week 6: Prompting with purpose",
+      "description": "Five offline-first lessons on prompting with purpose, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-06.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 7,
+      "part": 2,
+      "id": "understanding-ai-week-07",
+      "title": "Understanding AI \u2014 Week 7: Verification and information literacy",
+      "description": "Five offline-first lessons on verification and information literacy, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-07.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 8,
+      "part": 2,
+      "id": "understanding-ai-week-08",
+      "title": "Understanding AI \u2014 Week 8: Second milestone: responsible AI use",
+      "description": "Five offline-first lessons on second milestone: responsible ai use, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-08.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 9,
+      "part": 3,
+      "id": "understanding-ai-week-09",
+      "title": "Understanding AI \u2014 Week 9: AI for learning",
+      "description": "Five offline-first lessons on ai for learning, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-09.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 10,
+      "part": 3,
+      "id": "understanding-ai-week-10",
+      "title": "Understanding AI \u2014 Week 10: Communication and writing",
+      "description": "Five offline-first lessons on communication and writing, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-10.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 11,
+      "part": 3,
+      "id": "understanding-ai-week-11",
+      "title": "Understanding AI \u2014 Week 11: Data and everyday decisions",
+      "description": "Five offline-first lessons on data and everyday decisions, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-11.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 12,
+      "part": 3,
+      "id": "understanding-ai-week-12",
+      "title": "Understanding AI \u2014 Week 12: Third milestone: build a workflow",
+      "description": "Five offline-first lessons on third milestone: build a workflow, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-12.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 13,
+      "part": 4,
+      "id": "understanding-ai-week-13",
+      "title": "Understanding AI \u2014 Week 13: Inside modern AI systems",
+      "description": "Five offline-first lessons on inside modern ai systems, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-13.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 14,
+      "part": 4,
+      "id": "understanding-ai-week-14",
+      "title": "Understanding AI \u2014 Week 14: Planning your practical project",
+      "description": "Five offline-first lessons on planning your practical project, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-14.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 15,
+      "part": 4,
+      "id": "understanding-ai-week-15",
+      "title": "Understanding AI \u2014 Week 15: Producing and testing",
+      "description": "Five offline-first lessons on producing and testing, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-15.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    },
+    {
+      "week": 16,
+      "part": 4,
+      "id": "understanding-ai-week-16",
+      "title": "Understanding AI \u2014 Week 16: Demonstration and next steps",
+      "description": "Five offline-first lessons on demonstration and next steps, with required quizzes and a practical portfolio task.",
+      "packFile": "understanding-ai-week-16.json",
+      "lessonCount": 5,
+      "questionCount": 15,
+      "status": "draft"
+    }
+  ],
+  "limitations": [
+    "English only; translations require separate approval.",
+    "Weekly packs are separate backend courses; automatic multi-pack pathway navigation is not yet implemented.",
+    "Content is introductory; does not confer accreditation or guarantee employment.",
+    "Exercises are original; further-reading links do not imply endorsement or expert review."
+  ]
+}

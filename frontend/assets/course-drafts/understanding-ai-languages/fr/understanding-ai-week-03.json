@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-03",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Formation versus inférence",
+      "subtitle": "Semaine 3 : Formation et généralisation",
+      "body": "La formation ajuste les paramètres du modèle à l'aide de données. L'inférence utilise un modèle entraîné pour produire un résultat. Une invitation ordinaire ne signifie pas que vous recyclez personnellement le modèle.\n\nPratique hors ligne : dessinez des diagrammes de formation et d'inférence distincts pour un classificateur de messages. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La formation ajuste les paramètres du modèle à l'aide de données. L'inférence utilise un modèle entraîné pour produire un résultat. Une invitation ordinaire ne signifie pas que vous recyclez personnellement le modèle.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Formation versus inférence » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "La formation ajuste les paramètres du modèle à l'aide de données. L'inférence utilise un modèle entraîné pour produire un résultat. Une invitation ordinaire ne signifie pas que vous recyclez personnellement le modèle.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "La formation ajuste les paramètres du modèle à l'aide de données. L'inférence utilise un modèle entraîné pour produire un résultat. Une invitation ordinaire ne signifie pas que vous recyclez personnellement le modèle.",
+          "id": "understanding-ai-week-03-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Dessiner des diagrammes de formation et d'inférence distincts pour un classificateur de messages », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-03-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Formation versus inférence » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-03-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Exemples de formation et de tests",
+      "subtitle": "Semaine 3 : Formation et généralisation",
+      "body": "Les exemples de formation aident à adapter un modèle. Des exemples d'évaluation distincts aident à estimer les performances sur des données inconnues. Les données de test ne doivent pas être utilisées à plusieurs reprises pour choisir des améliorations.\n\nPratique hors ligne : divisez douze exemples fictifs en groupes de développement et de test final et expliquez la séparation. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les exemples de formation aident à adapter un modèle. Des exemples d'évaluation distincts aident à estimer les performances sur des données inconnues. Les données de test ne doivent pas être utilisées à plusieurs reprises pour choisir des améliorations.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Exemples de formation et de test » ?",
+          "options": [
+            "Les exemples de formation aident à adapter un modèle. Des exemples d'évaluation distincts aident à estimer les performances sur des données inconnues. Les données de test ne doivent pas être utilisées à plusieurs reprises pour choisir des améliorations.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Les exemples de formation aident à adapter un modèle. Des exemples d'évaluation distincts aident à estimer les performances sur des données inconnues. Les données de test ne doivent pas être utilisées à plusieurs reprises pour choisir des améliorations.",
+          "id": "understanding-ai-week-03-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Diviser douze exemples fictifs en groupes de développement et de test final et expliquer la séparation. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-03-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Formations et exemples de tests » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-03-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Surapprentissage",
+      "subtitle": "Semaine 3 : Formation et généralisation",
+      "body": "Le surajustement se produit lorsqu'un modèle s'adapte trop étroitement aux exemples de formation et fonctionne mal sur les nouveaux exemples. Mémoriser des réponses pratiques est différent de comprendre une règle.\n\nPratique hors ligne : inventez une règle de tri qui correspond à trois exemples mais échoue sur un quatrième. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Le surajustement se produit lorsqu'un modèle s'adapte trop étroitement aux exemples de formation et fonctionne mal sur les nouveaux exemples. Mémoriser des réponses pratiques est différent de comprendre une règle.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « surapprentissage » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Le surajustement se produit lorsqu'un modèle s'adapte trop étroitement aux exemples de formation et fonctionne mal sur les nouveaux exemples. Mémoriser des réponses pratiques est différent de comprendre une règle."
+          ],
+          "correct": 3,
+          "explanation": "Le surajustement se produit lorsqu'un modèle s'adapte trop étroitement aux exemples de formation et fonctionne mal sur les nouveaux exemples. Mémoriser des réponses pratiques est différent de comprendre une règle.",
+          "id": "understanding-ai-week-03-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Inventer une règle de tri qui correspond à trois exemples mais échoue sur un quatrième. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-03-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Overfitting » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-03-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sous-ajustement",
+      "subtitle": "Semaine 3 : Formation et généralisation",
+      "body": "Le sous-ajustement se produit lorsqu'un modèle ne peut pas capturer des modèles importants. Une règle qui prédit le même résultat pour chaque entrée peut passer à côté de différences utiles.\n\nPratique hors ligne : comparez une prédiction toujours la même avec une règle utilisant une fonctionnalité pertinente. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Le sous-ajustement se produit lorsqu'un modèle ne peut pas capturer des modèles importants. Une règle qui prédit le même résultat pour chaque entrée peut passer à côté de différences utiles.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « sous-ajustement » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Le sous-ajustement se produit lorsqu'un modèle ne peut pas capturer des modèles importants. Une règle qui prédit le même résultat pour chaque entrée peut passer à côté de différences utiles.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Le sous-ajustement se produit lorsqu'un modèle ne peut pas capturer des modèles importants. Une règle qui prédit le même résultat pour chaque entrée peut passer à côté de différences utiles.",
+          "id": "understanding-ai-week-03-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Comparer une prédiction toujours la même avec une règle utilisant une caractéristique pertinente. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-03-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Underfitting » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-03-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Une comparaison de base",
+      "subtitle": "Semaine 3 : Formation et généralisation",
+      "body": "Une ligne de base est une méthode de référence simple. Un modèle complexe doit être comparé à une référence pertinente en utilisant les mêmes conditions d’évaluation.\n\nPratique hors ligne : comparez un plan de révision fictif de l'IA avec une simple liste de contrôle quotidienne de quinze minutes utilisant une mesure de réussite claire. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une ligne de base est une méthode de référence simple. Un modèle complexe doit être comparé à une référence pertinente en utilisant les mêmes conditions d’évaluation.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Une comparaison de base » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une ligne de base est une méthode de référence simple. Un modèle complexe doit être comparé à une référence pertinente en utilisant les mêmes conditions d’évaluation.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Une ligne de base est une méthode de référence simple. Un modèle complexe doit être comparé à une référence pertinente en utilisant les mêmes conditions d’évaluation.",
+          "id": "understanding-ai-week-03-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Comparez un plan de révision fictif de l'IA avec une simple liste de contrôle quotidienne de quinze minutes utilisant une mesure de réussite claire. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-03-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Une comparaison de référence » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-03-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

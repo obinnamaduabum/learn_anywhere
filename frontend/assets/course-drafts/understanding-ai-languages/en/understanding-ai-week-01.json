@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-01",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "AI and everyday tools",
+      "subtitle": "Week 1: Recognising AI",
+      "body": "AI systems perform tasks such as recognising speech, predicting outcomes, and generating content. A simple calculator can follow fixed rules without learning from examples.\n\nOffline practice: Compare a calculator, a voice assistant, and a paper timetable; identify where patterns or fixed rules are used. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "AI systems perform tasks such as recognising speech, predicting outcomes, and generating content. A simple calculator can follow fixed rules without learning from examples.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “AI and everyday tools”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "AI systems perform tasks such as recognising speech, predicting outcomes, and generating content. A simple calculator can follow fixed rules without learning from examples."
+          ],
+          "correct": 3,
+          "explanation": "AI systems perform tasks such as recognising speech, predicting outcomes, and generating content. A simple calculator can follow fixed rules without learning from examples.",
+          "id": "understanding-ai-week-01-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Compare a calculator, a voice assistant, and a paper timetable; identify where patterns or fixed rules are used.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-01-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “AI and everyday tools” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-01-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Prediction and generation",
+      "subtitle": "Week 1: Recognising AI",
+      "body": "A prediction model estimates an outcome from input. A generative model produces content. A system that estimates tomorrow’s demand differs from one that drafts an announcement.\n\nOffline practice: Write one prediction task and one content-generation task for a fictional community library. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A prediction model estimates an outcome from input. A generative model produces content. A system that estimates tomorrow’s demand differs from one that drafts an announcement.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Prediction and generation”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A prediction model estimates an outcome from input. A generative model produces content. A system that estimates tomorrow’s demand differs from one that drafts an announcement.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "A prediction model estimates an outcome from input. A generative model produces content. A system that estimates tomorrow’s demand differs from one that drafts an announcement.",
+          "id": "understanding-ai-week-01-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Write one prediction task and one content-generation task for a fictional community library.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-01-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Prediction and generation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-01-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What a model represents",
+      "subtitle": "Week 1: Recognising AI",
+      "body": "A model is a mathematical representation used to transform inputs into outputs. It is a simplified system, not a complete description of the world.\n\nOffline practice: Sketch input → model → output for a fictional tool that classifies messages as spam. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A model is a mathematical representation used to transform inputs into outputs. It is a simplified system, not a complete description of the world.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “What a model represents”?",
+          "options": [
+            "Every task requires training a new model.",
+            "A model is a mathematical representation used to transform inputs into outputs. It is a simplified system, not a complete description of the world.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "A model is a mathematical representation used to transform inputs into outputs. It is a simplified system, not a complete description of the world.",
+          "id": "understanding-ai-week-01-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Sketch input → model → output for a fictional tool that classifies messages as spam.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-01-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “What a model represents” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-01-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Human judgement",
+      "subtitle": "Week 1: Recognising AI",
+      "body": "An AI recommendation is information to evaluate. People choose the objective, review consequences, and decide whether an output is useful.\n\nOffline practice: List three checks you would make before using a generated study plan. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "An AI recommendation is information to evaluate. People choose the objective, review consequences, and decide whether an output is useful.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Human judgement”?",
+          "options": [
+            "An AI recommendation is information to evaluate. People choose the objective, review consequences, and decide whether an output is useful.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "An AI recommendation is information to evaluate. People choose the objective, review consequences, and decide whether an output is useful.",
+          "id": "understanding-ai-week-01-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “List three checks you would make before using a generated study plan.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-01-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Human judgement” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-01-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Your first AI map",
+      "subtitle": "Week 1: Recognising AI",
+      "body": "A useful AI map names the task, input, output, benefit, limitation, and human reviewer. Some tasks are better handled with a checklist or ordinary software.\n\nOffline practice: Create an AI map for organising revision notes and explain when a paper checklist would be enough. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A useful AI map names the task, input, output, benefit, limitation, and human reviewer. Some tasks are better handled with a checklist or ordinary software.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Your first AI map”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A useful AI map names the task, input, output, benefit, limitation, and human reviewer. Some tasks are better handled with a checklist or ordinary software."
+          ],
+          "correct": 3,
+          "explanation": "A useful AI map names the task, input, output, benefit, limitation, and human reviewer. Some tasks are better handled with a checklist or ordinary software.",
+          "id": "understanding-ai-week-01-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Create an AI map for organising revision notes and explain when a paper checklist would be enough.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-01-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Your first AI map” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-01-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

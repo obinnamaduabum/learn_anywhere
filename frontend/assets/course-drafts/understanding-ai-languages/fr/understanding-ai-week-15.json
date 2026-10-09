@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-15",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Construire un premier brouillon",
+      "subtitle": "Semaine 15 : Produire et tester",
+      "body": "Une première ébauche rend une idée révisable. Utilisez des entrées fictives et marquez les détails incertains afin que les réviseurs puissent distinguer le travail inachevé des informations vérifiées.\n\nPratique hors ligne : créez la première version de votre artefact de projet manuellement ou avec un outil en ligne facultatif. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une première ébauche rend une idée révisable. Utilisez des entrées fictives et marquez les détails incertains afin que les réviseurs puissent distinguer le travail inachevé des informations vérifiées.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Construire une première ébauche » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une première ébauche rend une idée révisable. Utilisez des entrées fictives et marquez les détails incertains afin que les réviseurs puissent distinguer le travail inachevé des informations vérifiées.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Une première ébauche rend une idée révisable. Utilisez des entrées fictives et marquez les détails incertains afin que les réviseurs puissent distinguer le travail inachevé des informations vérifiées.",
+          "id": "understanding-ai-week-15-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créez la première version de votre artefact de projet manuellement ou avec un outil en ligne facultatif. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-15-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Construire un premier brouillon » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-15-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Test par rapport à la rubrique",
+      "subtitle": "Semaine 15 : Produire et tester",
+      "body": "Une rubrique fournit des critères pour vérifier le travail de manière cohérente. Enregistrez les preuves de chaque évaluation plutôt que de juger uniquement de l’apparence soignée de l’artefact.\n\nPratique hors ligne : notez votre première ébauche en fonction de vos quatre critères et expliquez chaque note. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une rubrique fournit des critères pour vérifier le travail de manière cohérente. Enregistrez les preuves de chaque évaluation plutôt que de juger uniquement de l’apparence soignée de l’artefact.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Test par rapport à la rubrique » ?",
+          "options": [
+            "Une rubrique fournit des critères pour vérifier le travail de manière cohérente. Enregistrez les preuves de chaque évaluation plutôt que de juger uniquement de l’apparence soignée de l’artefact.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une rubrique fournit des critères pour vérifier le travail de manière cohérente. Enregistrez les preuves de chaque évaluation plutôt que de juger uniquement de l’apparence soignée de l’artefact.",
+          "id": "understanding-ai-week-15-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Notez votre première ébauche en fonction de vos quatre critères et expliquez chaque note. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-15-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Test par rapport à la rubrique » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-15-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Testez des exemples difficiles",
+      "subtitle": "Semaine 15 : Produire et tester",
+      "body": "Des exemples difficiles peuvent révéler des instructions manquantes, des formulations ambiguës et des hypothèses inappropriées. Testez les entrées ordinaires et inhabituelles pertinentes pour la tâche.\n\nPratique hors ligne : essayez une saisie courte, une saisie déroutante et une saisie incomplète ; enregistrer ce qui a échoué. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Des exemples difficiles peuvent révéler des instructions manquantes, des formulations ambiguës et des hypothèses inappropriées. Testez les entrées ordinaires et inhabituelles pertinentes pour la tâche.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Tester des exemples difficiles » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Des exemples difficiles peuvent révéler des instructions manquantes, des formulations ambiguës et des hypothèses inappropriées. Testez les entrées ordinaires et inhabituelles pertinentes pour la tâche."
+          ],
+          "correct": 3,
+          "explanation": "Des exemples difficiles peuvent révéler des instructions manquantes, des formulations ambiguës et des hypothèses inappropriées. Testez les entrées ordinaires et inhabituelles pertinentes pour la tâche.",
+          "id": "understanding-ai-week-15-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Essayez une saisie courte, une saisie déroutante et une saisie incomplète ; notez ce qui a échoué. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-15-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Tester des exemples difficiles » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-15-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Réviser et comparer",
+      "subtitle": "Semaine 15 : Produire et tester",
+      "body": "Une révision doit résoudre un problème enregistré. Comparez la version révisée avec l'original en utilisant les mêmes critères et conservez les deux versions.\n\nPratique hors ligne : effectuez deux corrections spécifiques et montrez si elles ont amélioré les résultats de votre rubrique. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une révision doit résoudre un problème enregistré. Comparez la version révisée avec l'original en utilisant les mêmes critères et conservez les deux versions.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Réviser et comparer » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une révision doit résoudre un problème enregistré. Comparez la version révisée avec l'original en utilisant les mêmes critères et conservez les deux versions.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Une révision doit résoudre un problème enregistré. Comparez la version révisée avec l'original en utilisant les mêmes critères et conservez les deux versions.",
+          "id": "understanding-ai-week-15-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Faites deux corrections spécifiques et montrez si elles ont amélioré les résultats de votre rubrique. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-15-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Réviser et comparer » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-15-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Recueillir des commentaires appropriés",
+      "subtitle": "Semaine 15 : Produire et tester",
+      "body": "Les commentaires doivent porter sur l’utilité et la clarté. La participation devrait être volontaire ; évitez de collecter des informations personnelles inutiles ou de prétendre qu’un petit échantillon a un impact important.\n\nPratique hors ligne : posez une question de clarté à un pair disponible ou effectuez une auto-évaluation si aucun pair n'est disponible. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les commentaires doivent porter sur l’utilité et la clarté. La participation devrait être volontaire ; évitez de collecter des informations personnelles inutiles ou de prétendre qu’un petit échantillon a un impact important.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Recueillir des commentaires appropriés » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les commentaires doivent porter sur l’utilité et la clarté. La participation devrait être volontaire ; évitez de collecter des informations personnelles inutiles ou de prétendre qu’un petit échantillon a un impact important.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Les commentaires doivent porter sur l’utilité et la clarté. La participation devrait être volontaire ; évitez de collecter des informations personnelles inutiles ou de prétendre qu’un petit échantillon a un impact important.",
+          "id": "understanding-ai-week-15-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Posez une question de clarté à un pair disponible, ou effectuez une auto-évaluation si aucun pair n’est disponible », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-15-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Recueillir des commentaires appropriés » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-15-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

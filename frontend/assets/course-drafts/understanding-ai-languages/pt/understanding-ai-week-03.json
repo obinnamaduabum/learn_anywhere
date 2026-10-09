@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-03",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Treinamento versus inferência",
+      "subtitle": "Semana 3: Treinamento e generalização",
+      "body": "O treinamento ajusta os parâmetros do modelo usando dados. A inferência usa um modelo treinado para produzir uma saída. A solicitação comum não significa que você está retreinando pessoalmente o modelo.\n\nPrática offline: desenhe diagramas separados de treinamento e inferência para um classificador de mensagens. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "O treinamento ajusta os parâmetros do modelo usando dados. A inferência usa um modelo treinado para produzir uma saída. A solicitação comum não significa que você está retreinando pessoalmente o modelo.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Treinamento versus inferência”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "O treinamento ajusta os parâmetros do modelo usando dados. A inferência usa um modelo treinado para produzir uma saída. A solicitação comum não significa que você está retreinando pessoalmente o modelo.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "O treinamento ajusta os parâmetros do modelo usando dados. A inferência usa um modelo treinado para produzir uma saída. A solicitação comum não significa que você está retreinando pessoalmente o modelo.",
+          "id": "understanding-ai-week-03-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Desenhe diagramas separados de treinamento e inferência para um classificador de mensagens.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-03-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Treinamento versus inferência” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-03-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Exemplos de treinamento e teste",
+      "subtitle": "Semana 3: Treinamento e generalização",
+      "body": "Exemplos de treinamento ajudam a ajustar um modelo. Exemplos de avaliação separados ajudam a estimar o desempenho em dados desconhecidos. Os dados de teste não devem ser usados ​​repetidamente para escolher melhorias.\n\nPrática offline: divida doze exemplos fictícios em grupos de desenvolvimento e de teste final e explique a separação. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Exemplos de treinamento ajudam a ajustar um modelo. Exemplos de avaliação separados ajudam a estimar o desempenho em dados desconhecidos. Os dados de teste não devem ser usados ​​repetidamente para escolher melhorias.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Exemplos de treinamento e teste”?",
+          "options": [
+            "Exemplos de treinamento ajudam a ajustar um modelo. Exemplos de avaliação separados ajudam a estimar o desempenho em dados desconhecidos. Os dados de teste não devem ser usados ​​repetidamente para escolher melhorias.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Exemplos de treinamento ajudam a ajustar um modelo. Exemplos de avaliação separados ajudam a estimar o desempenho em dados desconhecidos. Os dados de teste não devem ser usados ​​repetidamente para escolher melhorias.",
+          "id": "understanding-ai-week-03-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Dividir doze exemplos fictícios em grupos de desenvolvimento e de teste final e explicar a separação.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-03-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Exemplos de treinamento e teste” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-03-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sobreajuste",
+      "subtitle": "Semana 3: Treinamento e generalização",
+      "body": "O overfitting ocorre quando um modelo se ajusta muito bem aos exemplos de treinamento e tem um desempenho ruim em novos exemplos. Memorizar respostas práticas é diferente de compreender uma regra.\n\nPrática offline: invente uma regra de classificação que se ajuste a três exemplos, mas falhe em um quarto. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "O overfitting ocorre quando um modelo se ajusta muito bem aos exemplos de treinamento e tem um desempenho ruim em novos exemplos. Memorizar respostas práticas é diferente de compreender uma regra.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “overfitting”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "O overfitting ocorre quando um modelo se ajusta muito bem aos exemplos de treinamento e tem um desempenho ruim em novos exemplos. Memorizar respostas práticas é diferente de compreender uma regra."
+          ],
+          "correct": 3,
+          "explanation": "O overfitting ocorre quando um modelo se ajusta muito bem aos exemplos de treinamento e tem um desempenho ruim em novos exemplos. Memorizar respostas práticas é diferente de compreender uma regra.",
+          "id": "understanding-ai-week-03-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Invente uma regra de classificação que se encaixe em três exemplos, mas falhe em um quarto.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-03-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Overfitting” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-03-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Subajuste",
+      "subtitle": "Semana 3: Treinamento e generalização",
+      "body": "O underfitting ocorre quando um modelo não consegue capturar padrões importantes. Uma regra que prevê o mesmo resultado para cada entrada pode perder diferenças úteis.\n\nPrática off-line: compare uma previsão sempre igual com uma regra usando um recurso relevante. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "O underfitting ocorre quando um modelo não consegue capturar padrões importantes. Uma regra que prevê o mesmo resultado para cada entrada pode perder diferenças úteis.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “underfitting”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "O underfitting ocorre quando um modelo não consegue capturar padrões importantes. Uma regra que prevê o mesmo resultado para cada entrada pode perder diferenças úteis.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "O underfitting ocorre quando um modelo não consegue capturar padrões importantes. Uma regra que prevê o mesmo resultado para cada entrada pode perder diferenças úteis.",
+          "id": "understanding-ai-week-03-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Comparar uma previsão sempre igual com uma regra usando um recurso relevante.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-03-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Underfitting” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-03-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uma comparação básica",
+      "subtitle": "Semana 3: Treinamento e generalização",
+      "body": "Uma linha de base é um método de referência simples. Um modelo complicado deve ser comparado com uma linha de base relevante utilizando as mesmas condições de avaliação.\n\nPrática off-line: compare um plano fictício de revisão de IA com uma simples lista de verificação diária de quinze minutos usando uma medida de sucesso clara. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma linha de base é um método de referência simples. Um modelo complicado deve ser comparado com uma linha de base relevante utilizando as mesmas condições de avaliação.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Uma comparação de base”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma linha de base é um método de referência simples. Um modelo complicado deve ser comparado com uma linha de base relevante utilizando as mesmas condições de avaliação.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Uma linha de base é um método de referência simples. Um modelo complicado deve ser comparado com uma linha de base relevante utilizando as mesmas condições de avaliação.",
+          "id": "understanding-ai-week-03-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Compare um plano fictício de revisão de IA com uma lista de verificação diária simples de quinze minutos usando uma medida de sucesso clara.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-03-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Uma comparação básica” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-03-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

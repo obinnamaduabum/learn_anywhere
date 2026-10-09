@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-11",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Reading tables",
+      "subtitle": "Week 11: Data and everyday decisions",
+      "body": "A table has rows and columns with defined meanings. Check headings, units, and missing values before calculating or drawing conclusions.\n\nOffline practice: Create a fictional table of weekly study minutes and explain each column. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A table has rows and columns with defined meanings. Check headings, units, and missing values before calculating or drawing conclusions.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Reading tables”?",
+          "options": [
+            "Every task requires training a new model.",
+            "A table has rows and columns with defined meanings. Check headings, units, and missing values before calculating or drawing conclusions.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "A table has rows and columns with defined meanings. Check headings, units, and missing values before calculating or drawing conclusions.",
+          "id": "understanding-ai-week-11-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Create a fictional table of weekly study minutes and explain each column.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-11-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Reading tables” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-11-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Averages and variation",
+      "subtitle": "Week 11: Data and everyday decisions",
+      "body": "An average summarises data but can hide differences. Compare individual values and extreme observations before describing a typical experience.\n\nOffline practice: Find the mean of 10, 10, 10, and 50 minutes; explain why the mean alone is incomplete. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "An average summarises data but can hide differences. Compare individual values and extreme observations before describing a typical experience.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Averages and variation”?",
+          "options": [
+            "An average summarises data but can hide differences. Compare individual values and extreme observations before describing a typical experience.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "An average summarises data but can hide differences. Compare individual values and extreme observations before describing a typical experience.",
+          "id": "understanding-ai-week-11-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Find the mean of 10, 10, 10, and 50 minutes; explain why the mean alone is incomplete.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-11-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Averages and variation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-11-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Missing and incorrect data",
+      "subtitle": "Week 11: Data and everyday decisions",
+      "body": "Missing data is not automatically zero. Incorrect entries and duplicates can distort results; corrections should have an explanation.\n\nOffline practice: Inspect a fictional attendance table with one blank and one duplicate and record your decisions. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Missing data is not automatically zero. Incorrect entries and duplicates can distort results; corrections should have an explanation.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Missing and incorrect data”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Missing data is not automatically zero. Incorrect entries and duplicates can distort results; corrections should have an explanation."
+          ],
+          "correct": 3,
+          "explanation": "Missing data is not automatically zero. Incorrect entries and duplicates can distort results; corrections should have an explanation.",
+          "id": "understanding-ai-week-11-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Inspect a fictional attendance table with one blank and one duplicate and record your decisions.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-11-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Missing and incorrect data” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-11-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Evaluation measures",
+      "subtitle": "Week 11: Data and everyday decisions",
+      "body": "Accuracy counts the proportion of correct classifications but can be misleading with uneven categories. Inspect mistakes and the purpose of the task as well.\n\nOffline practice: Explain why predicting not spam for every message looks accurate when only one of one hundred messages is spam. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Accuracy counts the proportion of correct classifications but can be misleading with uneven categories. Inspect mistakes and the purpose of the task as well.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Evaluation measures”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Accuracy counts the proportion of correct classifications but can be misleading with uneven categories. Inspect mistakes and the purpose of the task as well.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "Accuracy counts the proportion of correct classifications but can be misleading with uneven categories. Inspect mistakes and the purpose of the task as well.",
+          "id": "understanding-ai-week-11-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Explain why predicting not spam for every message looks accurate when only one of one hundred messages is spam.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-11-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Evaluation measures” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-11-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "An evidence-based recommendation",
+      "subtitle": "Week 11: Data and everyday decisions",
+      "body": "A recommendation should show its evidence, assumptions, limitations, and alternatives. Data can inform a choice without making the choice automatically.\n\nOffline practice: Write a fictional recommendation for study-session timing using a small table and a limitation statement. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A recommendation should show its evidence, assumptions, limitations, and alternatives. Data can inform a choice without making the choice automatically.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “An evidence-based recommendation”?",
+          "options": [
+            "Every task requires training a new model.",
+            "A recommendation should show its evidence, assumptions, limitations, and alternatives. Data can inform a choice without making the choice automatically.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "A recommendation should show its evidence, assumptions, limitations, and alternatives. Data can inform a choice without making the choice automatically.",
+          "id": "understanding-ai-week-11-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Write a fictional recommendation for study-session timing using a small table and a limitation statement.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-11-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “An evidence-based recommendation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-11-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

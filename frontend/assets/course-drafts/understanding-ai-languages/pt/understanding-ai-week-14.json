@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-14",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Um problema limitado",
+      "subtitle": "Semana 14: Planejando seu projeto prático",
+      "body": "Um projeto prático deve abordar uma tarefa específica para um público definido. O escopo restrito torna mais fácil avaliar se o resultado é útil.\n\nPrática offline: escolha uma demonstração de aprendizagem de IA com base em seus próprios interesses; escreva o público e uma tarefa mensurável. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um projeto prático deve abordar uma tarefa específica para um público definido. O escopo restrito torna mais fácil avaliar se o resultado é útil.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Um problema limitado”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um projeto prático deve abordar uma tarefa específica para um público definido. O escopo restrito torna mais fácil avaliar se o resultado é útil.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um projeto prático deve abordar uma tarefa específica para um público definido. O escopo restrito torna mais fácil avaliar se o resultado é útil.",
+          "id": "understanding-ai-week-14-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escolha uma demonstração de aprendizagem de IA com base nos seus próprios interesses; escreva para o público e uma tarefa mensurável.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-14-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Um problema limitado” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-14-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Critérios de sucesso",
+      "subtitle": "Semana 14: Planejando seu projeto prático",
+      "body": "Os critérios de sucesso descrevem resultados observáveis, como fatos preservados e instruções legíveis. Defina critérios antes de avaliar seu resultado.\n\nPrática offline: Escreva quatro critérios para o recurso de estudo escolhido e decida como verificar cada um. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Os critérios de sucesso descrevem resultados observáveis, como fatos preservados e instruções legíveis. Defina critérios antes de avaliar seu resultado.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor os “critérios de sucesso”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Os critérios de sucesso descrevem resultados observáveis, como fatos preservados e instruções legíveis. Defina critérios antes de avaliar seu resultado.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Os critérios de sucesso descrevem resultados observáveis, como fatos preservados e instruções legíveis. Defina critérios antes de avaliar seu resultado.",
+          "id": "understanding-ai-week-14-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva quatro critérios para o recurso de estudo escolhido e decida como verificar cada um.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-14-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Critérios de sucesso” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-14-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Entradas permitidas",
+      "subtitle": "Semana 14: Planejando seu projeto prático",
+      "body": "Use informações que você tem permissão para usar e mantenha informações privadas fora do projeto. Um item publicamente visível não é automaticamente livre para ser redistribuído.\n\nPrática off-line: liste as entradas pretendidas, as permissões a serem verificadas e as substituições fictícias para dados privados. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Use informações que você tem permissão para usar e mantenha informações privadas fora do projeto. Um item publicamente visível não é automaticamente livre para ser redistribuído.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Entradas permitidas”?",
+          "options": [
+            "Use informações que você tem permissão para usar e mantenha informações privadas fora do projeto. Um item publicamente visível não é automaticamente livre para ser redistribuído.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Use informações que você tem permissão para usar e mantenha informações privadas fora do projeto. Um item publicamente visível não é automaticamente livre para ser redistribuído.",
+          "id": "understanding-ai-week-14-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Liste as entradas pretendidas, as permissões para verificação e as substituições fictícias para dados privados.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-14-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Entradas permitidas” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-14-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cronograma do projeto",
+      "subtitle": "Semana 14: Planejando seu projeto prático",
+      "body": "Um cronograma de projeto pequeno aloca tempo para preparação, elaboração, verificação e revisão. Mantenha uma reserva para perda de conectividade e atrasos inesperados.\n\nPrática offline: crie um cronograma de cinco sessões com uma verificação ou artefato por sessão. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um cronograma de projeto pequeno aloca tempo para preparação, elaboração, verificação e revisão. Mantenha uma reserva para perda de conectividade e atrasos inesperados.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “cronograma do projeto”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um cronograma de projeto pequeno aloca tempo para preparação, elaboração, verificação e revisão. Mantenha uma reserva para perda de conectividade e atrasos inesperados."
+          ],
+          "correct": 3,
+          "explanation": "Um cronograma de projeto pequeno aloca tempo para preparação, elaboração, verificação e revisão. Mantenha uma reserva para perda de conectividade e atrasos inesperados.",
+          "id": "understanding-ai-week-14-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie um cronograma de cinco sessões com uma verificação ou artefato por sessão.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-14-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Cronograma do projeto” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-14-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Proposta de projeto",
+      "subtitle": "Semana 14: Planejando seu projeto prático",
+      "body": "Uma proposta combina o problema, o público, as entradas, o método, o plano de revisão e o artefato esperado. Descreve uma intenção, não um impacto comprovado.\n\nPrática off-line: salve uma proposta de uma página e peça a um colega para identificar etapas pouco claras se um colega estiver disponível. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma proposta combina o problema, o público, as entradas, o método, o plano de revisão e o artefato esperado. Descreve uma intenção, não um impacto comprovado.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “Proposta de projeto”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma proposta combina o problema, o público, as entradas, o método, o plano de revisão e o artefato esperado. Descreve uma intenção, não um impacto comprovado.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Uma proposta combina o problema, o público, as entradas, o método, o plano de revisão e o artefato esperado. Descreve uma intenção, não um impacto comprovado.",
+          "id": "understanding-ai-week-14-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Salve uma proposta de uma página e peça a um colega para identificar etapas pouco claras se um colega estiver disponível.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-14-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Proposta de projeto” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-14-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

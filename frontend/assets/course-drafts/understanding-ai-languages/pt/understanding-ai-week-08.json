@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-08",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Privacidade antes de avisar",
+      "subtitle": "Semana 8: Segundo marco: uso responsável de IA",
+      "body": "Um prompt online envia informações para um serviço. Use exemplos fictícios e revise as regras de privacidade aplicáveis ​​antes de compartilhar informações sobre você ou outras pessoas.\n\nPrática off-line: reescreva um prompt fictício para evitar senhas, nomes e dados pessoais de identificação. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um prompt online envia informações para um serviço. Use exemplos fictícios e revise as regras de privacidade aplicáveis ​​antes de compartilhar informações sobre você ou outras pessoas.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Privacidade antes de avisar”?",
+          "options": [
+            "Um prompt online envia informações para um serviço. Use exemplos fictícios e revise as regras de privacidade aplicáveis ​​antes de compartilhar informações sobre você ou outras pessoas.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um prompt online envia informações para um serviço. Use exemplos fictícios e revise as regras de privacidade aplicáveis ​​antes de compartilhar informações sobre você ou outras pessoas.",
+          "id": "understanding-ai-week-08-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Reescreva uma mensagem fictícia para evitar senhas, nomes e dados pessoais de identificação.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-08-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Privacidade antes de avisar” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-08-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Viés e representação",
+      "subtitle": "Semana 8: Segundo marco: uso responsável de IA",
+      "body": "As decisões de dados e design podem produzir resultados desiguais. Examine quem está representado, quem está faltando e se o sistema funciona adequadamente para diferentes usuários.\n\nPrática off-line: analise um plano de estudo fictício que pressupõe que cada aluno possui um laptop e revise a suposição. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "As decisões de dados e design podem produzir resultados desiguais. Examine quem está representado, quem está faltando e se o sistema funciona adequadamente para diferentes usuários.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Preconceito e representação”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "As decisões de dados e design podem produzir resultados desiguais. Examine quem está representado, quem está faltando e se o sistema funciona adequadamente para diferentes usuários."
+          ],
+          "correct": 3,
+          "explanation": "As decisões de dados e design podem produzir resultados desiguais. Examine quem está representado, quem está faltando e se o sistema funciona adequadamente para diferentes usuários.",
+          "id": "understanding-ai-week-08-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Revisar um plano de estudo fictício que pressupõe que cada aluno possui um laptop e revisar a suposição.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-08-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Preconceito e representação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-08-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Integridade acadêmica",
+      "subtitle": "Semana 8: Segundo marco: uso responsável de IA",
+      "body": "Escolas e locais de trabalho podem ter regras diferentes para assistência de IA. Seguir a política aplicável e divulgar assistência quando necessário; o trabalho gerado não é automaticamente seu próprio trabalho independente.\n\nPrática off-line: escreva uma nota de contribuição honesta para um recurso fictício de estudo assistido por IA. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Escolas e locais de trabalho podem ter regras diferentes para assistência de IA. Seguir a política aplicável e divulgar assistência quando necessário; o trabalho gerado não é automaticamente seu próprio trabalho independente.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “integridade acadêmica”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Escolas e locais de trabalho podem ter regras diferentes para assistência de IA. Seguir a política aplicável e divulgar assistência quando necessário; o trabalho gerado não é automaticamente seu próprio trabalho independente.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Escolas e locais de trabalho podem ter regras diferentes para assistência de IA. Seguir a política aplicável e divulgar assistência quando necessário; o trabalho gerado não é automaticamente seu próprio trabalho independente.",
+          "id": "understanding-ai-week-08-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva uma nota de contribuição honesta para um recurso fictício de estudo assistido por IA.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-08-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Integridade acadêmica” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-08-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Acessibilidade",
+      "subtitle": "Semana 8: Segundo marco: uso responsável de IA",
+      "body": "Estrutura clara, linguagem simples e alternativas de texto melhoram o acesso. O significado importante não deve depender apenas da cor, do áudio ou da animação.\n\nPrática off-line: reescreva a descrição de um diagrama para que alguém possa entendê-lo sem ver a imagem. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Estrutura clara, linguagem simples e alternativas de texto melhoram o acesso. O significado importante não deve depender apenas da cor, do áudio ou da animação.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Acessibilidade”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Estrutura clara, linguagem simples e alternativas de texto melhoram o acesso. O significado importante não deve depender apenas da cor, do áudio ou da animação.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Estrutura clara, linguagem simples e alternativas de texto melhoram o acesso. O significado importante não deve depender apenas da cor, do áudio ou da animação.",
+          "id": "understanding-ai-week-08-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Reescrever a descrição de um diagrama para que alguém possa entendê-lo sem ver a imagem.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-08-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Acessibilidade” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-08-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Demonstração do segundo mês",
+      "subtitle": "Semana 8: Segundo marco: uso responsável de IA",
+      "body": "Um recurso revisado deve incluir uma sugestão útil, um rascunho, verificações de evidências, correções e uma nota de contribuição. Os rascunhos off-line podem ser revisados ​​antes de um teste on-line opcional.\n\nPrática offline: crie um auxílio de estudo de uma página, documente duas verificações e explique uma correção. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um recurso revisado deve incluir uma sugestão útil, um rascunho, verificações de evidências, correções e uma nota de contribuição. Os rascunhos off-line podem ser revisados ​​antes de um teste on-line opcional.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “demonstração do segundo mês”?",
+          "options": [
+            "Um recurso revisado deve incluir uma sugestão útil, um rascunho, verificações de evidências, correções e uma nota de contribuição. Os rascunhos off-line podem ser revisados ​​antes de um teste on-line opcional.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um recurso revisado deve incluir uma sugestão útil, um rascunho, verificações de evidências, correções e uma nota de contribuição. Os rascunhos off-line podem ser revisados ​​antes de um teste on-line opcional.",
+          "id": "understanding-ai-week-08-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie um auxílio de estudo de uma página, documente duas verificações e explique uma correção.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-08-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Demonstração do segundo mês” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-08-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

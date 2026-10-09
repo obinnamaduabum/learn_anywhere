@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-09",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Explique e compare",
+      "subtitle": "Semana 9: IA para aprendizagem",
+      "body": "Comparar duas explicações pode revelar lacunas na compreensão. Compare cada explicação com uma fonte de aprendizagem confiável e com seu próprio raciocínio.\n\nPrática off-line: explique um tópico familiar em linguagem simples e, em seguida, escreva uma segunda explicação usando um exemplo diferente. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Comparar duas explicações pode revelar lacunas na compreensão. Compare cada explicação com uma fonte de aprendizagem confiável e com seu próprio raciocínio.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Explicar e comparar”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Comparar duas explicações pode revelar lacunas na compreensão. Compare cada explicação com uma fonte de aprendizagem confiável e com seu próprio raciocínio."
+          ],
+          "correct": 3,
+          "explanation": "Comparar duas explicações pode revelar lacunas na compreensão. Compare cada explicação com uma fonte de aprendizagem confiável e com seu próprio raciocínio.",
+          "id": "understanding-ai-week-09-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Explique um tópico familiar em linguagem simples e depois escreva uma segunda explicação usando um exemplo diferente.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-09-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Explicar e comparar” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-09-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Perguntas práticas",
+      "subtitle": "Semana 9: IA para aprendizagem",
+      "body": "Perguntas práticas úteis testam um objetivo declarado e têm respostas defensáveis. As perguntas geradas podem ser ambíguas ou revelar a resposta acidentalmente.\n\nPrática off-line: escreva três questões práticas sobre um tópico que você conhece e verifique as explicações das respostas. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Perguntas práticas úteis testam um objetivo declarado e têm respostas defensáveis. As perguntas geradas podem ser ambíguas ou revelar a resposta acidentalmente.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor as “questões práticas”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Perguntas práticas úteis testam um objetivo declarado e têm respostas defensáveis. As perguntas geradas podem ser ambíguas ou revelar a resposta acidentalmente.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Perguntas práticas úteis testam um objetivo declarado e têm respostas defensáveis. As perguntas geradas podem ser ambíguas ou revelar a resposta acidentalmente.",
+          "id": "understanding-ai-week-09-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva três questões práticas sobre um tópico que você conhece e depois verifique as explicações das respostas.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-09-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Questões práticas” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-09-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Prática de recuperação",
+      "subtitle": "Semana 9: IA para aprendizagem",
+      "body": "A prática de recuperação significa relembrar informações antes de verificar as notas. Lembrar uma resposta é diferente de reconhecê-la quando ela está visível.\n\nPrática offline: feche esta lição e escreva três conceitos de memória; reabra-o e corrija as omissões. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A prática de recuperação significa recordar informações antes de verificar as notas. Lembrar uma resposta é diferente de reconhecê-la quando ela está visível.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “prática de recuperação”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "A prática de recuperação significa recordar informações antes de verificar as notas. Lembrar uma resposta é diferente de reconhecê-la quando ela está visível.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "A prática de recuperação significa recordar informações antes de verificar as notas. Lembrar uma resposta é diferente de reconhecê-la quando ela está visível.",
+          "id": "understanding-ai-week-09-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Feche esta lição e escreva três conceitos de memória; reabra-a e corrija as omissões.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-09-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Prática de recuperação” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-09-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Planejamento de revisão",
+      "subtitle": "Semana 9: IA para aprendizagem",
+      "body": "Um plano realista leva em conta o tempo disponível, os pré-requisitos e as pausas. Um plano deve adaptar-se quando as circunstâncias mudam, em vez de punir as interrupções.\n\nPrática offline: crie um plano fictício de cinco dias e uma versão mais curta para uma semana agitada. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um plano realista leva em conta o tempo disponível, os pré-requisitos e as pausas. Um plano deve adaptar-se quando as circunstâncias mudam, em vez de punir as interrupções.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “planejamento da revisão”?",
+          "options": [
+            "Um plano realista leva em conta o tempo disponível, os pré-requisitos e as pausas. Um plano deve adaptar-se quando as circunstâncias mudam, em vez de punir as interrupções.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um plano realista leva em conta o tempo disponível, os pré-requisitos e as pausas. Um plano deve adaptar-se quando as circunstâncias mudam, em vez de punir as interrupções.",
+          "id": "understanding-ai-week-09-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie um plano fictício de cinco dias e uma versão mais curta para uma semana agitada.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-09-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Planejamento de revisão” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-09-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Retomar após um intervalo",
+      "subtitle": "Semana 9: IA para aprendizagem",
+      "body": "Uma recapitulação ajuda a identificar o que você lembra e o que precisa ser atualizado. Retome com uma atividade gerenciável e preserve evidências de trabalhos anteriores.\n\nPrática offline: crie um cartão de retorno após o intervalo com uma pergunta de recapitulação, uma pequena tarefa e a próxima etapa. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma recapitulação ajuda a identificar o que você lembra e o que precisa ser atualizado. Retome com uma atividade gerenciável e preserve evidências de trabalhos anteriores.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Retomar após um intervalo”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma recapitulação ajuda a identificar o que você lembra e o que precisa ser atualizado. Retome com uma atividade gerenciável e preserve evidências de trabalhos anteriores."
+          ],
+          "correct": 3,
+          "explanation": "Uma recapitulação ajuda a identificar o que você lembra e o que precisa ser atualizado. Retome com uma atividade gerenciável e preserve evidências de trabalhos anteriores.",
+          "id": "understanding-ai-week-09-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie um cartão de retorno após o intervalo com uma pergunta de recapitulação, uma pequena tarefa e o próximo passo.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-09-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Retomar após um intervalo” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-09-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-01",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "IA e ferramentas cotidianas",
+      "subtitle": "Semana 1: Reconhecendo a IA",
+      "body": "Os sistemas de IA realizam tarefas como reconhecimento de fala, previsão de resultados e geração de conteúdo. Uma calculadora simples pode seguir regras fixas sem aprender com exemplos.\n\nPrática offline: compare uma calculadora, um assistente de voz e um horário em papel; identificar onde padrões ou regras fixas são usados. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Os sistemas de IA realizam tarefas como reconhecimento de fala, previsão de resultados e geração de conteúdo. Uma calculadora simples pode seguir regras fixas sem aprender com exemplos.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “IA e ferramentas cotidianas”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Os sistemas de IA realizam tarefas como reconhecimento de fala, previsão de resultados e geração de conteúdo. Uma calculadora simples pode seguir regras fixas sem aprender com exemplos."
+          ],
+          "correct": 3,
+          "explanation": "Os sistemas de IA realizam tarefas como reconhecimento de fala, previsão de resultados e geração de conteúdo. Uma calculadora simples pode seguir regras fixas sem aprender com exemplos.",
+          "id": "understanding-ai-week-01-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Compare uma calculadora, um assistente de voz e um horário em papel; identifique onde são usados padrões ou regras fixas.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-01-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “IA e ferramentas cotidianas” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-01-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Previsão e geração",
+      "subtitle": "Semana 1: Reconhecendo a IA",
+      "body": "Um modelo de previsão estima um resultado a partir da entrada. Um modelo generativo produz conteúdo. Um sistema que estima a procura de amanhã difere daquele que elabora um anúncio.\n\nPrática offline: Escreva uma tarefa de previsão e uma tarefa de geração de conteúdo para uma biblioteca comunitária fictícia. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um modelo de previsão estima um resultado a partir da entrada. Um modelo generativo produz conteúdo. Um sistema que estima a procura de amanhã difere daquele que elabora um anúncio.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Predição e geração”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um modelo de previsão estima um resultado a partir da entrada. Um modelo generativo produz conteúdo. Um sistema que estima a procura de amanhã difere daquele que elabora um anúncio.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um modelo de previsão estima um resultado a partir da entrada. Um modelo generativo produz conteúdo. Um sistema que estima a procura de amanhã difere daquele que elabora um anúncio.",
+          "id": "understanding-ai-week-01-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva uma tarefa de previsão e uma tarefa de geração de conteúdo para uma biblioteca comunitária fictícia.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-01-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Predição e geração” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-01-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "O que um modelo representa",
+      "subtitle": "Semana 1: Reconhecendo a IA",
+      "body": "Um modelo é uma representação matemática usada para transformar entradas em saídas. É um sistema simplificado, não uma descrição completa do mundo.\n\nPrática offline: esboço de entrada → modelo → saída para uma ferramenta fictícia que classifica mensagens como spam. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um modelo é uma representação matemática usada para transformar entradas em saídas. É um sistema simplificado, não uma descrição completa do mundo.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “O que um modelo representa”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um modelo é uma representação matemática usada para transformar entradas em saídas. É um sistema simplificado, não uma descrição completa do mundo.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Um modelo é uma representação matemática usada para transformar entradas em saídas. É um sistema simplificado, não uma descrição completa do mundo.",
+          "id": "understanding-ai-week-01-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Esboçar entrada → modelo → saída para uma ferramenta fictícia que classifica mensagens como spam.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-01-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “O que um modelo representa” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-01-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Julgamento humano",
+      "subtitle": "Semana 1: Reconhecendo a IA",
+      "body": "Uma recomendação de IA é uma informação a ser avaliada. As pessoas escolhem o objetivo, analisam as consequências e decidem se um resultado é útil.\n\nPrática offline: liste três verificações que você faria antes de usar um plano de estudo gerado. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma recomendação de IA é uma informação a ser avaliada. As pessoas escolhem o objetivo, analisam as consequências e decidem se um resultado é útil.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “julgamento humano”?",
+          "options": [
+            "Uma recomendação de IA é uma informação a ser avaliada. As pessoas escolhem o objetivo, analisam as consequências e decidem se um resultado é útil.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Uma recomendação de IA é uma informação a ser avaliada. As pessoas escolhem o objetivo, analisam as consequências e decidem se um resultado é útil.",
+          "id": "understanding-ai-week-01-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Liste três verificações que você faria antes de usar um plano de estudo gerado.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-01-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Julgamento humano” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-01-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Seu primeiro mapa de IA",
+      "subtitle": "Semana 1: Reconhecendo a IA",
+      "body": "Um mapa de IA útil nomeia a tarefa, a entrada, a saída, o benefício, a limitação e o revisor humano. Algumas tarefas são melhor realizadas com uma lista de verificação ou software comum.\n\nPrática offline: crie um mapa de IA para organizar notas de revisão e explique quando uma lista de verificação em papel seria suficiente. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um mapa de IA útil nomeia a tarefa, a entrada, a saída, o benefício, a limitação e o revisor humano. Algumas tarefas são melhor realizadas com uma lista de verificação ou software comum.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Seu primeiro mapa de IA”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um mapa de IA útil nomeia a tarefa, a entrada, a saída, o benefício, a limitação e o revisor humano. Algumas tarefas são melhor realizadas com uma lista de verificação ou software comum."
+          ],
+          "correct": 3,
+          "explanation": "Um mapa de IA útil nomeia a tarefa, a entrada, a saída, o benefício, a limitação e o revisor humano. Algumas tarefas são melhor realizadas com uma lista de verificação ou software comum.",
+          "id": "understanding-ai-week-01-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Criar um mapa de IA para organizar notas de revisão e explicar quando uma lista de verificação em papel seria suficiente.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-01-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Seu primeiro mapa de IA” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-01-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

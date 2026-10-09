@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-07",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Vérification des réclamations",
+      "subtitle": "Semaine 7 : Vérification et maîtrise de l’information",
+      "body": "Divisez une réponse en affirmations vérifiables. Vérifiez les affirmations importantes par rapport aux preuves originales appropriées plutôt que de juger uniquement le ton ou la longueur.\n\nPratique hors ligne : soulignez les affirmations factuelles dans une annonce scolaire fictive et énumérez les preuves nécessaires pour chacune. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Divisez une réponse en affirmations vérifiables. Vérifiez les affirmations importantes par rapport aux preuves originales appropriées plutôt que de juger uniquement le ton ou la longueur.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « vérification des réclamations » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Divisez une réponse en affirmations vérifiables. Vérifiez les affirmations importantes par rapport aux preuves originales appropriées plutôt que de juger uniquement le ton ou la longueur.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Divisez une réponse en affirmations vérifiables. Vérifiez les affirmations importantes par rapport aux preuves originales appropriées plutôt que de juger uniquement le ton ou la longueur.",
+          "id": "understanding-ai-week-07-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Souligner les affirmations factuelles dans une annonce scolaire fictive et énumérer les preuves nécessaires pour chacune d’entre elles », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-07-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Vérification des réclamations » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-07-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Qualité des sources",
+      "subtitle": "Semaine 7 : Vérification et maîtrise de l’information",
+      "body": "Une source doit disposer de l’expertise et des preuves pertinentes pour l’allégation spécifique. Une page officielle peut toujours être obsolète ou sans rapport avec la question.\n\nPratique hors ligne : comparez une annonce non datée avec un avis officiel daté pour une question fictive sur l'heure d'ouverture. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une source doit disposer de l’expertise et des preuves pertinentes pour l’allégation spécifique. Une page officielle peut toujours être obsolète ou sans rapport avec la question.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « qualité de la source » ?",
+          "options": [
+            "Une source doit disposer de l’expertise et des preuves pertinentes pour l’allégation spécifique. Une page officielle peut toujours être obsolète ou sans rapport avec la question.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une source doit disposer de l’expertise et des preuves pertinentes pour l’allégation spécifique. Une page officielle peut toujours être obsolète ou sans rapport avec la question.",
+          "id": "understanding-ai-week-07-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Comparez une annonce non datée avec un avis officiel daté pour une question fictive d’ouverture. », quelle approche démontre un apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-07-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Qualité source » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-07-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chiffres et calculs",
+      "subtitle": "Semaine 7 : Vérification et maîtrise de l’information",
+      "body": "Recalculez les nombres importants de manière indépendante. Vérifiez les unités, les hypothèses et les arrondis. Un résultat arithmétique correct peut toujours répondre à une mauvaise question.\n\nPratique hors ligne : Vérifiez un plan fictif contenant cinq séances de quinze minutes et expliquez le total en heures. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Recalculez les nombres importants de manière indépendante. Vérifiez les unités, les hypothèses et les arrondis. Un résultat arithmétique correct peut toujours répondre à une mauvaise question.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Chiffres et calculs » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Recalculez les nombres importants de manière indépendante. Vérifiez les unités, les hypothèses et les arrondis. Un résultat arithmétique correct peut toujours répondre à une mauvaise question."
+          ],
+          "correct": 3,
+          "explanation": "Recalculez les nombres importants de manière indépendante. Vérifiez les unités, les hypothèses et les arrondis. Un résultat arithmétique correct peut toujours répondre à une mauvaise question.",
+          "id": "understanding-ai-week-07-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Vérifier un plan fictif contenant cinq séances de quinze minutes et expliquer le total en heures. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-07-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Chiffres et calculs » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-07-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Modification des informations",
+      "subtitle": "Semaine 7 : Vérification et maîtrise de l’information",
+      "body": "Les prix, les délais, les règles et les fonctionnalités du service peuvent changer. Enregistrez quand les informations ont été vérifiées et évitez de présenter les anciens détails comme étant actuels.\n\nPratique hors ligne : Concevez une note de vérification avec la source, la date, l'allégation et l'incertitude pour une date limite de candidature fictive. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les prix, les délais, les règles et les fonctionnalités du service peuvent changer. Enregistrez quand les informations ont été vérifiées et évitez de présenter les anciens détails comme étant actuels.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Modification des informations » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les prix, les délais, les règles et les fonctionnalités du service peuvent changer. Enregistrez quand les informations ont été vérifiées et évitez de présenter les anciens détails comme étant actuels.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Les prix, les délais, les règles et les fonctionnalités du service peuvent changer. Enregistrez quand les informations ont été vérifiées et évitez de présenter les anciens détails comme étant actuels.",
+          "id": "understanding-ai-week-07-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Concevoir une note de vérification avec la source, la date, la déclaration et l'incertitude pour une date limite de candidature fictive. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-07-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Modification des informations » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-07-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Journal d'incertitude",
+      "subtitle": "Semaine 7 : Vérification et maîtrise de l’information",
+      "body": "Un journal de vérification distingue les réclamations prises en charge, contredites et non résolues. Une réclamation non résolue doit rester incertaine jusqu'à ce que des preuves adéquates soient trouvées.\n\nPratique hors ligne : créez un journal de vérification à trois lignes et décidez quelles revendications appartiennent à une ressource finale. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un journal de vérification distingue les réclamations prises en charge, contredites et non résolues. Une réclamation non résolue doit rester incertaine jusqu'à ce que des preuves adéquates soient trouvées.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « journal d’incertitude » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un journal de vérification distingue les réclamations prises en charge, contredites et non résolues. Une réclamation non résolue doit rester incertaine jusqu'à ce que des preuves adéquates soient trouvées.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Un journal de vérification distingue les réclamations prises en charge, contredites et non résolues. Une réclamation non résolue doit rester incertaine jusqu'à ce que des preuves adéquates soient trouvées.",
+          "id": "understanding-ai-week-07-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créer un journal de vérification à trois lignes et décider quelles revendications appartiennent à une ressource finale. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-07-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Journal d'incertitude » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-07-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

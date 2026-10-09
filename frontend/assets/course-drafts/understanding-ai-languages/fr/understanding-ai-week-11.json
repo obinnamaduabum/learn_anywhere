@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-11",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Tableaux de lecture",
+      "subtitle": "Semaine 11 : Données et décisions quotidiennes",
+      "body": "Un tableau comporte des lignes et des colonnes avec des significations définies. Vérifiez les titres, les unités et les valeurs manquantes avant de calculer ou de tirer des conclusions.\n\nPratique hors ligne : créez un tableau fictif des minutes d'étude hebdomadaires et expliquez chaque colonne. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un tableau comporte des lignes et des colonnes avec des significations définies. Vérifiez les titres, les unités et les valeurs manquantes avant de calculer ou de tirer des conclusions.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Lire les tableaux » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un tableau comporte des lignes et des colonnes avec des significations définies. Vérifiez les titres, les unités et les valeurs manquantes avant de calculer ou de tirer des conclusions.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Un tableau comporte des lignes et des colonnes avec des significations définies. Vérifiez les titres, les unités et les valeurs manquantes avant de calculer ou de tirer des conclusions.",
+          "id": "understanding-ai-week-11-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Créez un tableau fictif des minutes d’étude hebdomadaires et expliquez chaque colonne. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-11-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Tables de lecture » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-11-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Moyennes et variation",
+      "subtitle": "Semaine 11 : Données et décisions quotidiennes",
+      "body": "Une moyenne résume les données mais peut masquer les différences. Comparez les valeurs individuelles et les observations extrêmes avant de décrire une expérience typique.\n\nPratique hors ligne : trouvez la moyenne de 10, 10, 10 et 50 minutes ; expliquer pourquoi la moyenne seule est incomplète. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une moyenne résume les données mais peut masquer les différences. Comparez les valeurs individuelles et les observations extrêmes avant de décrire une expérience typique.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Moyennes et variations » ?",
+          "options": [
+            "Une moyenne résume les données mais peut masquer les différences. Comparez les valeurs individuelles et les observations extrêmes avant de décrire une expérience typique.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une moyenne résume les données mais peut masquer les différences. Comparez les valeurs individuelles et les observations extrêmes avant de décrire une expérience typique.",
+          "id": "understanding-ai-week-11-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Trouver la moyenne de 10, 10, 10 et 50 minutes ; expliquer pourquoi la moyenne seule est incomplète », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-11-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Moyennes et variation » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-11-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Données manquantes et incorrectes",
+      "subtitle": "Semaine 11 : Données et décisions quotidiennes",
+      "body": "Les données manquantes ne sont pas automatiquement nulles. Les entrées incorrectes et les doublons peuvent fausser les résultats ; les corrections devraient avoir une explication.\n\nEntraînement hors ligne : inspectez une table de présence fictive avec un blanc et un duplicata et enregistrez vos décisions. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les données manquantes ne sont pas automatiquement nulles. Les entrées incorrectes et les doublons peuvent fausser les résultats ; les corrections devraient avoir une explication.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Données manquantes et incorrectes » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les données manquantes ne sont pas automatiquement nulles. Les entrées incorrectes et les doublons peuvent fausser les résultats ; les corrections devraient avoir une explication."
+          ],
+          "correct": 3,
+          "explanation": "Les données manquantes ne sont pas automatiquement nulles. Les entrées incorrectes et les doublons peuvent fausser les résultats ; les corrections devraient avoir une explication.",
+          "id": "understanding-ai-week-11-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Inspectez une table de présence fictive avec un blanc et un double et notez vos décisions. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-11-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Données manquantes et incorrectes » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-11-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mesures d'évaluation",
+      "subtitle": "Semaine 11 : Données et décisions quotidiennes",
+      "body": "La précision compte la proportion de classifications correctes mais peut être trompeuse en cas de catégories inégales. Inspectez également les erreurs et le but de la tâche.\n\nPratique hors ligne : expliquez pourquoi la prévision de l'absence de spam pour chaque message semble exacte alors qu'un seul message sur cent est du spam. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La précision compte la proportion de classifications correctes mais peut être trompeuse en cas de catégories inégales. Inspectez également les erreurs et le but de la tâche.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux les « mesures d’évaluation » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "La précision compte la proportion de classifications correctes mais peut être trompeuse en cas de catégories inégales. Inspectez également les erreurs et le but de la tâche.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "La précision compte la proportion de classifications correctes mais peut être trompeuse en cas de catégories inégales. Inspectez également les erreurs et le but de la tâche.",
+          "id": "understanding-ai-week-11-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Expliquez pourquoi la prévision de l'absence de spam pour chaque message semble exacte alors qu'un seul message sur cent est du spam. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-11-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Mesures d'évaluation » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-11-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Une recommandation fondée sur des données probantes",
+      "subtitle": "Semaine 11 : Données et décisions quotidiennes",
+      "body": "Une recommandation doit montrer ses preuves, ses hypothèses, ses limites et ses alternatives. Les données peuvent éclairer un choix sans que le choix soit effectué automatiquement.\n\nPratique hors ligne : rédigez une recommandation fictive concernant le calendrier des sessions d'étude à l'aide d'un petit tableau et d'une déclaration de limitation. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une recommandation doit montrer ses preuves, ses hypothèses, ses limites et ses alternatives. Les données peuvent éclairer un choix sans que le choix soit effectué automatiquement.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Une recommandation fondée sur des données probantes » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une recommandation doit montrer ses preuves, ses hypothèses, ses limites et ses alternatives. Les données peuvent éclairer un choix sans que le choix soit effectué automatiquement.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Une recommandation doit montrer ses preuves, ses hypothèses, ses limites et ses alternatives. Les données peuvent éclairer un choix sans que le choix soit effectué automatiquement.",
+          "id": "understanding-ai-week-11-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Rédigez une recommandation fictive concernant le calendrier des séances d'étude à l'aide d'un petit tableau et d'un énoncé de limites. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-11-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Une recommandation fondée sur des données probantes » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-11-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

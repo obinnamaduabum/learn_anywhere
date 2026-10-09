@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-14",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Un problème limité",
+      "subtitle": "Semaine 14 : Planifier votre projet pratique",
+      "body": "Un projet pratique doit aborder une tâche spécifique pour un public défini. Une portée étroite permet d’évaluer plus facilement si le résultat est utile.\n\nPratique hors ligne : choisissez une démonstration d'apprentissage de l'IA en fonction de vos propres intérêts ; écrivez le public et une tâche mesurable. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un projet pratique doit aborder une tâche spécifique pour un public défini. Une portée étroite permet d’évaluer plus facilement si le résultat est utile.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « un problème limité » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un projet pratique doit aborder une tâche spécifique pour un public défini. Une portée étroite permet d’évaluer plus facilement si le résultat est utile.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un projet pratique doit aborder une tâche spécifique pour un public défini. Une portée étroite permet d’évaluer plus facilement si le résultat est utile.",
+          "id": "understanding-ai-week-14-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Choisissez une démonstration d'apprentissage de l'IA en fonction de vos propres intérêts ; écrivez le public et une tâche mesurable. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-14-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Un problème borné » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-14-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Critères de réussite",
+      "subtitle": "Semaine 14 : Planifier votre projet pratique",
+      "body": "Les critères de réussite décrivent des résultats observables, tels que des faits préservés et des instructions lisibles. Définissez des critères avant d’évaluer votre sortie.\n\nPratique hors ligne : rédigez quatre critères pour la ressource d'étude que vous avez choisie et décidez comment vérifier chacun d'entre eux. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les critères de réussite décrivent des résultats observables, tels que des faits préservés et des instructions lisibles. Définissez des critères avant d’évaluer votre sortie.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « critères de réussite » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les critères de réussite décrivent des résultats observables, tels que des faits préservés et des instructions lisibles. Définissez des critères avant d’évaluer votre sortie.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Les critères de réussite décrivent des résultats observables, tels que des faits préservés et des instructions lisibles. Définissez des critères avant d’évaluer votre sortie.",
+          "id": "understanding-ai-week-14-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Écrivez quatre critères pour la ressource d’étude que vous avez choisie et décidez comment vérifier chacun d’eux. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-14-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Critères de réussite » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-14-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Entrées autorisées",
+      "subtitle": "Semaine 14 : Planifier votre projet pratique",
+      "body": "Utilisez les entrées que vous êtes autorisé à utiliser et gardez les informations privées hors du projet. Un élément visible publiquement n'est pas automatiquement libre de redistribuer.\n\nPratique hors ligne : répertoriez vos entrées prévues, les autorisations de vérification et les remplacements fictifs des données privées. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Utilisez les entrées que vous êtes autorisé à utiliser et gardez les informations privées hors du projet. Un élément visible publiquement n'est pas automatiquement libre de redistribuer.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « intrants autorisés » ?",
+          "options": [
+            "Utilisez les entrées que vous êtes autorisé à utiliser et gardez les informations privées hors du projet. Un élément visible publiquement n'est pas automatiquement libre de redistribuer.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Utilisez les entrées que vous êtes autorisé à utiliser et gardez les informations privées hors du projet. Un élément visible publiquement n'est pas automatiquement libre de redistribuer.",
+          "id": "understanding-ai-week-14-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Énumérez vos entrées prévues, vos autorisations de vérification et vos remplacements fictifs de données privées. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-14-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Saisies autorisées » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-14-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Calendrier du projet",
+      "subtitle": "Semaine 14 : Planifier votre projet pratique",
+      "body": "Un petit calendrier de projet alloue du temps à la préparation, à la rédaction, à la vérification et à la révision. Conservez une solution de secours en cas de perte de connectivité et de retards inattendus.\n\nPratique hors ligne : créez un programme de cinq séances avec une vérification ou un artefact par session. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un petit calendrier de projet alloue du temps à la préparation, à la rédaction, à la vérification et à la révision. Conservez une solution de secours en cas de perte de connectivité et de retards inattendus.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux le « calendrier du projet » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un petit calendrier de projet alloue du temps à la préparation, à la rédaction, à la vérification et à la révision. Conservez une solution de secours en cas de perte de connectivité et de retards inattendus."
+          ],
+          "correct": 3,
+          "explanation": "Un petit calendrier de projet alloue du temps à la préparation, à la rédaction, à la vérification et à la révision. Conservez une solution de secours en cas de perte de connectivité et de retards inattendus.",
+          "id": "understanding-ai-week-14-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créer un programme de cinq séances avec un contrôle ou un artefact par séance. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-14-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Planification du projet » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-14-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Proposition de projet",
+      "subtitle": "Semaine 14 : Planifier votre projet pratique",
+      "body": "Une proposition combine le problème, le public, les contributions, la méthode, le plan de révision et l'artefact attendu. Il décrit une intention et non un impact prouvé.\n\nPratique hors ligne : enregistrez une proposition d'une page et demandez à un pair d'identifier les étapes peu claires s'il est disponible. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une proposition combine le problème, le public, les contributions, la méthode, le plan de révision et l'artefact attendu. Il décrit une intention et non un impact prouvé.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « Proposition de projet » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une proposition combine le problème, le public, les contributions, la méthode, le plan de révision et l'artefact attendu. Il décrit une intention et non un impact prouvé.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Une proposition combine le problème, le public, les contributions, la méthode, le plan de révision et l'artefact attendu. Il décrit une intention et non un impact prouvé.",
+          "id": "understanding-ai-week-14-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Enregistrez une proposition d'une page et demandez à un pair d'identifier les étapes peu claires si un pair est disponible. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-14-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Proposition de projet » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-14-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

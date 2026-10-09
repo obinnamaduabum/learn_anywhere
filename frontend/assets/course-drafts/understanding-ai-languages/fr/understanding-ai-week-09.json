@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-09",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Expliquez et comparez",
+      "subtitle": "Semaine 9 : L'IA pour l'apprentissage",
+      "body": "La comparaison de deux explications peut révéler des lacunes dans la compréhension. Vérifiez chaque explication par rapport à une source d’apprentissage fiable et à votre propre raisonnement.\n\nPratique hors ligne : expliquez un sujet familier dans un langage simple, puis rédigez une deuxième explication en utilisant un exemple différent. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La comparaison de deux explications peut révéler des lacunes dans la compréhension. Vérifiez chaque explication par rapport à une source d’apprentissage fiable et à votre propre raisonnement.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Expliquez et comparez » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "La comparaison de deux explications peut révéler des lacunes dans la compréhension. Vérifiez chaque explication par rapport à une source d’apprentissage fiable et à votre propre raisonnement."
+          ],
+          "correct": 3,
+          "explanation": "La comparaison de deux explications peut révéler des lacunes dans la compréhension. Vérifiez chaque explication par rapport à une source d’apprentissage fiable et à votre propre raisonnement.",
+          "id": "understanding-ai-week-09-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Expliquez un sujet familier en langage simple, puis rédigez une deuxième explication en utilisant un exemple différent. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-09-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Expliquer et comparer » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-09-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Questions pratiques",
+      "subtitle": "Semaine 9 : L'IA pour l'apprentissage",
+      "body": "Des questions pratiques utiles testent un objectif déclaré et ont des réponses défendables. Les questions générées peuvent être ambiguës ou révéler la réponse accidentellement.\n\nEntraînement hors ligne : rédigez trois questions pratiques sur un sujet que vous connaissez, puis vérifiez les explications des réponses. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Des questions pratiques utiles testent un objectif déclaré et ont des réponses défendables. Les questions générées peuvent être ambiguës ou révéler la réponse accidentellement.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux les « questions pratiques » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Des questions pratiques utiles testent un objectif déclaré et ont des réponses défendables. Les questions générées peuvent être ambiguës ou révéler la réponse accidentellement.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Des questions pratiques utiles testent un objectif déclaré et ont des réponses défendables. Les questions générées peuvent être ambiguës ou révéler la réponse accidentellement.",
+          "id": "understanding-ai-week-09-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Écrivez trois questions pratiques sur un sujet que vous connaissez, puis vérifiez les explications des réponses. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-09-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Questions pratiques » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-09-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pratique de récupération",
+      "subtitle": "Semaine 9 : L'IA pour l'apprentissage",
+      "body": "La pratique de la récupération signifie rappeler des informations avant de vérifier les notes. Se souvenir d’une réponse est différent de la reconnaître lorsqu’elle est visible.\n\nPratique hors ligne : terminez cette leçon et écrivez trois concepts de mémoire ; rouvrez-le et corrigez les omissions. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La pratique de la récupération signifie rappeler des informations avant de vérifier les notes. Se souvenir d’une réponse est différent de la reconnaître lorsqu’elle est visible.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « pratique de récupération » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "La pratique de la récupération signifie rappeler des informations avant de vérifier les notes. Se souvenir d’une réponse est différent de la reconnaître lorsqu’elle est visible.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "La pratique de la récupération signifie rappeler des informations avant de vérifier les notes. Se souvenir d’une réponse est différent de la reconnaître lorsqu’elle est visible.",
+          "id": "understanding-ai-week-09-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Fermez cette leçon et écrivez trois concepts de mémoire ; rouvrez-la et corrigez les omissions. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-09-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Pratique de récupération » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-09-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Planification des révisions",
+      "subtitle": "Semaine 9 : L'IA pour l'apprentissage",
+      "body": "Un plan réaliste tient compte du temps disponible, des prérequis et des pauses. Un plan doit s'adapter lorsque les circonstances changent plutôt que de punir les interruptions.\n\nPratique hors ligne : créez un plan fictif de cinq jours et une version plus courte pour une semaine chargée. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un plan réaliste tient compte du temps disponible, des prérequis et des pauses. Un plan doit s'adapter lorsque les circonstances changent plutôt que de punir les interruptions.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « planification des révisions » ?",
+          "options": [
+            "Un plan réaliste tient compte du temps disponible, des prérequis et des pauses. Un plan doit s'adapter lorsque les circonstances changent plutôt que de punir les interruptions.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Un plan réaliste tient compte du temps disponible, des prérequis et des pauses. Un plan doit s'adapter lorsque les circonstances changent plutôt que de punir les interruptions.",
+          "id": "understanding-ai-week-09-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créer un plan fictif de cinq jours et une version plus courte pour une semaine chargée. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-09-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Planification des révisions » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-09-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Reprendre après une pause",
+      "subtitle": "Semaine 9 : L'IA pour l'apprentissage",
+      "body": "Un récapitulatif permet d’identifier ce dont vous vous souvenez et ce qui doit être rafraîchi. Reprendre avec une activité gérable et conserver les preuves des travaux antérieurs.\n\nPratique hors ligne : créez une carte de retour après une pause avec une question récapitulative, une petite tâche et l'étape suivante. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un récapitulatif permet d’identifier ce dont vous vous souvenez et ce qui doit être rafraîchi. Reprendre avec une activité gérable et conserver les preuves des travaux antérieurs.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Reprendre après une pause » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un récapitulatif permet d’identifier ce dont vous vous souvenez et ce qui doit être rafraîchi. Reprendre avec une activité gérable et conserver les preuves des travaux antérieurs."
+          ],
+          "correct": 3,
+          "explanation": "Un récapitulatif permet d’identifier ce dont vous vous souvenez et ce qui doit être rafraîchi. Reprendre avec une activité gérable et conserver les preuves des travaux antérieurs.",
+          "id": "understanding-ai-week-09-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créer une carte de retour après une pause avec une question récapitulative, une petite tâche et l'étape suivante », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-09-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Reprendre après une pause » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-09-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

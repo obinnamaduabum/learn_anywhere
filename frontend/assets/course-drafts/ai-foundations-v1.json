@@ -1,0 +1,258 @@
+{
+  "id": "ai-foundations-v1",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Meet artificial intelligence",
+      "subtitle": "Understand what an AI assistant can and cannot do",
+      "body": "Artificial intelligence is software that performs tasks such as recognising patterns, making predictions, or generating content. Generative AI produces new text, images, or other output from patterns learned during training. Training adjusts a model using examples; using a trained model to answer a prompt is called inference. Asking an assistant a question is not the same as training your own model.\n\nAn assistant can help you draft a study plan, but its answer can contain mistakes. You remain responsible for checking and choosing what to use. Offline lesson packs work without internet; an online AI assistant usually needs a connection. Practise offline: list one task where AI could help and one result you would need to verify.\n\nComplete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "minutes": 5,
+      "takeaways": [
+        "Training uses examples to adjust a model",
+        "Inference uses an already trained model",
+        "AI output needs human judgement"
+      ],
+      "sourceName": "UNESCO guidance: privacy and human oversight; original prototype exercises",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "id": "ai-foundations-v1-1-1",
+          "prompt": "Which activity is inference?",
+          "options": [
+            "A trained model answering a prompt",
+            "Collecting examples to train a model",
+            "Adjusting model parameters"
+          ],
+          "correct": 0,
+          "explanation": "Inference applies a trained model to new input."
+        },
+        {
+          "id": "ai-foundations-v1-1-2",
+          "prompt": "What can generative AI produce?",
+          "options": [
+            "Only exact stored pages",
+            "New content that may contain mistakes",
+            "Guaranteed facts"
+          ],
+          "correct": 1,
+          "explanation": "Generated content is not automatically accurate."
+        },
+        {
+          "id": "ai-foundations-v1-1-3",
+          "prompt": "Which activity works without internet in this app?",
+          "options": [
+            "Calling an online assistant",
+            "Searching live websites",
+            "Reading a downloaded lesson pack"
+          ],
+          "correct": 2,
+          "explanation": "Downloaded text lessons are stored on your device."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Write a useful prompt",
+      "subtitle": "Give the assistant a clear task and constraints",
+      "body": "A prompt is the input you give an AI tool. Start with a specific task, useful context, and the format you want. Add constraints such as length or reading level. Example: Create a five-day study plan for a beginner learning fractions. I have fifteen minutes a day. Return a table with a topic and a practice activity for each day.\n\nRead the first response and ask for a focused revision when needed. Extra instructions can improve relevance but cannot guarantee truth. Practise offline: write a prompt for a study plan, underline the task, circle the context, and mark the requested format.\n\nComplete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "minutes": 5,
+      "takeaways": [
+        "State the task",
+        "Give relevant context",
+        "Specify format and limits"
+      ],
+      "sourceName": "UNESCO guidance: privacy and human oversight; original prototype exercises",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "id": "ai-foundations-v1-2-1",
+          "prompt": "Which prompt is clearer?",
+          "options": [
+            "Help",
+            "Do something useful",
+            "Explain fractions to a beginner in three short examples"
+          ],
+          "correct": 2,
+          "explanation": "The prompt defines the topic, audience, and response shape."
+        },
+        {
+          "id": "ai-foundations-v1-2-2",
+          "prompt": "What is useful context for a study plan?",
+          "options": [
+            "Your available study time",
+            "Your password",
+            "Your bank account number"
+          ],
+          "correct": 0,
+          "explanation": "Available time helps tailor the plan without exposing credentials."
+        },
+        {
+          "id": "ai-foundations-v1-2-3",
+          "prompt": "If a draft is too long, what should you ask?",
+          "options": [
+            "Repeat everything unchanged",
+            "Shorten it to five bullet points",
+            "Guarantee all facts are true"
+          ],
+          "correct": 1,
+          "explanation": "A focused revision gives a measurable length constraint."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Check AI answers",
+      "subtitle": "Use evidence before trusting a confident response",
+      "body": "AI can give a confident answer that is wrong or invent a reference. Treat factual output as a draft. Identify claims that matter, compare them with an appropriate original source, and check whether cited documents actually exist and support the claim. If evidence is missing, label the claim as unverified.\n\nFor a calculation, work through the steps yourself. For changing facts, check the date of the source. Repeating the same question to the same assistant does not provide independent evidence. Practise offline: take the claim Our library opens at 7 a.m. and write how you would verify it when connected, such as checking an official notice.\n\nComplete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "minutes": 5,
+      "takeaways": [
+        "Confidence does not prove accuracy",
+        "Check original sources",
+        "Mark uncertain claims"
+      ],
+      "sourceName": "UNESCO guidance: privacy and human oversight; original prototype exercises",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "id": "ai-foundations-v1-3-1",
+          "prompt": "An assistant invents a book citation. What should you do?",
+          "options": [
+            "Use it because it looks detailed",
+            "Repeat the claim to friends",
+            "Verify that the book exists and supports the claim"
+          ],
+          "correct": 2,
+          "explanation": "A realistic-looking citation can still be fabricated."
+        },
+        {
+          "id": "ai-foundations-v1-3-2",
+          "prompt": "What provides independent evidence?",
+          "options": [
+            "The same answer repeated",
+            "An official source that supports the claim",
+            "The assistant sounding certain"
+          ],
+          "correct": 1,
+          "explanation": "Independent evidence comes from a source outside the generated answer."
+        },
+        {
+          "id": "ai-foundations-v1-3-3",
+          "prompt": "You cannot verify a claim offline. What is sensible?",
+          "options": [
+            "Mark it unverified and check later",
+            "Present it as proven",
+            "Invent a supporting source"
+          ],
+          "correct": 0,
+          "explanation": "Preserve uncertainty until you can check evidence."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Protect privacy and fairness",
+      "subtitle": "Choose what to share and inspect assumptions",
+      "body": "Before using an online AI tool, consider what information you are sending. Use fictional examples or remove personal details when practising. Do not include passwords or other people\u2019s private information. Read the service\u2019s privacy information and follow the rules of your school or workplace. Removing a name alone may not make a detailed story anonymous.\n\nGenerated answers may reflect unfair assumptions about people or omit perspectives. Check who is represented, whose experience is missing, and whether the output is appropriate for your audience. Keep human oversight over decisions. Practise offline: rewrite a sample prompt using fictional names and inspect a draft for assumptions.\n\nComplete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "minutes": 5,
+      "takeaways": [
+        "Use fictional practice data",
+        "Review privacy rules",
+        "Inspect unfair assumptions"
+      ],
+      "sourceName": "UNESCO guidance: privacy and human oversight; original prototype exercises",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "id": "ai-foundations-v1-4-1",
+          "prompt": "Which input is appropriate for practice?",
+          "options": [
+            "A fictional learner profile",
+            "A real password",
+            "A friend\u2019s private messages"
+          ],
+          "correct": 0,
+          "explanation": "Fictional practice data avoids exposing a real person\u2019s information."
+        },
+        {
+          "id": "ai-foundations-v1-4-2",
+          "prompt": "Does removing a name always anonymise a story?",
+          "options": [
+            "Yes, always",
+            "Only if AI promises it",
+            "No, other details may identify someone"
+          ],
+          "correct": 2,
+          "explanation": "Locations, events, and other details can identify a person."
+        },
+        {
+          "id": "ai-foundations-v1-4-3",
+          "prompt": "An answer assumes only one group can succeed. What should you do?",
+          "options": [
+            "Copy it unchanged",
+            "Challenge the assumption and revise",
+            "Treat it as an objective fact"
+          ],
+          "correct": 1,
+          "explanation": "Inspect and correct unfair assumptions before using the output."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Complete your AI practice project",
+      "subtitle": "Create, check, and improve a useful study resource",
+      "body": "Choose a small learning task, such as planning revision for a topic you already know. Write a prompt with a clear task, context, format, and limits. You can draft the expected response yourself offline, then optionally try the prompt with an online assistant when connected.\n\nCheck the response against your notes or an original source. Correct errors, remove unnecessary personal details, and adapt it to your learning needs. Record what changed and how you checked it. Follow any required disclosure rules for AI assistance. Complete all lesson quizzes before submitting the final course task.\n\nFinal task: explain one AI limitation (recap); write and review a study-plan prompt (practice); record a verification plan (plan); show your improved study resource and explain a correction (demonstrate).\n\nComplete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "minutes": 5,
+      "takeaways": [
+        "Draft a clear prompt",
+        "Verify and revise the resource",
+        "Explain your own contribution"
+      ],
+      "sourceName": "UNESCO guidance: privacy and human oversight; original prototype exercises",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "id": "ai-foundations-v1-5-1",
+          "prompt": "What should your final resource include?",
+          "options": [
+            "Unverified claims only",
+            "Your checks and corrections",
+            "A promise AI cannot be wrong"
+          ],
+          "correct": 1,
+          "explanation": "Checks and corrections demonstrate responsible use."
+        },
+        {
+          "id": "ai-foundations-v1-5-2",
+          "prompt": "What can you do before internet returns?",
+          "options": [
+            "Draft your prompt and expected response",
+            "Assume an online assistant works offline",
+            "Skip all review"
+          ],
+          "correct": 0,
+          "explanation": "You can prepare and practise with downloaded materials offline."
+        },
+        {
+          "id": "ai-foundations-v1-5-3",
+          "prompt": "How do you demonstrate learning?",
+          "options": [
+            "Copy a response without reading it",
+            "Hide all mistakes",
+            "Explain an improvement and why you made it"
+          ],
+          "correct": 2,
+          "explanation": "Explaining a correction shows understanding and judgement."
+        }
+      ]
+    }
+  ]
+}

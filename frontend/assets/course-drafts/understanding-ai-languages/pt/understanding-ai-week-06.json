@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-06",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Tarefa e público",
+      "subtitle": "Semana 6: Solicitando com propósito",
+      "body": "Um prompt útil especifica a tarefa e o público-alvo. Um pedido para explicar um assunto a um iniciante é mais direcionado do que um pedido para explicar tudo.\n\nPrática offline: Escreva um prompt explicando frações para um iniciante usando dois exemplos. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um prompt útil especifica a tarefa e o público-alvo. Um pedido para explicar um assunto a um iniciante é mais direcionado do que um pedido para explicar tudo.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Tarefa e público”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um prompt útil especifica a tarefa e o público-alvo. Um pedido para explicar um assunto a um iniciante é mais direcionado do que um pedido para explicar tudo.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um prompt útil especifica a tarefa e o público-alvo. Um pedido para explicar um assunto a um iniciante é mais direcionado do que um pedido para explicar tudo.",
+          "id": "understanding-ai-week-06-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva um prompt explicando frações para um iniciante usando dois exemplos.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-06-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Tarefa e público” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-06-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Contexto relevante",
+      "subtitle": "Semana 6: Solicitando com propósito",
+      "body": "O contexto fornece as informações necessárias para a tarefa. Forneça restrições relevantes sem expor detalhes pessoais ou confidenciais.\n\nPrática off-line: escreva um plano de estudo usando tempo disponível, matéria e objetivo de aprendizagem fictícios. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "O contexto fornece as informações necessárias para a tarefa. Forneça restrições relevantes sem expor detalhes pessoais ou confidenciais.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “Contexto relevante”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "O contexto fornece as informações necessárias para a tarefa. Forneça restrições relevantes sem expor detalhes pessoais ou confidenciais.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "O contexto fornece as informações necessárias para a tarefa. Forneça restrições relevantes sem expor detalhes pessoais ou confidenciais.",
+          "id": "understanding-ai-week-06-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva um plano de estudo usando tempo disponível fictício, matéria e objetivo de aprendizagem.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-06-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Contexto relevante” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-06-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Formato de saída",
+      "subtitle": "Semana 6: Solicitando com propósito",
+      "body": "Um formato solicitado ajuda a tornar o resultado utilizável: uma tabela, uma lista de verificação, um parágrafo curto ou perguntas. As instruções de formato não garantem precisão.\n\nPrática offline: reescreva a mesma solicitação como um prompt de tabela e um prompt de lista de verificação; comparar utilidade. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um formato solicitado ajuda a tornar o resultado utilizável: uma tabela, uma lista de verificação, um parágrafo curto ou perguntas. As instruções de formato não garantem precisão.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “Formato de saída”?",
+          "options": [
+            "Um formato solicitado ajuda a tornar o resultado utilizável: uma tabela, uma lista de verificação, um parágrafo curto ou perguntas. As instruções de formato não garantem precisão.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um formato solicitado ajuda a tornar o resultado utilizável: uma tabela, uma lista de verificação, um parágrafo curto ou perguntas. As instruções de formato não garantem precisão.",
+          "id": "understanding-ai-week-06-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Reescrever a mesma solicitação como um prompt de tabela e um prompt de lista de verificação; comparar a utilidade.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-06-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Formato de saída” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-06-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Exemplos e revisões",
+      "subtitle": "Semana 6: Solicitando com propósito",
+      "body": "Um exemplo pode demonstrar o estilo de resposta desejado. Uma revisão focada pede uma mudança específica em vez de repetir um pedido pouco claro.\n\nPrática off-line: elabore um exemplo de resposta e uma solicitação de revisão que reduza o jargão sem remover a ideia principal. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um exemplo pode demonstrar o estilo de resposta desejado. Uma revisão focada pede uma mudança específica em vez de repetir um pedido pouco claro.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Exemplos e revisões”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um exemplo pode demonstrar o estilo de resposta desejado. Uma revisão focada pede uma mudança específica em vez de repetir um pedido pouco claro."
+          ],
+          "correct": 3,
+          "explanation": "Um exemplo pode demonstrar o estilo de resposta desejado. Uma revisão focada pede uma mudança específica em vez de repetir um pedido pouco claro.",
+          "id": "understanding-ai-week-06-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Elabore um exemplo de resposta e uma solicitação de revisão que reduza o jargão sem remover a ideia principal.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-06-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Exemplos e revisões” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-06-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Portfólio imediato",
+      "subtitle": "Semana 6: Solicitando com propósito",
+      "body": "Um portfólio de prompts registra a tarefa, o prompt, o resultado esperado, as verificações e a revisão. Ajuda a explicar por que uma abordagem funcionou.\n\nPrática off-line: salve três prompts com exemplos de respostas off-line e uma observação sobre o que você verificaria on-line. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um portfólio de prompts registra a tarefa, o prompt, o resultado esperado, as verificações e a revisão. Ajuda a explicar por que uma abordagem funcionou.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor o “portfólio imediato”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um portfólio de prompts registra a tarefa, o prompt, o resultado esperado, as verificações e a revisão. Ajuda a explicar por que uma abordagem funcionou.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um portfólio de prompts registra a tarefa, o prompt, o resultado esperado, as verificações e a revisão. Ajuda a explicar por que uma abordagem funcionou.",
+          "id": "understanding-ai-week-06-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Salve três solicitações com exemplos de respostas off-line e uma nota sobre o que você verificaria on-line.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-06-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Portfólio imediato” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-06-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

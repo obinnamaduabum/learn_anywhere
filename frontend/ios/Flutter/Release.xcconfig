@@ -1,0 +1,4 @@
+#include "Generated.xcconfig"
+
+// Explicitly local demo release; use HTTPS and omit the opt-in for distribution.
+DART_DEFINES=$(inherited),TEVBUk5JTkdfQVBJX1VSTD1odHRwOi8vMTkyLjE2OC4xLjMyOjgwODQ=,QUxMT1dfTE9DQUxfREVNT19IVFRQPXRydWU=

@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-04",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Classement",
+      "subtitle": "Semaine 4 : Première étape : expliquer un système d'IA",
+      "body": "La classification prédit une catégorie. Un classificateur peut générer des scores ou des probabilités avant qu'une catégorie ne soit sélectionnée. Une catégorie prédite peut être fausse.\n\nPratique hors ligne : Classez huit messages fictifs et notez des exemples incertains. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La classification prédit une catégorie. Un classificateur peut générer des scores ou des probabilités avant qu'une catégorie ne soit sélectionnée. Une catégorie prédite peut être fausse.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « Classification » ?",
+          "options": [
+            "La classification prédit une catégorie. Un classificateur peut générer des scores ou des probabilités avant qu'une catégorie ne soit sélectionnée. Une catégorie prédite peut être fausse.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "La classification prédit une catégorie. Un classificateur peut générer des scores ou des probabilités avant qu'une catégorie ne soit sélectionnée. Une catégorie prédite peut être fausse.",
+          "id": "understanding-ai-week-04-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Classer huit messages fictifs et noter des exemples incertains. », quelle approche démontre un apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-04-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Classement » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-04-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Régression",
+      "subtitle": "Semaine 4 : Première étape : expliquer un système d'IA",
+      "body": "La régression prédit une valeur numérique, telle qu'une durée de trajet. Les prédictions sont des estimations ; ils ont besoin de contrôles d'erreur et de limites réalistes.\n\nPratique hors ligne : prédisez les durées de trois voyages inventés et enregistrez les différences par rapport aux durées réelles fournies. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La régression prédit une valeur numérique, telle qu'une durée de trajet. Les prédictions sont des estimations ; ils ont besoin de contrôles d'erreur et de limites réalistes.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « régression » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "La régression prédit une valeur numérique, telle qu'une durée de trajet. Les prédictions sont des estimations ; ils ont besoin de contrôles d'erreur et de limites réalistes."
+          ],
+          "correct": 3,
+          "explanation": "La régression prédit une valeur numérique, telle qu'une durée de trajet. Les prédictions sont des estimations ; ils ont besoin de contrôles d'erreur et de limites réalistes.",
+          "id": "understanding-ai-week-04-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Prédire les durées de trois voyages inventés et enregistrer les différences par rapport aux durées réelles fournies. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-04-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Régression » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-04-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Corrélation et cause",
+      "subtitle": "Semaine 4 : Première étape : expliquer un système d'IA",
+      "body": "Une relation entre deux variables ne prouve pas que l’une provoque l’autre. Un troisième facteur ou coïncidence peut expliquer une tendance.\n\nPratique hors ligne : Écrivez deux explications possibles pour une relation fictive entre les visites à la bibliothèque et les résultats des examens. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une relation entre deux variables ne prouve pas que l’une provoque l’autre. Un troisième facteur ou coïncidence peut expliquer une tendance.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Corrélation et cause » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une relation entre deux variables ne prouve pas que l’une provoque l’autre. Un troisième facteur ou coïncidence peut expliquer une tendance.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Une relation entre deux variables ne prouve pas que l’une provoque l’autre. Un troisième facteur ou coïncidence peut expliquer une tendance.",
+          "id": "understanding-ai-week-04-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Écrire deux explications possibles d’une relation fictive entre les visites à la bibliothèque et les résultats des examens. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-04-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Corrélation et cause » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-04-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Expliquer clairement les limites",
+      "subtitle": "Semaine 4 : Première étape : expliquer un système d'IA",
+      "body": "Une explication claire indique l'utilisation prévue, les preuves et les limites. Évitez de prétendre qu’un modèle comprend tout ou a toujours raison.\n\nPratique hors ligne : rédigez une explication de soixante mots sur un classificateur fictif pour quelqu'un qui découvre l'IA. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une explication claire indique l'utilisation prévue, les preuves et les limites. Évitez de prétendre qu’un modèle comprend tout ou a toujours raison.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quel énoncé explique le mieux « Expliquez clairement les limites » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une explication claire indique l'utilisation prévue, les preuves et les limites. Évitez de prétendre qu’un modèle comprend tout ou a toujours raison.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Une explication claire indique l'utilisation prévue, les preuves et les limites. Évitez de prétendre qu’un modèle comprend tout ou a toujours raison.",
+          "id": "understanding-ai-week-04-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Écrire une explication de soixante mots sur un classificateur fictif pour quelqu'un qui découvre l'IA. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-04-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Expliquez clairement les limites » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-04-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Démonstration du premier mois",
+      "subtitle": "Semaine 4 : Première étape : expliquer un système d'IA",
+      "body": "Une démonstration doit identifier les intrants, une méthode d’apprentissage, les extrants, un plan d’évaluation et une étape d’examen humain. Un diagramme peut démontrer une compréhension sans codage.\n\nPratique hors ligne : créez un diagramme de système d'IA d'une page ; expliquez une erreur possible et comment une personne la gérerait. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une démonstration doit identifier les intrants, une méthode d’apprentissage, les extrants, un plan d’évaluation et une étape d’examen humain. Un diagramme peut démontrer une compréhension sans codage.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « démonstration du premier mois » ?",
+          "options": [
+            "Une démonstration doit identifier les intrants, une méthode d’apprentissage, les extrants, un plan d’évaluation et une étape d’examen humain. Un diagramme peut démontrer une compréhension sans codage.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une démonstration doit identifier les intrants, une méthode d’apprentissage, les extrants, un plan d’évaluation et une étape d’examen humain. Un diagramme peut démontrer une compréhension sans codage.",
+          "id": "understanding-ai-week-04-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créer un diagramme d'un système d'IA d'une page ; expliquer une erreur possible et comment une personne la gérerait. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-04-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Démonstration du premier mois » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-04-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

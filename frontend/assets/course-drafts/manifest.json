@@ -1,0 +1,32 @@
+[
+  {
+    "id": 6,
+    "courseId": "smartphone-basics-v1",
+    "title": "Smartphone Basics",
+    "description": "Get comfortable with your phone while managing storage, data and accessibility."
+  },
+  {
+    "id": 7,
+    "courseId": "online-communication-v1",
+    "title": "Online Communication",
+    "description": "Write clear messages, protect privacy and handle online conversations thoughtfully."
+  },
+  {
+    "id": 8,
+    "courseId": "information-literacy-v1",
+    "title": "Information Literacy",
+    "description": "Search with purpose and evaluate information before using or sharing it."
+  },
+  {
+    "id": 9,
+    "courseId": "everyday-budgeting-v1",
+    "title": "Everyday Budgeting",
+    "description": "Practise recording income, tracking expenses and planning a simple budget."
+  },
+  {
+    "id": 10,
+    "courseId": "job-search-skills-v1",
+    "title": "Job-search Skills",
+    "description": "Prepare an honest application and recognise common recruitment scams."
+  }
+]

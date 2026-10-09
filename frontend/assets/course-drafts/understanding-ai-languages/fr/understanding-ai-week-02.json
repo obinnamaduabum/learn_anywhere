@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-02",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Exemples et ensembles de données",
+      "subtitle": "Semaine 2 : Apprendre à partir des données",
+      "body": "Un ensemble de données est une collection d’exemples. Les exemples peuvent contenir du texte, des chiffres, des images ou des étiquettes. Plus d’exemples ne signifient pas automatiquement des données de meilleure qualité.\n\nPratique hors ligne : créez six exemples fictifs de visites à la bibliothèque avec le nombre de jours de semaine et de visiteurs. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un ensemble de données est une collection d’exemples. Les exemples peuvent contenir du texte, des chiffres, des images ou des étiquettes. Plus d’exemples ne signifient pas automatiquement des données de meilleure qualité.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Exemples et ensembles de données » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un ensemble de données est une collection d’exemples. Les exemples peuvent contenir du texte, des chiffres, des images ou des étiquettes. Plus d’exemples ne signifient pas automatiquement des données de meilleure qualité.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un ensemble de données est une collection d’exemples. Les exemples peuvent contenir du texte, des chiffres, des images ou des étiquettes. Plus d’exemples ne signifient pas automatiquement des données de meilleure qualité.",
+          "id": "understanding-ai-week-02-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créez six exemples fictifs de visites à la bibliothèque avec le nombre de jours de semaine et de visiteurs. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-02-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Exemples et jeux de données » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-02-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Caractéristiques et étiquettes",
+      "subtitle": "Semaine 2 : Apprendre à partir des données",
+      "body": "Les fonctionnalités sont des entrées utilisées par un modèle. Dans l’apprentissage supervisé, une étiquette est le résultat cible fourni pour la formation. Choisissez les fonctionnalités disponibles lorsque la prédiction doit être faite.\n\nPratique hors ligne : pour prédire un retard de bus fictif, séparez les entrées disponibles de l'étiquette de retard. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les fonctionnalités sont des entrées utilisées par un modèle. Dans l’apprentissage supervisé, une étiquette est le résultat cible fourni pour la formation. Choisissez les fonctionnalités disponibles lorsque la prédiction doit être faite.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Caractéristiques et étiquettes » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les fonctionnalités sont des entrées utilisées par un modèle. Dans l’apprentissage supervisé, une étiquette est le résultat cible fourni pour la formation. Choisissez les fonctionnalités disponibles lorsque la prédiction doit être faite.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Les fonctionnalités sont des entrées utilisées par un modèle. Dans l’apprentissage supervisé, une étiquette est le résultat cible fourni pour la formation. Choisissez les fonctionnalités disponibles lorsque la prédiction doit être faite.",
+          "id": "understanding-ai-week-02-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Pour prédire un retard de bus fictif, séparez les entrées disponibles de l'étiquette de retard. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-02-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Caractéristiques et étiquettes » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-02-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Apprentissage supervisé",
+      "subtitle": "Semaine 2 : Apprendre à partir des données",
+      "body": "L'apprentissage supervisé utilise des exemples associés à des résultats cibles. Un classificateur de messages peut apprendre des messages étiquetés spam ou non spam. Des étiquettes incorrectes peuvent induire en erreur la formation.\n\nPratique hors ligne : étiquetez six messages inventés et expliquez pourquoi un message ambigu doit être révisé. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "L'apprentissage supervisé utilise des exemples associés à des résultats cibles. Un classificateur de messages peut apprendre des messages étiquetés spam ou non spam. Des étiquettes incorrectes peuvent induire en erreur la formation.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « l’apprentissage supervisé » ?",
+          "options": [
+            "L'apprentissage supervisé utilise des exemples associés à des résultats cibles. Un classificateur de messages peut apprendre des messages étiquetés spam ou non spam. Des étiquettes incorrectes peuvent induire en erreur la formation.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "L'apprentissage supervisé utilise des exemples associés à des résultats cibles. Un classificateur de messages peut apprendre des messages étiquetés spam ou non spam. Des étiquettes incorrectes peuvent induire en erreur la formation.",
+          "id": "understanding-ai-week-02-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Étiquetez six messages inventés et expliquez pourquoi un message ambigu doit être révisé. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-02-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Apprentissage supervisé » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-02-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Apprentissage non supervisé",
+      "subtitle": "Semaine 2 : Apprendre à partir des données",
+      "body": "L'apprentissage non supervisé recherche une structure sans étiquettes cibles fournies. Les groupes d’exemples similaires n’ont pas automatiquement de noms significatifs ni d’explications causales.\n\nPratique hors ligne : regroupez six livres de fiction par similarité et décrivez comment une règle de regroupement différente modifie le résultat. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "L'apprentissage non supervisé recherche une structure sans étiquettes cibles fournies. Les groupes d’exemples similaires n’ont pas automatiquement de noms significatifs ni d’explications causales.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « l’apprentissage non supervisé » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "L'apprentissage non supervisé recherche une structure sans étiquettes cibles fournies. Les groupes d’exemples similaires n’ont pas automatiquement de noms significatifs ni d’explications causales."
+          ],
+          "correct": 3,
+          "explanation": "L'apprentissage non supervisé recherche une structure sans étiquettes cibles fournies. Les groupes d’exemples similaires n’ont pas automatiquement de noms significatifs ni d’explications causales.",
+          "id": "understanding-ai-week-02-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Regrouper six livres de fiction par similarité et décrire comment une règle de regroupement différente modifie le résultat. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-02-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Apprentissage non supervisé » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-02-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Apprentissage par renforcement",
+      "subtitle": "Semaine 2 : Apprendre à partir des données",
+      "body": "L'apprentissage par renforcement implique des actions, des commentaires et un objectif de récompense. Une récompense est un choix de conception ; sa maximisation peut produire un comportement que le concepteur n'avait pas prévu.\n\nPratique hors ligne : concevez une récompense de jeu d'étude fictive et identifiez une manière dont quelqu'un pourrait la gagner sans apprendre. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "L'apprentissage par renforcement implique des actions, des commentaires et un objectif de récompense. Une récompense est un choix de conception ; sa maximisation peut produire un comportement que le concepteur n'avait pas prévu.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « l’apprentissage par renforcement » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "L'apprentissage par renforcement implique des actions, des commentaires et un objectif de récompense. Une récompense est un choix de conception ; sa maximisation peut produire un comportement que le concepteur n'avait pas prévu.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "L'apprentissage par renforcement implique des actions, des commentaires et un objectif de récompense. Une récompense est un choix de conception ; sa maximisation peut produire un comportement que le concepteur n'avait pas prévu.",
+          "id": "understanding-ai-week-02-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Concevez une récompense fictive dans le cadre d’un jeu d’étude et identifiez une façon dont quelqu’un pourrait la gagner sans apprendre. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-02-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Apprentissage par renforcement » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-02-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

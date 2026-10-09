@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-15",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Crie um primeiro rascunho",
+      "subtitle": "Semana 15: Produção e testes",
+      "body": "Um primeiro rascunho torna uma ideia revisável. Use informações fictícias e marque detalhes incertos para que os revisores possam distinguir o trabalho inacabado das informações verificadas.\n\nPrática offline: crie a primeira versão do artefato do seu projeto manualmente ou com uma ferramenta online opcional. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um primeiro rascunho torna uma ideia revisável. Use informações fictícias e marque detalhes incertos para que os revisores possam distinguir o trabalho inacabado das informações verificadas.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Construir um primeiro rascunho”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um primeiro rascunho torna uma ideia revisável. Use informações fictícias e marque detalhes incertos para que os revisores possam distinguir o trabalho inacabado das informações verificadas.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Um primeiro rascunho torna uma ideia revisável. Use informações fictícias e marque detalhes incertos para que os revisores possam distinguir o trabalho inacabado das informações verificadas.",
+          "id": "understanding-ai-week-15-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Crie a primeira versão do artefato do seu projeto manualmente ou com uma ferramenta on-line opcional.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-15-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Construa um primeiro rascunho” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-15-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Teste em relação à rubrica",
+      "subtitle": "Semana 15: Produção e testes",
+      "body": "Uma rubrica fornece critérios para verificar o trabalho de forma consistente. Registre evidências para cada classificação em vez de julgar apenas o quão sofisticado o artefato parece.\n\nPrática offline: avalie seu primeiro rascunho de acordo com seus quatro critérios e explique cada pontuação. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma rubrica fornece critérios para verificar o trabalho de forma consistente. Registre evidências para cada classificação em vez de julgar apenas o quão sofisticado o artefato parece.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Teste em relação à rubrica”?",
+          "options": [
+            "Uma rubrica fornece critérios para verificar o trabalho de forma consistente. Registre evidências para cada classificação em vez de julgar apenas o quão sofisticado o artefato parece.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Uma rubrica fornece critérios para verificar o trabalho de forma consistente. Registre evidências para cada classificação em vez de julgar apenas o quão sofisticado o artefato parece.",
+          "id": "understanding-ai-week-15-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Avalie seu primeiro rascunho de acordo com seus quatro critérios e explique cada pontuação.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-15-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Teste contra a rubrica” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-15-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Teste exemplos desafiadores",
+      "subtitle": "Semana 15: Produção e testes",
+      "body": "Exemplos desafiadores podem revelar instruções ausentes, redação ambígua e suposições inadequadas. Teste entradas comuns e incomuns relevantes para a tarefa.\n\nPrática offline: experimente uma entrada curta, uma entrada confusa e uma entrada incompleta; registre o que falhou. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Exemplos desafiadores podem revelar instruções ausentes, redação ambígua e suposições inadequadas. Teste entradas comuns e incomuns relevantes para a tarefa.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Teste exemplos desafiadores”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Exemplos desafiadores podem revelar instruções ausentes, redação ambígua e suposições inadequadas. Teste entradas comuns e incomuns relevantes para a tarefa."
+          ],
+          "correct": 3,
+          "explanation": "Exemplos desafiadores podem revelar instruções ausentes, redação ambígua e suposições inadequadas. Teste entradas comuns e incomuns relevantes para a tarefa.",
+          "id": "understanding-ai-week-15-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Tente uma entrada curta, uma entrada confusa e uma entrada incompleta; registre o que falhou.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-15-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Teste exemplos desafiadores” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-15-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Revise e compare",
+      "subtitle": "Semana 15: Produção e testes",
+      "body": "Uma revisão deve abordar um problema registrado. Compare a versão revisada com a original utilizando os mesmos critérios e preserve ambas as versões.\n\nPrática off-line: faça duas correções específicas e mostre se elas melhoraram os resultados da sua rubrica. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma revisão deve abordar um problema registrado. Compare a versão revisada com a original utilizando os mesmos critérios e preserve ambas as versões.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Revisar e comparar”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma revisão deve abordar um problema registrado. Compare a versão revisada com a original utilizando os mesmos critérios e preserve ambas as versões.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Uma revisão deve abordar um problema registrado. Compare a versão revisada com a original utilizando os mesmos critérios e preserve ambas as versões.",
+          "id": "understanding-ai-week-15-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Faça duas correções específicas e mostre se elas melhoraram os resultados da sua rubrica.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-15-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Revisar e comparar” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-15-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Colete feedback apropriado",
+      "subtitle": "Semana 15: Produção e testes",
+      "body": "O feedback deve abordar a utilidade e a clareza. A participação deve ser voluntária; evite coletar informações pessoais desnecessárias ou reivindicar que uma pequena amostra tenha um amplo impacto.\n\nPrática off-line: faça uma pergunta de clareza a um colega disponível ou conclua uma autoavaliação se nenhum colega estiver disponível. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "O feedback deve abordar a utilidade e a clareza. A participação deve ser voluntária; evite coletar informações pessoais desnecessárias ou reivindicar que uma pequena amostra tenha um amplo impacto.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Colete feedback apropriado”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "O feedback deve abordar a utilidade e a clareza. A participação deve ser voluntária; evite coletar informações pessoais desnecessárias ou reivindicar que uma pequena amostra tenha um amplo impacto.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "O feedback deve abordar a utilidade e a clareza. A participação deve ser voluntária; evite coletar informações pessoais desnecessárias ou reivindicar que uma pequena amostra tenha um amplo impacto.",
+          "id": "understanding-ai-week-15-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Faça uma pergunta de clareza a um colega disponível ou faça uma autoavaliação se nenhum colega estiver disponível.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-15-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Coletar feedback apropriado” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-15-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

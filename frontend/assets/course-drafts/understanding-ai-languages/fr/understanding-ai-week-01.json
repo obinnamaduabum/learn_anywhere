@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-01",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "IA et outils du quotidien",
+      "subtitle": "Semaine 1 : Reconnaître l'IA",
+      "body": "Les systèmes d'IA effectuent des tâches telles que la reconnaissance de la parole, la prédiction des résultats et la génération de contenu. Une simple calculatrice peut suivre des règles fixes sans apprendre d’exemples.\n\nPratique hors ligne : Comparez une calculatrice, un assistant vocal et un emploi du temps papier ; identifier où des modèles ou des règles fixes sont utilisés. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les systèmes d'IA effectuent des tâches telles que la reconnaissance de la parole, la prédiction des résultats et la génération de contenu. Une simple calculatrice peut suivre des règles fixes sans apprendre d’exemples.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « l’IA et les outils du quotidien » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les systèmes d'IA effectuent des tâches telles que la reconnaissance de la parole, la prédiction des résultats et la génération de contenu. Une simple calculatrice peut suivre des règles fixes sans apprendre d’exemples."
+          ],
+          "correct": 3,
+          "explanation": "Les systèmes d'IA effectuent des tâches telles que la reconnaissance de la parole, la prédiction des résultats et la génération de contenu. Une simple calculatrice peut suivre des règles fixes sans apprendre d’exemples.",
+          "id": "understanding-ai-week-01-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Comparez une calculatrice, un assistant vocal et un emploi du temps papier ; identifiez où des modèles ou des règles fixes sont utilisés. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-01-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « IA et outils du quotidien » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-01-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Prédiction et génération",
+      "subtitle": "Semaine 1 : Reconnaître l'IA",
+      "body": "Un modèle de prédiction estime un résultat à partir d'une entrée. Un modèle génératif produit du contenu. Un système qui estime la demande de demain diffère d’un système qui rédige une annonce.\n\nPratique hors ligne : rédigez une tâche de prédiction et une tâche de génération de contenu pour une bibliothèque communautaire fictive. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un modèle de prédiction estime un résultat à partir d'une entrée. Un modèle génératif produit du contenu. Un système qui estime la demande de demain diffère d’un système qui rédige une annonce.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Prédiction et génération » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un modèle de prédiction estime un résultat à partir d'une entrée. Un modèle génératif produit du contenu. Un système qui estime la demande de demain diffère d’un système qui rédige une annonce.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Un modèle de prédiction estime un résultat à partir d'une entrée. Un modèle génératif produit du contenu. Un système qui estime la demande de demain diffère d’un système qui rédige une annonce.",
+          "id": "understanding-ai-week-01-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Écrire une tâche de prédiction et une tâche de génération de contenu pour une bibliothèque communautaire fictive. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-01-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Prédiction et génération » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-01-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ce que représente un modèle",
+      "subtitle": "Semaine 1 : Reconnaître l'IA",
+      "body": "Un modèle est une représentation mathématique utilisée pour transformer des entrées en sorties. Il s’agit d’un système simplifié et non d’une description complète du monde.\n\nPratique hors ligne : entrée d'esquisse → modèle → sortie pour un outil fictif qui classe les messages comme spam. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un modèle est une représentation mathématique utilisée pour transformer des entrées en sorties. Il s’agit d’un système simplifié et non d’une description complète du monde.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Ce qu’un modèle représente » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un modèle est une représentation mathématique utilisée pour transformer des entrées en sorties. Il s’agit d’un système simplifié et non d’une description complète du monde.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Un modèle est une représentation mathématique utilisée pour transformer des entrées en sorties. Il s’agit d’un système simplifié et non d’une description complète du monde.",
+          "id": "understanding-ai-week-01-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Esquisse entrée → modèle → sortie pour un outil fictif qui classe les messages comme spam. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-01-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Ce que représente un modèle » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-01-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Jugement humain",
+      "subtitle": "Semaine 1 : Reconnaître l'IA",
+      "body": "Une recommandation d’IA est une information à évaluer. Les gens choisissent l’objectif, examinent les conséquences et décident si un résultat est utile.\n\nPratique hors ligne : énumérez trois vérifications que vous effectueriez avant d'utiliser un plan d'étude généré. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une recommandation d’IA est une information à évaluer. Les gens choisissent l’objectif, examinent les conséquences et décident si un résultat est utile.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux le « jugement humain » ?",
+          "options": [
+            "Une recommandation d’IA est une information à évaluer. Les gens choisissent l’objectif, examinent les conséquences et décident si un résultat est utile.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une recommandation d’IA est une information à évaluer. Les gens choisissent l’objectif, examinent les conséquences et décident si un résultat est utile.",
+          "id": "understanding-ai-week-01-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Énumérez trois vérifications que vous feriez avant d'utiliser un plan d'étude généré. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-01-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Jugement humain » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-01-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Votre première carte IA",
+      "subtitle": "Semaine 1 : Reconnaître l'IA",
+      "body": "Une carte d'IA utile nomme la tâche, l'entrée, la sortie, l'avantage, la limitation et l'examinateur humain. Certaines tâches sont mieux gérées avec une liste de contrôle ou un logiciel ordinaire.\n\nPratique hors ligne : créez une carte IA pour organiser les notes de révision et expliquez quand une liste de contrôle papier serait suffisante. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une carte d'IA utile nomme la tâche, l'entrée, la sortie, l'avantage, la limitation et l'examinateur humain. Certaines tâches sont mieux gérées avec une liste de contrôle ou un logiciel ordinaire.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Votre première carte IA » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une carte d'IA utile nomme la tâche, l'entrée, la sortie, l'avantage, la limitation et l'examinateur humain. Certaines tâches sont mieux gérées avec une liste de contrôle ou un logiciel ordinaire."
+          ],
+          "correct": 3,
+          "explanation": "Une carte d'IA utile nomme la tâche, l'entrée, la sortie, l'avantage, la limitation et l'examinateur humain. Certaines tâches sont mieux gérées avec une liste de contrôle ou un logiciel ordinaire.",
+          "id": "understanding-ai-week-01-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Créer une carte d’IA pour organiser les notes de révision et expliquer quand une liste de contrôle papier suffirait. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-01-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Votre première carte IA » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-01-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

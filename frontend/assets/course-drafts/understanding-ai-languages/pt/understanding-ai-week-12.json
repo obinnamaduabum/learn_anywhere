@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-12",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Definir um fluxo de trabalho",
+      "subtitle": "Semana 12: Terceiro marco: construir um fluxo de trabalho",
+      "body": "Um fluxo de trabalho é uma sequência de etapas com entradas, saídas e responsabilidades. A IA pode apoiar uma etapa sem substituir todo o processo.\n\nPrática offline: Mapear notas de coleta → rascunho de resumo → verificar reivindicações → revisar → salvar. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um fluxo de trabalho é uma sequência de etapas com entradas, saídas e responsabilidades. A IA pode apoiar uma etapa sem substituir todo o processo.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Definir um fluxo de trabalho”?",
+          "options": [
+            "Um fluxo de trabalho é uma sequência de etapas com entradas, saídas e responsabilidades. A IA pode apoiar uma etapa sem substituir todo o processo.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um fluxo de trabalho é uma sequência de etapas com entradas, saídas e responsabilidades. A IA pode apoiar uma etapa sem substituir todo o processo.",
+          "id": "understanding-ai-week-12-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Mapa coletar notas → rascunho do resumo → verificar reivindicações → revisar → salvar.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-12-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Definir um fluxo de trabalho” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-12-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Portões de revisão humana",
+      "subtitle": "Semana 12: Terceiro marco: construir um fluxo de trabalho",
+      "body": "Uma porta de revisão evita que um resultado não verificado passe para o próximo estágio. Indique quem verifica o quê e o que acontece quando uma verificação falha.\n\nPrática off-line: adicione uma porta de revisão a um fluxo de trabalho de anúncio fictício antes que alguém o envie. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma porta de revisão evita que um resultado não verificado passe para o próximo estágio. Indique quem verifica o quê e o que acontece quando uma verificação falha.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor as “portas de revisão humana”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Uma porta de revisão evita que um resultado não verificado passe para o próximo estágio. Indique quem verifica o quê e o que acontece quando uma verificação falha."
+          ],
+          "correct": 3,
+          "explanation": "Uma porta de revisão evita que um resultado não verificado passe para o próximo estágio. Indique quem verifica o quê e o que acontece quando uma verificação falha.",
+          "id": "understanding-ai-week-12-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Adicionar uma porta de revisão a um fluxo de trabalho de anúncio fictício antes que alguém o envie.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-12-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Portões de revisão humana” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-12-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Avaliação repetível",
+      "subtitle": "Semana 12: Terceiro marco: construir um fluxo de trabalho",
+      "body": "Use critérios consistentes para comparar tentativas. Um pequeno conjunto de exemplos realistas pode expor pontos fracos, mas não pode provar que uma ferramenta é fiável em todas as situações.\n\nPrática offline: crie três casos de teste e uma rubrica para um assistente de resumo fictício. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Use critérios consistentes para comparar tentativas. Um pequeno conjunto de exemplos realistas pode expor pontos fracos, mas não pode provar que uma ferramenta é fiável em todas as situações.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “avaliação repetível”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Use critérios consistentes para comparar tentativas. Um pequeno conjunto de exemplos realistas pode expor pontos fracos, mas não pode provar que uma ferramenta é fiável em todas as situações.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Use critérios consistentes para comparar tentativas. Um pequeno conjunto de exemplos realistas pode expor pontos fracos, mas não pode provar que uma ferramenta é fiável em todas as situações.",
+          "id": "understanding-ai-week-12-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Criar três casos de teste e uma rubrica para um assistente de resumo fictício.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-12-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Avaliação repetível” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-12-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Reserva off-line",
+      "subtitle": "Semana 12: Terceiro marco: construir um fluxo de trabalho",
+      "body": "Um fluxo de trabalho deve permanecer útil quando a conectividade falhar. Salve referências essenciais e forneça etapas manuais para as peças que normalmente requerem manutenção.\n\nPrática offline: escreva uma versão offline do seu fluxo de trabalho de resumo sem nenhum assistente online. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um fluxo de trabalho deve permanecer útil quando a conectividade falhar. Salve referências essenciais e forneça etapas manuais para as peças que normalmente requerem manutenção.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “substituição off-line”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um fluxo de trabalho deve permanecer útil quando a conectividade falhar. Salve referências essenciais e forneça etapas manuais para as peças que normalmente requerem manutenção.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Um fluxo de trabalho deve permanecer útil quando a conectividade falhar. Salve referências essenciais e forneça etapas manuais para as peças que normalmente requerem manutenção.",
+          "id": "understanding-ai-week-12-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva uma versão offline do seu fluxo de trabalho de resumo sem assistente online.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-12-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “substituição off-line” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-12-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Demonstração do terceiro mês",
+      "subtitle": "Semana 12: Terceiro marco: construir um fluxo de trabalho",
+      "body": "Um fluxo de trabalho demonstrado inclui etapas, critérios de revisão, exemplos de resultados, um substituto e limitações observadas. Mostre falhas e correções, bem como sucessos.\n\nPrática offline: demonstre seu fluxo de trabalho usando entradas fictícias e registre uma alteração solicitada por uma falha na verificação. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um fluxo de trabalho demonstrado inclui etapas, critérios de revisão, exemplos de resultados, um substituto e limitações observadas. Mostre falhas e correções, bem como sucessos.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “demonstração do terceiro mês”?",
+          "options": [
+            "Um fluxo de trabalho demonstrado inclui etapas, critérios de revisão, exemplos de resultados, um substituto e limitações observadas. Mostre falhas e correções, bem como sucessos.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Um fluxo de trabalho demonstrado inclui etapas, critérios de revisão, exemplos de resultados, um substituto e limitações observadas. Mostre falhas e correções, bem como sucessos.",
+          "id": "understanding-ai-week-12-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Demonstre seu fluxo de trabalho usando entradas fictícias e registre uma alteração solicitada por uma verificação falhada.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-12-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Demonstração do terceiro mês” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-12-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

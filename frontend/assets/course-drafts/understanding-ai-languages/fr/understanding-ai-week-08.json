@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-08",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Confidentialité avant de demander",
+      "subtitle": "Semaine 8 : Deuxième étape : utilisation responsable de l’IA",
+      "body": "Une invite en ligne envoie des informations à un service. Utilisez des exemples fictifs et examinez les règles de confidentialité applicables avant de partager des informations sur vous-même ou sur d’autres.\n\nPratique hors ligne : réécrivez une invite fictive afin qu'elle évite les mots de passe, les noms et les informations personnelles d'identification. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une invite en ligne envoie des informations à un service. Utilisez des exemples fictifs et examinez les règles de confidentialité applicables avant de partager des informations sur vous-même ou sur d’autres.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Confidentialité avant l'invite » ?",
+          "options": [
+            "Une invite en ligne envoie des informations à un service. Utilisez des exemples fictifs et examinez les règles de confidentialité applicables avant de partager des informations sur vous-même ou sur d’autres.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une invite en ligne envoie des informations à un service. Utilisez des exemples fictifs et examinez les règles de confidentialité applicables avant de partager des informations sur vous-même ou sur d’autres.",
+          "id": "understanding-ai-week-08-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Réécrire une invite fictive afin qu'elle évite les mots de passe, les noms et les informations personnelles d'identification. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-08-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Confidentialité avant invite » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-08-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Biais et représentation",
+      "subtitle": "Semaine 8 : Deuxième étape : utilisation responsable de l’IA",
+      "body": "Les décisions en matière de données et de conception peuvent produire des résultats inégaux. Examinez qui est représenté, qui est absent et si le système fonctionne de manière appropriée pour les différents utilisateurs.\n\nPratique hors ligne : examinez un plan d'étude fictif qui suppose que chaque apprenant possède un ordinateur portable et révisez l'hypothèse. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les décisions en matière de données et de conception peuvent produire des résultats inégaux. Examinez qui est représenté, qui est absent et si le système fonctionne de manière appropriée pour les différents utilisateurs.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « préjugés et représentation » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les décisions en matière de données et de conception peuvent produire des résultats inégaux. Examinez qui est représenté, qui est absent et si le système fonctionne de manière appropriée pour les différents utilisateurs."
+          ],
+          "correct": 3,
+          "explanation": "Les décisions en matière de données et de conception peuvent produire des résultats inégaux. Examinez qui est représenté, qui est absent et si le système fonctionne de manière appropriée pour les différents utilisateurs.",
+          "id": "understanding-ai-week-08-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Examiner un plan d’étude fictif qui suppose que chaque apprenant possède un ordinateur portable et réviser l’hypothèse. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-08-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Biais et représentation » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-08-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Intégrité académique",
+      "subtitle": "Semaine 8 : Deuxième étape : utilisation responsable de l’IA",
+      "body": "Les écoles et les lieux de travail peuvent avoir des règles différentes en matière d’assistance à l’IA. Suivre la politique applicable et divulguer l'assistance si nécessaire ; le travail généré n’est pas automatiquement votre propre travail indépendant.\n\nPratique hors ligne : rédigez une note de contribution honnête pour une ressource d'étude fictive assistée par l'IA. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les écoles et les lieux de travail peuvent avoir des règles différentes en matière d’assistance à l’IA. Suivre la politique applicable et divulguer l'assistance si nécessaire ; le travail généré n’est pas automatiquement votre propre travail indépendant.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « l’intégrité académique » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les écoles et les lieux de travail peuvent avoir des règles différentes en matière d’assistance à l’IA. Suivre la politique applicable et divulguer l'assistance si nécessaire ; le travail généré n’est pas automatiquement votre propre travail indépendant.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Les écoles et les lieux de travail peuvent avoir des règles différentes en matière d’assistance à l’IA. Suivre la politique applicable et divulguer l'assistance si nécessaire ; le travail généré n’est pas automatiquement votre propre travail indépendant.",
+          "id": "understanding-ai-week-08-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Rédiger une note de contribution honnête pour une ressource d’étude fictive assistée par l’IA. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-08-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Intégrité académique » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-08-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Accessibilité",
+      "subtitle": "Semaine 8 : Deuxième étape : utilisation responsable de l’IA",
+      "body": "Une structure claire, un langage simple et des alternatives textuelles améliorent l’accès. Une signification importante ne doit pas dépendre uniquement de la couleur, du son ou de l’animation.\n\nPratique hors ligne : réécrivez la description d'un diagramme afin que quelqu'un puisse le comprendre sans voir l'image. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une structure claire, un langage simple et des alternatives textuelles améliorent l’accès. Une signification importante ne doit pas dépendre uniquement de la couleur, du son ou de l’animation.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « l’accessibilité » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une structure claire, un langage simple et des alternatives textuelles améliorent l’accès. Une signification importante ne doit pas dépendre uniquement de la couleur, du son ou de l’animation.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Une structure claire, un langage simple et des alternatives textuelles améliorent l’accès. Une signification importante ne doit pas dépendre uniquement de la couleur, du son ou de l’animation.",
+          "id": "understanding-ai-week-08-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Réécrire la description d’un diagramme pour que quelqu’un puisse le comprendre sans voir l’image. », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-08-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Accessibilité » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-08-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Démonstration du deuxième mois",
+      "subtitle": "Semaine 8 : Deuxième étape : utilisation responsable de l’IA",
+      "body": "Une ressource révisée doit inclure une invite utile, un brouillon, des vérifications de preuves, des corrections et une note de contribution. Les brouillons hors ligne peuvent être examinés avant un essai en ligne facultatif.\n\nPratique hors ligne : créez une aide à l'étude d'une page, documentez deux contrôles et expliquez une correction. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une ressource révisée doit inclure une invite utile, un brouillon, des vérifications de preuves, des corrections et une note de contribution. Les brouillons hors ligne peuvent être examinés avant un essai en ligne facultatif.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Orientations de l'UNESCO pour une IA responsable dans l'éducation",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « démonstration du deuxième mois » ?",
+          "options": [
+            "Une ressource révisée doit inclure une invite utile, un brouillon, des vérifications de preuves, des corrections et une note de contribution. Les brouillons hors ligne peuvent être examinés avant un essai en ligne facultatif.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "Une ressource révisée doit inclure une invite utile, un brouillon, des vérifications de preuves, des corrections et une note de contribution. Les brouillons hors ligne peuvent être examinés avant un essai en ligne facultatif.",
+          "id": "understanding-ai-week-08-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Créer un support d'étude d'une page, documenter deux vérifications et expliquer une correction. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-08-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Démonstration du deuxième mois » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-08-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-13",
+  "language": "fr",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Réseaux de neurones",
+      "subtitle": "Semaine 13 : À l'intérieur des systèmes d'IA modernes",
+      "body": "Un réseau neuronal combine des couches de transformations mathématiques avec des paramètres appris. Le terme neurone décrit une unité informatique et non une cellule du cerveau humain.\n\nPratique hors ligne : dessinez un diagramme simplifié d'entrée-couche-sortie et étiquetez-le comme une illustration conceptuelle. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Un réseau neuronal combine des couches de transformations mathématiques avec des paramètres appris. Le terme neurone décrit une unité informatique et non une cellule du cerveau humain.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « réseaux de neurones » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Un réseau neuronal combine des couches de transformations mathématiques avec des paramètres appris. Le terme neurone décrit une unité informatique et non une cellule du cerveau humain."
+          ],
+          "correct": 3,
+          "explanation": "Un réseau neuronal combine des couches de transformations mathématiques avec des paramètres appris. Le terme neurone décrit une unité informatique et non une cellule du cerveau humain.",
+          "id": "understanding-ai-week-13-lesson-01-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Dessiner un diagramme simplifié d’entrée-couche-sortie et étiquetez-le comme une illustration conceptuelle », quelle approche démontre l’apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-13-lesson-01-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Réseaux de neurones » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-13-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Intégrations",
+      "subtitle": "Semaine 13 : À l'intérieur des systèmes d'IA modernes",
+      "body": "Une intégration représente un élément sous forme de nombres utilisés pour capturer des relations utiles. Des positions similaires peuvent étayer la comparaison, mais ne garantissent pas une signification identique.\n\nPratique hors ligne : disposez les mots fictifs sur papier par similitude et expliquez pourquoi votre croquis n'est pas une intégration entraînée. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Une intégration représente un élément sous forme de nombres utilisés pour capturer des relations utiles. Des positions similaires peuvent étayer la comparaison, mais ne garantissent pas une signification identique.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux les « intégrations » ?",
+          "options": [
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Une intégration représente un élément sous forme de nombres utilisés pour capturer des relations utiles. Des positions similaires peuvent étayer la comparaison, mais ne garantissent pas une signification identique.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte."
+          ],
+          "correct": 2,
+          "explanation": "Une intégration représente un élément sous forme de nombres utilisés pour capturer des relations utiles. Des positions similaires peuvent étayer la comparaison, mais ne garantissent pas une signification identique.",
+          "id": "understanding-ai-week-13-lesson-02-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Disposez des mots fictifs sur papier par similarité et expliquez pourquoi votre croquis n'est pas une intégration entraînée. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste."
+          ],
+          "correct": 2,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-13-lesson-02-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Embeddings » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion."
+          ],
+          "correct": 2,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-13-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Attention",
+      "subtitle": "Semaine 13 : À l'intérieur des systèmes d'IA modernes",
+      "body": "Les mécanismes d'attention permettent à un modèle de pondérer les relations entre les parties d'une entrée. L'attention est une opération mathématique et non une preuve de conscience ou de compréhension humaine.\n\nPratique hors ligne : Expliquez comment le contexte d'une phrase peut aider à interpréter un mot ambigu. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Les mécanismes d'attention permettent à un modèle de pondérer les relations entre les parties d'une entrée. L'attention est une opération mathématique et non une preuve de conscience ou de compréhension humaine.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Attention » ?",
+          "options": [
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Les mécanismes d'attention permettent à un modèle de pondérer les relations entre les parties d'une entrée. L'attention est une opération mathématique et non une preuve de conscience ou de compréhension humaine.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat."
+          ],
+          "correct": 1,
+          "explanation": "Les mécanismes d'attention permettent à un modèle de pondérer les relations entre les parties d'une entrée. L'attention est une opération mathématique et non une preuve de conscience ou de compréhension humaine.",
+          "id": "understanding-ai-week-13-lesson-03-question-01"
+        },
+        {
+          "prompt": "Pour l’activité « Expliquer comment le contexte d’une phrase peut aider à interpréter un mot ambigu. », quelle approche démontre un apprentissage ?",
+          "options": [
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale."
+          ],
+          "correct": 1,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-13-lesson-03-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Attention » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant."
+          ],
+          "correct": 1,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-13-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Génération avec récupération",
+      "subtitle": "Semaine 13 : À l'intérieur des systèmes d'IA modernes",
+      "body": "La génération basée sur la récupération fournit des documents pertinents pour une réponse. Cela peut améliorer la base, mais les erreurs de récupération et les réclamations générées non prises en charge nécessitent toujours des vérifications.\n\nPratique hors ligne : concevez un flux de travail qui sélectionne une note de cours avant de rédiger une réponse, puis vérifie la réponse. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "La génération basée sur la récupération fournit des documents pertinents pour une réponse. Cela peut améliorer la base, mais les erreurs de récupération et les réclamations générées non prises en charge nécessitent toujours des vérifications.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux la « génération basée sur la récupération » ?",
+          "options": [
+            "La génération basée sur la récupération fournit des documents pertinents pour une réponse. Cela peut améliorer la base, mais les erreurs de récupération et les réclamations générées non prises en charge nécessitent toujours des vérifications.",
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle."
+          ],
+          "correct": 0,
+          "explanation": "La génération basée sur la récupération fournit des documents pertinents pour une réponse. Cela peut améliorer la base, mais les erreurs de récupération et les réclamations générées non prises en charge nécessitent toujours des vérifications.",
+          "id": "understanding-ai-week-13-lesson-04-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Concevoir un workflow qui sélectionne une note de cours avant de rédiger une réponse puis vérifie la réponse. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation.",
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport."
+          ],
+          "correct": 0,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-13-lesson-04-question-02"
+        },
+        {
+          "prompt": "Vous revenez à la leçon « Génération supportée par la récupération » après une pause sans Internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne.",
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours."
+          ],
+          "correct": 0,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-13-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Affiner et choisir les outils",
+      "subtitle": "Semaine 13 : À l'intérieur des systèmes d'IA modernes",
+      "body": "Le réglage fin adapte un modèle pré-entraîné à l’aide d’une formation supplémentaire. L'invite, la récupération et le réglage précis sont des approches différentes ; la formation n’est pas toujours nécessaire.\n\nPratique hors ligne : choisissez une simple recherche de document, une invite ou une formation supplémentaire pour trois tâches fictives et justifiez l'option appropriée la plus simple. Écrivez votre raisonnement avant de regarder les réponses au quiz. Enregistrez une limitation ou une incertitude. Vous pouvez utiliser du papier ou des notes locales ; un outil d’IA en ligne est facultatif.\n\nRécapitulatif : expliquez de mémoire l’idée clé d’hier, puis vérifiez vos notes. Après une pause, commencez par ce récapitulatif et la première petite étape de l’activité d’aujourd’hui.\n\nRépondez aux trois questions du quiz avant de continuer.\n\nTâche d'achèvement hebdomadaire : enregistrez l'artefact d'entraînement de cette semaine. Confirmez quatre étapes : expliquer une idée clé (récapitulatif) ; terminer l’activité pratique (pratique); enregistrez ce que vous voudriez vérifier et où (planifier); montrez votre artefact et expliquez une amélioration (démontrez).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Le réglage fin adapte un modèle pré-entraîné à l’aide d’une formation supplémentaire. L'invite, la récupération et le réglage précis sont des approches différentes ; la formation n’est pas toujours nécessaire.",
+        "Appliquez l'idée via l'activité hors ligne.",
+        "Conservez le raisonnement, les preuves et les limites avec votre artefact."
+      ],
+      "sourceName": "Cours intensif de Google Machine Learning – lectures complémentaires",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Quelle affirmation explique le mieux « Affiner et choisir les outils » ?",
+          "options": [
+            "Une réponse soignée de l’IA est une preuve suffisante que chaque affirmation est correcte.",
+            "L’apprenant humain n’a jamais besoin de vérifier le résultat.",
+            "Chaque tâche nécessite la formation d'un nouveau modèle.",
+            "Le réglage fin adapte un modèle pré-entraîné à l’aide d’une formation supplémentaire. L'invite, la récupération et le réglage précis sont des approches différentes ; la formation n’est pas toujours nécessaire."
+          ],
+          "correct": 3,
+          "explanation": "Le réglage fin adapte un modèle pré-entraîné à l’aide d’une formation supplémentaire. L'invite, la récupération et le réglage précis sont des approches différentes ; la formation n’est pas toujours nécessaire.",
+          "id": "understanding-ai-week-13-lesson-05-question-01"
+        },
+        {
+          "prompt": "Pour l'activité « Choisissez une simple recherche de document, une invite ou une formation supplémentaire pour trois tâches fictives et justifiez l'option appropriée la plus simple. », quelle approche démontre l'apprentissage ?",
+          "options": [
+            "Partagez les informations privées de quelqu’un d’autre pour rendre l’exemple réaliste.",
+            "Traitez une réponse générée non vérifiée comme une preuve finale.",
+            "Ignorez l'activité et copiez une réponse sans rapport.",
+            "Terminez l’activité, expliquez votre raisonnement et notez une limitation."
+          ],
+          "correct": 3,
+          "explanation": "L’activité vous demande d’appliquer cette leçon. Une explication écrite et une limitation rendent votre compréhension révisable ; un résultat copié seul ne suffit pas.",
+          "id": "understanding-ai-week-13-lesson-05-question-02"
+        },
+        {
+          "prompt": "Vous revenez au cours « Mise au point et choix des outils » après une pause sans internet. Que pouvez-vous faire ensuite ?",
+          "options": [
+            "Supposons qu'un assistant cloud réponde sans connexion.",
+            "Attendez de pouvoir acheter un abonnement IA payant.",
+            "Supprimez votre travail précédent et recommencez tout le cours.",
+            "Rappelez-vous l'idée clé, vérifiez les notes enregistrées et terminez l'activité hors ligne."
+          ],
+          "correct": 3,
+          "explanation": "La leçon et la pratique ne nécessitent pas d'outil en ligne. La récupération et une petite activité enregistrée vous aident à reprendre.",
+          "id": "understanding-ai-week-13-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

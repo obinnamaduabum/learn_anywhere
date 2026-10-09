@@ -1,0 +1,258 @@
+{
+  "id": "online-communication-v1",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Write a clear message",
+      "subtitle": "One small skill to practise",
+      "body": "Decide what you want the reader to understand. Begin with a useful subject or opening line, give the necessary context and make your request clear. Reread the message before sending it.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "The purpose of your message",
+        "What you need from the reader",
+        "Rereading before sending"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://support.google.com/mail/",
+      "questions": [
+        {
+          "id": "online-communication-v1-1-1",
+          "prompt": "What belongs in a useful opening?",
+          "options": [
+            "The purpose of your message",
+            "An unrelated joke only",
+            "Your password"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, the purpose of your message is the useful choice. Decide what you want the reader to understand. Begin with a useful subject or opening line, give the necessary context and make your request clear. Reread the message before sending it."
+        },
+        {
+          "id": "online-communication-v1-1-2",
+          "prompt": "What should a request explain?",
+          "options": [
+            "Nothing specific",
+            "Only punctuation",
+            "What you need from the reader"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, what you need from the reader is the useful choice. Decide what you want the reader to understand. Begin with a useful subject or opening line, give the necessary context and make your request clear. Reread the message before sending it."
+        },
+        {
+          "id": "online-communication-v1-1-3",
+          "prompt": "What helps catch mistakes?",
+          "options": [
+            "Deleting the subject",
+            "Rereading before sending",
+            "Sending immediately every time"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, rereading before sending is the useful choice. Decide what you want the reader to understand. Begin with a useful subject or opening line, give the necessary context and make your request clear. Reread the message before sending it."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Use email carefully",
+      "subtitle": "One small skill to practise",
+      "body": "Check the recipient address before sending. Attach only the intended file and open it yourself to check its contents. Sensitive information should be shared only with the right person through a suitable channel.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "The recipient address",
+        "Only the intended file",
+        "To check its contents"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://support.google.com/mail/",
+      "questions": [
+        {
+          "id": "online-communication-v1-2-1",
+          "prompt": "What should you check before sending?",
+          "options": [
+            "Only the time",
+            "Only your wallpaper",
+            "The recipient address"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, the recipient address is the useful choice. Check the recipient address before sending. Attach only the intended file and open it yourself to check its contents. Sensitive information should be shared only with the right person through a suitable channel."
+        },
+        {
+          "id": "online-communication-v1-2-2",
+          "prompt": "What should you attach?",
+          "options": [
+            "Your login token",
+            "Only the intended file",
+            "Every folder you own"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, only the intended file is the useful choice. Check the recipient address before sending. Attach only the intended file and open it yourself to check its contents. Sensitive information should be shared only with the right person through a suitable channel."
+        },
+        {
+          "id": "online-communication-v1-2-3",
+          "prompt": "Why inspect an attachment?",
+          "options": [
+            "To check its contents",
+            "To guarantee delivery",
+            "To remove all privacy risks"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, to check its contents is the useful choice. Check the recipient address before sending. Attach only the intended file and open it yourself to check its contents. Sensitive information should be shared only with the right person through a suitable channel."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Work in a group chat",
+      "subtitle": "One small skill to practise",
+      "body": "Keep group messages relevant and easy to follow. Explain context when asking for help and respect people’s response time. Get permission before sharing someone else’s private message or photo.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Enough relevant context",
+        "Ask permission before sharing",
+        "Allow reasonable response time"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://support.google.com/mail/",
+      "questions": [
+        {
+          "id": "online-communication-v1-3-1",
+          "prompt": "What makes a help request easier to answer?",
+          "options": [
+            "No description",
+            "Enough relevant context",
+            "An unexplained urgent demand"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, enough relevant context is the useful choice. Keep group messages relevant and easy to follow. Explain context when asking for help and respect people’s response time. Get permission before sharing someone else’s private message or photo."
+        },
+        {
+          "id": "online-communication-v1-3-2",
+          "prompt": "What should you do with another person’s private photo?",
+          "options": [
+            "Ask permission before sharing",
+            "Post it everywhere",
+            "Forward it automatically"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, ask permission before sharing is the useful choice. Keep group messages relevant and easy to follow. Explain context when asking for help and respect people’s response time. Get permission before sharing someone else’s private message or photo."
+        },
+        {
+          "id": "online-communication-v1-3-3",
+          "prompt": "What is respectful when waiting for a reply?",
+          "options": [
+            "Send repeated insults",
+            "Publish private details",
+            "Allow reasonable response time"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, allow reasonable response time is the useful choice. Keep group messages relevant and easy to follow. Explain context when asking for help and respect people’s response time. Get permission before sharing someone else’s private message or photo."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prepare for a call",
+      "subtitle": "One small skill to practise",
+      "body": "Before an online call, check the time, your connection and the microphone controls. Use headphones if available and mute when background noise would interrupt others. Ask for a text recap if the connection makes the call hard to follow.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Connection and microphone controls",
+        "Mute when not speaking",
+        "A text recap"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://support.google.com/mail/",
+      "questions": [
+        {
+          "id": "online-communication-v1-4-1",
+          "prompt": "What should you test before a call?",
+          "options": [
+            "Connection and microphone controls",
+            "An unrelated game",
+            "Every phone contact"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, connection and microphone controls is the useful choice. Before an online call, check the time, your connection and the microphone controls. Use headphones if available and mute when background noise would interrupt others. Ask for a text recap if the connection makes the call hard to follow."
+        },
+        {
+          "id": "online-communication-v1-4-2",
+          "prompt": "What can help when background noise is loud?",
+          "options": [
+            "Shout over everyone",
+            "Share passwords",
+            "Mute when not speaking"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, mute when not speaking is the useful choice. Before an online call, check the time, your connection and the microphone controls. Use headphones if available and mute when background noise would interrupt others. Ask for a text recap if the connection makes the call hard to follow."
+        },
+        {
+          "id": "online-communication-v1-4-3",
+          "prompt": "What can help after a disrupted call?",
+          "options": [
+            "Deleting all notes",
+            "A text recap",
+            "Pretending you heard everything"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, a text recap is the useful choice. Before an online call, check the time, your connection and the microphone controls. Use headphones if available and mute when background noise would interrupt others. Ask for a text recap if the connection makes the call hard to follow."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Handle difficult messages",
+      "subtitle": "One small skill to practise",
+      "body": "Pause before replying to an upsetting message. Keep disagreements about the issue and avoid exposing personal information. If messages become threatening, use the platform’s reporting tools and seek appropriate support.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Pause and reread",
+        "The issue being discussed",
+        "Report and seek support"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://support.google.com/mail/",
+      "questions": [
+        {
+          "id": "online-communication-v1-5-1",
+          "prompt": "What can help before replying while upset?",
+          "options": [
+            "Respond with threats",
+            "Share private addresses",
+            "Pause and reread"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, pause and reread is the useful choice. Pause before replying to an upsetting message. Keep disagreements about the issue and avoid exposing personal information. If messages become threatening, use the platform’s reporting tools and seek appropriate support."
+        },
+        {
+          "id": "online-communication-v1-5-2",
+          "prompt": "What should a disagreement focus on?",
+          "options": [
+            "Account passwords",
+            "The issue being discussed",
+            "Personal attacks"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, the issue being discussed is the useful choice. Pause before replying to an upsetting message. Keep disagreements about the issue and avoid exposing personal information. If messages become threatening, use the platform’s reporting tools and seek appropriate support."
+        },
+        {
+          "id": "online-communication-v1-5-3",
+          "prompt": "What is a useful response to threatening messages?",
+          "options": [
+            "Report and seek support",
+            "Forward them for entertainment",
+            "Pay an unknown sender"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, report and seek support is the useful choice. Pause before replying to an upsetting message. Keep disagreements about the issue and avoid exposing personal information. If messages become threatening, use the platform’s reporting tools and seek appropriate support."
+        }
+      ]
+    }
+  ]
+}

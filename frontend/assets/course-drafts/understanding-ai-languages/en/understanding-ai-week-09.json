@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-09",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Explain and compare",
+      "subtitle": "Week 9: AI for learning",
+      "body": "Comparing two explanations can reveal gaps in understanding. Check each explanation against a trusted learning source and your own reasoning.\n\nOffline practice: Explain a familiar topic in plain language, then write a second explanation using a different example. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Comparing two explanations can reveal gaps in understanding. Check each explanation against a trusted learning source and your own reasoning.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Explain and compare”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Comparing two explanations can reveal gaps in understanding. Check each explanation against a trusted learning source and your own reasoning."
+          ],
+          "correct": 3,
+          "explanation": "Comparing two explanations can reveal gaps in understanding. Check each explanation against a trusted learning source and your own reasoning.",
+          "id": "understanding-ai-week-09-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Explain a familiar topic in plain language, then write a second explanation using a different example.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-09-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Explain and compare” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-09-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Practice questions",
+      "subtitle": "Week 9: AI for learning",
+      "body": "Useful practice questions test a stated objective and have defensible answers. Generated questions may be ambiguous or reveal the answer accidentally.\n\nOffline practice: Write three practice questions on a topic you know, then check the answer explanations. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Useful practice questions test a stated objective and have defensible answers. Generated questions may be ambiguous or reveal the answer accidentally.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Practice questions”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Useful practice questions test a stated objective and have defensible answers. Generated questions may be ambiguous or reveal the answer accidentally.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "Useful practice questions test a stated objective and have defensible answers. Generated questions may be ambiguous or reveal the answer accidentally.",
+          "id": "understanding-ai-week-09-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Write three practice questions on a topic you know, then check the answer explanations.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-09-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Practice questions” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-09-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Retrieval practice",
+      "subtitle": "Week 9: AI for learning",
+      "body": "Retrieval practice means recalling information before checking notes. Remembering an answer is different from recognising it when it is visible.\n\nOffline practice: Close this lesson and write three concepts from memory; reopen it and correct omissions. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Retrieval practice means recalling information before checking notes. Remembering an answer is different from recognising it when it is visible.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Retrieval practice”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Retrieval practice means recalling information before checking notes. Remembering an answer is different from recognising it when it is visible.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Retrieval practice means recalling information before checking notes. Remembering an answer is different from recognising it when it is visible.",
+          "id": "understanding-ai-week-09-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Close this lesson and write three concepts from memory; reopen it and correct omissions.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-09-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Retrieval practice” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-09-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Revision planning",
+      "subtitle": "Week 9: AI for learning",
+      "body": "A realistic plan accounts for available time, prerequisites, and breaks. A plan should adapt when circumstances change rather than punish interruptions.\n\nOffline practice: Create a fictional five-day plan and a shorter version for a busy week. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A realistic plan accounts for available time, prerequisites, and breaks. A plan should adapt when circumstances change rather than punish interruptions.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Revision planning”?",
+          "options": [
+            "A realistic plan accounts for available time, prerequisites, and breaks. A plan should adapt when circumstances change rather than punish interruptions.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A realistic plan accounts for available time, prerequisites, and breaks. A plan should adapt when circumstances change rather than punish interruptions.",
+          "id": "understanding-ai-week-09-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Create a fictional five-day plan and a shorter version for a busy week.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-09-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Revision planning” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-09-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Resume after a break",
+      "subtitle": "Week 9: AI for learning",
+      "body": "A recap helps identify what you remember and what needs refreshing. Resume with a manageable activity and preserve evidence of earlier work.\n\nOffline practice: Create a return-after-a-break card with a recap question, a small task, and the next step. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A recap helps identify what you remember and what needs refreshing. Resume with a manageable activity and preserve evidence of earlier work.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Resume after a break”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A recap helps identify what you remember and what needs refreshing. Resume with a manageable activity and preserve evidence of earlier work."
+          ],
+          "correct": 3,
+          "explanation": "A recap helps identify what you remember and what needs refreshing. Resume with a manageable activity and preserve evidence of earlier work.",
+          "id": "understanding-ai-week-09-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Create a return-after-a-break card with a recap question, a small task, and the next step.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-09-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Resume after a break” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-09-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

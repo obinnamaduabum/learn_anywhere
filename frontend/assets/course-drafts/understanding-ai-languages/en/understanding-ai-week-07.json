@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-07",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Claim checking",
+      "subtitle": "Week 7: Verification and information literacy",
+      "body": "Break an answer into checkable claims. Verify important claims against appropriate original evidence rather than judging only tone or length.\n\nOffline practice: Underline factual claims in a fictional school announcement and list evidence needed for each. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Break an answer into checkable claims. Verify important claims against appropriate original evidence rather than judging only tone or length.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Claim checking”?",
+          "options": [
+            "Every task requires training a new model.",
+            "Break an answer into checkable claims. Verify important claims against appropriate original evidence rather than judging only tone or length.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "Break an answer into checkable claims. Verify important claims against appropriate original evidence rather than judging only tone or length.",
+          "id": "understanding-ai-week-07-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Underline factual claims in a fictional school announcement and list evidence needed for each.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-07-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Claim checking” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-07-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Source quality",
+      "subtitle": "Week 7: Verification and information literacy",
+      "body": "A source should have relevant expertise and evidence for the specific claim. An official page can still be outdated or irrelevant to the question.\n\nOffline practice: Compare an undated advert with a dated official notice for a fictional opening-time question. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A source should have relevant expertise and evidence for the specific claim. An official page can still be outdated or irrelevant to the question.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Source quality”?",
+          "options": [
+            "A source should have relevant expertise and evidence for the specific claim. An official page can still be outdated or irrelevant to the question.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A source should have relevant expertise and evidence for the specific claim. An official page can still be outdated or irrelevant to the question.",
+          "id": "understanding-ai-week-07-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Compare an undated advert with a dated official notice for a fictional opening-time question.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-07-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Source quality” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-07-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Numbers and calculations",
+      "subtitle": "Week 7: Verification and information literacy",
+      "body": "Recalculate important numbers independently. Check units, assumptions, and rounding. A correct arithmetic result can still answer the wrong question.\n\nOffline practice: Check a fictional plan containing five sessions of fifteen minutes and explain the total in hours. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Recalculate important numbers independently. Check units, assumptions, and rounding. A correct arithmetic result can still answer the wrong question.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Numbers and calculations”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Recalculate important numbers independently. Check units, assumptions, and rounding. A correct arithmetic result can still answer the wrong question."
+          ],
+          "correct": 3,
+          "explanation": "Recalculate important numbers independently. Check units, assumptions, and rounding. A correct arithmetic result can still answer the wrong question.",
+          "id": "understanding-ai-week-07-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Check a fictional plan containing five sessions of fifteen minutes and explain the total in hours.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-07-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Numbers and calculations” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-07-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Changing information",
+      "subtitle": "Week 7: Verification and information literacy",
+      "body": "Prices, deadlines, rules, and service features can change. Record when information was checked and avoid presenting old details as current.\n\nOffline practice: Design a verification note with source, date, claim, and uncertainty for a fictional application deadline. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Prices, deadlines, rules, and service features can change. Record when information was checked and avoid presenting old details as current.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Changing information”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Prices, deadlines, rules, and service features can change. Record when information was checked and avoid presenting old details as current.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "Prices, deadlines, rules, and service features can change. Record when information was checked and avoid presenting old details as current.",
+          "id": "understanding-ai-week-07-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Design a verification note with source, date, claim, and uncertainty for a fictional application deadline.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-07-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Changing information” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-07-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uncertainty log",
+      "subtitle": "Week 7: Verification and information literacy",
+      "body": "A verification log distinguishes supported, contradicted, and unresolved claims. An unresolved claim should remain uncertain until adequate evidence is found.\n\nOffline practice: Build a three-row verification log and decide which claims belong in a final resource. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A verification log distinguishes supported, contradicted, and unresolved claims. An unresolved claim should remain uncertain until adequate evidence is found.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "UNESCO guidance on responsible AI in education",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Uncertainty log”?",
+          "options": [
+            "Every task requires training a new model.",
+            "A verification log distinguishes supported, contradicted, and unresolved claims. An unresolved claim should remain uncertain until adequate evidence is found.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "A verification log distinguishes supported, contradicted, and unresolved claims. An unresolved claim should remain uncertain until adequate evidence is found.",
+          "id": "understanding-ai-week-07-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Build a three-row verification log and decide which claims belong in a final resource.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-07-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Uncertainty log” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-07-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

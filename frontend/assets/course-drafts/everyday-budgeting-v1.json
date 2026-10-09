@@ -1,0 +1,258 @@
+{
+  "id": "everyday-budgeting-v1",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Record money coming in",
+      "subtitle": "One small skill to practise",
+      "body": "A budget starts with knowing what money is available and when it arrives. Write down income you actually receive, and label uncertain income separately. Use a period that matches how you manage your expenses.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Available income and its timing",
+        "Label it as uncertain",
+        "One that fits your income and expenses"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/",
+      "questions": [
+        {
+          "id": "everyday-budgeting-v1-1-1",
+          "prompt": "What should a budget record?",
+          "options": [
+            "Available income and its timing",
+            "Only hoped-for income",
+            "Other people’s passwords"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, available income and its timing is the useful choice. A budget starts with knowing what money is available and when it arrives. Write down income you actually receive, and label uncertain income separately. Use a period that matches how you manage your expenses."
+        },
+        {
+          "id": "everyday-budgeting-v1-1-2",
+          "prompt": "How should uncertain income be treated?",
+          "options": [
+            "Treat it as guaranteed",
+            "Ignore all income",
+            "Label it as uncertain"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, label it as uncertain is the useful choice. A budget starts with knowing what money is available and when it arrives. Write down income you actually receive, and label uncertain income separately. Use a period that matches how you manage your expenses."
+        },
+        {
+          "id": "everyday-budgeting-v1-1-3",
+          "prompt": "What is a useful budgeting period?",
+          "options": [
+            "No period",
+            "One that fits your income and expenses",
+            "A random date only"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, one that fits your income and expenses is the useful choice. A budget starts with knowing what money is available and when it arrives. Write down income you actually receive, and label uncertain income separately. Use a period that matches how you manage your expenses."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Track spending",
+      "subtitle": "One small skill to practise",
+      "body": "Record small purchases as well as larger bills. Use a notebook or a simple local spreadsheet if that is easiest. Review your record to understand where money went rather than guessing.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Small and large expenses",
+        "A notebook or simple spreadsheet",
+        "To see actual spending"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/",
+      "questions": [
+        {
+          "id": "everyday-budgeting-v1-2-1",
+          "prompt": "Which purchases should you track?",
+          "options": [
+            "Only the largest purchase",
+            "None",
+            "Small and large expenses"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, small and large expenses is the useful choice. Record small purchases as well as larger bills. Use a notebook or a simple local spreadsheet if that is easiest. Review your record to understand where money went rather than guessing."
+        },
+        {
+          "id": "everyday-budgeting-v1-2-2",
+          "prompt": "What is a usable tracking tool?",
+          "options": [
+            "A promised investment",
+            "A notebook or simple spreadsheet",
+            "An unknown person’s account"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, a notebook or simple spreadsheet is the useful choice. Record small purchases as well as larger bills. Use a notebook or a simple local spreadsheet if that is easiest. Review your record to understand where money went rather than guessing."
+        },
+        {
+          "id": "everyday-budgeting-v1-2-3",
+          "prompt": "Why keep records?",
+          "options": [
+            "To see actual spending",
+            "To guarantee more income",
+            "To remove every expense"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, to see actual spending is the useful choice. Record small purchases as well as larger bills. Use a notebook or a simple local spreadsheet if that is easiest. Review your record to understand where money went rather than guessing."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Plan bills and essentials",
+      "subtitle": "One small skill to practise",
+      "body": "List upcoming bills with their due dates. Consider necessary expenses and flexible purchases, remembering that needs depend on your situation. If a plan does not cover essential bills, identify the gap early and seek suitable local guidance.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Its amount and due date",
+        "No, circumstances differ",
+        "Recognising it early"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/",
+      "questions": [
+        {
+          "id": "everyday-budgeting-v1-3-1",
+          "prompt": "What belongs beside an upcoming bill?",
+          "options": [
+            "Only its colour",
+            "Its amount and due date",
+            "A random password"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, its amount and due date is the useful choice. List upcoming bills with their due dates. Consider necessary expenses and flexible purchases, remembering that needs depend on your situation. If a plan does not cover essential bills, identify the gap early and seek suitable local guidance."
+        },
+        {
+          "id": "everyday-budgeting-v1-3-2",
+          "prompt": "Do everyone’s essential needs look identical?",
+          "options": [
+            "No, circumstances differ",
+            "Always",
+            "Only online"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, no, circumstances differ is the useful choice. List upcoming bills with their due dates. Consider necessary expenses and flexible purchases, remembering that needs depend on your situation. If a plan does not cover essential bills, identify the gap early and seek suitable local guidance."
+        },
+        {
+          "id": "everyday-budgeting-v1-3-3",
+          "prompt": "What helps when your plan has a gap?",
+          "options": [
+            "Pretending it is covered",
+            "Sharing account codes",
+            "Recognising it early"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, recognising it early is the useful choice. List upcoming bills with their due dates. Consider necessary expenses and flexible purchases, remembering that needs depend on your situation. If a plan does not cover essential bills, identify the gap early and seek suitable local guidance."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Set a small goal",
+      "subtitle": "One small skill to practise",
+      "body": "Choose a specific goal and estimate how much it needs. Decide a realistic amount to set aside if your circumstances allow. Check progress periodically and revise the plan when income or essential expenses change.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "A purpose and estimated amount",
+        "Your actual circumstances",
+        "When circumstances change"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/",
+      "questions": [
+        {
+          "id": "everyday-budgeting-v1-4-1",
+          "prompt": "What makes a goal clearer?",
+          "options": [
+            "A purpose and estimated amount",
+            "An unlimited promise",
+            "No explanation"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, a purpose and estimated amount is the useful choice. Choose a specific goal and estimate how much it needs. Decide a realistic amount to set aside if your circumstances allow. Check progress periodically and revise the plan when income or essential expenses change."
+        },
+        {
+          "id": "everyday-budgeting-v1-4-2",
+          "prompt": "What should a saving plan consider?",
+          "options": [
+            "Someone’s guaranteed riches",
+            "Only advertisements",
+            "Your actual circumstances"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, your actual circumstances is the useful choice. Choose a specific goal and estimate how much it needs. Decide a realistic amount to set aside if your circumstances allow. Check progress periodically and revise the plan when income or essential expenses change."
+        },
+        {
+          "id": "everyday-budgeting-v1-4-3",
+          "prompt": "When should you review a plan?",
+          "options": [
+            "Only after deleting records",
+            "When circumstances change",
+            "Never"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, when circumstances change is the useful choice. Choose a specific goal and estimate how much it needs. Decide a realistic amount to set aside if your circumstances allow. Check progress periodically and revise the plan when income or essential expenses change."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Review your budget",
+      "subtitle": "One small skill to practise",
+      "body": "Compare planned and actual spending. A difference is information you can use to adjust the next plan. Build a simple example budget using fictional amounts; keep personal financial details private.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Planned and actual spending",
+        "Adjust the next plan",
+        "Fictional amounts"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/",
+      "questions": [
+        {
+          "id": "everyday-budgeting-v1-5-1",
+          "prompt": "What should you compare during a review?",
+          "options": [
+            "Only app colours",
+            "Only yesterday’s weather",
+            "Planned and actual spending"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, planned and actual spending is the useful choice. Compare planned and actual spending. A difference is information you can use to adjust the next plan. Build a simple example budget using fictional amounts; keep personal financial details private."
+        },
+        {
+          "id": "everyday-budgeting-v1-5-2",
+          "prompt": "What can a difference help you do?",
+          "options": [
+            "Ignore essential bills",
+            "Adjust the next plan",
+            "Guarantee wealth"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, adjust the next plan is the useful choice. Compare planned and actual spending. A difference is information you can use to adjust the next plan. Build a simple example budget using fictional amounts; keep personal financial details private."
+        },
+        {
+          "id": "everyday-budgeting-v1-5-3",
+          "prompt": "What is suitable for classroom practice?",
+          "options": [
+            "Fictional amounts",
+            "Another learner’s bank details",
+            "A shared account PIN"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, fictional amounts is the useful choice. Compare planned and actual spending. A difference is information you can use to adjust the next plan. Build a simple example budget using fictional amounts; keep personal financial details private."
+        }
+      ]
+    }
+  ]
+}

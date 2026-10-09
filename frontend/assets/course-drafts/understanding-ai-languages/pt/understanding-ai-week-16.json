@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-16",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Apresente sua evidência",
+      "subtitle": "Semana 16: Demonstração e próximos passos",
+      "body": "Uma apresentação útil mostra a tarefa, o artefato, a avaliação, as melhorias e as limitações. Separe os resultados demonstrados das possibilidades futuras.\n\nPrática offline: Prepare uma explicação de dois minutos ou uma apresentação escrita de uma página do seu projeto. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma apresentação útil mostra a tarefa, o artefato, a avaliação, as melhorias e as limitações. Separe os resultados demonstrados das possibilidades futuras.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Apresente suas evidências”?",
+          "options": [
+            "Uma apresentação útil mostra a tarefa, o artefato, a avaliação, as melhorias e as limitações. Separe os resultados demonstrados das possibilidades futuras.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Uma apresentação útil mostra a tarefa, o artefato, a avaliação, as melhorias e as limitações. Separe os resultados demonstrados das possibilidades futuras.",
+          "id": "understanding-ai-week-16-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Prepare uma explicação de dois minutos ou uma apresentação escrita de uma página do seu projeto.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-16-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Apresente suas evidências” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-16-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Explique sua contribuição",
+      "subtitle": "Semana 16: Demonstração e próximos passos",
+      "body": "Descreva o que você escolheu, criou, verificou e melhorou e identifique a assistência de IA quando aplicável. Não reivindique um selo de conclusão de aplicativo como uma qualificação credenciada.\n\nPrática offline: Escreva uma nota de contribuição com uma decisão independente e uma correção verificada. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Descreva o que você escolheu, criou, verificou e melhorou e identifique a assistência de IA quando aplicável. Não reivindique um selo de conclusão de aplicativo como uma qualificação credenciada.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Explique sua contribuição”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Descreva o que você escolheu, criou, verificou e melhorou e identifique a assistência de IA quando aplicável. Não reivindique um selo de conclusão de aplicativo como uma qualificação credenciada."
+          ],
+          "correct": 3,
+          "explanation": "Descreva o que você escolheu, criou, verificou e melhorou e identifique a assistência de IA quando aplicável. Não reivindique um selo de conclusão de aplicativo como uma qualificação credenciada.",
+          "id": "understanding-ai-week-16-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escreva uma nota de contribuição com uma decisão independente e uma correção verificada.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-16-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Explique sua contribuição” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-16-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Crie um portfólio portátil",
+      "subtitle": "Semana 16: Demonstração e próximos passos",
+      "body": "Um portfólio portátil pode conter um PDF ou artefato de texto, uma rubrica, uma lista de fontes e uma reflexão. Remova dados privados antes de compartilhar cópias.\n\nPrática offline: Organize seus arquivos finais e escreva um pequeno índice para que outra pessoa possa entendê-los offline. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um portfólio portátil pode conter um PDF ou artefato de texto, uma rubrica, uma lista de fontes e uma reflexão. Remova dados privados antes de compartilhar cópias.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Construa um portfólio portátil”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um portfólio portátil pode conter um PDF ou artefato de texto, uma rubrica, uma lista de fontes e uma reflexão. Remova dados privados antes de compartilhar cópias.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um portfólio portátil pode conter um PDF ou artefato de texto, uma rubrica, uma lista de fontes e uma reflexão. Remova dados privados antes de compartilhar cópias.",
+          "id": "understanding-ai-week-16-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Organize seus arquivos finais e escreva um pequeno índice para que outra pessoa possa entendê-los off-line.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-16-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Construa um portfólio portátil” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-16-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Escolha um caminho de aprendizagem",
+      "subtitle": "Semana 16: Demonstração e próximos passos",
+      "body": "Escolha o próximo aprendizado com base em seu objetivo e pré-requisitos. O uso de ferramentas, a alfabetização em dados e a programação são caminhos diferentes; verifique os detalhes atuais do curso ou da oportunidade antes de se comprometer.\n\nPrática off-line: selecione a próxima habilidade e elabore um plano para verificar cursos, custos, elegibilidade e acesso relevantes. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Escolha o próximo aprendizado com base em seu objetivo e pré-requisitos. O uso de ferramentas, a alfabetização em dados e a programação são caminhos diferentes; verifique os detalhes atuais do curso ou da oportunidade antes de se comprometer.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Escolha um caminho de aprendizagem”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Escolha o próximo aprendizado com base em seu objetivo e pré-requisitos. O uso de ferramentas, a alfabetização em dados e a programação são caminhos diferentes; verifique os detalhes atuais do curso ou da oportunidade antes de se comprometer.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Escolha o próximo aprendizado com base em seu objetivo e pré-requisitos. O uso de ferramentas, a alfabetização em dados e a programação são caminhos diferentes; verifique os detalhes atuais do curso ou da oportunidade antes de se comprometer.",
+          "id": "understanding-ai-week-16-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Selecione uma próxima habilidade e escreva um plano para verificar cursos relevantes, custos, elegibilidade e acesso.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-16-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Escolha um caminho de aprendizagem” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-16-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Demonstração final do curso",
+      "subtitle": "Semana 16: Demonstração e próximos passos",
+      "body": "Completar significa mostrar o que você pode explicar e aplicar. Apresente um artefato revisado, evidências de correções, um substituto off-line e um plano realista para a próxima etapa.\n\nPrática offline: Tarefa final: recapitular uma limitação da IA; pratique com seu artefato; planejar como verificar as reivindicações; demonstrar uma melhoria e explicar suas evidências. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Completar significa mostrar o que você pode explicar e aplicar. Apresente um artefato revisado, evidências de correções, um substituto off-line e um plano realista para a próxima etapa.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Orientação da UNESCO sobre IA responsável na educação",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor a “Demonstração final do curso”?",
+          "options": [
+            "Completar significa mostrar o que você pode explicar e aplicar. Apresente um artefato revisado, evidências de correções, um substituto off-line e um plano realista para a próxima etapa.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Completar significa mostrar o que você pode explicar e aplicar. Apresente um artefato revisado, evidências de correções, um substituto off-line e um plano realista para a próxima etapa.",
+          "id": "understanding-ai-week-16-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Tarefa final: recapitular uma limitação da IA; praticar com seu artefato; planejar como verificar afirmações; demonstrar uma melhoria e explicar suas evidências.”, qual abordagem demonstra aprendizado?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-16-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Demonstração final do curso” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-16-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

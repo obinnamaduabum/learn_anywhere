@@ -1,0 +1,674 @@
+{
+  "understanding-ai-week-01:fr": {
+    "status": "approved",
+    "draftId": 18,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-02:fr": {
+    "status": "approved",
+    "draftId": 19,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-03:fr": {
+    "status": "approved",
+    "draftId": 20,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-04:fr": {
+    "status": "approved",
+    "draftId": 21,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-05:fr": {
+    "status": "approved",
+    "draftId": 22,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-06:fr": {
+    "status": "approved",
+    "draftId": 23,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-07:fr": {
+    "status": "approved",
+    "draftId": 24,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-08:fr": {
+    "status": "approved",
+    "draftId": 25,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-09:fr": {
+    "status": "approved",
+    "draftId": 26,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-10:fr": {
+    "status": "approved",
+    "draftId": 27,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-11:fr": {
+    "status": "approved",
+    "draftId": 28,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-12:fr": {
+    "status": "approved",
+    "draftId": 29,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-13:fr": {
+    "status": "approved",
+    "draftId": 30,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-14:fr": {
+    "status": "approved",
+    "draftId": 31,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-15:fr": {
+    "status": "approved",
+    "draftId": 32,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-16:fr": {
+    "status": "approved",
+    "draftId": 33,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-01:pt": {
+    "status": "approved",
+    "draftId": 34,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-02:pt": {
+    "status": "approved",
+    "draftId": 35,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-03:pt": {
+    "status": "approved",
+    "draftId": 36,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-04:pt": {
+    "status": "approved",
+    "draftId": 37,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-05:pt": {
+    "status": "approved",
+    "draftId": 38,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-06:pt": {
+    "status": "approved",
+    "draftId": 39,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-07:pt": {
+    "status": "approved",
+    "draftId": 40,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-08:pt": {
+    "status": "approved",
+    "draftId": 41,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-09:pt": {
+    "status": "approved",
+    "draftId": 42,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-10:pt": {
+    "status": "approved",
+    "draftId": 43,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-11:pt": {
+    "status": "approved",
+    "draftId": 44,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-12:pt": {
+    "status": "approved",
+    "draftId": 45,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-13:pt": {
+    "status": "approved",
+    "draftId": 46,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-14:pt": {
+    "status": "approved",
+    "draftId": 47,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-15:pt": {
+    "status": "approved",
+    "draftId": 48,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-16:pt": {
+    "status": "approved",
+    "draftId": 49,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-01:ar": {
+    "status": "approved",
+    "draftId": 50,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-02:ar": {
+    "status": "approved",
+    "draftId": 51,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-03:ar": {
+    "status": "approved",
+    "draftId": 52,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-04:ar": {
+    "status": "approved",
+    "draftId": 53,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-05:ar": {
+    "status": "approved",
+    "draftId": 54,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-06:ar": {
+    "status": "approved",
+    "draftId": 55,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-07:ar": {
+    "status": "approved",
+    "draftId": 56,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-08:ar": {
+    "status": "approved",
+    "draftId": 57,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-09:ar": {
+    "status": "approved",
+    "draftId": 58,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-10:ar": {
+    "status": "approved",
+    "draftId": 59,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-11:ar": {
+    "status": "approved",
+    "draftId": 60,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-12:ar": {
+    "status": "approved",
+    "draftId": 61,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-13:ar": {
+    "status": "approved",
+    "draftId": 62,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-14:ar": {
+    "status": "approved",
+    "draftId": 63,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-15:ar": {
+    "status": "approved",
+    "draftId": 64,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-16:ar": {
+    "status": "approved",
+    "draftId": 65,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-01:ha": {
+    "status": "approved",
+    "draftId": 66,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-02:ha": {
+    "status": "approved",
+    "draftId": 67,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-03:ha": {
+    "status": "approved",
+    "draftId": 68,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-04:ha": {
+    "status": "approved",
+    "draftId": 69,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-05:ha": {
+    "status": "approved",
+    "draftId": 70,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-06:ha": {
+    "status": "approved",
+    "draftId": 71,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-07:ha": {
+    "status": "approved",
+    "draftId": 72,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-08:ha": {
+    "status": "approved",
+    "draftId": 73,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-09:ha": {
+    "status": "approved",
+    "draftId": 74,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-10:ha": {
+    "status": "approved",
+    "draftId": 75,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-11:ha": {
+    "status": "approved",
+    "draftId": 76,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-12:ha": {
+    "status": "approved",
+    "draftId": 77,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-13:ha": {
+    "status": "approved",
+    "draftId": 78,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-14:ha": {
+    "status": "approved",
+    "draftId": 79,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-15:ha": {
+    "status": "approved",
+    "draftId": 80,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-16:ha": {
+    "status": "approved",
+    "draftId": 81,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-01:yo": {
+    "status": "approved",
+    "draftId": 82,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-02:yo": {
+    "status": "approved",
+    "draftId": 83,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-03:yo": {
+    "status": "approved",
+    "draftId": 84,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-04:yo": {
+    "status": "approved",
+    "draftId": 85,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-05:yo": {
+    "status": "approved",
+    "draftId": 86,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-06:yo": {
+    "status": "approved",
+    "draftId": 87,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-07:yo": {
+    "status": "approved",
+    "draftId": 88,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-08:yo": {
+    "status": "approved",
+    "draftId": 89,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-09:yo": {
+    "status": "approved",
+    "draftId": 90,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-10:yo": {
+    "status": "approved",
+    "draftId": 91,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-11:yo": {
+    "status": "approved",
+    "draftId": 92,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-12:yo": {
+    "status": "approved",
+    "draftId": 93,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-13:yo": {
+    "status": "approved",
+    "draftId": 94,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-14:yo": {
+    "status": "approved",
+    "draftId": 95,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-15:yo": {
+    "status": "approved",
+    "draftId": 96,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-16:yo": {
+    "status": "approved",
+    "draftId": 97,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-01:ig": {
+    "status": "approved",
+    "draftId": 98,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-02:ig": {
+    "status": "approved",
+    "draftId": 99,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-03:ig": {
+    "status": "approved",
+    "draftId": 100,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-04:ig": {
+    "status": "approved",
+    "draftId": 101,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-05:ig": {
+    "status": "approved",
+    "draftId": 102,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-06:ig": {
+    "status": "approved",
+    "draftId": 103,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-07:ig": {
+    "status": "approved",
+    "draftId": 104,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-08:ig": {
+    "status": "approved",
+    "draftId": 105,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-09:ig": {
+    "status": "approved",
+    "draftId": 106,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-10:ig": {
+    "status": "approved",
+    "draftId": 107,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-11:ig": {
+    "status": "approved",
+    "draftId": 108,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-12:ig": {
+    "status": "approved",
+    "draftId": 109,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-13:ig": {
+    "status": "approved",
+    "draftId": 110,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-14:ig": {
+    "status": "approved",
+    "draftId": 111,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-15:ig": {
+    "status": "approved",
+    "draftId": 112,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  },
+  "understanding-ai-week-16:ig": {
+    "status": "approved",
+    "draftId": 113,
+    "approvalResponse": {
+      "status": "approved"
+    }
+  }
+}

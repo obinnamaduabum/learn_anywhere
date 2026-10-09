@@ -1,0 +1,258 @@
+{
+  "id": "information-literacy-v1",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Ask a useful question",
+      "subtitle": "One small skill to practise",
+      "body": "Start with a clear question and choose a few specific search words. Narrow the question if the results are too broad. A useful search goal helps you decide which results are relevant.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "The question you want answered",
+        "More specific words",
+        "It helps answer your question"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.unesco.org/en/media-information-literacy",
+      "questions": [
+        {
+          "id": "information-literacy-v1-1-1",
+          "prompt": "What should you decide before searching?",
+          "options": [
+            "The question you want answered",
+            "A favourite advertisement",
+            "A random password"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, the question you want answered is the useful choice. Start with a clear question and choose a few specific search words. Narrow the question if the results are too broad. A useful search goal helps you decide which results are relevant."
+        },
+        {
+          "id": "information-literacy-v1-1-2",
+          "prompt": "What can improve a broad search?",
+          "options": [
+            "More unrelated words",
+            "No words",
+            "More specific words"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, more specific words is the useful choice. Start with a clear question and choose a few specific search words. Narrow the question if the results are too broad. A useful search goal helps you decide which results are relevant."
+        },
+        {
+          "id": "information-literacy-v1-1-3",
+          "prompt": "What makes a result useful?",
+          "options": [
+            "It promises everything",
+            "It helps answer your question",
+            "It appears colourful"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, it helps answer your question is the useful choice. Start with a clear question and choose a few specific search words. Narrow the question if the results are too broad. A useful search goal helps you decide which results are relevant."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Check the source",
+      "subtitle": "One small skill to practise",
+      "body": "Look for who created the material and why. An official source may explain its methods or link to evidence, but you should still check whether it addresses your question. Popularity alone does not establish accuracy.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Who created it",
+        "Relevant evidence",
+        "It can affect how information is presented"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.unesco.org/en/media-information-literacy",
+      "questions": [
+        {
+          "id": "information-literacy-v1-2-1",
+          "prompt": "What should you identify about a resource?",
+          "options": [
+            "Only its colour",
+            "Only its likes",
+            "Who created it"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, who created it is the useful choice. Look for who created the material and why. An official source may explain its methods or link to evidence, but you should still check whether it addresses your question. Popularity alone does not establish accuracy."
+        },
+        {
+          "id": "information-literacy-v1-2-2",
+          "prompt": "What is stronger than popularity alone?",
+          "options": [
+            "A large banner",
+            "Relevant evidence",
+            "Many emojis"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, relevant evidence is the useful choice. Look for who created the material and why. An official source may explain its methods or link to evidence, but you should still check whether it addresses your question. Popularity alone does not establish accuracy."
+        },
+        {
+          "id": "information-literacy-v1-2-3",
+          "prompt": "Why consider the creator’s purpose?",
+          "options": [
+            "It can affect how information is presented",
+            "It makes every claim true",
+            "It removes all uncertainty"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, it can affect how information is presented is the useful choice. Look for who created the material and why. An official source may explain its methods or link to evidence, but you should still check whether it addresses your question. Popularity alone does not establish accuracy."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Read beyond headlines",
+      "subtitle": "One small skill to practise",
+      "body": "A headline may omit context. Read the full claim, check its date and distinguish evidence from opinion. Note what the resource does not explain before making a decision.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "The headline",
+        "Information can become outdated",
+        "Evidence and opinion"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.unesco.org/en/media-information-literacy",
+      "questions": [
+        {
+          "id": "information-literacy-v1-3-1",
+          "prompt": "What should you read beyond?",
+          "options": [
+            "Only the logo",
+            "The headline",
+            "Only the comments"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, the headline is the useful choice. A headline may omit context. Read the full claim, check its date and distinguish evidence from opinion. Note what the resource does not explain before making a decision."
+        },
+        {
+          "id": "information-literacy-v1-3-2",
+          "prompt": "Why check the date?",
+          "options": [
+            "Information can become outdated",
+            "Old claims are always false",
+            "New claims are always true"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, information can become outdated is the useful choice. A headline may omit context. Read the full claim, check its date and distinguish evidence from opinion. Note what the resource does not explain before making a decision."
+        },
+        {
+          "id": "information-literacy-v1-3-3",
+          "prompt": "What should you distinguish?",
+          "options": [
+            "Font sizes alone",
+            "App icons alone",
+            "Evidence and opinion"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, evidence and opinion is the useful choice. A headline may omit context. Read the full claim, check its date and distinguish evidence from opinion. Note what the resource does not explain before making a decision."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Compare independent evidence",
+      "subtitle": "One small skill to practise",
+      "body": "Compare a claim with another reliable source. Several websites copying the same statement are not independent confirmation. If reliable sources disagree, describe the uncertainty and keep investigating.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Independent evidence",
+        "No",
+        "Explain the uncertainty"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.unesco.org/en/media-information-literacy",
+      "questions": [
+        {
+          "id": "information-literacy-v1-4-1",
+          "prompt": "What improves a claim check?",
+          "options": [
+            "Independent evidence",
+            "Copies of the same unsourced post",
+            "A louder headline"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, independent evidence is the useful choice. Compare a claim with another reliable source. Several websites copying the same statement are not independent confirmation. If reliable sources disagree, describe the uncertainty and keep investigating."
+        },
+        {
+          "id": "information-literacy-v1-4-2",
+          "prompt": "Are copied claims independent confirmation?",
+          "options": [
+            "Always",
+            "Only when colourful",
+            "No"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, no is the useful choice. Compare a claim with another reliable source. Several websites copying the same statement are not independent confirmation. If reliable sources disagree, describe the uncertainty and keep investigating."
+        },
+        {
+          "id": "information-literacy-v1-4-3",
+          "prompt": "What should you do when evidence is uncertain?",
+          "options": [
+            "Hide the sources",
+            "Explain the uncertainty",
+            "Invent certainty"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, explain the uncertainty is the useful choice. Compare a claim with another reliable source. Several websites copying the same statement are not independent confirmation. If reliable sources disagree, describe the uncertainty and keep investigating."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Share responsibly",
+      "subtitle": "One small skill to practise",
+      "body": "Before sharing, check whether the resource is relevant, credible and current. Include the original source when possible and avoid presenting an uncertain claim as established fact. Correct a mistake when you discover one.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Its original source when possible",
+        "With its uncertainty",
+        "Correct it"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://www.unesco.org/en/media-information-literacy",
+      "questions": [
+        {
+          "id": "information-literacy-v1-5-1",
+          "prompt": "What should accompany a shared factual claim?",
+          "options": [
+            "A made-up author",
+            "An account secret",
+            "Its original source when possible"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, its original source when possible is the useful choice. Before sharing, check whether the resource is relevant, credible and current. Include the original source when possible and avoid presenting an uncertain claim as established fact. Correct a mistake when you discover one."
+        },
+        {
+          "id": "information-literacy-v1-5-2",
+          "prompt": "How should you describe an uncertain claim?",
+          "options": [
+            "As professional certification",
+            "With its uncertainty",
+            "As guaranteed truth"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, with its uncertainty is the useful choice. Before sharing, check whether the resource is relevant, credible and current. Include the original source when possible and avoid presenting an uncertain claim as established fact. Correct a mistake when you discover one."
+        },
+        {
+          "id": "information-literacy-v1-5-3",
+          "prompt": "What should you do after sharing an error?",
+          "options": [
+            "Correct it",
+            "Repeat it more often",
+            "Blame the reader"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, correct it is the useful choice. Before sharing, check whether the resource is relevant, credible and current. Include the original source when possible and avoid presenting an uncertain claim as established fact. Correct a mistake when you discover one."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-12",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Define a workflow",
+      "subtitle": "Week 12: Third milestone: build a workflow",
+      "body": "A workflow is a sequence of steps with inputs, outputs, and responsibilities. AI can support a step without replacing the entire process.\n\nOffline practice: Map collect notes → draft summary → check claims → revise → save. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A workflow is a sequence of steps with inputs, outputs, and responsibilities. AI can support a step without replacing the entire process.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Define a workflow”?",
+          "options": [
+            "A workflow is a sequence of steps with inputs, outputs, and responsibilities. AI can support a step without replacing the entire process.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A workflow is a sequence of steps with inputs, outputs, and responsibilities. AI can support a step without replacing the entire process.",
+          "id": "understanding-ai-week-12-lesson-01-question-01"
+        },
+        {
+          "prompt": "For the activity “Map collect notes → draft summary → check claims → revise → save.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-12-lesson-01-question-02"
+        },
+        {
+          "prompt": "You return to the “Define a workflow” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-12-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Human review gates",
+      "subtitle": "Week 12: Third milestone: build a workflow",
+      "body": "A review gate prevents an unchecked result from moving to the next stage. State who checks what and what happens when a check fails.\n\nOffline practice: Add a review gate to a fictional announcement workflow before anyone sends it. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A review gate prevents an unchecked result from moving to the next stage. State who checks what and what happens when a check fails.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Human review gates”?",
+          "options": [
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "A review gate prevents an unchecked result from moving to the next stage. State who checks what and what happens when a check fails."
+          ],
+          "correct": 3,
+          "explanation": "A review gate prevents an unchecked result from moving to the next stage. State who checks what and what happens when a check fails.",
+          "id": "understanding-ai-week-12-lesson-02-question-01"
+        },
+        {
+          "prompt": "For the activity “Add a review gate to a fictional announcement workflow before anyone sends it.”, which approach demonstrates learning?",
+          "options": [
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation."
+          ],
+          "correct": 3,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-12-lesson-02-question-02"
+        },
+        {
+          "prompt": "You return to the “Human review gates” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity."
+          ],
+          "correct": 3,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-12-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Repeatable evaluation",
+      "subtitle": "Week 12: Third milestone: build a workflow",
+      "body": "Use consistent criteria to compare attempts. A small set of realistic examples can expose weaknesses, but cannot prove a tool is reliable in every situation.\n\nOffline practice: Create three test cases and a rubric for a fictional summary assistant. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Use consistent criteria to compare attempts. A small set of realistic examples can expose weaknesses, but cannot prove a tool is reliable in every situation.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Repeatable evaluation”?",
+          "options": [
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model.",
+            "Use consistent criteria to compare attempts. A small set of realistic examples can expose weaknesses, but cannot prove a tool is reliable in every situation.",
+            "A polished AI answer is enough evidence that every claim is correct."
+          ],
+          "correct": 2,
+          "explanation": "Use consistent criteria to compare attempts. A small set of realistic examples can expose weaknesses, but cannot prove a tool is reliable in every situation.",
+          "id": "understanding-ai-week-12-lesson-03-question-01"
+        },
+        {
+          "prompt": "For the activity “Create three test cases and a rubric for a fictional summary assistant.”, which approach demonstrates learning?",
+          "options": [
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic."
+          ],
+          "correct": 2,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-12-lesson-03-question-02"
+        },
+        {
+          "prompt": "You return to the “Repeatable evaluation” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection."
+          ],
+          "correct": 2,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-12-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Offline fallback",
+      "subtitle": "Week 12: Third milestone: build a workflow",
+      "body": "A workflow should remain useful when connectivity fails. Save essential references and provide manual steps for the parts that normally require a service.\n\nOffline practice: Write an offline version of your summary workflow with no online assistant. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A workflow should remain useful when connectivity fails. Save essential references and provide manual steps for the parts that normally require a service.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Offline fallback”?",
+          "options": [
+            "Every task requires training a new model.",
+            "A workflow should remain useful when connectivity fails. Save essential references and provide manual steps for the parts that normally require a service.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result."
+          ],
+          "correct": 1,
+          "explanation": "A workflow should remain useful when connectivity fails. Save essential references and provide manual steps for the parts that normally require a service.",
+          "id": "understanding-ai-week-12-lesson-04-question-01"
+        },
+        {
+          "prompt": "For the activity “Write an offline version of your summary workflow with no online assistant.”, which approach demonstrates learning?",
+          "options": [
+            "Skip the activity and copy an unrelated answer.",
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence."
+          ],
+          "correct": 1,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-12-lesson-04-question-02"
+        },
+        {
+          "prompt": "You return to the “Offline fallback” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Delete your previous work and start the whole course again.",
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription."
+          ],
+          "correct": 1,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-12-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Month-three demonstration",
+      "subtitle": "Week 12: Third milestone: build a workflow",
+      "body": "A demonstrated workflow includes steps, review criteria, sample outputs, a fallback, and observed limitations. Show failures and corrections as well as successes.\n\nOffline practice: Demonstrate your workflow using fictional inputs and record one change prompted by a failed check. Write your reasoning before looking at the quiz answers. Record one limitation or uncertainty. You can use paper or local notes; an online AI tool is optional.\n\nRecap: explain yesterday’s key idea from memory, then check your notes. After a break, start with this recap and the first small step of today’s activity.\n\nComplete all three quiz questions before moving on.\n\nWeekly completion task: save this week’s practice artifact. Confirm four steps: explain a key idea (recap); complete the practice activity (practice); record what you would verify and where (plan); show your artifact and explain one improvement (demonstrate).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "A demonstrated workflow includes steps, review criteria, sample outputs, a fallback, and observed limitations. Show failures and corrections as well as successes.",
+        "Apply the idea through the offline activity.",
+        "Keep reasoning, evidence, and limitations with your artifact."
+      ],
+      "sourceName": "Google Machine Learning Crash Course — further reading",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Which statement best explains “Month-three demonstration”?",
+          "options": [
+            "A demonstrated workflow includes steps, review criteria, sample outputs, a fallback, and observed limitations. Show failures and corrections as well as successes.",
+            "A polished AI answer is enough evidence that every claim is correct.",
+            "The human learner never needs to check the result.",
+            "Every task requires training a new model."
+          ],
+          "correct": 0,
+          "explanation": "A demonstrated workflow includes steps, review criteria, sample outputs, a fallback, and observed limitations. Show failures and corrections as well as successes.",
+          "id": "understanding-ai-week-12-lesson-05-question-01"
+        },
+        {
+          "prompt": "For the activity “Demonstrate your workflow using fictional inputs and record one change prompted by a failed check.”, which approach demonstrates learning?",
+          "options": [
+            "Complete the activity, explain your reasoning, and record a limitation.",
+            "Share someone else’s private information to make the example realistic.",
+            "Treat an unverified generated response as final evidence.",
+            "Skip the activity and copy an unrelated answer."
+          ],
+          "correct": 0,
+          "explanation": "The activity asks you to apply this lesson. A written explanation and limitation make your understanding reviewable; a copied result alone does not.",
+          "id": "understanding-ai-week-12-lesson-05-question-02"
+        },
+        {
+          "prompt": "You return to the “Month-three demonstration” lesson after a break without internet. What can you do next?",
+          "options": [
+            "Recall the key idea, check saved notes, and complete the offline activity.",
+            "Assume a cloud assistant will respond without a connection.",
+            "Wait until you can buy a paid AI subscription.",
+            "Delete your previous work and start the whole course again."
+          ],
+          "correct": 0,
+          "explanation": "The lesson and practice do not require an online tool. Retrieval and a small saved activity help you resume.",
+          "id": "understanding-ai-week-12-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

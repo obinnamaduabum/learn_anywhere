@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-16",
+  "language": "ig",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Wepụta ihe akaebe gị",
+      "subtitle": "Izu 16: Ngosipụta na usoro ndị ọzọ",
+      "body": "Ngosipụta bara uru na-egosi ọrụ ahụ, ihe arụrụ arụ, nleba anya, nkwalite na njedebe. Kewapụ nsonaazụ gosipụtara site na ohere n'ọdịnihu.\n\nOmume na-anọghị n'ịntanetị: Kwadebe nkọwa nkeji abụọ ma ọ bụ ihe ngosi ederede nke otu ibe nke ọrụ gị. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ngosipụta bara uru na-egosi ọrụ ahụ, ihe arụrụ arụ, nleba anya, nkwalite na njedebe. Kewapụ nsonaazụ gosipụtara site na ohere n'ọdịnihu.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Ntuziaka UNESCO na AI nwere ọrụ na agụmakwụkwọ",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Wepụta ihe akaebe gị\"?",
+          "options": [
+            "Ngosipụta bara uru na-egosi ọrụ ahụ, ihe arụrụ arụ, nleba anya, nkwalite na njedebe. Kewapụ nsonaazụ gosipụtara site na ohere n'ọdịnihu.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ."
+          ],
+          "correct": 0,
+          "explanation": "Ngosipụta bara uru na-egosi ọrụ ahụ, ihe arụrụ arụ, nleba anya, nkwalite na njedebe. Kewapụ nsonaazụ gosipụtara site na ohere n'ọdịnihu.",
+          "id": "understanding-ai-week-16-lesson-01-question-01"
+        },
+        {
+          "prompt": "Maka mmemme “Kwadebe nkọwa nkeji abụọ ma ọ bụ ihe ngosi ederede nke otu peeji nke ọrụ gị.”, Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ."
+          ],
+          "correct": 0,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-16-lesson-01-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Wepụta ihe akaebe gị\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ."
+          ],
+          "correct": 0,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-16-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Kọwaa ntinye aka gị",
+      "subtitle": "Izu 16: Ngosipụta na usoro ndị ọzọ",
+      "body": "Kọwaa ihe ị họọrọ, mepụta, lelee, na kwalite, wee chọpụta enyemaka AI mgbe ọdabara. Ekwula na baajị mmecha ngwa bụ ntozu akwadoro.\n\nOmume na-anọghị n'ịntanetị: Dee ndetu ntinye aka na otu mkpebi onwe ya yana otu mgbazi akwadoro. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Kọwaa ihe ị họọrọ, mepụta, lelee, na kwalite, wee chọpụta enyemaka AI mgbe ọdabara. Ekwula na baajị mmecha ngwa bụ ntozu akwadoro.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Ntuziaka UNESCO na AI nwere ọrụ na agụmakwụkwọ",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Kwasaa onyinye gị\"?",
+          "options": [
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Kọwaa ihe ị họọrọ, mepụta, lelee, na kwalite, wee chọpụta enyemaka AI mgbe ọdabara. Ekwula na baajị mmecha ngwa bụ ntozu akwadoro."
+          ],
+          "correct": 3,
+          "explanation": "Kọwaa ihe ị họọrọ, mepụta, lelee, na kwalite, wee chọpụta enyemaka AI mgbe ọdabara. Ekwula na baajị mmecha ngwa bụ ntozu akwadoro.",
+          "id": "understanding-ai-week-16-lesson-02-question-01"
+        },
+        {
+          "prompt": "Maka mmemme “Dee ndetu ntinye aka na otu mkpebi onwe ya yana otu mgbazi enwetara.”, kedu usoro na-egosi mmụta?",
+          "options": [
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke."
+          ],
+          "correct": 3,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-16-lesson-02-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Kwapụta onyinye gị\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị."
+          ],
+          "correct": 3,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-16-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Wulite Pọtụfoliyo enwere ike ibugharị",
+      "subtitle": "Izu 16: Ngosipụta na usoro ndị ọzọ",
+      "body": "Pọtụfoliyo nwere ike ibugharị nwere ike ịnwe PDF ma ọ bụ ihe ederede, akwụkwọ edemede, ndepụta isi mmalite, na ntụgharị uche. Wepu data nkeonwe tupu ị kesaa mbipụta.\n\nOmume ndị na-anọghị n'ịntanetị: Hazie faịlụ ikpeazụ gị wee dee ndepụta dị mkpirikpi ka onye ọzọ nwee ike ịghọta ha na-anọghị n'ịntanetị. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Pọtụfoliyo nwere ike ibugharị nwere ike ịnwe PDF ma ọ bụ ihe ederede, akwụkwọ edemede, ndepụta isi mmalite, na ntụgharị uche. Wepu data nkeonwe tupu ị kesaa mbipụta.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Ntuziaka UNESCO na AI nwere ọrụ na agụmakwụkwọ",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Mepụta pọtụfoliyo enwere ike ibugharị\"?",
+          "options": [
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Pọtụfoliyo nwere ike ibugharị nwere ike ịnwe PDF ma ọ bụ ihe ederede, akwụkwọ edemede, ndepụta isi mmalite, na ntụgharị uche. Wepu data nkeonwe tupu ị kesaa mbipụta.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi."
+          ],
+          "correct": 2,
+          "explanation": "Pọtụfoliyo nwere ike ibugharị nwere ike ịnwe PDF ma ọ bụ ihe ederede, akwụkwọ edemede, ndepụta isi mmalite, na ntụgharị uche. Wepu data nkeonwe tupu ị kesaa mbipụta.",
+          "id": "understanding-ai-week-16-lesson-03-question-01"
+        },
+        {
+          "prompt": "Maka mmemme “Hazie faịlụ ikpeazụ gị wee dee ndepụta dị mkpirikpi ka onye ọzọ nwee ike ịghọta ha na-anọghị n'ịntanetị.”, Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu."
+          ],
+          "correct": 2,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-16-lesson-03-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Wụlite obere Pọtụfoliyo\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ."
+          ],
+          "correct": 2,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-16-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Họrọ ụzọ mmụta",
+      "subtitle": "Izu 16: Ngosipụta na usoro ndị ọzọ",
+      "body": "Họrọ mmụta na-esote dabere na ebumnuche gị na ihe achọrọ. Iji ngwá ọrụ, mmuta data, na mmemme bụ ụzọ dị iche iche; nyochaa usoro mmụta dị ugbu a ma ọ bụ nkọwa ohere tupu ime ya.\n\nOmume na-anọghị n'ịntanetị: Họrọ otu nka na-esote wee dee atụmatụ maka ịlele usoro ọmụmụ, ụgwọ, ntozu na ohere. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Họrọ mmụta na-esote dabere na ebumnuche gị na ihe achọrọ. Iji ngwá ọrụ, mmuta data, na mmemme bụ ụzọ dị iche iche; nyochaa usoro mmụta dị ugbu a ma ọ bụ nkọwa ohere tupu ime ya.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Ntuziaka UNESCO na AI nwere ọrụ na agụmakwụkwọ",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Họrọ ụzọ mmụta\"?",
+          "options": [
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ.",
+            "Họrọ mmụta na-esote dabere na ebumnuche gị na ihe achọrọ. Iji ngwá ọrụ, mmuta data, na mmemme bụ ụzọ dị iche iche; nyochaa usoro mmụta dị ugbu a ma ọ bụ nkọwa ohere tupu ime ya.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya."
+          ],
+          "correct": 1,
+          "explanation": "Họrọ mmụta na-esote dabere na ebumnuche gị na ihe achọrọ. Iji ngwá ọrụ, mmuta data, na mmemme bụ ụzọ dị iche iche; nyochaa usoro mmụta dị ugbu a ma ọ bụ nkọwa ohere tupu ime ya.",
+          "id": "understanding-ai-week-16-lesson-04-question-01"
+        },
+        {
+          "prompt": "Maka mmemme “Họrọ nka ọzọ wee dee atụmatụ maka ịlele nkuzi, ụgwọ, ntozu, na ohere.”, Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ.",
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ."
+          ],
+          "correct": 1,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-16-lesson-04-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Họrọ ụzọ mmụta\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ.",
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ."
+          ],
+          "correct": 1,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-16-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ngosipụta ihe ọmụmụ ikpeazụ",
+      "subtitle": "Izu 16: Ngosipụta na usoro ndị ọzọ",
+      "body": "Mmecha pụtara igosi ihe ị nwere ike ịkọwa na itinye. Wepụta arịa elele elele, ihe akaebe nke ndozi, ndaghachi azụ na-anọghị n'ịntanetị, yana atụmatụ ga-esote n'ezie.\n\nOmume na-anọghị n'ịntanetị: Ọrụ ikpeazụ: weghachite njedebe AI; na-eji ngwá ọrụ gị eme ihe; hazie ka a ga-esi nyochaa nkwupụta; gosi nkwalite ma kọwaa ihe akaebe ya. Dee echiche gị tupu i lelee azịza ajụjụ ndị ahụ. Dekọọ otu mmachi ma ọ bụ ejighị n'aka. Ị nwere ike iji akwụkwọ ma ọ bụ ndetu mpaghara; ngwa AI dị n'ịntanetị bụ nhọrọ.\n\nNtugharị: kọwaa isi echiche ụnyaahụ site na ebe nchekwa, wee lelee ndetu gị. Mgbe ezumike gachara, malite site na nchikota a na obere nzọụkwụ mbụ nke ọrụ taa.\n\nMezue ajụjụ ajụjụ atọ ahụ tupu ịga n'ihu.\n\nỌrụ mmecha kwa izu: chekwaa ihe omume nke izu a. Kwado usoro anọ: kọwaa isi echiche (nchịkọta); mezue ọrụ omume (omume); dekọọ ihe ị ga-enyocha na ebe (atụmatụ); gosi arịa gị wee kọwaa otu nkwalite (gosipụta).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Mmecha pụtara igosi ihe ị nwere ike ịkọwa na itinye. Wepụta arịa elele elele, ihe akaebe nke ndozi, ndaghachi azụ na-anọghị n'ịntanetị, yana atụmatụ ga-esote n'ezie.",
+        "Tinye echiche a site na mmemme na-anọghị n'ịntanetị.",
+        "Nọgide na-atụgharị uche, ihe akaebe, na adịghị ike na ihe gị."
+      ],
+      "sourceName": "Ntuziaka UNESCO na AI nwere ọrụ na agụmakwụkwọ",
+      "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "questions": [
+        {
+          "prompt": "Kedu nkwupụta kacha akọwa \"Ngosipụta ihe ọmụmụ ikpeazụ\"?",
+          "options": [
+            "Mmecha pụtara igosi ihe ị nwere ike ịkọwa na itinye. Wepụta arịa elele elele, ihe akaebe nke ndozi, ndaghachi azụ na-anọghị n'ịntanetị, yana atụmatụ ga-esote n'ezie.",
+            "Azịza AI na-egbu maramara bụ ihe akaebe zuru oke na nkwupụta ọ bụla ziri ezi.",
+            "Ọ dịghị mgbe onye mmụta mmadụ kwesịrị ịlele nsonaazụ ya.",
+            "Ọrụ ọ bụla chọrọ ọzụzụ ụdị ọhụrụ."
+          ],
+          "correct": 0,
+          "explanation": "Mmecha pụtara igosi ihe ị nwere ike ịkọwa na itinye. Wepụta arịa elele elele, ihe akaebe nke ndozi, ndaghachi azụ na-anọghị n'ịntanetị, yana atụmatụ ga-esote n'ezie.",
+          "id": "understanding-ai-week-16-lesson-05-question-01"
+        },
+        {
+          "prompt": "Maka ọrụ ahụ \"Ọrụ ikpeazụ: weghachite njedebe AI; na-eme ihe na artifact gị; mee atụmatụ otu esi enyocha nkwupụta; gosi nkwalite ma kọwaa ihe akaebe ya. \", Kedu ụzọ na-egosi mmụta?",
+          "options": [
+            "Mezue mmemme ahụ, kọwaa echiche gị, wee dekọọ oke.",
+            "Kekọrịta ozi nzuzo nke onye ọzọ ka ihe atụ a bụrụ eziokwu.",
+            "Were nzaghachi ewepụtara enwetaghị nkwenye dị ka ihe akaebe ikpeazụ.",
+            "Mafere mmemme ahụ wee detuo azịza enweghị njikọ."
+          ],
+          "correct": 0,
+          "explanation": "Ihe omume a na-arịọ gị ka itinye nkuzi a n'ọrụ. Nkọwa ederede na njedebe na-eme ka nghọta gị bụrụ nke a ga-enyocha; nsonaazụ depụtaghachiri naanị adịghị.",
+          "id": "understanding-ai-week-16-lesson-05-question-02"
+        },
+        {
+          "prompt": "Ịlaghachi na nkuzi \"Ngosipụta nkuzi ikpeazụ\" mgbe ezumike na-enweghị ịntanetị. Kedu ihe ị ga-eme ọzọ?",
+          "options": [
+            "Cheta isi echiche, lelee ndetu echekwara, wee mezue mmemme adịghị n'ịntanetị.",
+            "Were ya na onye enyemaka igwe ojii ga-aza na-enweghị njikọ.",
+            "Chere ruo mgbe ị nwere ike ịzụta ndenye aha AI akwụ ụgwọ.",
+            "Hichapụ ọrụ mbụ gị wee malite usoro ọmụmụ ahụ dum ọzọ."
+          ],
+          "correct": 0,
+          "explanation": "Ọmụmụ ihe na omume anaghị achọ ngwa ịntanetị. Mweghachi na obere ọrụ echekwara ga-enyere gị aka ịmaliteghachi.",
+          "id": "understanding-ai-week-16-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

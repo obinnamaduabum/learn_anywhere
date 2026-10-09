@@ -1,0 +1,273 @@
+{
+  "id": "understanding-ai-week-05",
+  "language": "pt",
+  "version": 1,
+  "reviewStatus": "reviewed",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Modelos de linguagem",
+      "subtitle": "Semana 5: IA generativa",
+      "body": "Os modelos de linguagem aprendem padrões estatísticos em sequências de unidades de texto e geram continuações. A saída fluente ainda pode conter informações incorretas.\n\nPrática off-line: compare uma resposta inventada plausível com as notas do seu próprio curso e marque as afirmações não comprovadas. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Os modelos de linguagem aprendem padrões estatísticos em sequências de unidades de texto e geram continuações. A saída fluente ainda pode conter informações incorretas.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Modelos de linguagem”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Os modelos de linguagem aprendem padrões estatísticos em sequências de unidades de texto e geram continuações. A saída fluente ainda pode conter informações incorretas."
+          ],
+          "correct": 3,
+          "explanation": "Os modelos de linguagem aprendem padrões estatísticos em sequências de unidades de texto e geram continuações. A saída fluente ainda pode conter informações incorretas.",
+          "id": "understanding-ai-week-05-lesson-01-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Compare uma resposta inventada plausível com as suas próprias notas de curso e marque afirmações não suportadas.”, que abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-05-lesson-01-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Modelos de linguagem” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-05-lesson-01-question-03"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Tokens e contexto",
+      "subtitle": "Semana 5: IA generativa",
+      "body": "Um token é uma unidade usada para representar texto, não necessariamente uma palavra inteira. Contexto é a entrada disponível para uma resposta; a capacidade de contexto varia de acordo com o modelo.\n\nPrática offline: divida uma frase em pedaços possíveis e explique por que isso é apenas uma ilustração de tokenização. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Um token é uma unidade usada para representar texto, não necessariamente uma palavra inteira. Contexto é a entrada disponível para uma resposta; a capacidade de contexto varia de acordo com o modelo.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Tokens e contexto”?",
+          "options": [
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Um token é uma unidade usada para representar texto, não necessariamente uma palavra inteira. Contexto é a entrada disponível para uma resposta; a capacidade de contexto varia de acordo com o modelo.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas."
+          ],
+          "correct": 2,
+          "explanation": "Um token é uma unidade usada para representar texto, não necessariamente uma palavra inteira. Contexto é a entrada disponível para uma resposta; a capacidade de contexto varia de acordo com o modelo.",
+          "id": "understanding-ai-week-05-lesson-02-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Divida uma frase em pedaços possíveis e explique porque é que isto é apenas uma ilustração de tokenização.”, que abordagem demonstra aprendizagem?",
+          "options": [
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista."
+          ],
+          "correct": 2,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-05-lesson-02-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Tokens e contexto” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão."
+          ],
+          "correct": 2,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-05-lesson-02-question-03"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Geração de imagem e áudio",
+      "subtitle": "Semana 5: IA generativa",
+      "body": "Os sistemas generativos podem criar imagens ou áudio, bem como texto. A mídia gerada pode deturpar eventos ou pessoas, portanto a origem e o consentimento são importantes.\n\nPrática off-line: esboce uma descrição textual de um diagrama educacional sem representar uma pessoa real. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Os sistemas generativos podem criar imagens ou áudio, bem como texto. A mídia gerada pode deturpar eventos ou pessoas, portanto a origem e o consentimento são importantes.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Geração de imagem e áudio”?",
+          "options": [
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Os sistemas generativos podem criar imagens ou áudio, bem como texto. A mídia gerada pode deturpar eventos ou pessoas, portanto a origem e o consentimento são importantes.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado."
+          ],
+          "correct": 1,
+          "explanation": "Os sistemas generativos podem criar imagens ou áudio, bem como texto. A mídia gerada pode deturpar eventos ou pessoas, portanto a origem e o consentimento são importantes.",
+          "id": "understanding-ai-week-05-lesson-03-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Elabore uma descrição textual de um diagrama educacional sem representar uma pessoa real.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final."
+          ],
+          "correct": 1,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-05-lesson-03-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Geração de imagem e áudio” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA."
+          ],
+          "correct": 1,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-05-lesson-03-question-03"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Alucinações",
+      "subtitle": "Semana 5: IA generativa",
+      "body": "Uma alucinação é gerada por conteúdo impreciso ou sem suporte, incluindo referências inventadas. Pedir uma citação não garante uma fonte real.\n\nPrática offline: inspecione três citações inventadas e escreva como você verificaria se elas existem. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Uma alucinação é gerada por conteúdo impreciso ou sem suporte, incluindo referências inventadas. Pedir uma citação não garante uma fonte real.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Alucinações”?",
+          "options": [
+            "Uma alucinação é gerada por conteúdo impreciso ou sem suporte, incluindo referências inventadas. Pedir uma citação não garante uma fonte real.",
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo."
+          ],
+          "correct": 0,
+          "explanation": "Uma alucinação é gerada por conteúdo impreciso ou sem suporte, incluindo referências inventadas. Pedir uma citação não garante uma fonte real.",
+          "id": "understanding-ai-week-05-lesson-04-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Inspecione três citações inventadas e escreva como você verificaria se elas existem.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação.",
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada."
+          ],
+          "correct": 0,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-05-lesson-04-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Alucinações” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line.",
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso."
+          ],
+          "correct": 0,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-05-lesson-04-question-03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Limites úteis",
+      "subtitle": "Semana 5: IA generativa",
+      "body": "Ferramentas generativas podem ajudar com rascunhos e alternativas, enquanto humanos verificam os fatos e a adequação. Para uma resposta conhecida, um documento confiável pode ser mais útil que a geração.\n\nPrática off-line: escolha entre um livro didático, uma calculadora e um rascunho de IA para três tarefas de aprendizagem e justifique cada escolha. Escreva seu raciocínio antes de olhar as respostas do questionário. Registre uma limitação ou incerteza. Você pode usar papel ou notas locais; uma ferramenta de IA online é opcional.\n\nRecapitulação: explique de memória a ideia principal de ontem e, em seguida, verifique suas anotações. Após um intervalo, comece com esta recapitulação e o primeiro pequeno passo da atividade de hoje.\n\nComplete todas as três perguntas do questionário antes de prosseguir.\n\nTarefa de conclusão semanal: salve o artefato prático desta semana. Confirme quatro etapas: explique uma ideia-chave (recapitulação); completar a atividade prática (prática); registre o que você verificaria e onde (planejaria); mostre seu artefato e explique uma melhoria (demonstre).",
+      "format": "text",
+      "minutes": 20,
+      "takeaways": [
+        "Ferramentas generativas podem ajudar com rascunhos e alternativas, enquanto humanos verificam os fatos e a adequação. Para uma resposta conhecida, um documento confiável pode ser mais útil que a geração.",
+        "Aplique a ideia por meio da atividade offline.",
+        "Mantenha o raciocínio, as evidências e as limitações com seu artefato."
+      ],
+      "sourceName": "Curso intensivo de aprendizado de máquina do Google – leitura adicional",
+      "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+      "questions": [
+        {
+          "prompt": "Qual afirmação explica melhor “Limites úteis”?",
+          "options": [
+            "Uma resposta polida de IA é evidência suficiente de que todas as afirmações estão corretas.",
+            "O aluno humano nunca precisa verificar o resultado.",
+            "Cada tarefa requer o treinamento de um novo modelo.",
+            "Ferramentas generativas podem ajudar com rascunhos e alternativas, enquanto humanos verificam os fatos e a adequação. Para uma resposta conhecida, um documento confiável pode ser mais útil que a geração."
+          ],
+          "correct": 3,
+          "explanation": "Ferramentas generativas podem ajudar com rascunhos e alternativas, enquanto humanos verificam os fatos e a adequação. Para uma resposta conhecida, um documento confiável pode ser mais útil que a geração.",
+          "id": "understanding-ai-week-05-lesson-05-question-01"
+        },
+        {
+          "prompt": "Para a atividade “Escolha entre um livro didático, uma calculadora e um rascunho de IA para três tarefas de aprendizagem e justifique cada escolha.”, qual abordagem demonstra aprendizagem?",
+          "options": [
+            "Compartilhe informações privadas de outra pessoa para tornar o exemplo realista.",
+            "Trate uma resposta gerada não verificada como evidência final.",
+            "Pule a atividade e copie uma resposta não relacionada.",
+            "Conclua a atividade, explique seu raciocínio e registre uma limitação."
+          ],
+          "correct": 3,
+          "explanation": "A atividade pede que você aplique esta lição. Uma explicação e limitação por escrito tornam seu entendimento revisável; um resultado copiado por si só não.",
+          "id": "understanding-ai-week-05-lesson-05-question-02"
+        },
+        {
+          "prompt": "Você retorna à lição “Limites úteis” após um intervalo sem internet. O que você pode fazer a seguir?",
+          "options": [
+            "Suponha que um assistente de nuvem responderá sem conexão.",
+            "Espere até poder comprar uma assinatura paga de IA.",
+            "Exclua seu trabalho anterior e reinicie todo o curso.",
+            "Lembre-se da ideia principal, verifique as notas salvas e conclua a atividade off-line."
+          ],
+          "correct": 3,
+          "explanation": "A lição e a prática não requerem uma ferramenta online. A recuperação e uma pequena atividade salva ajudam você a retomar.",
+          "id": "understanding-ai-week-05-lesson-05-question-03"
+        }
+      ]
+    }
+  ]
+}

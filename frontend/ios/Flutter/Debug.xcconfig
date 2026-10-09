@@ -1,0 +1,5 @@
+#include "Generated.xcconfig"
+SWIFT_ACTIVE_COMPILATION_CONDITIONS=$(inherited) DEBUG
+
+// Local iPhone development endpoint.
+DART_DEFINES=TEVBUk5JTkdfQVBJX1VSTD1odHRwOi8vMTkyLjE2OC4xLjMyOjgwODQ=

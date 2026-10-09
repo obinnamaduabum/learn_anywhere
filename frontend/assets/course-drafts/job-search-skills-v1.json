@@ -1,0 +1,258 @@
+{
+  "id": "job-search-skills-v1",
+  "language": "en",
+  "version": 1,
+  "reviewStatus": "AI-generated draft; human review pending",
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Identify your skills",
+      "subtitle": "One small skill to practise",
+      "body": "List things you have done in work, education, volunteering or everyday responsibilities. Describe a concrete example rather than only a label. Compare those examples with the requirements in a job description.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "A concrete example",
+        "Work, study or volunteering",
+        "The job requirements"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://consumer.ftc.gov/articles/job-scams",
+      "questions": [
+        {
+          "id": "job-search-skills-v1-1-1",
+          "prompt": "What supports a skill claim?",
+          "options": [
+            "A concrete example",
+            "An invented certificate",
+            "A copied identity"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, a concrete example is the useful choice. List things you have done in work, education, volunteering or everyday responsibilities. Describe a concrete example rather than only a label. Compare those examples with the requirements in a job description."
+        },
+        {
+          "id": "job-search-skills-v1-1-2",
+          "prompt": "Where can useful experience come from?",
+          "options": [
+            "Only a paid job title",
+            "A stranger’s account",
+            "Work, study or volunteering"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, work, study or volunteering is the useful choice. List things you have done in work, education, volunteering or everyday responsibilities. Describe a concrete example rather than only a label. Compare those examples with the requirements in a job description."
+        },
+        {
+          "id": "job-search-skills-v1-1-3",
+          "prompt": "What should you compare your skills with?",
+          "options": [
+            "An unrelated advertisement",
+            "The job requirements",
+            "Only the company logo"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, the job requirements is the useful choice. List things you have done in work, education, volunteering or everyday responsibilities. Describe a concrete example rather than only a label. Compare those examples with the requirements in a job description."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Build an honest CV",
+      "subtitle": "One small skill to practise",
+      "body": "Use clear sections for contact details, relevant experience and education. Describe your contribution accurately and check for mistakes. Share only the personal information needed for the application.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Accurately",
+        "Clear sections",
+        "Accuracy and mistakes"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://consumer.ftc.gov/articles/job-scams",
+      "questions": [
+        {
+          "id": "job-search-skills-v1-2-1",
+          "prompt": "How should experience be described?",
+          "options": [
+            "With invented achievements",
+            "Using another person’s name",
+            "Accurately"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, accurately is the useful choice. Use clear sections for contact details, relevant experience and education. Describe your contribution accurately and check for mistakes. Share only the personal information needed for the application."
+        },
+        {
+          "id": "job-search-skills-v1-2-2",
+          "prompt": "What helps a reader follow a CV?",
+          "options": [
+            "Hidden contact details",
+            "Clear sections",
+            "Randomly arranged text"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, clear sections is the useful choice. Use clear sections for contact details, relevant experience and education. Describe your contribution accurately and check for mistakes. Share only the personal information needed for the application."
+        },
+        {
+          "id": "job-search-skills-v1-2-3",
+          "prompt": "What should you check before submission?",
+          "options": [
+            "Accuracy and mistakes",
+            "Only the file colour",
+            "Your social likes"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, accuracy and mistakes is the useful choice. Use clear sections for contact details, relevant experience and education. Describe your contribution accurately and check for mistakes. Share only the personal information needed for the application."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Read the vacancy",
+      "subtitle": "One small skill to practise",
+      "body": "Read the responsibilities, required skills and application instructions. Verify the employer through an independent channel when possible. Do not pay a stranger for a promise of employment.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "The application instructions",
+        "Use an independent channel",
+        "Payment for a promised job"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://consumer.ftc.gov/articles/job-scams",
+      "questions": [
+        {
+          "id": "job-search-skills-v1-3-1",
+          "prompt": "What should you read before applying?",
+          "options": [
+            "Only a forwarded screenshot",
+            "The application instructions",
+            "Only the headline"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, the application instructions is the useful choice. Read the responsibilities, required skills and application instructions. Verify the employer through an independent channel when possible. Do not pay a stranger for a promise of employment."
+        },
+        {
+          "id": "job-search-skills-v1-3-2",
+          "prompt": "How can you check an unfamiliar employer?",
+          "options": [
+            "Use an independent channel",
+            "Trust its message alone",
+            "Send your password"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, use an independent channel is the useful choice. Read the responsibilities, required skills and application instructions. Verify the employer through an independent channel when possible. Do not pay a stranger for a promise of employment."
+        },
+        {
+          "id": "job-search-skills-v1-3-3",
+          "prompt": "What is a warning sign?",
+          "options": [
+            "A clear job description",
+            "An official application page",
+            "Payment for a promised job"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, payment for a promised job is the useful choice. Read the responsibilities, required skills and application instructions. Verify the employer through an independent channel when possible. Do not pay a stranger for a promise of employment."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Prepare an application",
+      "subtitle": "One small skill to practise",
+      "body": "Tailor the application to the role using truthful examples. Use the requested format and a clear file name. Save a copy of what you submitted and keep track of the application date.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Truthful relevant examples",
+        "The employer’s instructions",
+        "A submission record and date"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://consumer.ftc.gov/articles/job-scams",
+      "questions": [
+        {
+          "id": "job-search-skills-v1-4-1",
+          "prompt": "What should tailoring an application use?",
+          "options": [
+            "Truthful relevant examples",
+            "False achievements",
+            "Copied personal details"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, truthful relevant examples is the useful choice. Tailor the application to the role using truthful examples. Use the requested format and a clear file name. Save a copy of what you submitted and keep track of the application date."
+        },
+        {
+          "id": "job-search-skills-v1-4-2",
+          "prompt": "Which format should you follow?",
+          "options": [
+            "A random format every time",
+            "No readable format",
+            "The employer’s instructions"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, the employer’s instructions is the useful choice. Tailor the application to the role using truthful examples. Use the requested format and a clear file name. Save a copy of what you submitted and keep track of the application date."
+        },
+        {
+          "id": "job-search-skills-v1-4-3",
+          "prompt": "What helps you follow up?",
+          "options": [
+            "An unknown payment link",
+            "A submission record and date",
+            "Deleting all copies"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, a submission record and date is the useful choice. Tailor the application to the role using truthful examples. Use the requested format and a clear file name. Save a copy of what you submitted and keep track of the application date."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Practise an interview",
+      "subtitle": "One small skill to practise",
+      "body": "Prepare examples of how you handled a task or solved a problem. Practise answering clearly and prepare questions about the role. An interview invitation does not justify sending account passwords or paying a job-guarantee fee.\n\nPractise: explain one action from this lesson in your own words. Then complete all three quiz questions to unlock the next lesson.",
+      "format": "text",
+      "takeaways": [
+        "Explaining relevant examples",
+        "The role and expectations",
+        "Passwords and sign-in codes"
+      ],
+      "minutes": 3,
+      "sourceName": "Reference for further reading; prototype adaptation",
+      "sourceUrl": "https://consumer.ftc.gov/articles/job-scams",
+      "questions": [
+        {
+          "id": "job-search-skills-v1-5-1",
+          "prompt": "What can you practise before an interview?",
+          "options": [
+            "Inventing qualifications",
+            "Sharing account passwords",
+            "Explaining relevant examples"
+          ],
+          "correct": 2,
+          "explanation": "In this situation, explaining relevant examples is the useful choice. Prepare examples of how you handled a task or solved a problem. Practise answering clearly and prepare questions about the role. An interview invitation does not justify sending account passwords or paying a job-guarantee fee."
+        },
+        {
+          "id": "job-search-skills-v1-5-2",
+          "prompt": "What can you ask an interviewer about?",
+          "options": [
+            "A guaranteed prize",
+            "The role and expectations",
+            "Their account secret"
+          ],
+          "correct": 1,
+          "explanation": "In this situation, the role and expectations is the useful choice. Prepare examples of how you handled a task or solved a problem. Practise answering clearly and prepare questions about the role. An interview invitation does not justify sending account passwords or paying a job-guarantee fee."
+        },
+        {
+          "id": "job-search-skills-v1-5-3",
+          "prompt": "What should you keep private?",
+          "options": [
+            "Passwords and sign-in codes",
+            "A relevant skill example",
+            "A question about duties"
+          ],
+          "correct": 0,
+          "explanation": "In this situation, passwords and sign-in codes is the useful choice. Prepare examples of how you handled a task or solved a problem. Practise answering clearly and prepare questions about the role. An interview invitation does not justify sending account passwords or paying a job-guarantee fee."
+        }
+      ]
+    }
+  ]
+}
