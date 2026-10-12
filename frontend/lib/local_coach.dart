@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'page_notices.dart';
+
 import 'store.dart';
 import 'strings.dart';
 
@@ -105,7 +107,8 @@ class LocalCoachCard extends StatelessWidget {
         await store.rateCoaching(suggestion.strategy, value);
       } catch (_) {
         if (context.mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
+          showPageSnackBar(
+            context,
             SnackBar(content: Text(label('Could not save coaching feedback.'))),
           );
         }

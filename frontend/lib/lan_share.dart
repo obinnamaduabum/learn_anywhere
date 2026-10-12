@@ -162,7 +162,7 @@ Future<int> importCourse(LearningStore store, List<int> bytes) async {
       throw const FormatException('Invalid shared course identities.');
     }
     final lessons = pack['lessons'] as List;
-    if (lessons.length != 5) {
+    if (lessons.isEmpty) {
       throw const FormatException('Invalid lesson count.');
     }
     final questions = <String>{};

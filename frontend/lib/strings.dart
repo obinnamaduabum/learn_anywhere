@@ -247,8 +247,174 @@ const discoverTranslations = <String, Map<String, String>>{
   },
 };
 
+const explainedVersionTranslations = <String, Map<String, String>>{
+  'fr': {
+    'Regular version': 'Version normale',
+    'Start with explained lessons': 'Commencer avec les leçons expliquées',
+    'You can switch between regular and explained versions while reading.':
+        'Vous pouvez passer de la version normale à la version expliquée pendant la lecture.',
+    'Explained version': 'Version expliquée',
+    'Check for updates': 'Rechercher des mises à jour',
+  },
+  'pt': {
+    'Regular version': 'Versão normal',
+    'Start with explained lessons': 'Começar com aulas explicadas',
+    'You can switch between regular and explained versions while reading.':
+        'Você pode alternar entre as versões normal e explicada durante a leitura.',
+    'Explained version': 'Versão explicada',
+    'Check for updates': 'Verificar atualizações',
+  },
+  'ar': {
+    'Regular version': 'النسخة العادية',
+    'Start with explained lessons': 'ابدأ بالدروس المشروحة',
+    'You can switch between regular and explained versions while reading.':
+        'يمكنك التبديل بين النسخة العادية والمشروحة أثناء القراءة.',
+    'Explained version': 'نسخة مشروحة',
+    'Check for updates': 'التحقق من التحديثات',
+  },
+  'ha': {
+    'Regular version': 'Sigar yau da kullum',
+    'Start with explained lessons': 'Fara da darussan da aka bayyana',
+    'You can switch between regular and explained versions while reading.':
+        'Za ka iya sauyawa tsakanin sigar yau da kullum da sigar da aka bayyana yayin karatu.',
+    'Explained version': 'Sigar da aka bayyana',
+    'Check for updates': 'Duba sabuntawa',
+  },
+  'yo': {
+    'Regular version': 'Ẹ̀dà déédéé',
+    'Start with explained lessons': 'Bẹ̀rẹ̀ pẹ̀lú àwọn ẹ̀kọ́ tí a ṣàlàyé',
+    'You can switch between regular and explained versions while reading.':
+        'O lè yí láàárín ẹ̀dà déédéé àti ẹ̀dà tí a ṣàlàyé nígbà kíkà.',
+    'Explained version': 'Ẹ̀dà tí a ṣàlàyé',
+    'Check for updates': 'Ṣàyẹ̀wò ìmúdójúìwọ̀n',
+  },
+  'ig': {
+    'Regular version': 'Ụdị nkịtị',
+    'Start with explained lessons': 'Malite na nkuzi akọwara',
+    'You can switch between regular and explained versions while reading.':
+        'Ị nwere ike ịgbanwe n’etiti ụdị nkịtị na nke akọwara mgbe ị na-agụ.',
+    'Explained version': 'Ụdị akọwara',
+    'Check for updates': 'Lelee mmelite',
+  },
+};
+
 String translate(String lang, String text) =>
+    explainedVersionTranslations[lang]?[text] ??
     translations[lang]?[text] ??
     discoverTranslations[lang]?[text] ??
     uiTranslations[lang]?[text] ??
+    homeWelcomeTranslations[lang]?[text] ??
+    downloadLibraryTranslations[lang]?[text] ??
     text;
+
+const homeWelcomeTranslations = <String, Map<String, String>>{
+  'fr': {
+    'Your courses': 'Vos cours',
+    'Discover courses': 'Découvrir les cours',
+    'Start course': 'Commencer le cours',
+    'Choose a course to start learning. Your progress will appear here.':
+        'Choisissez un cours pour commencer. Votre progression apparaîtra ici.',
+  },
+  'pt': {
+    'Your courses': 'Seus cursos',
+    'Discover courses': 'Descobrir cursos',
+    'Start course': 'Iniciar curso',
+    'Choose a course to start learning. Your progress will appear here.':
+        'Escolha um curso para começar. Seu progresso aparecerá aqui.',
+  },
+  'ar': {
+    'Your courses': 'دوراتك',
+    'Discover courses': 'اكتشف الدورات',
+    'Start course': 'ابدأ الدورة',
+    'Choose a course to start learning. Your progress will appear here.':
+        'اختر دورة لبدء التعلم. سيظهر تقدمك هنا.',
+  },
+  'ha': {
+    'Your courses': 'Darussanka',
+    'Discover courses': 'Nemo darussa',
+    'Start course': 'Fara darasi',
+    'Choose a course to start learning. Your progress will appear here.':
+        'Zaɓi darasi don fara koyo. Ci gabanka zai bayyana a nan.',
+  },
+  'yo': {
+    'Your courses': 'Àwọn ẹ̀kọ́ rẹ',
+    'Discover courses': 'Ṣàwárí àwọn ẹ̀kọ́',
+    'Start course': 'Bẹ̀rẹ̀ ẹ̀kọ́',
+    'Choose a course to start learning. Your progress will appear here.':
+        'Yan ẹ̀kọ́ láti bẹ̀rẹ̀ sí í kẹ́kọ̀ọ́. Ìlọsíwájú rẹ yóò hàn níbí.',
+  },
+  'ig': {
+    'Your courses': 'Ihe ọmụmụ gị',
+    'Discover courses': 'Chọpụta ihe ọmụmụ',
+    'Start course': 'Malite ihe ọmụmụ',
+    'Choose a course to start learning. Your progress will appear here.':
+        'Họrọ ihe ọmụmụ ka ị malite ịmụ. Ọganihu gị ga-apụta ebe a.',
+  },
+};
+
+const downloadLibraryTranslations = <String, Map<String, String>>{
+  'fr': {
+    'Courses saved for offline learning':
+        'Cours enregistrés pour apprendre hors ligne',
+    'Saved courses': 'cours enregistrés',
+    'Open course': 'Ouvrir le cours',
+    'Manage languages': 'Gérer les langues',
+    'Download activity': 'Historique des téléchargements',
+    'View parts': 'Voir les parties',
+    'No saved courses yet': 'Aucun cours enregistré',
+    'parts saved': 'parties enregistrées',
+  },
+  'pt': {
+    'Courses saved for offline learning': 'Cursos salvos para aprender offline',
+    'Saved courses': 'cursos salvos',
+    'Open course': 'Abrir curso',
+    'Manage languages': 'Gerenciar idiomas',
+    'Download activity': 'Atividade de downloads',
+    'View parts': 'Ver partes',
+    'No saved courses yet': 'Nenhum curso salvo',
+    'parts saved': 'partes salvas',
+  },
+  'ar': {
+    'Courses saved for offline learning': 'دورات محفوظة للتعلم دون اتصال',
+    'Saved courses': 'دورات محفوظة',
+    'Open course': 'افتح الدورة',
+    'Manage languages': 'إدارة اللغات',
+    'Download activity': 'سجل التنزيلات',
+    'View parts': 'عرض الأجزاء',
+    'No saved courses yet': 'لا توجد دورات محفوظة بعد',
+    'parts saved': 'أجزاء محفوظة',
+  },
+  'ha': {
+    'Courses saved for offline learning':
+        'Darussan da aka ajiye don koyo ba tare da intanet ba',
+    'Saved courses': 'darussan da aka ajiye',
+    'Open course': 'Buɗe darasi',
+    'Manage languages': 'Sarrafa harsuna',
+    'Download activity': 'Tarihin saukewa',
+    'View parts': 'Duba sassa',
+    'No saved courses yet': 'Babu darasin da aka ajiye tukuna',
+    'parts saved': 'sassan da aka ajiye',
+  },
+  'yo': {
+    'Courses saved for offline learning':
+        'Àwọn ẹ̀kọ́ tí a fipamọ́ fún kíkẹ́kọ̀ọ́ láìsí intanẹẹti',
+    'Saved courses': 'ẹ̀kọ́ tí a fipamọ́',
+    'Open course': 'Ṣí ẹ̀kọ́',
+    'Manage languages': 'Ṣàkóso àwọn èdè',
+    'Download activity': 'Ìtàn àwọn ìgbàsílẹ̀',
+    'View parts': 'Wo àwọn apá',
+    'No saved courses yet': 'Kò sí ẹ̀kọ́ tí a fipamọ́ síbẹ̀',
+    'parts saved': 'àwọn apá tí a fipamọ́',
+  },
+  'ig': {
+    'Courses saved for offline learning':
+        'Ihe ọmụmụ echekwara maka ịmụ na-enweghị intanet',
+    'Saved courses': 'ihe ọmụmụ echekwara',
+    'Open course': 'Mepee ihe ọmụmụ',
+    'Manage languages': 'Jikwaa asụsụ',
+    'Download activity': 'Akụkọ nbudata',
+    'View parts': 'Lee akụkụ',
+    'No saved courses yet': 'Enweghị ihe ọmụmụ echekwara ugbu a',
+    'parts saved': 'akụkụ echekwara',
+  },
+};

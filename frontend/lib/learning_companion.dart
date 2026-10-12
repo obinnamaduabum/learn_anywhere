@@ -1,4 +1,7 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
+import 'page_notices.dart';
 import 'package:flutter/services.dart';
 import 'store.dart';
 import 'strings.dart';
@@ -153,14 +156,11 @@ class _LearningCompanionCardState extends State<LearningCompanionCard> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            label(
-              widget.explanationOnly
-                  ? 'Lesson explanation'
-                  : 'AI learning companion',
+          if (!widget.explanationOnly)
+            Text(
+              label('AI learning companion'),
+              style: Theme.of(context).textTheme.titleLarge,
             ),
-            style: Theme.of(context).textTheme.titleLarge,
-          ),
           const SizedBox(height: 8),
           Text(
             label(
@@ -169,12 +169,16 @@ class _LearningCompanionCardState extends State<LearningCompanionCard> {
           ),
           const SizedBox(height: 12),
           Text(
-            label(
-              widget.store.savedExplanations == null
-                  ? 'Reviewed explanations: not downloaded'
-                  : 'Reviewed explanations · version ${widget.store.savedExplanations!['explanationVersion']} · Ready offline',
-            ),
+            widget.store.savedExplanations == null
+                ? label('Reviewed explanations: not downloaded')
+                : '${label('Explained version')} · ${widget.store.savedExplanations!['explanationVersion']} · ${label('Ready offline')}',
           ),
+          if (widget.explanationOnly)
+            TextButton.icon(
+              onPressed: busy ? null : download,
+              icon: const Icon(Icons.refresh),
+              label: Text(label('Check for updates')),
+            ),
           const SizedBox(height: 12),
           Wrap(
             spacing: 8,
@@ -212,7 +216,8 @@ class _LearningCompanionCardState extends State<LearningCompanionCard> {
                 padding: const EdgeInsets.only(top: 8),
                 child: Text('$suggestion'),
               ),
-            if ((answer!['suggestions'] as List? ?? []).isNotEmpty)
+            if (kDebugMode &&
+                (answer!['suggestions'] as List? ?? []).isNotEmpty)
               TextButton(
                 onPressed: () async {
                   try {
@@ -223,7 +228,8 @@ class _LearningCompanionCardState extends State<LearningCompanionCard> {
                       answer!['suggestions'],
                     );
                     if (context.mounted) {
-                      ScaffoldMessenger.of(context).showSnackBar(
+                      showPageSnackBar(
+                        context,
                         SnackBar(
                           content: Text(
                             label(
@@ -235,7 +241,8 @@ class _LearningCompanionCardState extends State<LearningCompanionCard> {
                     }
                   } catch (_) {
                     if (context.mounted) {
-                      ScaffoldMessenger.of(context).showSnackBar(
+                      showPageSnackBar(
+                        context,
                         SnackBar(
                           content: Text(
                             label(

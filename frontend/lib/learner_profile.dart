@@ -18,6 +18,7 @@ class LearnerProfilePage extends StatefulWidget {
 class _LearnerProfilePageState extends State<LearnerProfilePage> {
   late DateTime? dateOfBirth = widget.store.learnerDateOfBirth;
   late String gender = widget.store.learnerGender;
+  late bool preferExplained = widget.store.preferExplained;
   bool busy = false;
   String? error;
   String label(String text) => translate(widget.store.appLanguage, text);
@@ -51,6 +52,7 @@ class _LearnerProfilePageState extends State<LearnerProfilePage> {
         skip ? '' : gender,
         widget.store.learningInterest,
         dateOfBirth: skip ? null : dateOfBirth,
+        explainedVersions: skip ? false : preferExplained,
       );
       if (mounted && widget.editing) Navigator.pop(context);
     } catch (_) {
@@ -78,7 +80,7 @@ class _LearnerProfilePageState extends State<LearnerProfilePage> {
             const SizedBox(height: 12),
             Text(
               label(
-                'Date of birth and gender are optional and saved only on this device. You can change or remove these details in Profile. Choose learning interests in settings.',
+                'Date of birth and gender are optional and saved only on this device. You can change or remove these details in Profile.',
               ),
             ),
             const SizedBox(height: 24),
@@ -142,6 +144,19 @@ class _LearnerProfilePageState extends State<LearnerProfilePage> {
                   : (value) => setState(() => gender = value!),
             ),
             const SizedBox(height: 24),
+            SwitchListTile(
+              key: const Key('prefer-explained'),
+              title: Text(label('Start with explained lessons')),
+              subtitle: Text(
+                label(
+                  'You can switch between regular and explained versions while reading.',
+                ),
+              ),
+              value: preferExplained,
+              onChanged: busy
+                  ? null
+                  : (value) => setState(() => preferExplained = value),
+            ),
             if (error != null)
               Padding(
                 padding: const EdgeInsets.only(top: 16),

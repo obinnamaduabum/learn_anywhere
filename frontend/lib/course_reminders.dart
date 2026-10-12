@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
+import 'page_notices.dart';
 import 'package:flutter/services.dart';
 
 /// Notifications are opt-in and scheduled on-device, without a backend.
@@ -129,7 +131,8 @@ class _CourseReminderSettingState extends State<CourseReminderSetting>
     try {
       await widget.service.testOneMinute();
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
+        showPageSnackBar(
+          context,
           const SnackBar(
             content: Text(
               'Both reminders are scheduled in one minute. Put the app in the background to see them.',

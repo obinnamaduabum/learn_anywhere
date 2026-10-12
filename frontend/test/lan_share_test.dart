@@ -56,18 +56,19 @@ void main() {
             jsonDecode(await File('assets/packs/en.json').readAsString())
                 as Map<String, dynamic>;
         pack['id'] = 'peer-course';
+        pack['lessons'] = (pack['lessons'] as List).take(3).toList();
         pack['_origin'] = 'Backend';
         final course = <String, dynamic>{
           'id': 'peer-series',
           'type': 'series',
           'title': 'Shared series',
-          'lessonCount': 5,
+          'lessonCount': 3,
           'parts': [
             {
               'id': 'peer-course',
               'title': 'Shared part',
               'partIndex': 1,
-              'lessonCount': 5,
+              'lessonCount': 3,
               'packs': [
                 {'language': 'en', 'version': 1},
               ],

@@ -18,7 +18,11 @@ class LessonAudio extends StatefulWidget {
   State<LessonAudio> createState() => _LessonAudioState();
 }
 
-class _LessonAudioState extends State<LessonAudio> with WidgetsBindingObserver {
+class _LessonAudioState extends State<LessonAudio>
+    with WidgetsBindingObserver, AutomaticKeepAliveClientMixin {
+  @override
+  bool get wantKeepAlive => true;
+
   static const channel = MethodChannel('learn_anywhere/speech');
   String state = 'idle';
   String? error;
@@ -145,64 +149,67 @@ class _LessonAudioState extends State<LessonAudio> with WidgetsBindingObserver {
   }
 
   @override
-  Widget build(BuildContext context) => Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: [
-      Wrap(
-        spacing: 12,
-        runSpacing: 8,
-        crossAxisAlignment: WrapCrossAlignment.center,
-        children: [
-          OutlinedButton.icon(
-            onPressed: busy
-                ? null
-                : () => command(
-                    state == 'speaking'
-                        ? 'pause'
-                        : state == 'paused'
-                        ? 'resume'
-                        : 'speak',
-                  ),
-            icon: Icon(
-              state == 'speaking' ? Icons.pause : Icons.volume_up_outlined,
+  Widget build(BuildContext context) {
+    super.build(context);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Wrap(
+          spacing: 12,
+          runSpacing: 8,
+          crossAxisAlignment: WrapCrossAlignment.center,
+          children: [
+            OutlinedButton.icon(
+              onPressed: busy
+                  ? null
+                  : () => command(
+                      state == 'speaking'
+                          ? 'pause'
+                          : state == 'paused'
+                          ? 'resume'
+                          : 'speak',
+                    ),
+              icon: Icon(
+                state == 'speaking' ? Icons.pause : Icons.volume_up_outlined,
+              ),
+              label: Text(
+                state == 'speaking'
+                    ? 'Pause'
+                    : state == 'paused'
+                    ? 'Resume'
+                    : 'Read aloud',
+              ),
             ),
-            label: Text(
-              state == 'speaking'
-                  ? 'Pause'
-                  : state == 'paused'
-                  ? 'Resume'
-                  : 'Read aloud',
+            if (state != 'idle')
+              IconButton(
+                tooltip: 'Stop reading',
+                onPressed: busy ? null : () => command('stop'),
+                icon: const Icon(Icons.stop),
+              ),
+            DropdownButton<double>(
+              value: speed,
+              hint: const Text('Reading speed'),
+              onChanged: busy || state != 'idle'
+                  ? null
+                  : (value) => setState(() => speed = value!),
+              items: [.75, 1.0, 1.25]
+                  .map(
+                    (value) =>
+                        DropdownMenuItem(value: value, child: Text('$value×')),
+                  )
+                  .toList(),
             ),
-          ),
-          if (state != 'idle')
-            IconButton(
-              tooltip: 'Stop reading',
-              onPressed: busy ? null : () => command('stop'),
-              icon: const Icon(Icons.stop),
-            ),
-          DropdownButton<double>(
-            value: speed,
-            hint: const Text('Reading speed'),
-            onChanged: busy || state != 'idle'
-                ? null
-                : (value) => setState(() => speed = value!),
-            items: [.75, 1.0, 1.25]
-                .map(
-                  (value) =>
-                      DropdownMenuItem(value: value, child: Text('$value×')),
-                )
-                .toList(),
-          ),
-        ],
-      ),
-      if (error != null)
-        Padding(
-          padding: const EdgeInsets.only(top: 8),
-          child: Text(
-            error!,
-            style: TextStyle(color: Theme.of(context).colorScheme.error),
-          ),
+          ],
         ),
-    ],
-  );
+        if (error != null)
+          Padding(
+            padding: const EdgeInsets.only(top: 8),
+            child: Text(
+              error!,
+              style: TextStyle(color: Theme.of(context).colorScheme.error),
+            ),
+          ),
+      ],
+    );
+  }
 }

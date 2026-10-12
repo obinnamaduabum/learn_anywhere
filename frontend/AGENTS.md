@@ -11,11 +11,13 @@ This guide covers Flutter code in `frontend/`. Follow it also when changing fron
 - First launch asks for English, French, Portuguese, Arabic, Hausa, Yorùbá, or Igbo. One saved preference controls the app and content. Support Arabic right-to-left layout.
 - Download a missing published language pack with a persistent spinner and progress bar; prevent dismissal during download and application. Show a clear availability message if it is unavailable. Retain the preference when using fallback content.
 - Show normal courses and series courses. Open a series parent to show its ordered parts.
-- Keep category filters in Discover, not Profile settings. Show preferred-language availability from each content unit's currently advertised packs; a parent language union does not mean every series part is translated.
+- Keep Discover focused on course search and saved content. Do not show recommendation sections or category filters there. Show a compact per-course category label using backend metadata, with full text available on tap. Keep language selection in the toolbar; do not show a standalone language label inside Discover course cards. A parent language union does not mean every series part is translated.
 - Course-reading reminders are Debug-only. Release/Profile must hide the setting and block native/Dart scheduling, canceling only existing course-reading reminders. Preserve other notification features.
-- Highlight read lessons and show partial reading progress. Reading unlocks the next lesson; reading and quiz completion are separate states.
-- Put the assessment after all five lessons in a part. Reveal the score after submission and correctness/explanations only in answer review. Keep Next/Submit accessible without scrolling.
+- All pages start at the top on opening, returning, or selecting a navigation tab. Reopening lessons does not restore saved scroll offsets; preserve reading progress.
+- Highlight read lessons and show partial reading progress. Learners may skip directly to any lesson or final quiz. Skipping must not mark a lesson read or award reading progress; reading and quiz completion remain separate states.
+- Put the assessment at the end of a course or part; lesson count follows the material. Reveal the score after submission and correctness/explanations only in answer review. Keep Next/Submit accessible without scrolling.
 - Keep source references visible. Use learner-facing messages such as “Ready offline” or “Saved on this device”; do not expose SQLite terminology in the UI.
+- Downloads is a device-wide saved course library, grouped by series. Show only locally saved languages and distinguish active transfers/history from current offline availability. Keep available-language download actions in course-specific management; do not show XP/sync statistics here.
 - Do not advertise slide or video playback as implemented until it works.
 
 ## Offline data and synchronization
@@ -25,6 +27,10 @@ Persist packs, preferences, reading progress, answers, and pending events on the
 ## MCP QA improvements
 
 The user authorizes the MCP QA agent to implement focused frontend UI improvements found during review. Inspect and prioritize findings, preserve unrelated work, implement the authorized improvement, validate with relevant analysis/tests, automatically rerun the selected iOS app, capture fresh screenshots when tooling permits, and update the living `mcp.md` QA record. Report source-only findings and blocked visual checks accurately. Preserve separate lesson autoplay and VoiceOver accessibility behavior. This permission does not authorize destructive data resets, publication of generated learning content, unrelated package installation, or privacy-sensitive changes.
+
+## Page-local notifications
+
+Use `showPageSnackBar` from `page_notices.dart` for toast/SnackBar feedback. Never call the shared messenger directly to display notifications. Clear messages on page/tab changes and suppress delayed feedback from covered routes or inactive outgoing tabs. A toast must not follow the learner to another page.
 
 ## Implementation and validation
 

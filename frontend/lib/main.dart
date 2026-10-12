@@ -13,9 +13,11 @@ import 'api_endpoint.dart';
 import 'course_catalog.dart';
 import 'course_reminders.dart';
 import 'learner_profile.dart';
-import 'learning_companion.dart';
 import 'store.dart';
 import 'lesson_audio.dart';
+import 'lesson_references.dart';
+import 'page_start_scroll.dart';
+import 'page_notices.dart';
 import 'lan_share.dart';
 import 'strings.dart';
 
@@ -25,38 +27,147 @@ const ink = Color(0xFF142B3F);
 const mint = Color(0xFFE6F4EE);
 const canvas = Color(0xFFF7FBF9);
 const gold = Color(0xFFF2B84B);
+final pageStartScrollObserver = PageStartScrollObserver();
+
+const darkCanvas = Color(0xFF101B20);
+const darkSurface = Color(0xFF1B2B31);
+const darkRaised = Color(0xFF263A42);
+const darkInk = Color(0xFFEAF2F4);
+const darkMuted = Color(0xFFB4C7CD);
+const darkAccent = Color(0xFF80DACC);
+const darkBorder = Color(0xFF40575F);
 
 Color themeColor(BuildContext context, Color color) {
   if (Theme.of(context).brightness != Brightness.dark) return color;
-  if (color == ink) return const Color(0xFFE4F1ED);
-  if (color == teal || color == deepTeal) return const Color(0xFF77D8CA);
-  if (color == Colors.white) return const Color(0xFF152D2B);
-  if (color == canvas) return const Color(0xFF0D201F);
-  if (color == mint) return const Color(0xFF20413B);
-  final hsl = HSLColor.fromColor(color);
-  if (hsl.lightness > .8) return hsl.withLightness(.20).toColor();
-  if (hsl.lightness < .55) return hsl.withLightness(.72).toColor();
+  if (color == ink) return darkInk;
+  if (color == teal || color == deepTeal) return darkAccent;
+  if (color == Colors.white) return darkSurface;
+  if (color == canvas) return darkCanvas;
+  if (color == mint) return darkRaised;
+  if (color.computeLuminance() > .65) return darkRaised;
+  if (color.computeLuminance() < .25) return darkMuted;
   return color;
 }
 
+Color themeTextColor(BuildContext context, Color color) {
+  final theme = Theme.of(context);
+  if (theme.brightness != Brightness.dark) return color;
+  final scheme = theme.colorScheme;
+  if ([
+    scheme.onSurface,
+    scheme.onSurfaceVariant,
+    scheme.onPrimary,
+    scheme.onSecondary,
+    scheme.primary,
+    darkInk,
+    darkMuted,
+  ].contains(color)) {
+    return color;
+  }
+  if (color == ink || color == Colors.white) return darkInk;
+  if (color == teal || color == deepTeal) return darkAccent;
+  return color.computeLuminance() < .25 ? darkMuted : color;
+}
+
 ThemeData darkTealTheme() {
-  final scheme = ColorScheme.fromSeed(
-    seedColor: teal,
-    brightness: Brightness.dark,
-    primary: const Color(0xFF77D8CA),
-    surface: const Color(0xFF152D2B),
-  );
+  final scheme =
+      ColorScheme.fromSeed(
+        seedColor: teal,
+        brightness: Brightness.dark,
+      ).copyWith(
+        primary: darkAccent,
+        onPrimary: const Color(0xFF073C35),
+        secondary: const Color(0xFFA4CFC8),
+        onSecondary: const Color(0xFF143B36),
+        surface: darkSurface,
+        onSurface: darkInk,
+        onSurfaceVariant: darkMuted,
+        surfaceContainerLowest: darkCanvas,
+        surfaceContainerLow: darkSurface,
+        surfaceContainer: darkSurface,
+        surfaceContainerHigh: darkRaised,
+        surfaceContainerHighest: darkRaised,
+        outline: darkBorder,
+        outlineVariant: darkBorder,
+      );
   return ThemeData(
     useMaterial3: true,
     colorScheme: scheme,
-    scaffoldBackgroundColor: const Color(0xFF0D201F),
+    scaffoldBackgroundColor: darkCanvas,
+    textTheme: ThemeData.dark().textTheme
+        .apply(bodyColor: darkInk, displayColor: darkInk)
+        .copyWith(
+          headlineLarge: const TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.w800,
+            color: darkInk,
+            letterSpacing: -1,
+          ),
+          headlineMedium: const TextStyle(
+            fontSize: 26,
+            fontWeight: FontWeight.w800,
+            color: darkInk,
+            letterSpacing: -.6,
+          ),
+          titleLarge: const TextStyle(
+            fontSize: 21,
+            fontWeight: FontWeight.w700,
+            color: darkInk,
+          ),
+          titleMedium: const TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w700,
+            color: darkInk,
+          ),
+          bodyLarge: const TextStyle(fontSize: 16, color: darkInk, height: 1.5),
+          bodyMedium: const TextStyle(
+            fontSize: 14,
+            color: darkInk,
+            height: 1.4,
+          ),
+        ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: Color(0xFF0D201F),
-      foregroundColor: Color(0xFFE4F1ED),
+      backgroundColor: darkCanvas,
+      foregroundColor: darkInk,
       elevation: 0,
+    ),
+    navigationBarTheme: NavigationBarThemeData(
+      backgroundColor: darkSurface,
+      indicatorColor: darkRaised,
+      labelTextStyle: WidgetStateProperty.resolveWith(
+        (states) => TextStyle(
+          color: states.contains(WidgetState.selected) ? darkInk : darkMuted,
+          fontSize: 12,
+          fontWeight: FontWeight.w600,
+        ),
+      ),
+      iconTheme: WidgetStateProperty.resolveWith(
+        (states) => IconThemeData(
+          color: states.contains(WidgetState.selected) ? darkAccent : darkMuted,
+        ),
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      filled: true,
+      fillColor: darkRaised,
+      hintStyle: const TextStyle(color: darkMuted),
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(18),
+        borderSide: const BorderSide(color: darkBorder),
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(18),
+        borderSide: const BorderSide(color: darkBorder),
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(18),
+        borderSide: const BorderSide(color: darkAccent, width: 2),
+      ),
     ),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
+        backgroundColor: darkAccent,
+        foregroundColor: scheme.onPrimary,
         minimumSize: const Size(0, 54),
         textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 15),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
@@ -64,6 +175,8 @@ ThemeData darkTealTheme() {
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
       style: OutlinedButton.styleFrom(
+        foregroundColor: darkInk,
+        side: const BorderSide(color: darkBorder),
         minimumSize: const Size(0, 50),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       ),
@@ -199,7 +312,7 @@ class AppText extends StatelessWidget {
     ),
     style: style?.color == null
         ? style
-        : style!.copyWith(color: themeColor(context, style!.color!)),
+        : style!.copyWith(color: themeTextColor(context, style!.color!)),
     textAlign: textAlign,
     maxLines: maxLines,
     overflow: overflow,
@@ -228,6 +341,7 @@ class LearningApp extends StatelessWidget {
   Widget build(BuildContext context) => AnimatedBuilder(
     animation: store,
     builder: (context, _) => MaterialApp(
+      navigatorObservers: [pageStartScrollObserver],
       title: 'Learn Anywhere',
       darkTheme: darkTealTheme(),
       themeMode: store.darkTheme ? ThemeMode.dark : ThemeMode.light,
@@ -493,10 +607,10 @@ class _PreferredLanguagePageState extends State<PreferredLanguagePage> {
 }
 
 String tr(LearningStore s, String text) => translate(s.appLanguage, text);
-void message(BuildContext context, String text) =>
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: AppText(text), behavior: SnackBarBehavior.floating),
-    );
+void message(BuildContext context, String text) => showPageSnackBar(
+  context,
+  SnackBar(content: AppText(text), behavior: SnackBarBehavior.floating),
+);
 Future<void> bookmarkWithFeedback(
   BuildContext context,
   LearningStore store,
@@ -504,7 +618,6 @@ Future<void> bookmarkWithFeedback(
 ) => safely(context, () async {
   await store.toggleBookmark(id);
   if (context.mounted) {
-    ScaffoldMessenger.of(context).hideCurrentSnackBar();
     message(
       context,
       store.isBookmarked(id) ? 'Lesson bookmarked' : 'Bookmark removed',
@@ -518,11 +631,15 @@ Future<void> safely(
 ) async {
   try {
     await action();
-  } catch (_) {
+  } catch (error) {
     if (context.mounted) {
       message(
         context,
-        'Could not complete this action. Your saved progress is safe. Check the backend connection and try again.',
+        error is FormatException
+            ? error.message
+            : error is SocketException || error is TimeoutException
+            ? 'This part is not saved yet. Reconnect to download it; saved lessons remain available.'
+            : 'Could not complete this action. Your saved progress is safe. Try again.',
       );
     }
   }
@@ -654,7 +771,7 @@ class DownloadActivityPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
       title: AppText(
-        title == null ? 'Download notifications' : '$title · languages',
+        title == null ? 'Download activity' : '$title · languages',
       ),
     ),
     body: AnimatedBuilder(
@@ -713,7 +830,7 @@ class DownloadActivityPage extends StatelessWidget {
                       const SizedBox(height: 8),
                       AppText(
                         status == 'complete'
-                            ? 'Ready offline'
+                            ? 'Download completed'
                             : status == 'failed'
                             ? 'Download failed. Try again from the course or language selector.'
                             : status == 'saving'
@@ -732,30 +849,16 @@ class DownloadActivityPage extends StatelessWidget {
 }
 
 class LanguageButton extends StatelessWidget {
-  const LanguageButton({super.key, required this.store, this.compact = false});
+  const LanguageButton({super.key, required this.store});
   final LearningStore store;
-  final bool compact;
   @override
-  Widget build(BuildContext context) => compact
-      ? IconButton(
-          tooltip: LearningStore.languages[store.appLanguage],
-          onPressed: () => showLanguages(context, store),
-          icon: const Icon(Icons.language),
-        )
-      : TextButton.icon(
-          onPressed: () => showLanguages(context, store),
-          icon: const Icon(Icons.language, size: 19),
-          label: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              AppText(
-                LearningStore.languages[store.appLanguage]!,
-                style: const TextStyle(fontSize: 12),
-              ),
-              const Icon(Icons.expand_more, size: 16),
-            ],
-          ),
-        );
+  Widget build(BuildContext context) => IconButton(
+    tooltip:
+        '${tr(store, 'Language')}: '
+        '${LearningStore.languages[store.appLanguage] ?? store.appLanguage}',
+    onPressed: () => showLanguages(context, store),
+    icon: const Icon(Icons.language),
+  );
 }
 
 void showLanguages(BuildContext context, LearningStore store) =>
@@ -987,6 +1090,26 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
     super.dispose();
   }
 
+  void selectTab(int next) {
+    clearPageNotices(context);
+    setState(() => tab = next);
+    pageStartScrollObserver.reset(ModalRoute.of(context));
+  }
+
+  Widget tabPage() {
+    final currentTab = tab;
+    return PageNoticeScope(
+      key: ValueKey('notice-tab-$currentTab'),
+      isActive: () => mounted && tab == currentTab,
+      child: [
+        AdventurePage(store: widget.store, onDiscover: () => selectTab(1)),
+        DiscoverPage(store: widget.store),
+        DownloadsPage(store: widget.store),
+        ProgressPage(store: widget.store),
+      ][currentTab],
+    );
+  }
+
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
@@ -1016,43 +1139,38 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
             ),
           ),
         ),
-        LanguageButton(store: widget.store, compact: true),
+        LanguageButton(store: widget.store),
         const SizedBox(width: 4),
       ],
     ),
     body: AnimatedSwitcher(
       duration: const Duration(milliseconds: 250),
-      child: [
-        AdventurePage(store: widget.store),
-        DiscoverPage(store: widget.store),
-        DownloadsPage(store: widget.store),
-        ProgressPage(store: widget.store),
-      ][tab],
+      child: tabPage(),
     ),
     bottomNavigationBar: NavigationBar(
       selectedIndex: tab,
-      onDestinationSelected: (i) => setState(() => tab = i),
-      backgroundColor: Colors.white,
-      indicatorColor: mint,
+      onDestinationSelected: selectTab,
+      backgroundColor: Theme.of(context).colorScheme.surface,
+      indicatorColor: themeColor(context, mint),
       destinations: [
         NavigationDestination(
           icon: const Icon(Icons.home_outlined),
-          selectedIcon: const Icon(Icons.home, color: teal),
+          selectedIcon: Icon(Icons.home, color: themeColor(context, teal)),
           label: tr(widget.store, 'Home'),
         ),
         NavigationDestination(
           icon: const Icon(Icons.explore_outlined),
-          selectedIcon: const Icon(Icons.explore, color: teal),
+          selectedIcon: Icon(Icons.explore, color: themeColor(context, teal)),
           label: tr(widget.store, 'Discover'),
         ),
         NavigationDestination(
           icon: const Icon(Icons.download_outlined),
-          selectedIcon: const Icon(Icons.download, color: teal),
+          selectedIcon: Icon(Icons.download, color: themeColor(context, teal)),
           label: tr(widget.store, 'Downloads'),
         ),
         NavigationDestination(
           icon: const Icon(Icons.person_outline),
-          selectedIcon: const Icon(Icons.person, color: teal),
+          selectedIcon: Icon(Icons.person, color: themeColor(context, teal)),
           label: tr(widget.store, 'Profile'),
         ),
       ],
@@ -1061,10 +1179,6 @@ class _HomeShellState extends State<HomeShell> with WidgetsBindingObserver {
 }
 
 void openLesson(BuildContext context, LearningStore store, int id) {
-  if (!store.isUnlocked(id)) {
-    message(context, 'Read the previous lesson to unlock this quest.');
-    return;
-  }
   Navigator.push(
     context,
     MaterialPageRoute<void>(
@@ -1073,252 +1187,457 @@ void openLesson(BuildContext context, LearningStore store, int id) {
   );
 }
 
-void resumeCourse(BuildContext context, LearningStore store) {
-  if (store.completedCount == 5) {
-    Navigator.push(
-      context,
-      MaterialPageRoute<void>(builder: (_) => FinalTaskPage(store: store)),
-    );
-  } else if (store.lessonProgress(store.currentLesson)['read'] == true) {
-    Navigator.push(
-      context,
-      MaterialPageRoute<void>(
-        builder: (_) => QuizPage(store: store, id: 0, finalAssessment: true),
-      ),
-    );
-  } else {
-    openLesson(context, store, store.currentLesson);
-  }
+void resumeCourse(BuildContext context, LearningStore store) =>
+    resumeCourseWithNavigator(Navigator.of(context), store);
+
+void resumeCourseWithNavigator(NavigatorState navigator, LearningStore store) {
+  if (store.lessons.isEmpty) return;
+  final Widget page = store.completedCount == store.lessons.length
+      ? FinalTaskPage(store: store)
+      : store.lessonProgress(store.currentLesson)['read'] == true
+      ? QuizPage(store: store, id: 0, finalAssessment: true)
+      : LessonPage(store: store, id: store.currentLesson);
+  navigator.push(MaterialPageRoute<void>(builder: (_) => page));
 }
 
 class AdventurePage extends StatelessWidget {
-  const AdventurePage({super.key, required this.store});
+  const AdventurePage({super.key, required this.store, this.onDiscover});
+  final VoidCallback? onDiscover;
   final LearningStore store;
   @override
-  Widget build(BuildContext context) => RefreshIndicator(
-    onRefresh: store.refreshCatalog,
-    child: ListView(
-      padding: const EdgeInsets.fromLTRB(22, 8, 22, 28),
-      children: [
-        Wrap(
-          spacing: 5,
-          runSpacing: 5,
-          children: [
-            Pill(
-              '${store.xp} XP',
-              Icons.star_rounded,
-              color: const Color(0xFFFFF2CD),
-              foreground: const Color(0xFF8A5B00),
-            ),
-            Pill(
-              '${store.streak} ${tr(store, 'day streak')}',
-              Icons.local_fire_department,
-              color: const Color(0xFFFFEDE1),
-              foreground: const Color(0xFFB96621),
-            ),
-            Pill(tr(store, 'Offline ready'), Icons.cloud_done_outlined),
-          ],
-        ),
-        const SizedBox(height: 14),
-        AppText(
-          tr(store, 'Your learning adventure'),
-          style: Theme.of(context).textTheme.headlineSmall,
-        ),
-        const SizedBox(height: 7),
-        AppText(
-          tr(store, 'Small steps. Real skills.'),
-          style: const TextStyle(color: Color(0xFF6D8385)),
-        ),
-        const SizedBox(height: 14),
-        Surface(
-          color: mint,
-          padding: const EdgeInsets.all(14),
-          child: Row(
-            children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    AppText(
-                      store.courseTitle,
-                      style: Theme.of(context).textTheme.titleLarge,
-                    ),
-                    const SizedBox(height: 7),
-                    AppText(
-                      '${store.completedCount} / 5 ${tr(store, 'Completed').toLowerCase()} · ${LearningStore.lessonLanguages[store.lessonLanguage]}',
-                    ),
-                    const SizedBox(height: 10),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: LinearProgressIndicator(
-                        value: store.completedCount / 5,
-                        minHeight: 7,
-                        backgroundColor: Colors.white,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    FilledButton.icon(
-                      onPressed: () => resumeCourse(context, store),
-                      icon: const Icon(Icons.play_arrow_rounded),
-                      label: AppText(
-                        tr(
-                          store,
-                          store.completedCount == 5
-                              ? 'Final challenge'
-                              : 'Continue learning',
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(width: 8),
-              const ShieldMascot(size: 48),
-            ],
+  Widget build(BuildContext context) {
+    if (!store.hasSelectedCurrentCourse && !store.hasOtherReadingCourses) {
+      return ListView(
+        padding: const EdgeInsets.all(22),
+        children: [
+          const SizedBox(height: 20),
+          Icon(
+            Icons.explore_outlined,
+            size: 48,
+            color: Theme.of(context).colorScheme.primary,
           ),
-        ),
-        const SizedBox(height: 18),
-        Row(
-          children: [
-            Expanded(
-              child: AppText(
-                tr(store, 'Learning path'),
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
+          const SizedBox(height: 20),
+          AppText(
+            tr(store, 'Discover courses'),
+            style: Theme.of(context).textTheme.headlineSmall,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 12),
+          AppText(
+            tr(
+              store,
+              'Choose a course to start learning. Your progress will appear here.',
             ),
-            const AppText(
-              '5 quests',
-              style: TextStyle(color: teal, fontSize: 13),
-            ),
-          ],
-        ),
-        const SizedBox(height: 10),
-        Surface(
-          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),
-          child: Stack(
-            children: [
-              Positioned.fill(child: CustomPaint(painter: QuestPathPainter())),
-              Column(
-                children: List.generate(5, (i) {
-                  final complete = store.isComplete(i),
-                      read = store.isRead(i),
-                      unlocked = store.isUnlocked(i);
-                  return Padding(
-                    padding: EdgeInsets.only(
-                      left: i.isOdd ? 25 : 0,
-                      right: i.isEven ? 25 : 0,
-                      bottom: i == 4 ? 0 : 22,
-                    ),
-                    child: InkWell(
-                      borderRadius: BorderRadius.circular(20),
-                      onTap: () => openLesson(context, store, i),
-                      child: Container(
-                        padding: const EdgeInsets.all(13),
-                        decoration: BoxDecoration(
-                          color: read
-                              ? mint
-                              : unlocked
-                              ? Colors.white
-                              : const Color(0xFFF0F5F2),
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(
-                            color: unlocked && !complete
-                                ? teal
-                                : const Color(0xFFDCE8E0),
-                            width: unlocked && !complete ? 1.8 : 1,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 24),
+          FilledButton.icon(
+            onPressed: onDiscover,
+            icon: const Icon(Icons.search),
+            label: AppText(tr(store, 'Discover courses')),
+          ),
+        ],
+      );
+    }
+    final readCount = store.lessons
+        .where((lesson) => store.isRead(lesson['id'] as int))
+        .length;
+    return RefreshIndicator(
+      onRefresh: store.refreshCatalog,
+      child: ListView(
+        padding: const EdgeInsets.fromLTRB(22, 8, 22, 28),
+        children: [
+          AppText(
+            tr(store, 'Your courses'),
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          const SizedBox(height: 12),
+          if (store.hasSelectedCurrentCourse)
+            Surface(
+              padding: const EdgeInsets.all(20),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        AppText(
+                          store.courseTitle,
+                          style: Theme.of(context).textTheme.titleLarge
+                              ?.copyWith(fontSize: 20, height: 1.3),
+                        ),
+                        const SizedBox(height: 8),
+                        CourseCategoryLabel(
+                          category: store.categoryForCourse(store.courseId),
+                        ),
+                        const SizedBox(height: 8),
+                        AppText(
+                          '$readCount / ${store.lessons.length} ${tr(store, 'Read').toLowerCase()} · ${LearningStore.lessonLanguages[store.lessonLanguage]}',
+                        ),
+                        if (store.lessons.isNotEmpty &&
+                            readCount < store.lessons.length) ...[
+                          const SizedBox(height: 12),
+                          AppText(
+                            store.lessons[store.currentLesson]['title']
+                                as String,
+                            style: TextStyle(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.onSurfaceVariant,
+                              height: 1.4,
+                            ),
+                          ),
+                          const SizedBox(height: 4),
+                          AppText(
+                            '${store.lessons[store.currentLesson]['minutes'] ?? '—'} min',
+                            style: TextStyle(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.onSurfaceVariant,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                        const SizedBox(height: 12),
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: LinearProgressIndicator(
+                            value:
+                                readCount / math.max(1, store.lessons.length),
+                            minHeight: 7,
+                            backgroundColor: Theme.of(
+                              context,
+                            ).colorScheme.surfaceContainerHighest,
                           ),
                         ),
-                        child: Row(
-                          children: [
-                            Container(
-                              width: 46,
-                              height: 46,
-                              decoration: BoxDecoration(
-                                color: complete
-                                    ? teal
-                                    : unlocked
-                                    ? deepTeal
-                                    : const Color(0xFFCAD9D0),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Center(
-                                child: complete || read
-                                    ? const Icon(
-                                        Icons.check,
-                                        color: Colors.white,
-                                      )
-                                    : AppText(
-                                        '${i + 1}',
-                                        style: const TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 20,
-                                          fontWeight: FontWeight.w800,
-                                        ),
-                                      ),
+                        const SizedBox(height: 10),
+                        SizedBox(
+                          width: double.infinity,
+                          child: FilledButton.icon(
+                            onPressed: store.lessons.isEmpty
+                                ? null
+                                : () => resumeCourse(context, store),
+                            icon: const Icon(Icons.play_arrow_rounded),
+                            label: AppText(
+                              tr(
+                                store,
+                                store.lessons.isNotEmpty &&
+                                        store.completedCount ==
+                                            store.lessons.length
+                                    ? 'Final challenge'
+                                    : readCount == store.lessons.length &&
+                                          store.lessons.isNotEmpty
+                                    ? 'Final quiz'
+                                    : store.hasStartedCurrentCourse
+                                    ? 'Continue learning'
+                                    : 'Start course',
                               ),
                             ),
-                            const SizedBox(width: 12),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  AppText(
-                                    store.lessons[i]['title'] as String,
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.w700,
-                                      color: unlocked
-                                          ? ink
-                                          : const Color(0xFF7C8E88),
-                                    ),
-                                  ),
-                                  const SizedBox(height: 4),
-                                  AppText(
-                                    tr(
-                                      store,
-                                      complete
-                                          ? 'Completed'
-                                          : read
-                                          ? 'Read'
-                                          : unlocked
-                                          ? 'In progress'
-                                          : 'Locked',
-                                    ),
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      color: unlocked
-                                          ? teal
-                                          : const Color(0xFF8C9B96),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Icon(
-                              unlocked
-                                  ? Icons.chevron_right
-                                  : Icons.lock_outline,
-                              color: unlocked ? teal : const Color(0xFFA0AFA7),
-                              size: 20,
-                            ),
-                          ],
+                          ),
                         ),
-                      ),
+                      ],
                     ),
-                  );
-                }),
+                  ),
+                ],
+              ),
+            ),
+          const SizedBox(height: 14),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              Pill('${store.xp} XP', Icons.star_outline_rounded),
+              Pill(
+                '${store.streak} ${tr(store, 'day streak')}',
+                Icons.local_fire_department_outlined,
               ),
             ],
           ),
-        ),
-        const SizedBox(height: 18),
+          if (store.hasOtherReadingCourses)
+            FutureBuilder<List<Map<String, dynamic>>>(
+              future: store.otherReadingCourses(),
+              builder: (context, snapshot) => Column(
+                children: [
+                  for (final course
+                      in snapshot.data ?? <Map<String, dynamic>>[])
+                    Padding(
+                      padding: const EdgeInsets.only(top: 14),
+                      child: HomeReadingCourseCard(
+                        store: store,
+                        course: course,
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          if (store.hasSelectedCurrentCourse) ...[
+            const SizedBox(height: 24),
+            Row(
+              children: [
+                Expanded(
+                  child: AppText(
+                    tr(store, 'Learning path'),
+                    style: Theme.of(
+                      context,
+                    ).textTheme.titleLarge?.copyWith(fontSize: 20, height: 1.3),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            AppText(
+              '${store.courseTitle} · ${tr(store, 'Learning path')}',
+              style: TextStyle(
+                fontSize: 13,
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Padding(
+              padding: EdgeInsets.zero,
+              child: Stack(
+                children: [
+                  Column(
+                    children: List.generate(store.lessons.length, (i) {
+                      final complete = store.isComplete(i),
+                          read = store.isRead(i);
+                      return Padding(
+                        padding: EdgeInsets.only(
+                          left: 0,
+                          right: 0,
+                          bottom: i == store.lessons.length - 1 ? 0 : 10,
+                        ),
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(20),
+                          onTap: () => openLesson(context, store, i),
+                          child: Container(
+                            key: ValueKey('learning-path-$i'),
+                            padding: const EdgeInsets.all(13),
+                            decoration: BoxDecoration(
+                              color: themeColor(
+                                context,
+                                read ? mint : Colors.white,
+                              ),
+                              borderRadius: BorderRadius.circular(20),
+                              border: Border.all(
+                                color: read
+                                    ? teal
+                                    : Theme.of(
+                                        context,
+                                      ).colorScheme.outlineVariant,
+                                width: 1,
+                              ),
+                            ),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 34,
+                                  height: 34,
+                                  decoration: BoxDecoration(
+                                    color: complete ? teal : deepTeal,
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Center(
+                                    child: complete || read
+                                        ? const Icon(
+                                            Icons.check,
+                                            color: Colors.white,
+                                          )
+                                        : AppText(
+                                            '${i + 1}',
+                                            style: const TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.w800,
+                                            ),
+                                          ),
+                                  ),
+                                ),
+                                const SizedBox(width: 12),
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      AppText(
+                                        store.lessons[i]['title'] as String,
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w700,
+                                          color: ink,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 4),
+                                      AppText(
+                                        '${tr(store, complete
+                                            ? 'Completed'
+                                            : read
+                                            ? 'Read'
+                                            : 'Not read')} · ${store.lessons[i]['minutes'] ?? '—'} min',
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                          color: teal,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Icon(
+                                  Icons.chevron_right,
+                                  color: teal,
+                                  size: 20,
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      );
+                    }),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 18),
+            OutlinedButton.icon(
+              onPressed: store.lessons.isEmpty
+                  ? null
+                  : () => Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                        builder: (_) => QuizPage(
+                          store: store,
+                          id: 0,
+                          finalAssessment: true,
+                        ),
+                      ),
+                    ),
+              icon: const Icon(Icons.quiz_outlined),
+              label: AppText(tr(store, 'Final quiz')),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class HomeReadingCourseCard extends StatefulWidget {
+  const HomeReadingCourseCard({
+    super.key,
+    required this.store,
+    required this.course,
+  });
+  final LearningStore store;
+  final Map<String, dynamic> course;
+  @override
+  State<HomeReadingCourseCard> createState() => _HomeReadingCourseCardState();
+}
+
+class _HomeReadingCourseCardState extends State<HomeReadingCourseCard> {
+  bool opening = false;
+  Future<void> resume() async {
+    if (opening) return;
+    setState(() => opening = true);
+    final navigator = Navigator.of(context);
+    final store = widget.store;
+    final course = widget.course;
+    try {
+      await store.selectCourse(course);
+      if (navigator.mounted) resumeCourseWithNavigator(navigator, store);
+    } catch (_) {
+      if (mounted) {
+        message(context, 'Could not open this saved course. Please try again.');
+      }
+    } finally {
+      if (mounted) setState(() => opening = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) => Surface(
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
         AppText(
-          tr(store, 'Saved on this device'),
-          textAlign: TextAlign.center,
-          style: const TextStyle(color: Color(0xFF748B86), fontSize: 12),
+          widget.course['title'] as String,
+          style: Theme.of(
+            context,
+          ).textTheme.titleLarge?.copyWith(fontSize: 20, height: 1.3),
+        ),
+        const SizedBox(height: 8),
+        CourseCategoryLabel(
+          category: '${widget.course['category'] ?? 'General Learning'}',
+        ),
+        const SizedBox(height: 8),
+        AppText(
+          '${widget.course['readCount']} / ${widget.course['lessonCount']} ${tr(widget.store, 'Read').toLowerCase()} · ${LearningStore.languages[widget.course['language']]}',
+        ),
+        const SizedBox(height: 12),
+        LinearProgressIndicator(
+          value:
+              (widget.course['readCount'] as int) /
+              math.max(1, widget.course['lessonCount'] as int),
+        ),
+        const SizedBox(height: 14),
+        SizedBox(
+          width: double.infinity,
+          child: FilledButton.icon(
+            onPressed: opening ? null : resume,
+            icon: opening
+                ? const SizedBox(
+                    width: 18,
+                    height: 18,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                : const Icon(Icons.play_arrow_rounded),
+            label: AppText(
+              tr(
+                widget.store,
+                widget.course['readCount'] == widget.course['lessonCount']
+                    ? 'Final quiz'
+                    : 'Continue learning',
+              ),
+            ),
+          ),
         ),
       ],
     ),
   );
+}
+
+class CourseCategoryLabel extends StatelessWidget {
+  const CourseCategoryLabel({super.key, required this.category});
+  final String category;
+  @override
+  Widget build(BuildContext context) {
+    final label = category.trim().isEmpty
+        ? 'General Learning'
+        : category.trim();
+    final colors = Theme.of(context).colorScheme;
+    return Tooltip(
+      message: label,
+      child: Material(
+        color: colors.primaryContainer,
+        borderRadius: BorderRadius.circular(8),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(8),
+          onTap: () => message(context, label),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+            child: AppText(
+              label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: colors.onPrimaryContainer,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 class DiscoverPage extends StatefulWidget {
@@ -1330,7 +1649,7 @@ class DiscoverPage extends StatefulWidget {
 
 class _DiscoverPageState extends State<DiscoverPage> {
   String search = '';
-  String? category;
+  final searchController = TextEditingController();
   String? opening;
 
   @override
@@ -1365,6 +1684,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
   @override
   void dispose() {
     widget.store.removeListener(_catalogChanged);
+    searchController.dispose();
     super.dispose();
   }
 
@@ -1385,27 +1705,15 @@ class _DiscoverPageState extends State<DiscoverPage> {
           ]
         : widget.store.catalog;
     final grouped = groupCourses(courses).toList();
-    final recommended = widget.store.recommendedCourses(grouped);
-    final recommendedIds = recommended.map((c) => c['id']).toSet();
     final ordered = grouped;
-    final categories =
-        grouped
-            .map((c) => '${c['category'] ?? 'General Learning'}')
-            .toSet()
-            .toList()
-          ..sort();
-    final activeCategory = categories.contains(category) ? category : null;
     final matching = ordered.where(
-      (c) =>
-          (activeCategory == null ||
-              '${c['category'] ?? 'General Learning'}' == activeCategory) &&
-          [
-            c['title'],
-            c['description'],
-            c['category'],
-            for (final part in (c['parts'] as List? ?? const []))
-              '${part['title']} ${part['description'] ?? ''}',
-          ].join(' ').toLowerCase().contains(search.trim().toLowerCase()),
+      (c) => [
+        c['title'],
+        c['description'],
+        c['category'],
+        for (final part in (c['parts'] as List? ?? const []))
+          '${part['title']} ${part['description'] ?? ''}',
+      ].join(' ').toLowerCase().contains(search.trim().toLowerCase()),
     );
     return Scaffold(
       floatingActionButton: FloatingActionButton(
@@ -1431,14 +1739,25 @@ class _DiscoverPageState extends State<DiscoverPage> {
           children: [
             AppText(
               tr(widget.store, 'Discover'),
-              style: Theme.of(context).textTheme.headlineLarge,
+              style: Theme.of(context).textTheme.headlineSmall,
             ),
             const SizedBox(height: 18),
             TextField(
+              controller: searchController,
               onChanged: (v) => setState(() => search = v),
               decoration: InputDecoration(
                 hintText: tr(widget.store, 'Find a course'),
                 prefixIcon: const Icon(Icons.search),
+                suffixIcon: search.isEmpty
+                    ? null
+                    : IconButton(
+                        tooltip: tr(widget.store, 'Clear search'),
+                        icon: const Icon(Icons.clear),
+                        onPressed: () {
+                          searchController.clear();
+                          setState(() => search = '');
+                        },
+                      ),
                 filled: true,
                 fillColor: Theme.of(context).colorScheme.surface,
                 border: OutlineInputBorder(
@@ -1448,27 +1767,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
               ),
             ),
             const SizedBox(height: 18),
-            Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children: [
-                ChoiceChip(
-                  key: const Key('discover-category-all'),
-                  label: AppText(tr(widget.store, 'All categories')),
-                  selected: activeCategory == null,
-                  onSelected: (_) => setState(() => category = null),
-                ),
-                for (final value in categories)
-                  ChoiceChip(
-                    key: ValueKey('discover-category-$value'),
-                    label: AppText(value),
-                    selected: activeCategory == value,
-                    onSelected: (selected) =>
-                        setState(() => category = selected ? value : null),
-                  ),
-              ],
-            ),
-            const SizedBox(height: 12),
             Row(
               children: [
                 const Expanded(
@@ -1495,12 +1793,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
               Surface(color: mint, child: AppText(widget.store.catalogError!)),
               const SizedBox(height: 10),
             ],
-            if (search.isEmpty && recommended.isNotEmpty) ...[
-              AppText(
-                tr(widget.store, 'Recommended courses are marked below.'),
-              ),
-              const SizedBox(height: 14),
-            ],
             for (final course in matching)
               Padding(
                 padding: const EdgeInsets.only(bottom: 16),
@@ -1510,26 +1802,13 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     children: [
                       Row(
                         children: [
-                          Semantics(
-                            button: true,
-                            label:
-                                'Learning Category: ${course['category'] ?? 'General Learning'}',
-                            child: InkWell(
-                              borderRadius: BorderRadius.circular(30),
-                              onTap: () => message(
-                                context,
-                                course['category'] as String? ??
-                                    'General Learning',
-                              ),
-                              child: Pill(
-                                course['category'] as String? ??
-                                    'General Learning',
-                                Icons.category_outlined,
-                                textWidth: 70,
-                              ),
+                          Expanded(
+                            child: AppText(
+                              course['title'] as String,
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontSize: 20, height: 1.3),
                             ),
                           ),
-                          const Spacer(),
                           IconButton(
                             tooltip:
                                 widget.store.bookmarkedCourses.contains(
@@ -1550,9 +1829,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
                               await widget.store.toggleCourseBookmark(id);
                               if (mounted && context.mounted) {
                                 setState(() {});
-                                ScaffoldMessenger.of(
-                                  context,
-                                ).hideCurrentSnackBar();
                                 message(
                                   context,
                                   widget.store.bookmarkedCourses.contains(id)
@@ -1564,20 +1840,11 @@ class _DiscoverPageState extends State<DiscoverPage> {
                           ),
                         ],
                       ),
-                      if (recommendedIds.contains(course['id']))
-                        Padding(
-                          padding: const EdgeInsets.only(top: 8),
-                          child: Pill(
-                            tr(widget.store, 'Recommended'),
-                            Icons.auto_awesome_outlined,
-                          ),
-                        ),
-                      const SizedBox(height: 14),
-                      AppText(
-                        course['title'] as String,
-                        style: Theme.of(context).textTheme.headlineMedium,
-                      ),
                       const SizedBox(height: 8),
+                      CourseCategoryLabel(
+                        category: '${course['category'] ?? 'General Learning'}',
+                      ),
+                      const SizedBox(height: 10),
                       AppText(
                         course['description'] as String,
                         maxLines: 3,
@@ -1605,8 +1872,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
                           ),
                         ],
                       ),
-                      const SizedBox(height: 10),
-                      _languageAvailability(course),
                       const SizedBox(height: 18),
                       SizedBox(
                         width: double.infinity,
@@ -1686,35 +1951,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
           ],
         ),
       ),
-    );
-  }
-
-  Widget _languageAvailability(Map<String, dynamic> course) {
-    final language = widget.store.preferredLanguage;
-    final name = LearningStore.lessonLanguages[language] ?? language;
-    final availability = courseLanguageAvailability(course, language);
-    final isSeries = course['parts'] != null;
-    final status = availability.all
-        ? isSeries
-              ? tr(widget.store, 'Available for all parts')
-              : tr(widget.store, 'Available')
-        : availability.some
-        ? '${tr(widget.store, 'Available for some parts')} '
-              '(${availability.availableUnits}/${availability.totalUnits})'
-        : tr(widget.store, 'Not available for this version');
-    return Row(
-      key: ValueKey('discover-language-${course['id']}'),
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Icon(Icons.translate, size: 18),
-        const SizedBox(width: 8),
-        Expanded(
-          child: AppText(
-            '$name · $status',
-            style: const TextStyle(fontSize: 13),
-          ),
-        ),
-      ],
     );
   }
 }
@@ -1893,6 +2129,95 @@ class SeriesPage extends StatefulWidget {
 
 class _SeriesPageState extends State<SeriesPage> {
   String? opening;
+  bool savingSeries = false;
+  String? saveNotice;
+  bool saveFailed = false;
+  final attemptedAutoDownloads = <String>{};
+
+  Map<String, dynamic> get currentCourse =>
+      widget.store.catalog
+          .where((course) => course['id'] == widget.course['id'])
+          .firstOrNull ??
+      widget.course;
+
+  @override
+  void initState() {
+    super.initState();
+    widget.store.addListener(_storeChanged);
+    considerAutoDownload();
+  }
+
+  @override
+  void didUpdateWidget(SeriesPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.store != widget.store) {
+      oldWidget.store.removeListener(_storeChanged);
+      widget.store.addListener(_storeChanged);
+      attemptedAutoDownloads.clear();
+    }
+    considerAutoDownload();
+  }
+
+  @override
+  void dispose() {
+    widget.store.removeListener(_storeChanged);
+    super.dispose();
+  }
+
+  void _storeChanged() {
+    if (!mounted) return;
+    setState(() {});
+    considerAutoDownload();
+  }
+
+  void considerAutoDownload() {
+    if (!widget.store.autoDownload || savingSeries) return;
+    final key = '${currentCourse['id']}:${widget.store.preferredLanguage}';
+    if (!attemptedAutoDownloads.add(key)) return;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final currentKey =
+          '${currentCourse['id']}:${widget.store.preferredLanguage}';
+      if (!widget.store.autoDownload || savingSeries || currentKey != key) {
+        attemptedAutoDownloads.remove(key);
+        if (currentKey != key) considerAutoDownload();
+        return;
+      }
+      unawaited(saveSeries(automatic: true));
+    });
+  }
+
+  Future<void> saveSeries({bool automatic = false}) async {
+    if (savingSeries) return;
+    setState(() {
+      savingSeries = true;
+      saveNotice = null;
+      saveFailed = false;
+    });
+    try {
+      await widget.store.saveSeries(currentCourse);
+      if (mounted) {
+        setState(
+          () => saveNotice = 'Series saved. Its lessons are ready offline.',
+        );
+      }
+    } catch (error) {
+      if (mounted) {
+        setState(() {
+          saveFailed = true;
+          saveNotice = error is FormatException
+              ? error.message
+              : 'Could not save every part. Saved lessons remain available; reconnect to retry.';
+        });
+      }
+    } finally {
+      if (mounted) {
+        setState(() => savingSeries = false);
+        if (automatic) considerAutoDownload();
+      }
+    }
+  }
+
   int readCount(Map<String, dynamic> part) {
     final versions = (part['packs'] as List).map(
       (p) => p['version'] as int? ?? 1,
@@ -1947,12 +2272,42 @@ class _SeriesPageState extends State<SeriesPage> {
                     ),
                     const SizedBox(height: 8),
                     const AppText(
-                      'Download one part at a time. Read its lessons, then take the final quiz. Your progress is saved offline.',
+                      'Save parts before going offline. Read each part, then take its final quiz.',
                     ),
+                    if (savingSeries ||
+                        (!widget.store.isSeriesSaved(currentCourse) &&
+                            (!widget.store.autoDownload || saveFailed)))
+                      TextButton.icon(
+                        onPressed: savingSeries || parts.isEmpty
+                            ? null
+                            : saveSeries,
+                        icon: savingSeries
+                            ? const SizedBox(
+                                width: 18,
+                                height: 18,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                ),
+                              )
+                            : const Icon(Icons.download_outlined),
+                        label: AppText(
+                          savingSeries
+                              ? 'Saving series…'
+                              : saveFailed
+                              ? 'Retry download'
+                              : 'Save all parts offline',
+                        ),
+                      ),
+                    if (saveNotice != null)
+                      AppText(
+                        saveNotice!,
+                        style: const TextStyle(fontSize: 13),
+                      ),
                   ],
                 ),
               ),
               const SizedBox(height: 18),
+              SavedCourseLanguages(store: widget.store, course: course),
               for (final part in parts)
                 Padding(
                   padding: const EdgeInsets.only(bottom: 12),
@@ -2010,6 +2365,53 @@ class _SeriesPageState extends State<SeriesPage> {
   }
 }
 
+class SavedCourseLanguages extends StatelessWidget {
+  const SavedCourseLanguages({
+    super.key,
+    required this.store,
+    required this.course,
+  });
+  final LearningStore store;
+  final Map<String, dynamic> course;
+
+  @override
+  Widget build(BuildContext context) {
+    final counts = store.savedLanguageCounts(course);
+    final total = (course['parts'] as List?)?.length ?? 1;
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const AppText('Languages saved on this device'),
+          const SizedBox(height: 6),
+          if (counts.isEmpty)
+            const AppText(
+              'No languages saved yet',
+              style: TextStyle(fontSize: 13),
+            )
+          else
+            Wrap(
+              spacing: 8,
+              runSpacing: 4,
+              children: counts.entries
+                  .map(
+                    (entry) => Chip(
+                      label: AppText(
+                        total > 1
+                            ? '${LearningStore.lessonLanguages[entry.key]} · ${entry.value}/$total parts'
+                            : LearningStore.lessonLanguages[entry.key]!,
+                      ),
+                    ),
+                  )
+                  .toList(),
+            ),
+        ],
+      ),
+    );
+  }
+}
+
 class CoursePage extends StatelessWidget {
   const CoursePage({super.key, required this.store});
   final LearningStore store;
@@ -2024,33 +2426,39 @@ class CoursePage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(22),
         children: [
-          Surface(
-            color: mint,
-            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-            child: Row(
-              children: [
-                const Icon(Icons.auto_stories_outlined, color: teal, size: 24),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: AppText(
-                    tr(store, 'Small steps. Real skills.'),
-                    style: Theme.of(context).textTheme.titleSmall,
-                  ),
-                ),
-              ],
+          AppText(
+            'Course contents',
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          const SizedBox(height: 6),
+          AppText(
+            '${store.lessons.length} lessons · ${List.generate(store.lessons.length, (i) => i).where(store.isRead).length} read',
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
             ),
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 8),
+          const AppText(
+            'Read each lesson, then take the final quiz.',
+            style: TextStyle(fontSize: 13),
+          ),
+          SavedCourseLanguages(store: store, course: {'id': store.courseId}),
+          const SizedBox(height: 18),
           ...List.generate(
-            5,
+            store.lessons.length,
             (i) => Padding(
               padding: const EdgeInsets.only(bottom: 10),
               child: Surface(
                 color: store.isRead(i) ? mint : Colors.white,
                 padding: const EdgeInsets.all(4),
                 child: ListTile(
+                  contentPadding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 8,
+                  ),
                   leading: CircleAvatar(
-                    backgroundColor: mint,
+                    radius: 18,
+                    backgroundColor: themeColor(context, mint),
                     child: AppText(
                       '${i + 1}',
                       style: const TextStyle(color: teal),
@@ -2061,21 +2469,24 @@ class CoursePage extends StatelessWidget {
                     style: const TextStyle(fontWeight: FontWeight.w700),
                   ),
                   subtitle: AppText(
-                    'Short lesson · ${tr(store, store.isComplete(i)
-                        ? 'Completed'
-                        : store.isRead(i)
-                        ? 'Read'
-                        : store.isUnlocked(i)
-                        ? 'In progress'
-                        : 'Locked')}',
+                    tr(
+                      store,
+                      store.isComplete(i)
+                          ? 'Completed'
+                          : store.isRead(i)
+                          ? 'Read'
+                          : 'Not read',
+                    ),
+                    style: TextStyle(
+                      fontSize: 13,
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
                   ),
                   trailing: Icon(
                     store.isRead(i)
                         ? Icons.check_circle_outline
-                        : store.isUnlocked(i)
-                        ? Icons.chevron_right
-                        : Icons.lock_outline,
-                    color: teal,
+                        : Icons.chevron_right,
+                    color: themeColor(context, teal),
                   ),
                   onTap: () => openLesson(context, store, i),
                 ),
@@ -2083,6 +2494,17 @@ class CoursePage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
+          FilledButton.icon(
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute<void>(
+                builder: (_) =>
+                    QuizPage(store: store, id: 0, finalAssessment: true),
+              ),
+            ),
+            icon: const Icon(Icons.quiz_outlined),
+            label: const AppText('Take final quiz'),
+          ),
           if (store.completedCount == store.lessons.length)
             OutlinedButton.icon(
               onPressed: () => Navigator.push(
@@ -2094,16 +2516,6 @@ class CoursePage extends StatelessWidget {
               icon: const Icon(Icons.fact_check_outlined),
               label: const AppText('Review answers'),
             ),
-          OutlinedButton.icon(
-            onPressed: () => showLanguages(context, store),
-            icon: const Icon(Icons.translate),
-            label: AppText(tr(store, 'Lesson language')),
-          ),
-          const SizedBox(height: 16),
-          const AppText(
-            'Audio and video are optional future formats. This proof of concept uses text, vector diagrams and quizzes to keep packs small.',
-            style: TextStyle(fontSize: 12, color: Color(0xFF6D8385)),
-          ),
         ],
       ),
     ),
@@ -2118,6 +2530,270 @@ class DownloadsPage extends StatefulWidget {
 }
 
 class _DownloadsPageState extends State<DownloadsPage> {
+  late Future<List<Map<String, dynamic>>> saved;
+  String signature = '';
+  String? opening;
+  @override
+  void initState() {
+    super.initState();
+    saved = widget.store.savedCourseLibrary();
+    widget.store.addListener(changed);
+  }
+
+  void changed() {
+    if (!mounted) return;
+    final next =
+        '${widget.store.downloaded.join(',')}:${widget.store.downloadActivity.map((item) => '${item['key']}:${item['status']}').join(',')}';
+    setState(() {
+      if (signature != next) {
+        saved = widget.store.savedCourseLibrary();
+        signature = next;
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    widget.store.removeListener(changed);
+    super.dispose();
+  }
+
+  Future<void> open(Map<String, dynamic> course, bool manage) async {
+    if (opening != null) return;
+    final navigator = Navigator.of(context);
+    final store = widget.store;
+    setState(() => opening = course['id'] as String);
+    try {
+      if (course['parts'] != null) {
+        await navigator.push(
+          MaterialPageRoute<void>(
+            builder: (_) => SeriesPage(store: store, course: course),
+          ),
+        );
+      } else {
+        await store.selectCourse(course);
+        if (navigator.mounted) {
+          await navigator.push(
+            MaterialPageRoute<void>(
+              builder: (_) => manage
+                  ? CourseDownloadsPage(store: store)
+                  : CoursePage(store: store),
+            ),
+          );
+        }
+      }
+    } catch (_) {
+      if (mounted) {
+        message(context, 'Could not open saved course. Please try again.');
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          opening = null;
+          saved = store.savedCourseLibrary();
+        });
+      }
+    }
+  }
+
+  @override
+  Widget build(
+    BuildContext context,
+  ) => FutureBuilder<List<Map<String, dynamic>>>(
+    future: saved,
+    builder: (context, snapshot) {
+      final courses = snapshot.data ?? <Map<String, dynamic>>[];
+      final active = widget.store.downloadActivity
+          .where(
+            (item) =>
+                item['status'] == 'downloading' || item['status'] == 'saving',
+          )
+          .toList();
+      return RefreshIndicator(
+        onRefresh: () async {
+          final next = widget.store.savedCourseLibrary();
+          setState(() => saved = next);
+          await next;
+        },
+        child: ListView(
+          physics: const AlwaysScrollableScrollPhysics(),
+          padding: const EdgeInsets.all(22),
+          children: [
+            AppText(
+              tr(widget.store, 'Downloads'),
+              style: Theme.of(context).textTheme.headlineSmall,
+            ),
+            const SizedBox(height: 8),
+            AppText(
+              tr(widget.store, 'Courses saved for offline learning'),
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+            ),
+            const SizedBox(height: 18),
+            if (active.isNotEmpty) ...[
+              AppText(
+                tr(widget.store, 'Downloading'),
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+              for (final item in active)
+                Padding(
+                  padding: const EdgeInsets.only(top: 10),
+                  child: Surface(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        AppText(
+                          '${item['title']} · ${LearningStore.languages[item['language']]}',
+                        ),
+                        const SizedBox(height: 8),
+                        LinearProgressIndicator(
+                          value:
+                              (item['total'] as int? ?? 0) > 0 &&
+                                  item['status'] != 'saving'
+                              ? ((item['received'] as int) /
+                                        (item['total'] as int))
+                                    .clamp(0.0, 1.0)
+                              : null,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              const SizedBox(height: 20),
+            ],
+            if (snapshot.hasError)
+              AppText(
+                tr(
+                  widget.store,
+                  'Could not load saved courses. Pull down to retry.',
+                ),
+              ),
+            if (!snapshot.hasData && !snapshot.hasError)
+              const Center(child: CircularProgressIndicator()),
+            if (snapshot.hasData && courses.isEmpty) ...[
+              AppText(
+                tr(widget.store, 'No saved courses yet'),
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
+              const SizedBox(height: 8),
+              AppText(
+                tr(
+                  widget.store,
+                  'Open a course in Discover to save it on this device.',
+                ),
+              ),
+            ],
+            if (courses.isNotEmpty)
+              AppText(
+                '${courses.length} ${tr(widget.store, 'Saved courses')}',
+                style: Theme.of(context).textTheme.titleMedium,
+              ),
+            for (final course in courses)
+              Padding(
+                padding: const EdgeInsets.only(top: 12),
+                child: Surface(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      AppText(
+                        course['title'] as String,
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                          fontSize: 20,
+                          height: 1.3,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      for (final lang in course['savedLanguages'] as List)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 6),
+                          child: Row(
+                            children: [
+                              Icon(
+                                Icons.check_circle_outline,
+                                size: 16,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                              const SizedBox(width: 7),
+                              Expanded(
+                                child: AppText(
+                                  course['parts'] == null
+                                      ? '${LearningStore.languages[lang]}'
+                                      : '${LearningStore.languages[lang]} · ${(course['savedUnits'] as List).where((unit) => unit['language'] == lang).length}/${(course['parts'] as List).length} ${tr(widget.store, 'parts saved')}',
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      AppText(
+                        '${tr(widget.store, 'Ready offline')} · ${(course['savedBytes'] as int) / 1024 >= 1024 ? '${((course['savedBytes'] as int) / 1048576).toStringAsFixed(1)} MB' : '${((course['savedBytes'] as int) / 1024).toStringAsFixed(1)} KB'}',
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      SizedBox(
+                        width: double.infinity,
+                        child: FilledButton.icon(
+                          onPressed: opening != null
+                              ? null
+                              : () => open(course, false),
+                          icon: opening == course['id']
+                              ? const SizedBox(
+                                  width: 18,
+                                  height: 18,
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2,
+                                  ),
+                                )
+                              : const Icon(Icons.menu_book_outlined),
+                          label: AppText(tr(widget.store, 'Open course')),
+                        ),
+                      ),
+                      TextButton(
+                        onPressed: opening != null
+                            ? null
+                            : () => open(course, true),
+                        child: AppText(
+                          tr(
+                            widget.store,
+                            course['parts'] == null
+                                ? 'Manage languages'
+                                : 'View parts',
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            const SizedBox(height: 18),
+            OutlinedButton.icon(
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                  builder: (_) => DownloadActivityPage(store: widget.store),
+                ),
+              ),
+              icon: const Icon(Icons.history),
+              label: AppText(tr(widget.store, 'Download activity')),
+            ),
+          ],
+        ),
+      );
+    },
+  );
+}
+
+class CourseDownloadsPage extends StatefulWidget {
+  const CourseDownloadsPage({super.key, required this.store});
+  final LearningStore store;
+  @override
+  State<CourseDownloadsPage> createState() => _CourseDownloadsPageState();
+}
+
+class _CourseDownloadsPageState extends State<CourseDownloadsPage> {
   String? busy;
   Future<void> download(String lang) async {
     setState(() => busy = lang);
@@ -2135,169 +2811,184 @@ class _DownloadsPageState extends State<DownloadsPage> {
   }
 
   @override
-  Widget build(BuildContext context) => ListView(
-    padding: const EdgeInsets.all(22),
-    children: [
-      AppText(
-        tr(widget.store, 'Downloads'),
-        style: Theme.of(context).textTheme.headlineLarge,
-      ),
-      const SizedBox(height: 9),
-      const AppText(
-        'Save a pack once. Learn anywhere.',
-        style: TextStyle(color: Color(0xFF6D8385)),
-      ),
-      const SizedBox(height: 24),
-      Surface(
-        color: mint,
-        child: Row(
-          children: [
-            const Icon(Icons.storage_rounded, color: teal),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  AppText(
-                    tr(widget.store, 'Saved on this device'),
-                    style: const TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  const AppText(
-                    'Lessons, answers and progress saved offline',
-                    style: TextStyle(fontSize: 12),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-      const SizedBox(height: 24),
-      ...LearningStore.lessonLanguages.entries
-          .where((e) => widget.store.availablePackLanguages.contains(e.key))
-          .map(
-            (e) => Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: Surface(
-                child: Row(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: mint,
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: const Icon(Icons.language, color: teal),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          AppText(
-                            e.value,
-                            style: const TextStyle(fontWeight: FontWeight.w700),
+  Widget build(BuildContext context) => Scaffold(
+    appBar: AppBar(title: AppText(tr(widget.store, 'Manage languages'))),
+    body: SafeArea(
+      child: ListView(
+        padding: const EdgeInsets.all(22),
+        children: [
+          AppText(
+            widget.store.courseTitle,
+            key: const Key('downloads-course-title'),
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          const SizedBox(height: 12),
+          ...LearningStore.lessonLanguages.entries
+              .where((e) => widget.store.availablePackLanguages.contains(e.key))
+              .map(
+                (e) => Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: Surface(
+                    child: Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            color: mint,
+                            borderRadius: BorderRadius.circular(14),
                           ),
-                          FutureBuilder<int>(
-                            future: widget.store.packBytes(e.key),
-                            builder: (_, s) => AppText(
-                              '5 lessons · ${s.hasData ? '${(s.data! / 1024).toStringAsFixed(1)} KB' : '…'}',
-                              style: const TextStyle(
-                                fontSize: 12,
-                                color: Color(0xFF6D8385),
+                          child: const Icon(Icons.language, color: teal),
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              AppText(
+                                e.value,
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w700,
+                                ),
                               ),
-                            ),
-                          ),
-                          if (widget.store.downloaded.contains(e.key))
-                            AppText(
-                              tr(widget.store, 'Ready offline'),
-                              style: const TextStyle(fontSize: 12, color: teal),
-                            ),
-                        ],
-                      ),
-                    ),
-                    busy == e.key
-                        ? const SizedBox(
-                            width: 22,
-                            height: 22,
-                            child: CircularProgressIndicator(strokeWidth: 2),
-                          )
-                        : widget.store.downloaded.contains(e.key)
-                        ? PopupMenuButton<String>(
-                            onSelected: (v) {
-                              if (v == 'refresh') download(e.key);
-                              if (v == 'remove') {
-                                safely(
-                                  context,
-                                  () => widget.store.removePack(e.key),
-                                );
-                              }
-                            },
-                            itemBuilder: (_) => [
-                              const PopupMenuItem(
-                                value: 'refresh',
-                                child: AppText('Update from backend'),
+                              FutureBuilder<int>(
+                                future: widget.store.packBytes(e.key),
+                                builder: (_, s) => AppText(
+                                  '${widget.store.lessons.length} lessons · ${s.hasData ? '${(s.data! / 1024).toStringAsFixed(1)} KB' : '…'}',
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    color: Color(0xFF6D8385),
+                                  ),
+                                ),
                               ),
-                              if (e.key != 'en' &&
-                                  e.key != widget.store.lessonLanguage)
-                                const PopupMenuItem(
-                                  value: 'remove',
-                                  child: AppText('Remove pack'),
+                              if (widget.store.downloaded.contains(e.key))
+                                AppText(
+                                  tr(widget.store, 'Ready offline'),
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    color: teal,
+                                  ),
                                 ),
                             ],
-                            icon: const Icon(Icons.check_circle, color: teal),
-                          )
-                        : IconButton(
-                            onPressed: busy != null
-                                ? null
-                                : () => download(e.key),
-                            tooltip: tr(widget.store, 'Download pack'),
-                            icon: const Icon(
-                              Icons.download_rounded,
-                              color: teal,
-                            ),
                           ),
-                  ],
+                        ),
+                        busy == e.key
+                            ? const SizedBox(
+                                width: 22,
+                                height: 22,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2,
+                                ),
+                              )
+                            : widget.store.downloaded.contains(e.key)
+                            ? PopupMenuButton<String>(
+                                onSelected: (v) {
+                                  if (v == 'refresh') download(e.key);
+                                  if (v == 'remove') {
+                                    safely(
+                                      context,
+                                      () => widget.store.removePack(e.key),
+                                    );
+                                  }
+                                },
+                                itemBuilder: (_) => [
+                                  const PopupMenuItem(
+                                    value: 'refresh',
+                                    child: AppText('Update download'),
+                                  ),
+                                  if (e.key != 'en' &&
+                                      e.key != widget.store.lessonLanguage)
+                                    const PopupMenuItem(
+                                      value: 'remove',
+                                      child: AppText('Remove from device'),
+                                    ),
+                                ],
+                                icon: const Icon(
+                                  Icons.check_circle,
+                                  color: teal,
+                                ),
+                              )
+                            : IconButton(
+                                onPressed: busy != null
+                                    ? null
+                                    : () => download(e.key),
+                                tooltip: tr(widget.store, 'Download pack'),
+                                icon: const Icon(
+                                  Icons.download_rounded,
+                                  color: teal,
+                                ),
+                              ),
+                      ],
+                    ),
+                  ),
                 ),
               ),
+          const SizedBox(height: 16),
+          const AppText(
+            'These language packs belong to the selected course. Saved packs work offline. Downloading or updating a pack requires a connection.',
+            style: TextStyle(fontSize: 12, color: Color(0xFF6D8385)),
+          ),
+        ],
+      ),
+    ),
+  );
+}
+
+/// Adapt obsolete navigation instructions for display and speech only.
+String lessonReadingText(String body) => body.replaceAll(
+  RegExp(
+    r'(?:Then )?Complete all three quiz questions (?:to unlock the next lesson|before moving on)\.',
+    caseSensitive: false,
+  ),
+  'Read all lessons in this part, then take the final quiz.',
+);
+
+class LessonReadingBody extends StatelessWidget {
+  const LessonReadingBody({super.key, required this.text});
+  final String text;
+  @override
+  Widget build(BuildContext context) {
+    final paragraphs = text
+        .split(RegExp(r'\n\s*\n'))
+        .where((p) => p.trim().isNotEmpty);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        for (final paragraph in paragraphs)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 20),
+            child: Builder(
+              builder: (context) {
+                final match = RegExp(
+                  r'^([^\n:.!?]{1,48}):\s+([\s\S]+)$',
+                ).firstMatch(paragraph.trim());
+                final body = match == null ? paragraph.trim() : match.group(2)!;
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    if (match != null) ...[
+                      Semantics(
+                        header: true,
+                        child: AppText(
+                          '${match.group(1)}:',
+                          style: Theme.of(context).textTheme.titleMedium,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                    ],
+                    AppText(
+                      body,
+                      style: Theme.of(
+                        context,
+                      ).textTheme.bodyLarge?.copyWith(height: 1.65),
+                    ),
+                  ],
+                );
+              },
             ),
           ),
-      const SizedBox(height: 16),
-      const AppText(
-        'English ships with the app. Packs update from the backend when available; otherwise included preview packs are saved. No audio or video downloads are required.',
-        style: TextStyle(fontSize: 12, color: Color(0xFF6D8385)),
-      ),
-      const SizedBox(height: 24),
-      OutlinedButton.icon(
-        onPressed: widget.store.syncing
-            ? null
-            : () async {
-                await widget.store.sync();
-                if (context.mounted) {
-                  message(
-                    context,
-                    widget.store.syncError ?? 'Records synced successfully',
-                  );
-                }
-              },
-        icon: const Icon(Icons.sync),
-        label: AppText(tr(widget.store, 'Sync now')),
-      ),
-      const SizedBox(height: 10),
-      AppText(
-        '${widget.store.confirmedPoints} confirmed XP · ${widget.store.pendingEvents} activities awaiting sync',
-        textAlign: TextAlign.center,
-      ),
-      AppText(
-        widget.store.syncError ??
-            (widget.store.lastSync == null
-                ? 'Progress will sync when the backend is reachable.'
-                : 'Last sync: ${widget.store.lastSync!.substring(0, 16).replaceAll('T', ' ')}'),
-        textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 12, color: Color(0xFF6D8385)),
-      ),
-    ],
-  );
+      ],
+    );
+  }
 }
 
 class LessonPage extends StatefulWidget {
@@ -2309,15 +3000,115 @@ class LessonPage extends StatefulWidget {
 }
 
 class _LessonPageState extends State<LessonPage> {
-  final scroll = ScrollController();
+  final scroll = ScrollController(keepScrollOffset: false);
   Timer? readingSave;
   late final readingCourseKey = widget.store.courseKey;
   double readingFraction = 0;
   final Completer<void> initialPosition = Completer<void>();
   bool atEnd = false;
+  bool advancing = false;
+  double swipeDistance = 0;
+  bool showExplained = false;
+  bool loadingExplanation = false;
+
+  String? get explainedText => widget.store.lessonExplanationText(widget.id);
+
+  Future<void> toggleExplanation() async {
+    if (loadingExplanation) return;
+    final key = widget.store.explanationPackKey;
+    if (showExplained && explainedText != null) {
+      setState(() => showExplained = false);
+    } else {
+      if (explainedText == null) {
+        setState(() => loadingExplanation = true);
+        try {
+          await widget.store.loadLessonExplanation(widget.id);
+        } catch (failure) {
+          if (mounted) {
+            message(
+              context,
+              tr(
+                widget.store,
+                failure is HttpException &&
+                        failure.message.contains('not configured')
+                    ? 'Explanations are not available yet. Your lesson is ready to read.'
+                    : 'Could not load an explanation. Reconnect and try again.',
+              ),
+            );
+          }
+          return;
+        } finally {
+          if (mounted) setState(() => loadingExplanation = false);
+        }
+      }
+      if (!mounted || key != widget.store.explanationPackKey) return;
+      if (explainedText == null) {
+        message(
+          context,
+          tr(
+            widget.store,
+            'Explanations are not available yet for this course and language.',
+          ),
+        );
+        return;
+      }
+      setState(() => showExplained = true);
+    }
+    if (!mounted) return;
+    message(
+      context,
+      '${tr(widget.store, showExplained ? 'Explained version' : 'Regular version')}.',
+    );
+    setState(() => atEnd = false);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted && scroll.hasClients) {
+        scroll.jumpTo(scroll.position.minScrollExtent);
+      }
+    });
+  }
+
+  Future<void> continueLesson() async {
+    if (advancing) return;
+    setState(() => advancing = true);
+    try {
+      await safely(context, () async {
+        if (atEnd || widget.store.isRead(widget.id)) {
+          await widget.store.readLesson(widget.id);
+        }
+        if (!mounted) return;
+        await Navigator.push(
+          context,
+          MaterialPageRoute<void>(
+            builder: (_) => widget.id < widget.store.lessons.length - 1
+                ? LessonPage(store: widget.store, id: widget.id + 1)
+                : QuizPage(store: widget.store, id: 0, finalAssessment: true),
+          ),
+        );
+      });
+    } finally {
+      if (mounted) setState(() => advancing = false);
+    }
+  }
+
+  void finishSwipe(DragEndDetails details) {
+    final forward = widget.store.lessonLanguage == 'ar'
+        ? swipeDistance >= 80
+        : swipeDistance <= -80;
+    swipeDistance = 0;
+    if (forward) {
+      unawaited(continueLesson());
+    }
+  }
+
   @override
   void initState() {
     super.initState();
+    showExplained = widget.store.preferExplained && explainedText != null;
+    if (widget.store.preferExplained && explainedText == null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) toggleExplanation();
+      });
+    }
     scroll.addListener(() {
       if (scroll.hasClients && initialPosition.isCompleted) {
         final extent = scroll.position.maxScrollExtent;
@@ -2338,13 +3129,8 @@ class _LessonPageState extends State<LessonPage> {
     });
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted && scroll.hasClients) {
-        readingFraction =
-            (widget.store.lessonProgress(widget.id)['readingFraction']
-                        as num? ??
-                    0)
-                .toDouble()
-                .clamp(0.0, 1.0);
-        scroll.jumpTo(scroll.position.maxScrollExtent * readingFraction);
+        readingFraction = 0;
+        scroll.jumpTo(scroll.position.minScrollExtent);
       }
       initialPosition.complete();
       if (mounted &&
@@ -2373,9 +3159,9 @@ class _LessonPageState extends State<LessonPage> {
     builder: (context, _) {
       final lesson = widget.store.lessons[widget.id];
       // Older downloaded packs describe the former per-lesson quiz flow.
-      final lessonBody = (lesson['body'] as String).replaceAll(
-        'Then complete all three quiz questions to unlock the next lesson.',
-        'Continue reading to unlock the next lesson. Complete the quiz after all five lessons in this part.',
+      final isExplained = showExplained && explainedText != null;
+      final lessonBody = lessonReadingText(
+        isExplained ? explainedText! : lesson['body'] as String,
       );
       return Directionality(
         textDirection: widget.store.lessonLanguage == 'ar'
@@ -2384,32 +3170,30 @@ class _LessonPageState extends State<LessonPage> {
         child: Scaffold(
           floatingActionButton: FloatingActionButton(
             heroTag: 'lesson-explanation',
-            backgroundColor: Colors.white,
-            foregroundColor: teal,
-            tooltip: tr(widget.store, 'Explain this'),
-            child: const Icon(Icons.lightbulb_outline),
-            onPressed: () {
-              message(context, tr(widget.store, 'Explain this'));
-              showModalBottomSheet<void>(
-                context: context,
-                isScrollControlled: true,
-                showDragHandle: true,
-                builder: (context) => SafeArea(
-                  child: SingleChildScrollView(
-                    padding: const EdgeInsets.fromLTRB(12, 0, 12, 20),
-                    child: LearningCompanionCard(
-                      store: widget.store,
-                      id: widget.id,
-                      explanationOnly: true,
+            backgroundColor: isExplained ? gold : teal,
+            foregroundColor: isExplained ? ink : Colors.white,
+            tooltip: tr(
+              widget.store,
+              isExplained ? 'Regular version' : 'Explained version',
+            ),
+            onPressed: loadingExplanation ? null : toggleExplanation,
+            child: loadingExplanation
+                ? const SizedBox(
+                    width: 22,
+                    height: 22,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2,
+                      color: Colors.white,
                     ),
+                  )
+                : Icon(
+                    isExplained ? Icons.lightbulb : Icons.lightbulb_outline,
+                    color: isExplained ? ink : Colors.white,
                   ),
-                ),
-              );
-            },
           ),
           appBar: AppBar(
             title: AppText(
-              'Lesson ${widget.id + 1} / 5',
+              'Lesson ${widget.id + 1} / ${widget.store.lessons.length}',
               style: const TextStyle(fontSize: 17),
             ),
             actions: [
@@ -2428,113 +3212,114 @@ class _LessonPageState extends State<LessonPage> {
               LanguageButton(store: widget.store),
             ],
           ),
-          body: ListView(
-            controller: scroll,
-            padding: const EdgeInsets.fromLTRB(24, 12, 24, 110),
-            children: [
-              Wrap(
-                spacing: 8,
-                runSpacing: 8,
-                children: [
-                  Pill('3 min', Icons.schedule),
-                  Pill(
-                    tr(widget.store, 'Ready offline'),
-                    Icons.cloud_done_outlined,
-                  ),
-                ],
-              ),
-              const SizedBox(height: 24),
-              AppText(
-                lesson['title'] as String,
-                style: Theme.of(context).textTheme.headlineLarge,
-              ),
-              const SizedBox(height: 10),
-              AppText(
-                lesson['subtitle'] as String,
-                style: const TextStyle(color: teal, fontSize: 17),
-              ),
-              const SizedBox(height: 24),
-              LessonAudio(
-                autoRead: widget.store.autoReadAloud,
-                text: '${lesson['title']}. ${lesson['subtitle']}. $lessonBody',
-                language: widget.store.lessonLanguage,
-              ),
-              const SizedBox(height: 16),
-              AppText(lessonBody, style: Theme.of(context).textTheme.bodyLarge),
-              const SizedBox(height: 24),
-              Surface(
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+          body: GestureDetector(
+            key: const ValueKey('lesson-swipe-area'),
+            onHorizontalDragStart: (_) => swipeDistance = 0,
+            onHorizontalDragUpdate: (details) =>
+                swipeDistance += details.primaryDelta ?? 0,
+            onHorizontalDragEnd: finishSwipe,
+            onHorizontalDragCancel: () => swipeDistance = 0,
+            child: ListView(
+              controller: scroll,
+              padding: const EdgeInsets.fromLTRB(24, 12, 24, 110),
+              children: [
+                AppText(
+                  lesson['title'] as String,
+                  style: Theme.of(context).textTheme.headlineLarge,
+                ),
+                const SizedBox(height: 10),
+                AppText(
+                  lesson['subtitle'] as String,
+                  style: const TextStyle(color: teal, fontSize: 17),
+                ),
+                const SizedBox(height: 16),
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 8,
                   children: [
-                    const AppText(
-                      'Reference for further reading',
-                      style: TextStyle(fontSize: 11, color: Color(0xFF6D8385)),
+                    Pill(
+                      '${isExplained ? (lessonBody.trim().split(RegExp(r"\s+")).length + 199) ~/ 200 : lesson['minutes'] ?? '—'} min',
+                      Icons.schedule,
                     ),
-                    const SizedBox(height: 5),
-                    AppText(
-                      lesson['sourceName'] as String,
-                      style: const TextStyle(fontWeight: FontWeight.w700),
-                    ),
-                    const SizedBox(height: 5),
-                    SelectableText(
-                      lesson['sourceUrl'] as String,
-                      style: const TextStyle(color: teal, fontSize: 12),
+                    Pill(
+                      tr(widget.store, 'Ready offline'),
+                      Icons.cloud_done_outlined,
                     ),
                   ],
                 ),
-              ),
-              const SizedBox(height: 22),
-              const AppText(
-                'Keep reading. Your quiz comes at the end of this part.',
-                textAlign: TextAlign.center,
-                style: TextStyle(color: teal, fontWeight: FontWeight.w600),
-              ),
-              const SizedBox(height: 12),
-              FilledButton.icon(
-                onPressed:
-                    (atEnd ||
-                        widget.store.lessonProgress(widget.id)['read'] == true)
-                    ? () => safely(context, () async {
-                        await widget.store.readLesson(widget.id);
-                        if (context.mounted) {
-                          await Navigator.push(
-                            context,
-                            MaterialPageRoute<void>(
-                              builder: (_) =>
-                                  widget.id < widget.store.lessons.length - 1
-                                  ? LessonPage(
-                                      store: widget.store,
-                                      id: widget.id + 1,
-                                    )
-                                  : QuizPage(
-                                      store: widget.store,
-                                      id: 0,
-                                      finalAssessment: true,
-                                    ),
-                            ),
-                          );
-                        }
-                      })
-                    : null,
-                icon: const Icon(Icons.quiz),
-                label: AppText(
-                  widget.id < widget.store.lessons.length - 1
-                      ? 'Next lesson'
-                      : 'Take final quiz',
+                const SizedBox(height: 16),
+                LessonAudio(
+                  autoRead: widget.store.autoReadAloud,
+                  text:
+                      '${lesson['title']}. ${lesson['subtitle']}. $lessonBody',
+                  language: widget.store.lessonLanguage,
                 ),
-              ),
-              if (!atEnd &&
-                  widget.store.lessonProgress(widget.id)['read'] != true)
-                const Padding(
-                  padding: EdgeInsets.only(top: 8),
-                  child: AppText(
-                    'Scroll through the lesson to continue.',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 12),
+                const SizedBox(height: 16),
+                if (loadingExplanation) const LinearProgressIndicator(),
+                if (isExplained)
+                  AppText(
+                    widget.store.savedExplanations == null
+                        ? '${tr(widget.store, 'Explained version')} · ${tr(widget.store, 'AI-generated')}'
+                        : '${tr(widget.store, 'Explained version')} · ${widget.store.savedExplanations!['explanationVersion']}',
+                  ),
+                LessonReadingBody(text: lessonBody),
+                const SizedBox(height: 24),
+                Surface(
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const AppText(
+                        'Reference for further reading',
+                        style: TextStyle(
+                          fontSize: 11,
+                          color: Color(0xFF6D8385),
+                        ),
+                      ),
+                      for (final source in lessonReferences(lesson)) ...[
+                        const SizedBox(height: 12),
+                        AppText(
+                          source['name']!,
+                          style: const TextStyle(fontWeight: FontWeight.w700),
+                        ),
+                        const SizedBox(height: 5),
+                        SelectableText(
+                          source['url']!,
+                          style: const TextStyle(color: teal, fontSize: 12),
+                        ),
+                      ],
+                    ],
                   ),
                 ),
-            ],
+                const SizedBox(height: 22),
+                const AppText(
+                  'Keep reading. Your quiz comes at the end of this part.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(color: teal, fontWeight: FontWeight.w600),
+                ),
+                const SizedBox(height: 12),
+                FilledButton.icon(
+                  onPressed: !advancing ? continueLesson : null,
+                  icon: const Icon(Icons.quiz),
+                  label: AppText(
+                    widget.id < widget.store.lessons.length - 1
+                        ? 'Next lesson'
+                        : 'Take final quiz',
+                  ),
+                ),
+                if (widget.id < widget.store.lessons.length - 1)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 8),
+                    child: AppText(
+                      widget.store.lessonLanguage == 'ar'
+                          ? 'Swipe right to continue. You can skip lessons.'
+                          : 'Swipe left to continue. You can skip lessons.',
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(fontSize: 12),
+                    ),
+                  ),
+              ],
+            ),
           ),
         ),
       );
@@ -2601,7 +3386,7 @@ class QuizIntroPage extends StatelessWidget {
                   SizedBox(width: 12),
                   Expanded(
                     child: AppText(
-                      'Read all five lessons, then complete the quiz and review your answers.',
+                      'Read the lessons, then complete the quiz and review your answers.',
                     ),
                   ),
                 ],
@@ -2653,7 +3438,7 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
-  final scroll = ScrollController();
+  final scroll = ScrollController(keepScrollOffset: false);
   late int index;
   int? selected;
   bool checked = false, busy = false;
@@ -3006,9 +3791,10 @@ class _QuizResultPageState extends State<QuizResultPage>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     AppText(
-                      widget.id == 4
+                      (widget.finalAssessment ||
+                              widget.id == widget.store.lessons.length - 1)
                           ? tr(widget.store, 'Final challenge')
-                          : 'Lesson ${widget.id + 2} unlocked!',
+                          : 'Next lesson: ${widget.id + 2}',
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                     const SizedBox(height: 4),
@@ -3026,7 +3812,8 @@ class _QuizResultPageState extends State<QuizResultPage>
         FilledButton.icon(
           onPressed: () {
             Navigator.popUntil(context, (r) => r.isFirst);
-            if (widget.id == 4) {
+            if ((widget.finalAssessment ||
+                widget.id == widget.store.lessons.length - 1)) {
               Navigator.push(
                 context,
                 MaterialPageRoute<void>(
@@ -3041,7 +3828,10 @@ class _QuizResultPageState extends State<QuizResultPage>
           label: AppText(
             tr(
               widget.store,
-              widget.id == 4 ? 'Final challenge' : 'Continue lesson',
+              (widget.finalAssessment ||
+                      widget.id == widget.store.lessons.length - 1)
+                  ? 'Final challenge'
+                  : 'Continue lesson',
             ),
           ),
         ),
@@ -3191,6 +3981,12 @@ class ProgressPage extends StatelessWidget {
         tr(store, 'Your progress'),
         style: Theme.of(context).textTheme.headlineLarge,
       ),
+      const SizedBox(height: 8),
+      AppText(
+        store.courseTitle,
+        key: const Key('progress-course-title'),
+        style: Theme.of(context).textTheme.titleMedium,
+      ),
       const SizedBox(height: 24),
       Surface(
         color: mint,
@@ -3199,7 +3995,7 @@ class ProgressPage extends StatelessWidget {
           children: [
             stat('${store.xp}', 'XP', Icons.star_rounded),
             stat(
-              '${store.completedCount}/5',
+              '${store.completedCount}/${store.lessons.length}',
               tr(store, 'Completed'),
               Icons.menu_book,
             ),
@@ -3228,7 +4024,7 @@ class ProgressPage extends StatelessWidget {
           badge(
             Icons.workspace_premium,
             'Quiz Champion',
-            store.completedCount >= 3,
+            store.completedCount >= math.min(3, store.lessons.length),
           ),
           const SizedBox(width: 12),
           badge(Icons.emoji_events, 'Digital Hero', store.taskComplete),
@@ -3245,16 +4041,19 @@ class ProgressPage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             AppText(
-              store.completedCount < 3
-                  ? 'Complete 3 lessons'
-                  : store.completedCount < 5
-                  ? 'Complete all 5 lessons'
+              store.completedCount < math.min(3, store.lessons.length)
+                  ? 'Complete ${math.min(3, store.lessons.length)} lessons'
+                  : store.completedCount < store.lessons.length
+                  ? 'Complete all ${store.lessons.length} lessons'
                   : 'Finish your practical task',
             ),
             const SizedBox(height: 12),
             LinearProgressIndicator(
               value: math.min(
-                store.completedCount / (store.completedCount < 3 ? 3 : 5),
+                store.completedCount /
+                    (store.completedCount < math.min(3, store.lessons.length)
+                        ? math.max(1, math.min(3, store.lessons.length))
+                        : math.max(1, store.lessons.length)),
                 1,
               ),
               minHeight: 7,
@@ -3280,7 +4079,9 @@ class ProgressPage extends StatelessWidget {
             ),
             const SizedBox(height: 15),
             FilledButton.icon(
-              onPressed: store.completedCount == 5
+              onPressed:
+                  (store.lessons.isNotEmpty &&
+                      store.completedCount == store.lessons.length)
                   ? () => Navigator.push(
                       context,
                       MaterialPageRoute<void>(
@@ -3289,7 +4090,8 @@ class ProgressPage extends StatelessWidget {
                     )
                   : null,
               icon: Icon(
-                store.completedCount == 5
+                (store.lessons.isNotEmpty &&
+                        store.completedCount == store.lessons.length)
                     ? Icons.checklist
                     : Icons.lock_outline,
               ),
@@ -3313,6 +4115,7 @@ class ProgressPage extends StatelessWidget {
             ),
             const SizedBox(height: 14),
             SegmentedButton<bool>(
+              key: const Key('appearance-theme'),
               segments: const [
                 ButtonSegment(
                   value: false,
@@ -3394,6 +4197,21 @@ class ProgressPage extends StatelessWidget {
               builder: (_) => LearnerProfilePage(store: store, editing: true),
             ),
           ),
+        ),
+      ),
+      const SizedBox(height: 22),
+      Surface(
+        child: SwitchListTile(
+          key: const Key('auto-download-setting'),
+          contentPadding: EdgeInsets.zero,
+          secondary: const Icon(Icons.download_for_offline_outlined),
+          title: const AppText('Auto-download'),
+          subtitle: const AppText(
+            'Automatically save opened series in your preferred language.',
+          ),
+          value: store.autoDownload,
+          onChanged: (value) =>
+              safely(context, () => store.setAutoDownload(value)),
         ),
       ),
       const SizedBox(height: 22),
@@ -3487,11 +4305,7 @@ class ProgressPage extends StatelessWidget {
               },
       ),
       const SizedBox(height: 12),
-      OutlinedButton.icon(
-        onPressed: () => showLanguages(context, store),
-        icon: const Icon(Icons.language),
-        label: AppText(tr(store, 'Language')),
-      ),
+      LanguageButton(store: store),
       const SizedBox(height: 16),
       const AppText(
         'A fresh start is always welcome. No lives to lose, no timer, and no personal profile required.',
@@ -3593,7 +4407,7 @@ class FinalTaskPage extends StatelessWidget {
             onPressed:
                 !store.taskComplete &&
                     store.safetyChecklist.length == 4 &&
-                    store.completedCount == 5
+                    store.completedCount == store.lessons.length
                 ? () => safely(context, () async {
                     await store.finishTask();
                     unawaited(store.sync());
@@ -3845,14 +4659,12 @@ class BookmarksPage extends StatelessWidget {
               ListTile(
                 title: AppText('${store.lessons[id]['title']}'),
                 subtitle: AppText('Lesson ${id + 1}'),
-                onTap: store.isUnlocked(id)
-                    ? () => Navigator.push(
-                        context,
-                        MaterialPageRoute<void>(
-                          builder: (_) => LessonPage(store: store, id: id),
-                        ),
-                      )
-                    : null,
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(
+                    builder: (_) => LessonPage(store: store, id: id),
+                  ),
+                ),
                 trailing: IconButton(
                   tooltip: 'Remove bookmark',
                   icon: const Icon(Icons.bookmark),

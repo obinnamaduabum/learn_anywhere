@@ -202,7 +202,7 @@ void main() {
     },
   );
 
-  testWidgets('Discover search works with all categories selected', (
+  testWidgets('Discover search works without category controls', (
     tester,
   ) async {
     store.catalog = [
@@ -228,12 +228,8 @@ void main() {
       },
     ];
     await tester.pumpWidget(MaterialApp(home: DiscoverPage(store: store)));
-    expect(
-      tester
-          .widget<ChoiceChip>(find.byKey(const Key('discover-category-all')))
-          .selected,
-      isTrue,
-    );
+    expect(find.byType(ChoiceChip), findsNothing);
+    expect(find.byIcon(Icons.category_outlined), findsNothing);
     await tester.enterText(find.byType(TextField), 'Tech course');
     await tester.pumpAndSettle();
     expect(
@@ -249,7 +245,7 @@ void main() {
   });
 
   testWidgets(
-    'lesson resumes at saved reading position without completing it',
+    'lesson starts at top without erasing saved progress or completing it',
     (tester) async {
       await tester.runAsync(() => store.saveReadingPosition(0, .4));
       await tester.pumpWidget(
@@ -257,7 +253,8 @@ void main() {
       );
       await tester.pumpAndSettle();
       final list = tester.widget<ListView>(find.byType(ListView).first);
-      expect(list.controller!.offset, greaterThan(0));
+      expect(list.controller!.offset, 0);
+      expect(store.lessonProgress(0)['readingFraction'], .4);
       expect(store.isRead(0), false);
       expect(store.pendingEvents, 0);
       await tester.pumpWidget(const SizedBox());

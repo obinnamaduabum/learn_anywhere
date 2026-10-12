@@ -44,6 +44,86 @@ void main() {
     store = LearningStore(directory);
     await store.initialize();
   });
+  test(
+    'explained lesson preference is opt-in and persists across profile edits',
+    () async {
+      expect(store.preferExplained, isFalse);
+      await store.saveLearnerProfile(null, '', '', explainedVersions: true);
+      await store.database!.close();
+      store = LearningStore(directory);
+      await store.initialize();
+      expect(store.preferExplained, isTrue);
+      await store.saveLearnerProfile(null, '', '');
+      expect(store.preferExplained, isTrue);
+      await store.saveLearnerProfile(null, '', '', explainedVersions: false);
+      expect(store.preferExplained, isFalse);
+    },
+  );
+  test('auto download is opt-in and persists across restarts', () async {
+    expect(store.autoDownload, isFalse);
+    await store.setAutoDownload(true);
+    await store.database!.close();
+    store = LearningStore(directory);
+    await store.initialize();
+    expect(store.autoDownload, isTrue);
+    await store.setAutoDownload(false);
+    await store.database!.close();
+    store = LearningStore(directory);
+    await store.initialize();
+    expect(store.autoDownload, isFalse);
+  });
+  test('saved languages are course scoped and update after deletion', () async {
+    await store.savePack('fr', bundled: true);
+    expect(store.savedLanguageCounts({'id': store.courseId}), {
+      'en': 1,
+      'fr': 1,
+    });
+    expect(store.savedLanguageCounts({'id': 'another-course'}), isEmpty);
+    expect(
+      store.savedLanguageCounts({
+        'id': 'series',
+        'parts': [
+          {'id': store.courseId},
+          {'id': 'another-course'},
+        ],
+      }),
+      {'en': 1, 'fr': 1},
+    );
+    await store.removePack('fr');
+    expect(store.savedLanguageCounts({'id': store.courseId}), {'en': 1});
+    await store.database!.close();
+    store = LearningStore(directory);
+    await store.initialize();
+    expect(store.savedLanguageCounts({'id': store.courseId}), {'en': 1});
+  });
+  test('variable lesson counts validate and complete the final task', () async {
+    expect(LearningStore.hasValidLessonIds([]), isFalse);
+    expect(
+      LearningStore.hasValidLessonIds([
+        {'id': 1},
+      ]),
+      isFalse,
+    );
+    for (final count in [1, 3, 8]) {
+      expect(
+        LearningStore.hasValidLessonIds(List.generate(count, (i) => {'id': i})),
+        isTrue,
+      );
+    }
+    final template = Map<String, dynamic>.from(store.lessons.first);
+    store.pack['lessons'] = List.generate(3, (i) => {...template, 'id': i});
+    store.progress.clear();
+    store.taskComplete = false;
+    store.safetyChecklist.addAll([0, 1, 2, 3]);
+    for (var i = 0; i < 2; i++) {
+      store.lessonProgress(i)['complete'] = true;
+    }
+    await store.finishTask();
+    expect(store.taskComplete, isFalse);
+    store.lessonProgress(2)['complete'] = true;
+    await store.finishTask();
+    expect(store.taskComplete, isTrue);
+  });
   test('font size persists and is bounded', () async {
     await store.setFontScale(1.25);
     await store.database!.close();
@@ -103,12 +183,11 @@ void main() {
     expect(store.lessonLanguage, 'en');
   });
 
-  test('reading unlocks the next lesson before the final quiz', () async {
-    expect(store.isUnlocked(1), false);
+  test('quiz can start without reading and never marks lessons read', () async {
+    expect(store.isUnlocked(1), true);
     await store.answer(0, 0, 0);
-    expect(store.answers(0), isEmpty);
-    await store.readLesson(0);
-    await store.answer(0, 0, 0);
+    expect(store.answers(0), [0]);
+    expect(store.isRead(0), false);
     await store.completeQuiz(0);
     expect(store.isUnlocked(1), true);
     await store.answer(0, 1, 1);
@@ -116,6 +195,8 @@ void main() {
     await store.completeQuiz(0);
     expect(store.isUnlocked(1), true);
     expect(store.xp, 80);
+    expect(store.isRead(0), false);
+    expect(store.currentLesson, 0);
   });
   test('offline progress and quiz resume survive database reopening', () async {
     await store.readLesson(0);

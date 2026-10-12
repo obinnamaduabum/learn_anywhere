@@ -66,6 +66,84 @@ class LearningStore extends ChangeNotifier {
         (bytes[0] == 192 && bytes[1] == 168);
   }
 
+  final Set<String> selectedCourseIds = {};
+  bool get hasSelectedCurrentCourse =>
+      selectedCourseIds.contains(courseId) || hasStartedCurrentCourse;
+  bool get hasStartedCurrentCourse => progress.values.any(
+    (p) =>
+        p['read'] == true ||
+        p['complete'] == true ||
+        (p['readingFraction'] as num? ?? 0) > 0,
+  );
+  String categoryForCourse(String id) {
+    for (final root in catalog) {
+      if (root['id'] == id) return '${root['category'] ?? 'General Learning'}';
+      for (final part in (root['parts'] as List? ?? [])) {
+        if (part['id'] == id) {
+          return '${part['category'] ?? root['category'] ?? 'General Learning'}';
+        }
+      }
+    }
+    return 'General Learning';
+  }
+
+  static bool _hasReadingActivity(Map<dynamic, dynamic> state) =>
+      (state['progress'] as Map? ?? {}).values.any((value) {
+        final p = value as Map;
+        return p['read'] == true ||
+            p['complete'] == true ||
+            (p['readingFraction'] as num? ?? 0) > 0;
+      });
+  bool get hasOtherReadingCourses => courseStates.entries.any(
+    (entry) =>
+        entry.key != courseKey && _hasReadingActivity(entry.value as Map),
+  );
+
+  Future<List<Map<String, dynamic>>> otherReadingCourses() async {
+    final states = Map<String, dynamic>.from(courseStates)..remove(courseKey);
+    final rows = await database!.query('packs', orderBy: 'version DESC');
+    final result = <Map<String, dynamic>>[];
+    final seen = <String>{if (hasSelectedCurrentCourse) courseId};
+    for (final row in rows) {
+      final id = row['course_id'] as String;
+      final version = row['version'] as int;
+      final key = '$id:$version';
+      final state = states[key] as Map?;
+      if (state == null || !_hasReadingActivity(state) || seen.contains(id)) {
+        continue;
+      }
+      final translations = rows.where(
+        (r) => r['course_id'] == id && r['version'] == version,
+      );
+      final chosen =
+          translations
+              .where((r) => r['language'] == preferredLanguage)
+              .firstOrNull ??
+          row;
+      final savedPack =
+          jsonDecode(chosen['json'] as String) as Map<String, dynamic>;
+      final lessons = savedPack['lessons'] as List;
+      final savedProgress = state['progress'] as Map? ?? {};
+      final readCount = lessons
+          .where((l) => (savedProgress['${l['id']}'] as Map?)?['read'] == true)
+          .length;
+      result.add({
+        'id': id,
+        'title': savedPack['title'] ?? id,
+        'resumeVersion': version,
+        'lessonCount': lessons.length,
+        'readCount': readCount,
+        'category': categoryForCourse(id),
+        'language': chosen['language'],
+        'packs': translations
+            .map((r) => {'language': r['language'], 'version': version})
+            .toList(),
+      });
+      seen.add(id);
+    }
+    return result;
+  }
+
   String courseId = 'digital-safety-v1';
   int courseVersion = 1;
   String courseTitle = 'Digital Safety';
@@ -91,7 +169,14 @@ class LearningStore extends ChangeNotifier {
   String appLanguage = 'en';
   String preferredLanguage = 'en';
   bool hasChosenLanguage = false;
+  bool autoDownload = false;
+  Future<void> setAutoDownload(bool value) async {
+    autoDownload = value;
+    await save();
+  }
+
   bool autoReadAloud = true;
+  bool preferExplained = false;
   Future<void> setAutoReadAloud(bool value) async {
     autoReadAloud = value;
     await save();
@@ -179,6 +264,7 @@ class LearningStore extends ChangeNotifier {
     String gender,
     String interest, {
     DateTime? dateOfBirth,
+    bool? explainedVersions,
   }) async {
     if (age != null && (age < 1 || age > 120)) {
       throw ArgumentError('Enter an age from 1 to 120.');
@@ -216,6 +302,7 @@ class LearningStore extends ChangeNotifier {
       learnerAge = age;
     }
     learnerGender = gender;
+    if (explainedVersions != null) preferExplained = explainedVersions;
     learningInterest = interest;
     hasCompletedLearnerProfile = true;
     await _persist();
@@ -293,7 +380,12 @@ class LearningStore extends ChangeNotifier {
 
   Future<void> saveReadingPosition(int id, double fraction) async {
     if (id < 0 || id >= lessons.length || !isUnlocked(id)) return;
-    lessonProgress(id)['readingFraction'] = fraction.clamp(0.0, 1.0);
+    final saved = (lessonProgress(id)['readingFraction'] as num? ?? 0)
+        .toDouble();
+    lessonProgress(id)['readingFraction'] = max(
+      saved,
+      fraction.clamp(0.0, 1.0),
+    );
     await _persist();
   }
 
@@ -342,11 +434,14 @@ class LearningStore extends ChangeNotifier {
       (pack['lessons'] as List? ?? []).cast<Map<String, dynamic>>();
   int get completedCount =>
       progress.values.where((p) => p['complete'] == true).length;
-  int get currentLesson =>
-      min(progress.values.where((p) => p['read'] == true).length, 4);
+  int get currentLesson {
+    final unread = lessons.indexWhere((lesson) => !isRead(lesson['id'] as int));
+    return unread < 0 ? max(0, lessons.length - 1) : unread;
+  }
+
   bool isRead(int id) => progress[id]?['read'] == true;
   bool isComplete(int id) => progress[id]?['complete'] == true;
-  bool isUnlocked(int id) => id == 0 || progress[id - 1]?['read'] == true;
+  bool isUnlocked(int id) => id >= 0 && id < lessons.length;
   int get streak {
     var day = DateTime.now();
     if (!studyDays.contains(dateKey(day))) {
@@ -442,6 +537,9 @@ class LearningStore extends ChangeNotifier {
       try {
         final data =
             jsonDecode(rows.first['json'] as String) as Map<String, dynamic>;
+        selectedCourseIds.addAll(
+          (data['selectedCourseIds'] as List? ?? []).cast<String>(),
+        );
         courseId = data['courseId'] as String? ?? 'digital-safety-v1';
         courseVersion = data['courseVersion'] as int? ?? 1;
         courseTitle = data['courseTitle'] as String? ?? 'Digital Safety';
@@ -452,7 +550,9 @@ class LearningStore extends ChangeNotifier {
         preferredLanguage = data['preferredLanguage'] as String? ?? appLanguage;
         hasChosenLanguage = data['hasChosenLanguage'] == true;
         needsProgressRestore = data['needsProgressRestore'] == true;
+        autoDownload = data['autoDownload'] == true;
         autoReadAloud = data['autoReadAloud'] != false;
+        preferExplained = data['preferExplained'] == true;
         darkTheme = data['darkTheme'] == true;
         final savedScale = data['fontScale'];
         fontScale = savedScale is num && savedScale.isFinite
@@ -534,10 +634,29 @@ class LearningStore extends ChangeNotifier {
     if (!languages.containsKey(appLanguage)) appLanguage = 'en';
     if (!lessonLanguages.containsKey(lessonLanguage)) lessonLanguage = 'en';
     // The small English starter pack ships with the app and is ready offline.
-    if (!downloaded.contains('en')) {
-      await savePack('en', bundled: courseId == 'digital-safety-v1');
+    if (downloaded.isEmpty) {
+      if (courseId != 'digital-safety-v1') {
+        courseStates[courseKey] = {
+          'progress': progress.map((k, v) => MapEntry('$k', v)),
+          'taskComplete': taskComplete,
+          'safetyChecklist': safetyChecklist.toList(),
+        };
+        courseId = 'digital-safety-v1';
+        courseVersion = 1;
+        courseTitle = 'Digital Safety';
+        progress.clear();
+        safetyChecklist.clear();
+        taskComplete = false;
+      }
+      await savePack('en', bundled: true);
     }
-    if (!downloaded.contains(lessonLanguage)) lessonLanguage = 'en';
+    if (!downloaded.contains(lessonLanguage)) {
+      lessonLanguage = downloaded.contains(preferredLanguage)
+          ? preferredLanguage
+          : downloaded.contains('en')
+          ? 'en'
+          : downloaded.first;
+    }
     await _loadPack();
     if (!eventsMigrated) {
       _migrateProgressEvents();
@@ -623,8 +742,8 @@ class LearningStore extends ChangeNotifier {
     Map<String, dynamic>? activity;
     if (endpoint.path.startsWith('/api/v1/packs/')) {
       final parts = endpoint.pathSegments;
-      final id = parts[1];
-      final language = parts[2];
+      final id = parts[3];
+      final language = parts[4];
       final version = endpoint.queryParameters['version'] ?? '1';
       final key = '$id:$version:$language';
       downloadActivity.removeWhere((item) => item['key'] == key);
@@ -707,16 +826,14 @@ class LearningStore extends ChangeNotifier {
         return;
       }
       catalog = updated;
-    } on SocketException catch (failure) {
-      final reason = failure.osError?.message ?? failure.message;
-      catalogError =
-          'Cannot connect to the lesson service at $baseUrl. $reason. Downloaded lessons still work offline.';
+    } on SocketException {
+      catalogError = 'You are offline. Saved courses are ready to read.';
     } on TimeoutException {
       catalogError =
-          'The lesson service at $baseUrl did not respond in time. Try again.';
-    } on HttpException catch (failure) {
+          'The lesson service is unavailable. Saved courses are ready to read.';
+    } on HttpException {
       catalogError =
-          'The lesson service returned ${failure.message}. Try again.';
+          'The lesson service is unavailable. Saved courses are ready to read.';
     } on FormatException {
       catalogError =
           'The lesson service returned an invalid course catalog. Downloaded lessons still work offline.';
@@ -768,7 +885,7 @@ class LearningStore extends ChangeNotifier {
     if (value['id'] != courseId ||
         value['version'] != courseVersion ||
         value['language'] != lang ||
-        (value['lessons'] as List).length != 5) {
+        !hasValidLessonIds(value['lessons'])) {
       throw const FormatException('Invalid lesson pack');
     }
     value['_origin'] = preview ? 'Included preview' : 'Backend';
@@ -786,9 +903,120 @@ class LearningStore extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> selectCourse(Map<String, dynamic> course) async {
+  /// Count saved parts per language independently of remote availability.
+  Map<String, int> savedLanguageCounts(Map<String, dynamic> course) {
+    final parts = course['parts'] as List?;
+    final ids = parts == null
+        ? <String>[course['id'] as String]
+        : parts.map((part) => part['id'] as String).toList();
+    final result = <String, int>{};
+    for (final language in lessonLanguages.keys) {
+      final count = ids
+          .where(
+            (id) => _packSizes.keys.any(
+              (key) => key.startsWith('$id:') && key.endsWith(':$language'),
+            ),
+          )
+          .length;
+      if (count > 0) result[language] = count;
+    }
+    return result;
+  }
+
+  static bool hasValidLessonIds(dynamic value) {
+    if (value is! List || value.isEmpty) return false;
+    for (var i = 0; i < value.length; i++) {
+      if (value[i] is! Map || value[i]['id'] != i) return false;
+    }
+    return true;
+  }
+
+  bool isSeriesSaved(Map<String, dynamic> course) {
+    final parts = (course['parts'] as List).cast<Map<String, dynamic>>();
+    if (parts.isEmpty) return false;
+    return parts.every((part) {
+      final versions = (part['packs'] as List)
+          .cast<Map<String, dynamic>>()
+          .where(
+            (pack) =>
+                pack['language'] == preferredLanguage && pack['version'] is int,
+          )
+          .map((pack) => pack['version'] as int)
+          .toList();
+      if (versions.isEmpty) return false;
+      final version = versions.reduce((a, b) => a > b ? a : b);
+      return _packSizes.containsKey(
+        '${part['id']}:$version:$preferredLanguage',
+      );
+    });
+  }
+
+  /// Save a whole series without switching the active lesson or progress.
+  Future<void> saveSeries(Map<String, dynamic> course) async {
+    final language = preferredLanguage;
+    for (final part in (course['parts'] as List).cast<Map<String, dynamic>>()) {
+      final id = part['id'] as String;
+      final choices =
+          (part['packs'] as List)
+              .cast<Map<String, dynamic>>()
+              .where((p) => p['language'] == language)
+              .toList()
+            ..sort(
+              (a, b) => (b['version'] as int).compareTo(a['version'] as int),
+            );
+      if (choices.isEmpty) {
+        throw FormatException(
+          '${lessonLanguages[language]} is not available for ${part['title']}. Saved parts remain available.',
+        );
+      }
+      final version = choices.first['version'] as int;
+      final lang = language;
+      final key = '$id:$version:$lang';
+      final cached = await database!.query(
+        'packs',
+        where: 'pack_key = ?',
+        whereArgs: [key],
+      );
+      if (cached.isNotEmpty) continue;
+      final content = await _get(
+        '/api/v1/packs/$id/$lang?version=$version',
+        trackDownload: true,
+      );
+      final value = jsonDecode(content) as Map<String, dynamic>;
+      if (value['id'] != id ||
+          value['version'] != version ||
+          value['language'] != lang ||
+          !hasValidLessonIds(value['lessons'])) {
+        throw const FormatException(
+          'Invalid course pack. Saved parts remain available.',
+        );
+      }
+      value['_origin'] = 'Backend';
+      await database!.insert('packs', {
+        'pack_key': key,
+        'course_id': id,
+        'version': version,
+        'language': lang,
+        'json': jsonEncode(value),
+        'saved_at': DateTime.now().toIso8601String(),
+      });
+      _packSizes[key] = utf8.encode(jsonEncode(value)).length;
+      if (id == courseId && version == courseVersion) downloaded.add(lang);
+      finishDownload(id, version, lang);
+      notifyListeners();
+    }
+  }
+
+  Future<void> selectCourse(
+    Map<String, dynamic> course, {
+    bool learnerSelected = true,
+  }) async {
     try {
       await _selectCourse(course);
+      if (learnerSelected) {
+        selectedCourseIds.add(courseId);
+        await save();
+      }
     } catch (_) {
       for (final item in downloadActivity) {
         if (item['courseId'] == course['id'] && item['status'] != 'complete') {
@@ -802,36 +1030,64 @@ class LearningStore extends ChangeNotifier {
 
   Future<void> _selectCourse(Map<String, dynamic> course) async {
     final id = course['id'] as String;
+    // Reading saved content must not depend on the latest catalog version.
+    final savedPacks = await database!.query(
+      'packs',
+      where: course['resumeVersion'] == null
+          ? 'course_id = ?'
+          : 'course_id = ? AND version = ?',
+      whereArgs: [
+        id,
+        if (course['resumeVersion'] != null) course['resumeVersion'],
+      ],
+      orderBy: 'version DESC',
+    );
+    final preferred = savedPacks.where(
+      (row) => row['language'] == preferredLanguage,
+    );
     final packs = (course['packs'] as List).cast<Map<String, dynamic>>();
     final matching = packs.where((p) => p['language'] == preferredLanguage);
-    if (matching.isEmpty) {
+    final cachedChoice = preferred.firstOrNull;
+    if (cachedChoice == null && matching.isEmpty && savedPacks.isEmpty) {
       throw FormatException(
         '${lessonLanguages[preferredLanguage]} is not available for this course. Choose another language to continue.',
       );
     }
-    final selected = matching.first;
-    final version = selected['version'] as int;
+    // If this language is unavailable, an existing downloaded translation can
+    // still be read without changing the learner's preferred language.
+    final fallback = cachedChoice == null ? savedPacks.firstOrNull : null;
+    final version =
+        (cachedChoice?['version'] ??
+                fallback?['version'] ??
+                matching.first['version'])
+            as int;
+    final lang =
+        (cachedChoice?['language'] ??
+                fallback?['language'] ??
+                preferredLanguage)
+            as String;
     if (id == courseId &&
         version == courseVersion &&
-        lessonLanguage == preferredLanguage &&
-        downloaded.contains(preferredLanguage)) {
+        lessonLanguage == lang &&
+        downloaded.contains(lang)) {
       return;
     }
-    // Download before switching so a failed request preserves the active course.
-    final lang = selected['language'] as String;
     final key = '$id:$version:$lang';
     final cached = await database!.query(
       'packs',
       where: 'pack_key = ?',
       whereArgs: [key],
     );
+    packNotice = lang != preferredLanguage
+        ? 'Opening the saved ${lessonLanguages[lang]} version. Your preferred language is unchanged.'
+        : null;
     if (cached.isEmpty) {
       final content = await _get('/api/v1/packs/$id/$lang?version=$version');
       final value = jsonDecode(content) as Map<String, dynamic>;
       if (value['id'] != id ||
           value['version'] != version ||
           value['language'] != lang ||
-          (value['lessons'] as List).length != 5) {
+          !hasValidLessonIds(value['lessons'])) {
         throw const FormatException('Invalid course pack');
       }
       value['_origin'] = 'Backend';
@@ -907,7 +1163,7 @@ class LearningStore extends ChangeNotifier {
     );
     if (available.isNotEmpty) {
       try {
-        await selectCourse(available.first);
+        await selectCourse(available.first, learnerSelected: false);
       } catch (_) {
         packNotice =
             'Language preference saved. Reconnect to download your selected language.';
@@ -946,6 +1202,111 @@ class LearningStore extends ChangeNotifier {
     await save();
   }
 
+  Future<List<Map<String, dynamic>>> savedCourseLibrary() async {
+    if (database == null) return [];
+    final rows = await database!.query('packs', orderBy: 'version DESC');
+    final groups = <String, Map<String, dynamic>>{};
+    final seen = <String>{};
+    for (final row in rows) {
+      final id = row['course_id'] as String;
+      final language = row['language'] as String;
+      final pack = jsonDecode(row['json'] as String) as Map<String, dynamic>;
+      Map<String, dynamic>? root;
+      for (final candidate in catalog) {
+        if (candidate['id'] == id ||
+            (candidate['parts'] as List? ?? []).any(
+              (part) => part['id'] == id,
+            )) {
+          root = candidate;
+          break;
+        }
+      }
+      final weekly = RegExp(r'^(.*)-week-\d+$').firstMatch(id);
+      final parentId =
+          root?['id'] as String? ??
+          pack['seriesId'] as String? ??
+          weekly?.group(1) ??
+          id;
+      final group = groups.putIfAbsent(
+        parentId,
+        () => {
+          ...?root,
+          'id': parentId,
+          'title':
+              root?['title'] ??
+              pack['seriesTitle'] ??
+              (parentId == courseId
+                  ? courseTitle
+                  : (pack['title'] as String? ?? id).split(' — Week ').first),
+          'description': root?['description'] ?? '',
+          'packs': root?['packs'] ?? <Map<String, dynamic>>[],
+          'savedUnits': <Map<String, dynamic>>[],
+          'savedBytes': 0,
+        },
+      );
+      group['savedBytes'] =
+          (group['savedBytes'] as int) +
+          utf8.encode(row['json'] as String).length;
+      if (!seen.add('$id:$language')) continue;
+      (group['savedUnits'] as List).add({
+        'id': id,
+        'title': pack['title'] ?? id,
+        'version': row['version'],
+        'language': language,
+        'lessonCount': (pack['lessons'] as List).length,
+      });
+    }
+    for (final group in groups.values) {
+      final units = (group['savedUnits'] as List).cast<Map<String, dynamic>>();
+      group['savedLanguages'] = units
+          .map((unit) => unit['language'] as String)
+          .toSet()
+          .toList();
+      if (group['parts'] == null &&
+          units.map((unit) => unit['id']).toSet().length > 1) {
+        group['parts'] = units
+            .map(
+              (unit) => {
+                'id': unit['id'],
+                'title': unit['title'],
+                'description': '',
+                'lessonCount': unit['lessonCount'],
+                'partIndex':
+                    int.tryParse('${unit['id']}'.split('-week-').last) ?? 0,
+                'packs': units
+                    .where((other) => other['id'] == unit['id'])
+                    .map(
+                      (other) => {
+                        'language': other['language'],
+                        'version': other['version'],
+                      },
+                    )
+                    .toList(),
+              },
+            )
+            .fold<List<Map<String, dynamic>>>([], (parts, unit) {
+              if (!parts.any((part) => part['id'] == unit['id'])) {
+                parts.add(unit);
+              }
+              return parts;
+            });
+      }
+      if ((group['packs'] as List).isEmpty) {
+        group['packs'] = units
+            .map(
+              (unit) => {
+                'language': unit['language'],
+                'version': unit['version'],
+              },
+            )
+            .toList();
+      }
+    }
+    final result = groups.values.toList();
+    result.sort((a, b) => '${a['title']}'.compareTo('${b['title']}'));
+    return result;
+  }
+
   Future<void> removePack(String lang) async {
     if (lang == lessonLanguage || lang == 'en') return;
     await database!.delete(
@@ -954,6 +1315,7 @@ class LearningStore extends ChangeNotifier {
       whereArgs: ['$courseKey:$lang'],
     );
     downloaded.remove(lang);
+    _packSizes.remove('$courseKey:$lang');
     notifyListeners();
   }
 
@@ -969,7 +1331,7 @@ class LearningStore extends ChangeNotifier {
   }
 
   Future<void> answer(int id, int question, int selected) async {
-    if (!isUnlocked(id) || lessonProgress(id)['read'] != true) return;
+    if (!isUnlocked(id)) return;
     final questions = lessons[id]['questions'] as List;
     final a = answers(id);
     if (question != a.length ||
@@ -997,7 +1359,6 @@ class LearningStore extends ChangeNotifier {
 
   Future<void> completeQuiz(int id) async {
     if (!isUnlocked(id) ||
-        lessonProgress(id)['read'] != true ||
         answers(id).length != (lessons[id]['questions'] as List).length) {
       return;
     }
@@ -1022,7 +1383,9 @@ class LearningStore extends ChangeNotifier {
   }
 
   Future<void> finishTask() async {
-    if (completedCount != 5 || safetyChecklist.length != 4 || taskComplete) {
+    if (completedCount != lessons.length ||
+        safetyChecklist.length != 4 ||
+        taskComplete) {
       return;
     }
     taskComplete = true;
@@ -1033,6 +1396,7 @@ class LearningStore extends ChangeNotifier {
 
   Map<String, dynamic> snapshot() => {
     'schemaVersion': 3,
+    'selectedCourseIds': selectedCourseIds.toList(),
     'courseId': courseId,
     'courseVersion': courseVersion,
     'courseTitle': courseTitle,
@@ -1051,7 +1415,9 @@ class LearningStore extends ChangeNotifier {
     'preferredLanguage': preferredLanguage,
     'hasChosenLanguage': hasChosenLanguage,
     'needsProgressRestore': needsProgressRestore,
+    'autoDownload': autoDownload,
     'autoReadAloud': autoReadAloud,
+    'preferExplained': preferExplained,
     'darkTheme': darkTheme,
     'fontScale': fontScale,
     'allowSharing': allowSharing,
@@ -1189,6 +1555,26 @@ class LearningStore extends ChangeNotifier {
   Map<String, dynamic>? get savedExplanations =>
       companionHelp[explanationPackKey];
 
+  String? lessonExplanationText(int id) {
+    final entries = savedExplanations?['lessons'];
+    if (entries is List && id >= 0 && id < entries.length) {
+      final text = entries[id]['text'];
+      if (text is String && text.trim().isNotEmpty) return text;
+    }
+    final text = companionHelp[companionCacheKey(id, 'explain')]?['text'];
+    return text is String && text.trim().isNotEmpty ? text : null;
+  }
+
+  Future<void> loadLessonExplanation(int id) async {
+    if (lessonExplanationText(id) != null) return;
+    final key = explanationPackKey;
+    await downloadExplanations();
+    if (key != explanationPackKey) return;
+    if (lessonExplanationText(id) == null) {
+      await requestCompanion(id, 'explain');
+    }
+  }
+
   Future<Map<String, dynamic>> downloadExplanations() async {
     final key = explanationPackKey;
     final selectedCourse = courseId;
@@ -1260,7 +1646,7 @@ class LearningStore extends ChangeNotifier {
         id < 0 ||
         id >= lessons.length ||
         !isUnlocked(id)) {
-      throw const FormatException('Choose an unlocked lesson.');
+      throw const FormatException('Choose a valid lesson.');
     }
     final cacheKey = companionCacheKey(id, action);
     if (companionHelp.containsKey(cacheKey)) return companionHelp[cacheKey]!;
@@ -1344,9 +1730,9 @@ class LearningStore extends ChangeNotifier {
   List<Map<String, dynamic>> courseRequests = [];
 
   Future<void> refreshCourseRequests() async {
-    final token = await identity.read();
-    if (token == null) return;
     try {
+      final token = await identity.read();
+      if (token == null) return;
       final result = await _post(
         '/api/v1/course-requests/status',
         {},
