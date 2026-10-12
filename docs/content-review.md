@@ -22,7 +22,7 @@ For a series, plan the parent and ordered parts separately. Downloadable content
 
 ## Approval and publication
 
-1. Import through `POST /api/v1/admin/drafts` using the configured admin credential.
+1. Import through `POST /api/v1/admin/drafts` using an administrator session obtained from `/api/v1/admin/auth/login`. The configured `ADMIN_TOKEN` only authorizes first-login administrator creation.
 2. Inspect the saved draft through `GET /api/v1/admin/drafts/{id}` and prepare a human-readable review document.
 3. Obtain explicit approval for the named course, versions, and languages.
 4. Publish only approved drafts through `POST /api/v1/admin/drafts/{id}/approve`, recording the reviewer information required by the API.

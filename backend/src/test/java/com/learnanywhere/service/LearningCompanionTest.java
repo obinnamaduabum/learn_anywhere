@@ -22,12 +22,14 @@ class LearningCompanionTest {
     var mapper = new ObjectMapper();
     var pack = mapper.createObjectNode();
     LearningService.validateExplanations(pack);
+    var contentLessons = pack.putArray("lessons");
+    for (int i = 0; i < 3; i++) contentLessons.addObject().put("id", i);
     var explanations = pack.putObject("explanations");
     explanations.put("version",1);
     var lessons = explanations.putArray("lessons");
-    for (int i=0;i<5;i++) lessons.addObject().put("id",i).put("text","Reviewed explanation");
+    for (int i=0;i<3;i++) lessons.addObject().put("id",i).put("text","Reviewed explanation");
     LearningService.validateExplanations(pack);
-    ((com.fasterxml.jackson.databind.node.ObjectNode) lessons.get(4)).put("id",0);
+    ((com.fasterxml.jackson.databind.node.ObjectNode) lessons.get(2)).put("id",0);
     assertThrows(ApiException.class,() -> LearningService.validateExplanations(pack));
   }
   @Test void quotaBoundsRequestsPerInstallation() {

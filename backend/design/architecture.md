@@ -21,6 +21,8 @@ flowchart LR
 
 ## Course and series storage
 
+`courses.approved_by` is optional catalog approver metadata added by migration V7. The three external AI course records are marked `AI` at the owner's request; this field does not publish content or replace `content_drafts.reviewed_by` and `reviewed_at`.
+
 Flyway migrations preserve content identities while separating discovery structure:
 
 1. `V1__initial.sql` creates course releases, language packs, installations, progress, events, and drafts.
@@ -53,7 +55,7 @@ Understanding AI has 112 published packs representing 80 lessons in seven langua
 
 ## Reading, assessment, and progress
 
-Learners read five lessons before one final assessment for that part. Reading unlocks the next lesson and is highlighted separately from quiz completion. Series cards show partial read counts or Read when all lessons are read.
+Each course or part has a material-dependent number of lessons and one final assessment. Learners may skip chapters and is highlighted separately from quiz completion. Series cards show partial read counts or Read when all lessons are read.
 
 The assessment saves each answer without revealing correctness or reward changes. The final screen shows the total score. A separate answer-review screen shows selected answers, correct answers, and explanations. Internally, assessment events still use each lesson's question IDs and completion groups, retaining compatibility with existing progress and reward keys.
 
@@ -86,4 +88,12 @@ Catalog entries expose `created_at` as a UTC timestamp and are ordered newest fi
 
 The optional learning companion resource delegates to `ILearningCompanion`/`LearningCompanion`. Installation authentication uses the existing repository; published pack access uses `ILearningService`. The service strips assessment questions and personal state before calling Groq Chat Completions. Replies are supplemental help and never enter the publishing pipeline. Local Flutter state holds the response cache, and native local notifications choose from explicitly saved reminder messages. There is no learner profiling database migration or transmission of reading history. Provider key and companion model configuration remain server-side.
 
-Reviewed explanation downloads: published course packs may include `explanations: {version: 1, lessons: [{id: 0, text: "..."}, ...]}` with all five ordered lessons. `GET /api/v1/explanations/{course}/{language}?version=N` returns `available`, course identity, and (when available) `explanationVersion` and lesson texts. This endpoint never calls AI. Explanations follow the existing draft review/approval process; changing published explanations requires a new immutable course version. Flutter downloads the whole explanation pack, saves it in device state, displays its version, and supports offline reading and checking for updates. Existing courses without explanations return `available:false`; no generated content has been published automatically.
+Reviewed explanation downloads: published course packs may include `explanations: {version: 1, lessons: [{id: 0, text: "..."}, ...]}` with one explanation for every actual lesson, in matching order. `GET /api/v1/explanations/{course}/{language}?version=N` returns `available`, course identity, and (when available) `explanationVersion` and lesson texts. This endpoint never calls AI. Explanations follow the existing draft review/approval process; changing published explanations requires a new immutable course version. Flutter downloads the whole explanation pack, saves it in device state, displays its version, and supports offline reading and checking for updates. Existing courses without explanations return `available:false`; no generated content has been published automatically.
+
+Reading duration is language/version-specific. Migration V8 adds generated `standard_read_time_minutes` columns to drafts and language packs, calculated from actual JSON lesson-body words at 200 words/minute with per-lesson rounding. Published byte payloads and draft approval states remain unchanged. These course totals are estimates and are not capped at the per-lesson 5–15-minute authoring range.
+
+### Administrator authentication
+
+AuthResource → IAuthService → IAuthRepository separates HTTP, credential rules and PostgreSQL transactions. IPasswordHasher encapsulates salted PBKDF2 verification. V9 adds admin_users and hashed expiring admin_sessions; mobile installations/progress remain independent. Existing draft service authorization validates an administrator session. ADMIN_TOKEN authorizes first-login account creation only. Account-level failure counters commit before returning rejected login status.
+
+Explanation versions are separate reviewed records with a foreign key to the exact language pack. Approval is independent of course release; drafts are never returned to learners. Existing embedded explanation packs remain compatible.

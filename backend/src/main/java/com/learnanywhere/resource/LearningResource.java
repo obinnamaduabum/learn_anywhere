@@ -88,7 +88,7 @@ public class LearningResource implements ILearningResource {
   @GET
   @Path("explanations/{course}/{language}")
   @Operation(summary = "Check availability and download reviewed explanations for an immutable course version",
-      description = "Returns available=false if absent; otherwise explanationVersion and five lesson IDs/texts. No AI request is made.")
+      description = "Returns available=false if absent; otherwise explanationVersion and an explanation for each lesson ID. No AI request is made.")
   public JsonNode explanations(@PathParam("course") String course, @PathParam("language") String language,
       @QueryParam("version") @DefaultValue("1") int version) {
     return service.explanations(course, version, language);
@@ -163,4 +163,29 @@ public class LearningResource implements ILearningResource {
     service.approve(auth, id, request);
     return Response.ok(Map.of("status", "approved")).build();
   }
+  @POST
+  @Path("admin/explanations")
+  @SecurityRequirement(name = "BearerAuth")
+  @Operation(summary = "Save a draft explanation version for an existing course pack")
+  public Response importExplanationDraft(@HeaderParam("Authorization") String auth, JsonNode payload) {
+    return Response.status(201).entity(Map.of("draftId",service.importExplanationDraft(auth,payload),"status","draft")).build();
+  }
+
+  @GET
+  @Path("admin/explanations/{id}")
+  @SecurityRequirement(name = "BearerAuth")
+  @Operation(summary = "Review a saved explanation draft")
+  public Response explanationDraft(@HeaderParam("Authorization") String auth, @PathParam("id") long id) {
+    return Response.ok(service.explanationDraft(auth,id)).build();
+  }
+
+  @POST
+  @Path("admin/explanations/{id}/approve")
+  @SecurityRequirement(name = "BearerAuth")
+  @Operation(summary = "Publish an explicitly approved explanation version without replacing its course")
+  public Response approveExplanation(@HeaderParam("Authorization") String auth, @PathParam("id") long id, JsonNode payload) {
+    service.approveExplanation(auth,id,payload);
+    return Response.ok(Map.of("status","approved")).build();
+  }
+
 }

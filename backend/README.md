@@ -36,9 +36,11 @@ SWAGGER_ENABLED=true mvn package
 APP_PORT=8084 MIGRATE_AT_START=true java -jar target/quarkus-app/quarkus-run.jar
 ```
 
-Keep `ADMIN_TOKEN` in the process environment for administration. `SWAGGER_ENABLED` is a build-time setting. Dev mode enables Flyway migration automatically; packaged mode requires `MIGRATE_AT_START=true` when migrations should run. Configuration is in `src/main/resources/application.properties`, `.env.example`, and `LearningConfig`.
+Keep `ADMIN_TOKEN` in the process environment solely to authorize first-login administrator creation. Admin endpoints require a login session rather than that bootstrap token. `SWAGGER_ENABLED` is a build-time setting. Dev mode enables Flyway migration automatically; packaged mode requires `MIGRATE_AT_START=true` when migrations should run. Configuration is in `src/main/resources/application.properties`, `.env.example`, and `LearningConfig`.
 
 ## Courses and series
+
+Migration V7 adds nullable `courses.approved_by` approver metadata. The three external AI course records use `AI` at the owner's request. This metadata does not create or publish lesson packs; draft approval history continues to use `content_drafts.reviewed_by`.
 
 The learner catalog distinguishes normal courses from series courses:
 
@@ -85,7 +87,7 @@ OpenAPI 3.0.3: http://127.0.0.1:8084/api/v1/openapi
 - `GET /api/v1/packs/{course-or-part-id}/{language}?version=1`, with conditional ETag downloads.
 - `POST /api/v1/installations`, issuing an anonymous identity and token once.
 - `POST /api/v1/progress/sync`, authenticated by the installation bearer token.
-- `POST /api/v1/admin/drafts`, authenticated by the staff bearer token.
+- `POST /api/v1/admin/drafts`, authenticated by an administrator login session.
 - `GET /api/v1/admin/drafts/{id}`.
 - `POST /api/v1/admin/drafts/{id}/approve`.
 
@@ -106,9 +108,9 @@ Use a part ID for downloads and synchronization; the parent Understanding AI ID 
 
 Supported events are `lesson_read`, `quiz_answered` (question ID and selected option), `quiz_completed`, and `task_completed` (checklist). Batches contain 1–100 ordered events. The server locks the installation and commits each batch atomically. Repeating an event ID with identical data is idempotent; changed data returns 409.
 
-Reading unlocks the next lesson. Flutter presents one assessment after all five lessons and reveals feedback only after the score. Internally, answers and completion remain associated with their original lesson IDs to preserve existing pack identities and progress.
+Learners may skip chapters. Flutter presents one assessment at the end of the actual lesson sequence and reveals feedback only after the score. Internally, answers and completion remain associated with their original lesson IDs to preserve existing pack identities and progress.
 
-Rewards are derived from unique keys: 10 points for each first correct question, 50 for each first lesson-question-group completion, and 100 for the final task. A five-lesson assessment includes five such completion groups. Wrong answers do not block completion, and practice cannot repeat rewards.
+Rewards are derived from unique keys: 10 points for each first correct question, 50 for each first lesson-question-group completion, and 100 for the final task. An assessment includes one completion group per actual lesson. Wrong answers do not block completion, and practice cannot repeat rewards.
 
 The Digital Safety starter uses checklist keys `screen_lock`, `unique_password`, `mfa`, `backup`. Other courses use `recap`, `practice`, `plan`, `demonstrate`. Flutter keeps an SQLite outbox and acknowledges events only after successful server acknowledgement; iOS installation tokens use Keychain.
 
@@ -134,7 +136,7 @@ ChatGPT Free remains a manual authoring option, not an automatically callable fr
 }
 ```
 
-Replace the empty array with five ordered lessons, accessible text, HTTPS source attribution, and valid questions. Structural checks do not verify factual correctness or translation quality. Drafts cannot be downloaded through learner routes.
+Replace the empty array with one or more ordered lessons, accessible text, HTTPS source attribution, and valid questions. Structural checks do not verify factual correctness or translation quality. Drafts cannot be downloaded through learner routes.
 
 Approval body:
 
@@ -184,7 +186,7 @@ Each backend process limits authenticated installations to ten attempts per UTC 
 
 Prerequisite help is explicitly labeled suggested preparation, not authoritative course requirements. It does not infer user knowledge or completion. Saving reminder suggestions updates pending random course reminders without changing their schedule; noon reminders retain their normal text.
 
-Reviewed explanation downloads: published course packs may include `explanations: {version: 1, lessons: [{id: 0, text: "..."}, ...]}` with all five ordered lessons. `GET /api/v1/explanations/{course}/{language}?version=N` returns `available`, course identity, and (when available) `explanationVersion` and lesson texts. This endpoint never calls AI. Explanations follow the existing draft review/approval process; changing published explanations requires a new immutable course version. Flutter downloads the whole explanation pack, saves it in device state, displays its version, and supports offline reading and checking for updates. Existing courses without explanations return `available:false`; no generated content has been published automatically.
+Reviewed explanation downloads: published course packs may include `explanations: {version: 1, lessons: [{id: 0, text: "..."}, ...]}` with one explanation for every actual lesson, in matching order. `GET /api/v1/explanations/{course}/{language}?version=N` returns `available`, course identity, and (when available) `explanationVersion` and lesson texts. This endpoint never calls AI. Explanations follow the existing draft review/approval process; changing published explanations requires a new immutable course version. Flutter downloads the whole explanation pack, saves it in device state, displays its version, and supports offline reading and checking for updates. Existing courses without explanations return `available:false`; no generated content has been published automatically.
 
 ### Docker API for iOS Simulator
 Build current source with `mvn clean install`, then `docker compose -p learn-anywhere up -d --build backend`. Stop the identified host API first if it occupies 8084. The API binds 0.0.0.0 inside Docker and publishes port 8084 on the Mac's network interfaces. PostgreSQL remains at postgres:5432 with the existing learning_pg volume. Compose reads secrets from the private .env, excluded from the image. The simulator uses http://127.0.0.1:8084. Never use down -v for this switch.
@@ -192,3 +194,35 @@ Build current source with `mvn clean install`, then `docker compose -p learn-any
 ### Same Wi-Fi access
 
 Apply the port mapping with `docker compose -p learn-anywhere up -d backend`. For a host Maven run, set `APP_HOST=0.0.0.0 APP_PORT=8084`; dev mode also defaults to binding all interfaces. PostgreSQL and Adminer remain bound to localhost. On the iPhone, use `http://<Mac-Wi-Fi-IP>:8084`; loopback addresses refer to the phone itself. Verify `/api/v1/health` from Safari on the phone. Allow incoming connections for Docker or Java if the Mac firewall asks, and avoid guest networks with client isolation. This configuration is for the trusted local demo; public deployments require HTTPS.
+
+Learners may read chapters out of order and submit a final quiz before reading every chapter. Sync validates lesson/question identities and complete quiz answers, while keeping read state independent of quiz completion and deduplicating rewards. Skipped chapters do not receive reading progress.
+
+### Topic-to-course authoring prompt
+
+Use the [topic-to-course prompt](docs/topic-to-course-prompt.md) for variable-length draft packs matching the backend contract; lesson count follows the material rather than a fixed number. It includes source-evidence requirements, translation identity rules, draft/approval request mapping, and series limitations. Generated output remains unpublished until explicitly approved.
+
+New generated/imported drafts require each lesson to declare 5–15 minutes of reading, excluding quizzes and practice. Authoring must provide enough substantive text for that estimate; human review verifies pacing. The app displays pack duration metadata. Previously published packs are retained unchanged.
+
+See [lesson duration policy](docs/lesson-duration-policy.md) for the word-count estimate, authoring range and research context. New draft imports and approvals reject body length or duration metadata inconsistent with this policy; legacy published versions stay unchanged.
+
+### Standard reading-time database column
+
+`content_drafts.standard_read_time_minutes` and `language_packs.standard_read_time_minutes` are stored generated columns. They sum each lesson's actual body word count divided by 200, rounded up, for the course pack's language and version. Draft changes recalculate automatically; existing records are backfilled by migration V8 without changing published payloads or approval status. This is a reading estimate, excluding quiz and activity execution time. The 5–15-minute rule applies to each newly authored lesson, not to the total course column. Longer courses can have larger totals.
+
+## Administrator login
+
+Login is required only for admin operations. The Flutter app has no login requirement; public catalog/pack endpoints and existing anonymous installation synchronization remain unchanged.
+
+- `POST /api/v1/admin/auth/login`: JSON email/password. Returns 201 when an admin is created or 200 on later login, with user, token, tokenType, expiresAt and created. Password length is 12–128 characters; email is normalized to lowercase.
+- First login for a new email must include `Authorization: Bearer <ADMIN_TOKEN>` using the privately configured bootstrap credential. Without it, unknown accounts cannot create administrator access. Do not send this credential to the mobile app.
+- Later login requires email/password only. Use the returned session token as the Bearer credential for draft import, review and approval.
+- `GET /api/v1/admin/auth/me`: authenticated administrator details.
+- `POST /api/v1/admin/auth/logout`: revoke the current session; returns 204. Other sessions remain valid until logout or expiry.
+
+Sessions expire after eight hours, and only SHA-256 token digests are stored. Passwords use random 16-byte salts and PBKDF2-HMAC-SHA256 with 600,000 iterations. Ten consecutive failed logins lock an existing account for 15 minutes. Login/session responses are non-cacheable. First account creation and session issuance are transactional and concurrent logins cannot duplicate normalized email accounts. Tables: admin_users and admin_sessions (Flyway V9). No learner users table or mobile login UI is added.
+
+Use HTTPS when sending admin credentials outside this authorized local demo. Email verification, password recovery, account management UI and global/IP throttling are not implemented. A misspelled new email with a valid bootstrap credential creates a new admin, so confirm the address before submitting. Login credentials must be entered privately, never committed to scripts or documentation.
+
+### Independent explanation versions
+
+Flyway V10 adds explanation_versions, tied to the exact course/version/language pack. Admin sessions can save drafts with POST /api/v1/admin/explanations, inspect GET /api/v1/admin/explanations/{id}, and explicitly approve with POST /api/v1/admin/explanations/{id}/approve plus reviewer. Drafts are invisible to public downloads. GET /api/v1/explanations/{course}/{language}?version=N returns the latest approved explanation version, falling back to legacy embedded explanations. Existing course versions and progress stay unchanged. Validation requires one ordered nonempty text per lesson, maximum 6000 characters.

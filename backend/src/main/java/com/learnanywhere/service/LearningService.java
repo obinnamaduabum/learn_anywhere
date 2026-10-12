@@ -36,6 +36,7 @@ public class LearningService implements ILearningService {
   @Inject ObjectMapper json;
   @Inject OpenAIContentGenerator generator;
   @Inject LearningConfig config;
+  @Inject IAuthService adminAuth;
 
   public Installation register() {
     byte[] bytes = new byte[32];
@@ -61,12 +62,7 @@ public class LearningService implements ILearningService {
   }
 
   private void admin(String header) {
-    String token = bearer(header);
-    if (config.adminToken().orElse("").isEmpty()
-        || !MessageDigest.isEqual(
-            token.getBytes(StandardCharsets.UTF_8),
-            config.adminToken().orElse("").getBytes(StandardCharsets.UTF_8)))
-      throw new ApiException(403, "forbidden", "Staff token required");
+    adminAuth.me(header);
   }
 
   public List<JsonNode> courses() {
@@ -110,6 +106,7 @@ public class LearningService implements ILearningService {
       pack.put("id","requested-" + requestId).put("language",language).put("version",1);
       pack.put("reviewStatus","AI-generated draft; human review pending");
       validatePack(pack);
+      validateReadingTimes(pack);
       long draftId = repository.saveDraft(new DraftRequest(List.of(title),"OpenAI",generator.modelName(),pack));
       repository.finishRequest(requestId,"awaiting_approval",draftId);
 
@@ -139,6 +136,7 @@ public class LearningService implements ILearningService {
   public long importDraft(String auth, DraftRequest request) {
     admin(auth);
     validatePack(request.pack());
+    validateReadingTimes(request.pack());
     ((ObjectNode) request.pack()).put("reviewStatus", "AI-generated draft; human review pending");
     return repository.saveDraft(request);
   }
@@ -150,7 +148,9 @@ public class LearningService implements ILearningService {
 
   public void approve(String auth, long id, ApprovalRequest request) {
     admin(auth);
-    validatePack(repository.draft(id).path("pack"));
+    JsonNode pack = repository.draft(id).path("pack");
+    validatePack(pack);
+    validateReadingTimes(pack);
     if (request.category() != null
         && (request.category().trim().isEmpty() || request.category().trim().length() > 80))
       throw invalid("Category must contain 1 to 80 characters");
@@ -164,6 +164,12 @@ public class LearningService implements ILearningService {
   public JsonNode explanations(String course, int version, String language) {
     try {
       JsonNode source = json.readTree(pack(course, version, language).bytes());
+      JsonNode reviewed = repository.approvedExplanations(course, version, language);
+      if (reviewed != null) {
+        ObjectNode result = (ObjectNode) reviewed.deepCopy();
+        result.put("available", true);
+        return result;
+      }
       ObjectNode result = json.createObjectNode();
       result.put("courseId", course); result.put("courseVersion", version); result.put("language", language);
       JsonNode content = source.path("explanations");
@@ -180,13 +186,28 @@ public class LearningService implements ILearningService {
     if (!p.has("explanations")) return;
     JsonNode content = p.path("explanations");
     if (!content.path("version").isIntegralNumber() || content.path("version").asInt() < 1
-        || !content.path("lessons").isArray() || content.path("lessons").size() != 5)
-      throw invalid("Explanations need a positive version and five lessons");
+        || !content.path("lessons").isArray() || content.path("lessons").size() != p.path("lessons").size())
+      throw invalid("Explanations need a positive version and one entry per lesson");
     int id = 0;
     for (JsonNode item : content.path("lessons")) {
       if (!item.path("id").isInt() || item.path("id").asInt() != id++ || !item.path("text").isTextual()
           || item.path("text").asText().isBlank() || item.path("text").asText().length() > 6000)
         throw invalid("Explanation needs ordered lesson ID and text up to 6000 characters");
+    }
+  }
+
+  public static void validateReadingTimes(JsonNode pack) {
+    for (JsonNode lesson : pack.path("lessons")) {
+      JsonNode minutes = lesson.path("minutes");
+      if (!minutes.isInt() || minutes.asInt() < 5 || minutes.asInt() > 15) {
+        throw invalid("Lesson reading time must be an integer from 5 to 15 minutes");
+      }
+      String body = lesson.path("body").asText().strip();
+      int words = body.isEmpty() ? 0 : body.split("(?U)\\s+").length;
+      int expectedMinutes = (words + 199) / 200;
+      if (words < 1000 || words > 3000 || minutes.asInt() != expectedMinutes) {
+        throw invalid("Lesson body needs 1000 to 3000 words and minutes rounded up at 200 words per minute");
+      }
     }
   }
 
@@ -197,8 +218,8 @@ public class LearningService implements ILearningService {
         || StringUtils.isBlank(p.path("language").asText())
         || p.path("version").asInt() < 1
         || !p.path("lessons").isArray()
-        || p.path("lessons").size() != 5)
-      throw invalid("Pack needs identity, language, version and five lessons");
+        || p.path("lessons").isEmpty())
+      throw invalid("Pack needs identity, language, version and at least one lesson");
     Set<String> ids = new HashSet<>();
     int i = 0;
     for (JsonNode l : p.path("lessons")) {
@@ -256,18 +277,14 @@ public class LearningService implements ILearningService {
       rewards.put("final-task", 100);
       return;
     }
-    JsonNode lesson = null, previous = null;
+    JsonNode lesson = null;
     for (JsonNode l : pack.path("lessons")) {
       if (l.path("id").asInt() == event.lessonId()) {
         lesson = l;
         break;
       }
-      previous = l;
     }
     if (lesson == null) throw invalid("Unknown lesson");
-    if (previous != null
-        && !lessons.path(previous.path("id").asText()).path("read").asBoolean())
-      throw invalid("Read previous lesson first");
     String key = Integer.toString(event.lessonId());
     ObjectNode progress = (ObjectNode) lessons.get(key);
     if (progress == null) {
@@ -278,7 +295,6 @@ public class LearningService implements ILearningService {
     switch (event.type()) {
       case "lesson_read" -> progress.put("read", true);
       case "quiz_answered" -> {
-        if (!progress.path("read").asBoolean()) throw invalid("Read lesson first");
         JsonNode q = null;
         for (JsonNode question : lesson.path("questions")) {
           if (question.path("id").asText().equals(event.questionId())) {
@@ -294,7 +310,6 @@ public class LearningService implements ILearningService {
           rewards.put("question:" + event.questionId(), 10);
       }
       case "quiz_completed" -> {
-        if (!progress.path("read").asBoolean()) throw invalid("Read lesson first");
         for (JsonNode q : lesson.path("questions")) {
           if (!answers.has(q.path("id").asText())) throw invalid("Answer every question first");
         }
@@ -304,4 +319,33 @@ public class LearningService implements ILearningService {
       default -> throw invalid("Unknown event type");
     }
   }
+  public long importExplanationDraft(String auth, JsonNode payload) {
+    admin(auth);
+    if (payload == null || !payload.isObject() || !payload.path("courseVersion").isInt()
+        || payload.path("courseVersion").asInt() < 1 || !payload.path("explanationVersion").isInt()
+        || payload.path("explanationVersion").asInt() < 1
+        || payload.path("courseId").asText().isBlank() || payload.path("language").asText().isBlank()) {
+      throw invalid("Course, courseVersion, language, explanationVersion and lessons required");
+    }
+    try {
+      ObjectNode course = (ObjectNode) json.readTree(pack(payload.path("courseId").asText(), payload.path("courseVersion").asInt(), payload.path("language").asText()).bytes());
+      ObjectNode explanation = json.createObjectNode().put("version", payload.path("explanationVersion").asInt());
+      explanation.set("lessons", payload.path("lessons"));
+      course.set("explanations", explanation);
+      validateExplanations(course);
+    } catch (IOException failure) { throw invalid("Course pack could not be read"); }
+    return repository.saveExplanationDraft(payload);
+  }
+
+  public JsonNode explanationDraft(String auth, long id) {
+    admin(auth); return repository.explanationDraft(id);
+  }
+
+  public void approveExplanation(String auth, long id, JsonNode payload) {
+    admin(auth);
+    String reviewer = payload == null ? "" : payload.path("reviewer").asText().trim();
+    if (reviewer.isEmpty() || reviewer.length() > 160) throw invalid("Reviewer required");
+    repository.approveExplanation(id, reviewer);
+  }
+
 }

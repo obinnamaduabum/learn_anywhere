@@ -506,4 +506,44 @@ public class PostgresLearningRepository implements ILearningRepository {
           return null;
         });
   }
+  public long saveExplanationDraft(JsonNode payload) {
+    return tx(c -> {
+      try (var statement = sql(c, "INSERT INTO explanation_versions(course_id,course_version,language,explanation_version,payload) VALUES(?,?,?,?,?::jsonb) RETURNING id",
+          payload.path("courseId").asText(), payload.path("courseVersion").asInt(), payload.path("language").asText(),
+          payload.path("explanationVersion").asInt(), json.writeValueAsString(payload)); var rows = statement.executeQuery()) {
+        rows.next(); return rows.getLong(1);
+      }
+    });
+  }
+
+  public JsonNode explanationDraft(long id) {
+    return tx(c -> {
+      try (var statement = sql(c, "SELECT payload,status,reviewed_by FROM explanation_versions WHERE id=?", id); var rows = statement.executeQuery()) {
+        if (!rows.next()) throw new ApiException(404,"not_found","Explanation draft missing");
+        ObjectNode result = json.createObjectNode();
+        result.set("payload", json.readTree(rows.getString(1)));
+        result.put("status", rows.getString(2)); result.put("reviewedBy", rows.getString(3));
+        return result;
+      }
+    });
+  }
+
+  public void approveExplanation(long id, String reviewer) {
+    tx(c -> {
+      try (var statement = sql(c, "UPDATE explanation_versions SET status='approved',reviewed_by=?,reviewed_at=now() WHERE id=? AND status='draft'", reviewer, id)) {
+        if (statement.executeUpdate() != 1) throw new ApiException(409,"draft_conflict","Only pending explanation drafts may be approved");
+      }
+      return null;
+    });
+  }
+
+  public JsonNode approvedExplanations(String course, int version, String language) {
+    return tx(c -> {
+      try (var statement = sql(c, "SELECT payload FROM explanation_versions WHERE course_id=? AND course_version=? AND language=? AND status='approved' ORDER BY explanation_version DESC LIMIT 1",
+          course, version, language); var rows = statement.executeQuery()) {
+        return rows.next() ? json.readTree(rows.getString(1)) : null;
+      }
+    });
+  }
+
 }

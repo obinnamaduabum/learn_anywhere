@@ -39,4 +39,9 @@ public interface ILearningRepository {
   JsonNode draft(long id);
 
   void approve(long id, ApprovalRequest request);
+
+  long saveExplanationDraft(JsonNode payload);
+  JsonNode explanationDraft(long id);
+  void approveExplanation(long id, String reviewer);
+  JsonNode approvedExplanations(String course, int version, String language);
 }

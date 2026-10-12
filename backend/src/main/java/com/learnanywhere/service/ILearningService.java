@@ -32,4 +32,7 @@ public interface ILearningService {
   JsonNode draft(String authorization, long id);
 
   void approve(String authorization, long id, ApprovalRequest request);
+  long importExplanationDraft(String auth, JsonNode payload);
+  JsonNode explanationDraft(String auth, long id);
+  void approveExplanation(String auth, long id, JsonNode payload);
 }
