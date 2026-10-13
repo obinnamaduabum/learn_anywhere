@@ -1,0 +1,248 @@
+{
+  "title": "Learn Anywhere — Five-Minute Project Walkthrough",
+  "durationSeconds": 300,
+  "wordCount": 724,
+  "timingNote": "Fifteen twenty-second edited chapters. Fit synthesized narration within each chapter; recording source spans are suggestions, not final clip timings.",
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 20,
+      "duration": 20,
+      "title": "Welcome to Learn Anywhere",
+      "kicker": "A fresh start",
+      "bullets": [
+        "Offline-first learning",
+        "First launch on iPhone"
+      ],
+      "narration": "Hi, I’m Obinna. Welcome to Learn Anywhere, an app for learning with limited connectivity. We begin with fresh local learning state on the iPhone simulator. We will choose preferences, find a course, read its lessons, try explanations, and explore the tools that help learners continue.",
+      "rawStart": 20,
+      "rawEnd": 40,
+      "wordCount": 45
+    },
+    {
+      "id": 2,
+      "start": 20,
+      "end": 40,
+      "duration": 20,
+      "title": "Choose a language",
+      "kicker": "Setup · language",
+      "bullets": [
+        "Seven supported languages",
+        "English for this walkthrough"
+      ],
+      "narration": "The first step is language selection. Learn Anywhere supports English, French, Portuguese, Arabic, Hausa, Yoruba, and Igbo. I select English for this demonstration and apply the choice. Available learning content can download during setup, so setup uses a connection.",
+      "rawStart": 53,
+      "rawEnd": 80,
+      "wordCount": 39
+    },
+    {
+      "id": 3,
+      "start": 40,
+      "end": 60,
+      "duration": 20,
+      "title": "Set optional preferences",
+      "kicker": "Setup · learner profile",
+      "bullets": [
+        "No learner account required",
+        "Profile details are optional"
+      ],
+      "narration": "Next comes the optional learner profile. You can personalize the experience and choose whether lessons should start with the shorter explained version. No email, password, or real personal information is required for this walkthrough. I leave the optional details empty and skip ahead to the main app.",
+      "rawStart": 111,
+      "rawEnd": 135,
+      "wordCount": 47
+    },
+    {
+      "id": 4,
+      "start": 60,
+      "end": 80,
+      "duration": 20,
+      "title": "Start from Home",
+      "kicker": "Your learning dashboard",
+      "bullets": [
+        "Choose a course",
+        "Track reading separately from quizzes"
+      ],
+      "narration": "Home is the starting point for learning. It combines course access and reading progress. Setup may already have saved an available pack, but choosing a course is a separate action. Opening a lesson alone does not mean that its reading or assessment is complete.",
+      "rawStart": 134,
+      "rawEnd": 155,
+      "wordCount": 44
+    },
+    {
+      "id": 5,
+      "start": 80,
+      "end": 100,
+      "duration": 20,
+      "title": "Explore Discover",
+      "kicker": "Find something useful",
+      "bullets": [
+        "Browse published courses",
+        "Fetch new content while connected"
+      ],
+      "narration": "Discover is where learners find published courses. Each card introduces the subject and offers a way to open its contents. This demonstration uses the original AI for Everyday Tasks course. New discovery and missing downloads need a connection; the saved library gives us a separate place to return later.",
+      "rawStart": 166,
+      "rawEnd": 192,
+      "wordCount": 49
+    },
+    {
+      "id": 6,
+      "start": 100,
+      "end": 120,
+      "duration": 20,
+      "title": "Open the course contents",
+      "kicker": "An ordered learning path",
+      "bullets": [
+        "Six lessons in this course",
+        "Saved language shown"
+      ],
+      "narration": "The course contents provide an ordered path through the material. Here we can see six lessons, their reading state, and the language saved on this device. Opening a course fetches a missing language pack when needed. Choose a lesson and begin at the top.",
+      "rawStart": 192,
+      "rawEnd": 205,
+      "wordCount": 44
+    },
+    {
+      "id": 7,
+      "start": 120,
+      "end": 140,
+      "duration": 20,
+      "title": "Read and listen",
+      "kicker": "Regular lesson",
+      "bullets": [
+        "Ready offline status",
+        "Read-aloud and speed controls"
+      ],
+      "narration": "The regular lesson combines readable text with practical activities. Its reading estimate and Ready offline status help explain what is available. Read aloud offers another way to engage using an available device voice, with a speed control nearby. Playback starts in this demo; I pause and stop it before continuing.",
+      "rawStart": 205,
+      "rawEnd": 222,
+      "wordCount": 49
+    },
+    {
+      "id": 8,
+      "start": 140,
+      "end": 160,
+      "duration": 20,
+      "title": "Switch to an explanation",
+      "kicker": "One lesson, two views",
+      "bullets": [
+        "Tap the teal lightbulb",
+        "Shorter explanation on the same page"
+      ],
+      "narration": "The teal lightbulb switches the same page to its explained version. This substitutes a shorter, simpler explanation for the regular lesson body. It does not open a different course or change the final assessment. A learner can use this view to grasp the main idea, then return to the fuller teaching.",
+      "rawStart": 221,
+      "rawEnd": 246,
+      "wordCount": 51
+    },
+    {
+      "id": 9,
+      "start": 160,
+      "end": 180,
+      "duration": 20,
+      "title": "Read at your own pace",
+      "kicker": "Stay in control",
+      "bullets": [
+        "Saved explained content",
+        "Bookmark a lesson for later"
+      ],
+      "narration": "Both versions support learning at your own pace. The explanation is saved content rather than a fresh response generated for every tap. Switching views starts reading at the top again, while progress stays separate. The bookmark icon also offers a quick way to keep a lesson for a later visit.",
+      "rawStart": 296,
+      "rawEnd": 310,
+      "wordCount": 50
+    },
+    {
+      "id": 10,
+      "start": 180,
+      "end": 200,
+      "duration": 20,
+      "title": "Try the final quiz",
+      "kicker": "Check understanding",
+      "bullets": [
+        "Select one answer",
+        "Next question · no submission shown"
+      ],
+      "narration": "Back at the course contents, I open the final quiz. A question presents four answer choices. Selecting one enables the next question, and answers are saved locally as the learner proceeds. This walkthrough stops before submission: we are demonstrating the assessment flow, without claiming a completed course, final score, or result.",
+      "rawStart": 317,
+      "rawEnd": 345,
+      "wordCount": 51
+    },
+    {
+      "id": 11,
+      "start": 200,
+      "end": 220,
+      "duration": 20,
+      "title": "Change the course language",
+      "kicker": "Learning in French",
+      "bullets": [
+        "Open the globe control",
+        "English and French saved"
+      ],
+      "narration": "Language can also be changed after setup using the globe control. Here I select French and apply it. A missing published translation downloads before it is used. The course can retain both English and French on this device, so choosing another language does not mean discarding the first saved pack.",
+      "rawStart": 360,
+      "rawEnd": 385,
+      "wordCount": 50
+    },
+    {
+      "id": 12,
+      "start": 220,
+      "end": 240,
+      "duration": 20,
+      "title": "Return to saved learning",
+      "kicker": "Downloads",
+      "bullets": [
+        "Open a saved course",
+        "Manage saved languages"
+      ],
+      "narration": "Downloads organizes the local course library. Its readiness labels and saved-language details make it easier to know what is stored. Learners can open a course or manage its languages from here. We show saved text readiness in this recording; we have not switched off the network to perform an offline test.",
+      "rawStart": 445,
+      "rawEnd": 458,
+      "wordCount": 51
+    },
+    {
+      "id": 13,
+      "start": 240,
+      "end": 260,
+      "duration": 20,
+      "title": "Adjust the experience",
+      "kicker": "Profile and settings",
+      "bullets": [
+        "Language and reading preferences",
+        "Optional explained-content preference"
+      ],
+      "narration": "Profile and settings let learners revisit their preferences. They can adjust the reading experience and choose whether explained lessons should be their starting view. These choices support different learning needs without requiring a learner account. The app remains a working proof of concept, with further translation review and deployment hardening still needed.",
+      "rawStart": 458,
+      "rawEnd": 470,
+      "wordCount": 52
+    },
+    {
+      "id": 14,
+      "start": 260,
+      "end": 280,
+      "duration": 20,
+      "title": "How saved learning works",
+      "kicker": "Behind the app",
+      "bullets": [
+        "Flutter + phone SQLite",
+        "Quarkus + PostgreSQL"
+      ],
+      "narration": "Behind the interface, Flutter runs the app and SQLite stores downloaded packs and pending activity on the phone. A Quarkus backend serves published content from PostgreSQL. When synchronization succeeds, acknowledged event identifiers help avoid duplicate rewards. This architecture connects a local learning experience with centrally managed content and confirmed progress.",
+      "rawStart": 470,
+      "rawEnd": 485,
+      "wordCount": 50
+    },
+    {
+      "id": 15,
+      "start": 280,
+      "end": 300,
+      "duration": 20,
+      "title": "What comes next",
+      "kicker": "Built with Codex",
+      "bullets": [
+        "Implementation and verification support",
+        "Learner testing and translation review"
+      ],
+      "narration": "Codex helped develop the app and backend, inspect learning flows, and produce documentation and demonstration materials. The next steps are learner testing, bilingual review, and a stronger production deployment. Learn Anywhere aims to make useful learning easier to return to: choose a course, save it, and continue at your own pace.",
+      "rawStart": 470,
+      "rawEnd": 485,
+      "wordCount": 51
+    }
+  ]
+}

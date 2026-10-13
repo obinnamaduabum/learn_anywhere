@@ -1,0 +1,235 @@
+1
+00:00:00,400 --> 00:00:01,823
+Hi, I’m Obinna.
+
+2
+00:00:01,963 --> 00:00:06,144
+Welcome to Learn Anywhere, an app for learning with limited connectivity.
+
+3
+00:00:06,284 --> 00:00:10,432
+We begin with fresh local learning state on the iPhone simulator.
+
+4
+00:00:10,572 --> 00:00:18,517
+We will choose preferences, find a course, read its lessons, try explanations, and explore the tools that help learners continue.
+
+5
+00:00:20,400 --> 00:00:22,735
+The first step is language selection.
+
+6
+00:00:22,875 --> 00:00:28,431
+Learn Anywhere supports English, French, Portuguese, Arabic, Hausa, Yoruba, and Igbo.
+
+7
+00:00:28,571 --> 00:00:32,176
+I select English for this demonstration and apply the choice.
+
+8
+00:00:32,316 --> 00:00:37,329
+Available learning content can download during setup, so setup uses a connection.
+
+9
+00:00:40,400 --> 00:00:42,703
+Next comes the optional learner profile.
+
+10
+00:00:42,843 --> 00:00:48,559
+You can personalize the experience and choose whether lessons should start with the shorter explained version.
+
+11
+00:00:48,699 --> 00:00:53,807
+No email, password, or real personal information is required for this walkthrough.
+
+12
+00:00:53,947 --> 00:00:57,796
+I leave the optional details empty and skip ahead to the main app.
+
+13
+00:01:00,400 --> 00:01:02,533
+Home is the starting point for learning.
+
+14
+00:01:02,673 --> 00:01:05,391
+It combines course access and reading progress.
+
+15
+00:01:05,531 --> 00:01:10,746
+Setup may already have saved an available pack, but choosing a course is a separate action.
+
+16
+00:01:10,886 --> 00:01:15,610
+Opening a lesson alone does not mean that its reading or assessment is complete.
+
+17
+00:01:20,391 --> 00:01:23,216
+Discover is where learners find published courses.
+
+18
+00:01:23,353 --> 00:01:27,763
+Each card introduces the subject and offers a way to open its contents.
+
+19
+00:01:27,900 --> 00:01:32,331
+This demonstration uses the original AI for Everyday Tasks course.
+
+20
+00:01:32,468 --> 00:01:39,163
+New discovery and missing downloads need a connection; the saved library gives us a separate place to return later.
+
+21
+00:01:40,400 --> 00:01:43,844
+The course contents provide an ordered path through the material.
+
+22
+00:01:43,984 --> 00:01:49,092
+Here we can see six lessons, their reading state, and the language saved on this device.
+
+23
+00:01:49,232 --> 00:01:52,602
+Opening a course fetches a missing language pack when needed.
+
+24
+00:01:52,742 --> 00:01:54,929
+Choose a lesson and begin at the top.
+
+25
+00:02:00,371 --> 00:02:04,360
+The regular lesson combines readable text with practical activities.
+
+26
+00:02:04,490 --> 00:02:08,953
+Its reading estimate and Ready offline status help explain what is available.
+
+27
+00:02:09,083 --> 00:02:15,122
+Read aloud offers another way to engage using an available device voice, with a speed control nearby.
+
+28
+00:02:15,252 --> 00:02:19,170
+Playback starts in this demo; I pause and stop it before continuing.
+
+29
+00:02:20,400 --> 00:02:24,238
+The teal lightbulb switches the same page to its explained version.
+
+30
+00:02:24,378 --> 00:02:29,081
+This substitutes a shorter, simpler explanation for the regular lesson body.
+
+31
+00:02:29,221 --> 00:02:33,039
+It does not open a different course or change the final assessment.
+
+32
+00:02:33,179 --> 00:02:38,147
+A learner can use this view to grasp the main idea, then return to the fuller teaching.
+
+33
+00:02:40,400 --> 00:02:43,119
+Both versions support learning at your own pace.
+
+34
+00:02:43,259 --> 00:02:48,708
+The explanation is saved content rather than a fresh response generated for every tap.
+
+35
+00:02:48,848 --> 00:02:52,943
+Switching views starts reading at the top again, while progress stays separate.
+
+36
+00:02:53,083 --> 00:02:57,722
+The bookmark icon also offers a quick way to keep a lesson for a later visit.
+
+37
+00:03:00,367 --> 00:03:03,207
+Back at the course contents, I open the final quiz.
+
+38
+00:03:03,335 --> 00:03:05,587
+A question presents four answer choices.
+
+39
+00:03:05,716 --> 00:03:11,237
+Selecting one enables the next question, and answers are saved locally as the learner proceeds.
+
+40
+00:03:11,366 --> 00:03:19,171
+This walkthrough stops before submission: we are demonstrating the assessment flow, without claiming a completed course, final score, or result.
+
+41
+00:03:20,400 --> 00:03:24,505
+Language can also be changed after setup using the globe control.
+
+42
+00:03:24,645 --> 00:03:26,737
+Here I select French and apply it.
+
+43
+00:03:26,877 --> 00:03:30,171
+A missing published translation downloads before it is used.
+
+44
+00:03:30,311 --> 00:03:38,311
+The course can retain both English and French on this device, so choosing another language does not mean discarding the first saved pack.
+
+45
+00:03:40,400 --> 00:03:43,291
+Downloads organizes the local course library.
+
+46
+00:03:43,431 --> 00:03:48,453
+Its readiness labels and saved-language details make it easier to know what is stored.
+
+47
+00:03:48,593 --> 00:03:52,315
+Learners can open a course or manage its languages from here.
+
+48
+00:03:52,455 --> 00:03:58,831
+We show saved text readiness in this recording; we have not switched off the network to perform an offline test.
+
+49
+00:04:00,361 --> 00:04:03,675
+Profile and settings let learners revisit their preferences.
+
+50
+00:04:03,802 --> 00:04:08,735
+They can adjust the reading experience and choose whether explained lessons should be their starting view.
+
+51
+00:04:08,861 --> 00:04:13,168
+These choices support different learning needs without requiring a learner account.
+
+52
+00:04:13,295 --> 00:04:19,173
+The app remains a working proof of concept, with further translation review and deployment hardening still needed.
+
+53
+00:04:20,317 --> 00:04:25,638
+Behind the interface, Flutter runs the app and SQLite stores downloaded packs and pending activity on the phone.
+
+54
+00:04:25,749 --> 00:04:29,051
+A Quarkus backend serves published content from PostgreSQL.
+
+55
+00:04:29,162 --> 00:04:33,850
+When synchronization succeeds, acknowledged event identifiers help avoid duplicate rewards.
+
+56
+00:04:33,961 --> 00:04:39,189
+This architecture connects a local learning experience with centrally managed content and confirmed progress.
+
+57
+00:04:40,371 --> 00:04:47,288
+Codex helped develop the app and backend, inspect learning flows, and produce documentation and demonstration materials.
+
+58
+00:04:47,418 --> 00:04:52,122
+The next steps are learner testing, bilingual review, and a stronger production deployment.
+
+59
+00:04:52,252 --> 00:04:59,170
+Learn Anywhere aims to make useful learning easier to return to: choose a course, save it, and continue at your own pace.

@@ -38,13 +38,13 @@ Learners do not need an account, email, or password. Internet is needed for disc
 | Video | What it covers | Supporting files |
 | --- | --- | --- |
 | [60-second pitch](frontend/docs/demo/pitch/learn-anywhere-60-second-pitch.mp4) | Six beats: the learner, the problem, the app, the explanation toggle, Codex’s contribution, and next steps. | [Script](frontend/docs/demo/pitch/pitch-script.md) · [Captions](frontend/docs/demo/pitch/learn-anywhere-captions.srt) |
-| [Four-minute app walkthrough](frontend/docs/demo/learn-anywhere-4-minute-explainer.mp4) | Discovery, saved offline lessons, reading controls, explained versions, quizzes, languages, and profile settings. | [Script](frontend/docs/demo/video-script.md) · [Captions](frontend/docs/demo/learn-anywhere-captions.srt) |
+| [Five-minute app walkthrough](frontend/docs/demo/learn-anywhere-5-minute-walkthrough.mp4) | First-use preferences, course discovery, reading controls, explanations, quizzes, saved languages, and profile settings. | [Transcript](frontend/docs/demo/project-video-transcript.md) · [Captions](frontend/docs/demo/walkthrough-captions.srt) · [Notes](frontend/docs/demo/delivery-notes.md) |
 
-Both videos use actual iPhone app screenshots with narration and captions, exported at 1920 × 1080. Verified durations are 60.02 seconds and 240.02 seconds. Click a video link to open or download the MP4.
+Both videos include actual iPhone app visuals with locally synthesized narration and captions at 1920 × 1080. The pitch lasts 60.02 seconds; the walkthrough uses recorded simulator interactions and explanatory cards and lasts exactly 5:00. Click a video link to open or download the MP4.
 
 [<img src="frontend/docs/demo/pitch/poster.png" alt="Preview of the 60-second Learn Anywhere pitch" width="480">](frontend/docs/demo/pitch/learn-anywhere-60-second-pitch.mp4)
 
-[<img src="frontend/docs/demo/poster.png" alt="Preview of the four-minute Learn Anywhere app walkthrough" width="480">](frontend/docs/demo/learn-anywhere-4-minute-explainer.mp4)
+[<img src="frontend/docs/demo/poster.png" alt="Preview of the five-minute Learn Anywhere app walkthrough" width="480">](frontend/docs/demo/learn-anywhere-5-minute-walkthrough.mp4)
 
 ## User usage flow with screenshots
 
@@ -267,7 +267,7 @@ mvn clean install
 
 Tests that require a live service must use the current published catalog and preserve learner data. For release validation, also check the selected iPhone's launch and visible UI, native speech and accessibility where available, HTTPS connectivity, language downloads, offline reopen, and synchronization. Report checks actually executed; a build, screenshot, or owner-approved demo does not establish production readiness.
 
-The committed videos include [four-minute export checks](frontend/docs/demo/verification.json) and [pitch export checks](frontend/docs/demo/pitch/verification.json). The [screenshot record](frontend/docs/screenshots/capture-record.json) describes capture scope and limitations.
+The committed videos include [five-minute export checks](frontend/docs/demo/verification.json) and [pitch export checks](frontend/docs/demo/pitch/verification.json). The [screenshot record](frontend/docs/screenshots/capture-record.json) describes capture scope and limitations.
 
 ## Limitations and project documentation
 
