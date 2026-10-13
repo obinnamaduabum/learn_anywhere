@@ -38,7 +38,7 @@ Learners do not need an account, email, or password. Internet is needed for disc
 | Video | What it covers | Supporting files |
 | --- | --- | --- |
 | [60-second pitch](frontend/docs/demo/pitch/learn-anywhere-60-second-pitch.mp4) | Six beats: the learner, the problem, the app, the explanation toggle, Codex’s contribution, and next steps. | [Script](frontend/docs/demo/pitch/pitch-script.md) · [Captions](frontend/docs/demo/pitch/learn-anywhere-captions.srt) |
-| [Five-minute app walkthrough](frontend/docs/demo/learn-anywhere-5-minute-walkthrough.mp4) | First-use preferences, course discovery, reading controls, explanations, quizzes, saved languages, and profile settings. | [Transcript](frontend/docs/demo/project-video-transcript.md) · [Captions](frontend/docs/demo/walkthrough-captions.srt) · [Notes](frontend/docs/demo/delivery-notes.md) |
+| [Five-minute app walkthrough — 5:00](frontend/docs/demo/learn-anywhere-5-minute-walkthrough.mp4) | First-use preferences, course discovery, reading controls, explanations, quizzes, saved languages, and profile settings. | [Transcript](frontend/docs/demo/project-video-transcript.md) · [Captions](frontend/docs/demo/walkthrough-captions.srt) · [Notes](frontend/docs/demo/delivery-notes.md) |
 
 Both videos include actual iPhone app visuals with locally synthesized narration and captions at 1920 × 1080. The pitch lasts 60.02 seconds; the walkthrough uses recorded simulator interactions and explanatory cards and lasts exactly 5:00. Click a video link to open or download the MP4.
 
