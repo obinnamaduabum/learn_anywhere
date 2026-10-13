@@ -1,0 +1,48 @@
+1
+00:00:00,400 --> 00:00:05,721
+Learn Anywhere is for learners who want useful skills but have limited internet access.
+
+2
+00:00:05,861 --> 00:00:09,295
+It brings practical lessons to their phone, at their own pace.
+
+3
+00:00:10,383 --> 00:00:14,516
+When a connection drops or data runs out, learning can stop halfway through.
+
+4
+00:00:14,650 --> 00:00:19,366
+Learn Anywhere keeps saved text lessons on the device, ready to reopen offline.
+
+5
+00:00:20,379 --> 00:00:23,156
+On Discover, choose a course and open its lessons.
+
+6
+00:00:23,288 --> 00:00:29,367
+Save the pack while connected, then return to the text and practical activities without downloading it again.
+
+7
+00:00:30,366 --> 00:00:34,673
+Here is the key moment: tap the lightbulb to switch to a shorter explained version.
+
+8
+00:00:34,801 --> 00:00:36,344
+Tap again for the full lesson.
+
+9
+00:00:36,472 --> 00:00:39,372
+Seven languages support a more comfortable start.
+
+10
+00:00:40,370 --> 00:00:49,371
+Codex helped build the Flutter app and backend, check the learning flows, and create original course drafts, the screenshot guide, and this narrated app demonstration.
+
+11
+00:00:50,347 --> 00:00:56,313
+Next, I want to test with learners, improve translations through bilingual review, and expand the course library.
+
+12
+00:00:56,435 --> 00:00:59,379
+Learn Anywhere: choose a topic, save it, and keep learning.
+

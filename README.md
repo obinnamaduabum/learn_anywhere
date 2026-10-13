@@ -4,7 +4,18 @@ An offline-first Flutter learning companion with a calm teal interface and a Qua
 
 ## User usage flow with screenshots
 
-Watch the [four-minute narrated app walkthrough](frontend/docs/demo/learn-anywhere-4-minute-explainer.mp4), or read its [script](frontend/docs/demo/video-script.md) and [captions](frontend/docs/demo/learn-anywhere-captions.srt).
+### App videos
+
+| Video | What it covers | Supporting files |
+| --- | --- | --- |
+| [60-second pitch](frontend/docs/demo/pitch/learn-anywhere-60-second-pitch.mp4) | Six beats: the learner, the problem, the app, the explanation toggle, Codex’s contribution, and next steps. | [Script](frontend/docs/demo/pitch/pitch-script.md) · [Captions](frontend/docs/demo/pitch/learn-anywhere-captions.srt) |
+| [Four-minute app walkthrough](frontend/docs/demo/learn-anywhere-4-minute-explainer.mp4) | Discovery, saved offline lessons, reading controls, explained versions, quizzes, languages, and profile settings. | [Script](frontend/docs/demo/video-script.md) · [Captions](frontend/docs/demo/learn-anywhere-captions.srt) |
+
+Both videos use actual iPhone app screenshots with narration and captions, exported at 1920 × 1080. Verified durations are 60.02 seconds and 240.02 seconds. Click a video link to open or download the MP4.
+
+[<img src="frontend/docs/demo/pitch/poster.png" alt="Preview of the 60-second Learn Anywhere pitch" width="480">](frontend/docs/demo/pitch/learn-anywhere-60-second-pitch.mp4)
+
+[<img src="frontend/docs/demo/poster.png" alt="Preview of the four-minute Learn Anywhere app walkthrough" width="480">](frontend/docs/demo/learn-anywhere-4-minute-explainer.mp4)
 
 This walkthrough was captured on 13 October 2026 in the running iPhone 17 Debug app. Navigation used Device Hub accessibility controls; screenshots used Flutter MCP. The images show the actual app and the published **AI for Everyday Tasks** course. No quiz answers were submitted for this walkthrough.
 
