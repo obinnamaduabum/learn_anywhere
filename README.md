@@ -2,6 +2,64 @@
 
 An offline-first Flutter learning companion with a calm teal interface and a Quarkus Java/PostgreSQL backend. The proof of concept supports resource discovery, lightweight lesson downloads, saved progress, quizzes, and practical completion tasks.
 
+## User usage flow with screenshots
+
+Watch the [four-minute narrated app walkthrough](frontend/docs/demo/learn-anywhere-4-minute-explainer.mp4), or read its [script](frontend/docs/demo/video-script.md) and [captions](frontend/docs/demo/learn-anywhere-captions.srt).
+
+This walkthrough was captured on 13 October 2026 in the running iPhone 17 Debug app. Navigation used Device Hub accessibility controls; screenshots used Flutter MCP. The images show the actual app and the published **AI for Everyday Tasks** course. No quiz answers were submitted for this walkthrough.
+
+### 1. Choose your language
+
+On first launch, choose a language. Later, tap the globe in the toolbar, choose **English, Français, Português, العربية, Hausa, Yorùbá, or Igbo**, then tap **Apply languages**. A missing published lesson pack downloads before it is applied. Download while connected; saved lessons remain available offline. An unavailable translation produces a message instead of silently discarding your preference.
+
+<img src="frontend/docs/screenshots/06-language-picker.png" alt="The seven supported language choices, with English selected" width="280">
+
+### 2. Discover a course
+
+Open **Discover**, search using **Find a course**, and tap **View course**. Pull down or tap **Refresh** to fetch newly published courses. Cards show a description, category, lesson count, and final quiz. Internet is needed to discover new content and download missing packs.
+
+<img src="frontend/docs/screenshots/01-discover.png" alt="Discover showing AI for Everyday Tasks and Microsoft AI for Beginners" width="280">
+
+### 3. Open the contents and save the course
+
+Opening a course downloads its selected-language pack when needed. The contents page lists the lessons, their reading state, and languages saved on this device. Tap any lesson to begin. For a series, choose a part first. Lesson counts follow the material; this course has six lessons. Opening or skipping a lesson does not by itself mark it read or earn quiz points.
+
+<img src="frontend/docs/screenshots/02-course-contents.png" alt="AI for Everyday Tasks contents with ordered lessons and saved English language" width="280">
+
+### 4. Read, listen, or switch to an explanation
+
+The lesson shows its reading estimate and **Ready offline** status. Read the text and complete its paper or notebook activities. **Read aloud** and the speed control use available iPhone voices; stop playback before leaving if needed. Use the bookmark icon to save a lesson for later. Source links appear in the dedicated further-reading card.
+
+Tap the **teal lightbulb** to substitute a shorter explained version on the same page. **Explained version · 1** identifies the saved explanation version. Tap the button again to return to regular content. Both views use the same final assessment. Pages reopen at the top while keeping saved progress.
+
+<img src="frontend/docs/screenshots/03-read-lesson.png" alt="Regular lesson with reading time, offline status, read-aloud controls and teal explanation button" width="280"> <img src="frontend/docs/screenshots/04-explained-version.png" alt="Shorter explained version of the same lesson" width="280">
+
+### 5. Take the final quiz and apply the skill
+
+Return to the contents page and tap **Take final quiz**. Choose an answer and use **Next question**. Answers save locally; correctness stays hidden during the assessment. Submit at the end to see the score, then use **Review answers** for correct answers and explanations. The captured screen shows question 1 of 18 before an answer is selected. After completing the assessment, follow the practical **Final challenge** instructions. Reading progress and quiz completion are separate.
+
+<img src="frontend/docs/screenshots/05-final-quiz.png" alt="First final quiz question with four choices and Next question disabled before selection" width="280">
+
+### 6. Reopen saved courses offline
+
+Open **Downloads** to see the device's saved course library. **Ready offline** confirms that a pack is saved. Tap **Open course** to return to its contents, or **Manage languages** to review available and saved languages. Saved languages remain available without another download; discovering new courses and fetching updates need a connection.
+
+<img src="frontend/docs/screenshots/07-downloads.png" alt="Downloads listing saved courses, saved languages, offline status and course-management actions" width="280">
+
+### 7. Continue from Home
+
+**Home** shows your saved courses and reading progress. Use **Start course** or **Continue learning** to resume. Progress, answers, bookmarks, and downloaded materials stay on the device between visits; pending learning activity synchronizes when the backend is reachable.
+
+<img src="frontend/docs/screenshots/09-home.png" alt="Home showing the current course, reading progress and continuation actions" width="280">
+
+### 8. Adjust your learning preferences
+
+Open **Profile** for progress, badges, the final challenge, and **Settings**. Choose **Teal light** or **Teal dark**, adjust font size, and review the learning and accessibility controls. The optional learner profile can start lessons with explained content. Preferences persist on the device. Learners do not need an account or password to read downloaded courses.
+
+<img src="frontend/docs/screenshots/08-profile.png" alt="Profile with course progress, final challenge and appearance settings" width="280">
+
+The captured walkthrough verifies these screens and navigation. It does not claim a completed quiz, a real-device offline-network test, or independent bilingual review of the lesson translations.
+
 ## Repository layout
 
 ```text
@@ -48,16 +106,16 @@ Choose **Teal light** or **Teal dark** under Profile → Appearance. The prefere
 
 - Startup shows the Learn Anywhere logo and a spinner while local learning materials initialize. On first launch, learners choose English, French, Portuguese, Arabic, Hausa, Yorùbá, or Igbo. The choice is saved locally.
 - One language preference controls app labels and lesson selection. Arabic supports right-to-left layout. Bundled app labels work offline; some dynamic catalog metadata and supporting messages may still appear in English.
-- Discovery supports normal courses and courses containing ordered series parts. Understanding AI appears as one course with 16 weekly parts and 80 lessons, designed for roughly four months at a flexible pace.
-- Each part contains five short lessons. Any chapter or final quiz can be opened directly; skipped lessons stay unread. Read lessons have a mint highlight, checkmark, and Read label; series cards show the number of lessons read.
-- One final assessment follows the five lessons. Answers save without revealing correctness, explanations, or earned points during the assessment. Submission shows the score; Review answers reveals the learner's answers, correct answers, and explanations.
+- Discovery supports standalone courses and courses containing ordered series parts. Open a series to choose an available part.
+- Lesson counts follow each course or part. Any chapter or final quiz can be opened directly; skipped lessons stay unread. Read lessons have a mint highlight, checkmark, and Read label; series cards show the number of lessons read.
+- One final assessment follows the lessons in each course or part. Answers save without revealing correctness, explanations, or earned points during the assessment. Submission shows the score; Review answers reveals the learner's answers, correct answers, and explanations.
 - Quiz completion and reading are separate states. Completion is labeled Completed. Practice cannot duplicate rewards. A practical task follows the assessment.
 - Applying a language downloads its published pack when it is missing from the device. A spinner appears while downloading; a progress bar shows received bytes when the pack size is known. An unpublished language produces an availability message.
 - User-facing storage messages say Ready offline or Saved on this device.
 
-The current local catalog contains AI Foundations as a normal English course and Understanding AI as a series course. All 16 Understanding AI parts have published packs in seven languages: 112 packs representing the same 80 lessons and 240 questions across languages. The six new translations were machine-translated and explicitly approved by the owner for the local demo; bilingual expert certification has not been claimed.
+The local catalog includes the original AI courses plus AI for Everyday Tasks and Microsoft AI for Beginners. Both new courses have six offline lessons, eighteen questions and shorter explained versions in all seven languages. Generated content and machine translations were explicitly approved by the owner for publication; independent bilingual expert review remains pending.
 
-The bundled Digital Safety starter remains available as an offline fallback. A preferred translation may be unavailable for a particular course; an available pack is used without discarding the saved preference.
+No demo course is bundled or automatically saved. New installations start with an empty library; genuine saved courses remain available offline. A preferred translation may be unavailable for a particular course; an available pack is used without discarding the saved preference.
 
 ## Offline storage and synchronization
 
@@ -185,7 +243,7 @@ Discover uses search without category filters or badges; the learning category c
 
 Optional AI learning help is available inside lessons: Explain this, Help me practise, and Reading suggestions. New requests require explicit confirmation and internet; saved replies remain on-device for offline reuse. Profile data, reading patterns, and assessment answers are excluded. Generated suggestions can be explicitly saved for local course reminders. Backend API configuration and billing are required; this is not a free embedded ChatGPT connection.
 
-Reviewed explanation downloads: published course packs may include `explanations: {version: 1, lessons: [{id: 0, text: "..."}, ...]}` with all five ordered lessons. `GET /api/v1/explanations/{course}/{language}?version=N` returns `available`, course identity, and (when available) `explanationVersion` and lesson texts. This endpoint never calls AI. Explanations follow the existing draft review/approval process; changing published explanations requires a new immutable course version. Flutter downloads the whole explanation pack, saves it in device state, displays its version, and supports offline reading and checking for updates. Existing courses without explanations return `available:false`; no generated content has been published automatically.
+Reviewed explanation downloads: published course packs may include `explanations: {version: 1, lessons: [{id: 0, text: "..."}, ...]}` with one explanation for every ordered lesson. `GET /api/v1/explanations/{course}/{language}?version=N` returns `available`, course identity, and (when available) `explanationVersion` and lesson texts. This endpoint never calls AI. Explanations follow the existing draft review/approval process. Reviewed explanation updates use a new explanation version tied to the same immutable course/version/language pack. Flutter downloads the whole explanation pack, saves it in device state, displays its version, and supports offline reading and checking for updates. Existing courses without explanations return `available:false`; no generated content has been published automatically.
 
 On lesson pages, Explain this downloads the reviewed explanation pack with a loading indicator, then displays the selected lesson explanation. Saved explanations open immediately offline without an AI request.
 
@@ -240,3 +298,5 @@ Pages now open at the top on forward/back navigation and tab selection. Lessons 
 The lesson explanation toggle prefers reviewed explanations, can use saved supplementary AI help offline, and shows a spinner while loading. If no reviewed pack or configured provider exists, it keeps the regular lesson available and reports unavailability. New generated explanation drafts require approval before publication.
 
 Toast feedback stays on its originating page. Navigating or changing tabs clears it; delayed responses from pages that are no longer active do not display messages elsewhere.
+
+Lessons display backend-authored `bodyMarkdown` headings, emphasis, lists and notes when available, with plain `body` retained for narration and legacy packs. The mobile renderer does not infer lesson formatting.

@@ -18,7 +18,21 @@ class LearningServiceTest {
   ObjectMapper json = new ObjectMapper();
 
   JsonNode pack() throws Exception {
-    return json.readTree(Files.readString(Path.of("../frontend/assets/packs/en.json")));
+    return json.readTree(Files.readString(Path.of("../frontend/test/fixtures/packs/en.json")));
+  }
+
+  @Test
+  void validatesOptionalBackendMarkdown() throws Exception {
+    ObjectNode p = (ObjectNode) pack();
+    ObjectNode lesson = (ObjectNode) p.path("lessons").get(0);
+    lesson.put("bodyMarkdown", "## Key idea\n\nA **clear** paragraph.\n\n- First step\n- Second step");
+    LearningService.validatePack(p);
+    lesson.put("bodyMarkdown", "<script>unsafe</script>");
+    assertThrows(ApiException.class, () -> LearningService.validatePack(p));
+    lesson.put("bodyMarkdown", " ");
+    assertThrows(ApiException.class, () -> LearningService.validatePack(p));
+    lesson.remove("bodyMarkdown");
+    LearningService.validatePack(p);
   }
 
   ObjectNode state() {
@@ -161,7 +175,7 @@ class LearningServiceTest {
             0,
             null,
             0,
-            Arrays.asList("screen_lock", "unique_password", "mfa", "backup"));
+            Arrays.asList("recap", "practice", "plan", "demonstrate"));
     LearningService.apply(s, p, finalEvent);
     LearningService.apply(s, p, finalEvent);
     int points = 0;

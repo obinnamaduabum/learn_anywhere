@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 class LearningCompanionTest {
   @Test void providerContextExcludesAssessmentAnswers() throws Exception {
     var mapper = new ObjectMapper();
-    var pack = mapper.readTree(Files.readString(Path.of("../frontend/assets/packs/en.json")));
+    var pack = mapper.readTree(Files.readString(Path.of("../frontend/test/fixtures/packs/en.json")));
     var context = LearningCompanion.lessonContext(mapper,pack,0);
     assertEquals(pack.path("lessons").get(0).path("body"),context.path("body"));
     assertFalse(context.has("questions"));

@@ -1,0 +1,214 @@
+{
+  "publisher": "Microsoft",
+  "repository": "https://github.com/microsoft/AI-For-Beginners",
+  "retrievedAt": "2026-10-13",
+  "license": "MIT; notice included",
+  "sources": [
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "2785c84250f5711880160a588f6b54a80e293080c14f4fb1b6aa4cd4a9a00fb2",
+      "snapshot": "3a13649c9c3c.md",
+      "bytes": 16022,
+      "supportedFacts": [
+        "AI includes symbolic, neural, evolutionary, and multi-agent approaches.",
+        "Machine learning uses data to learn task behaviour; narrow task success is not general competence."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "1b4275891605ce6f6d7d17ebf86afd150ea917c1d8df68cc8958a1edaee8d7f1",
+      "snapshot": "ca79c73f869a.md",
+      "bytes": 19270,
+      "supportedFacts": [
+        "Knowledge representation includes graphs, logic, rules and structured relations.",
+        "Expert systems combine a knowledge base and inference; rule conditions can be traced against facts."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/03-Perceptron/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "c611b69a120b68ec325ddbf1d85fdee9aef54dcd6ea044bf0635da2b2f9c771a",
+      "snapshot": "3d953baa420e.md",
+      "bytes": 5341,
+      "supportedFacts": [
+        "A perceptron combines input features using weights and a threshold for binary classification.",
+        "Training seeks weight values that reduce classification errors."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/04-OwnFramework/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "106d57e6e159a457fd7c11ac21c3046096d971422dfd75df3484e32f65de7155",
+      "snapshot": "7eb6ab683ceb.md",
+      "bytes": 5969,
+      "supportedFacts": [
+        "A loss measures discrepancy between predictions and expected outputs.",
+        "Gradient methods adjust parameters; multilayer networks use nonlinear transformations and backpropagation computes derivatives."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "dee9642d50aaf6743b4f94e989276d3e2bee960a40cc166eac7625bd819b473e",
+      "snapshot": "0e39a593cc9e.md",
+      "bytes": 8544,
+      "supportedFacts": [
+        "Frameworks support tensor operations and automatic differentiation.",
+        "Overfitting can produce low training error and higher validation error; complexity, data and regularisation affect it."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "555d77c9e282c1faacf1dcf407973b9f3998428349677a919e7c4ffe2ce385ac",
+      "snapshot": "3581cf15cdcc.md",
+      "bytes": 4679,
+      "supportedFacts": [
+        "Images have grid/tensor representations and convolution applies shared local filters across positions.",
+        "Networks can learn filters and combine local visual patterns through layers."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/08-TransferLearning/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "4f88a2172e64860e837dc65fe081e72eaf4ead3c5e79e0ea39a1a4e44fb5c9ed",
+      "snapshot": "c38720484635.md",
+      "bytes": 6548,
+      "supportedFacts": [
+        "Pretrained visual models can serve as feature extractors for another task.",
+        "Adaptation requires relevant new labels and evaluation; reuse is not a guarantee of target-task success."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/11-ObjectDetection/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "c73fc794f788b2b42306a126640ff794fdc105e34a9fda423921bb3993355eb5",
+      "snapshot": "dc7baa9a525b.md",
+      "bytes": 9902,
+      "supportedFacts": [
+        "Object detection predicts categories and locations, often bounding boxes.",
+        "Detection quality involves location/overlap and class-specific errors, rather than image classification alone."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/12-Segmentation/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "f8395262d25c9f781bfdcefed99ff6cc6c806b79919496aa2d772c98a35a9558",
+      "snapshot": "818bf370c058.md",
+      "bytes": 4669,
+      "supportedFacts": [
+        "Segmentation classifies pixels or regions for more precise localisation.",
+        "Semantic and instance segmentation distinguish class masks and object instances."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "7592c411c6122720dae5962677f7e29c2713b940ce6a10bb8a5a88f62d488204",
+      "snapshot": "20c926f245db.md",
+      "bytes": 6388,
+      "supportedFacts": [
+        "Text tokenisation can use characters, words or subwords mapped into numerical representations.",
+        "Bag-of-words drops order; TF-IDF weights terms by within-document frequency and collection prevalence."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "2aa21f4cc0b0af15b5d77b10f65886c2a5fc7b838e6db3d459241ea970fb37b7",
+      "snapshot": "d8050d8dcb1e.md",
+      "bytes": 5630,
+      "supportedFacts": [
+        "Embeddings represent tokens using dense numerical vectors.",
+        "Learned semantic representations reflect distributional patterns; relationships in representation are not guaranteed synonymy."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "b54f9d597b4c233bafa1209a477c6b8826843a7dceb307c6de4437785636293b",
+      "snapshot": "4d5fe6bcbb05.md",
+      "bytes": 8411,
+      "supportedFacts": [
+        "Attention weights contextual relationships between sequence positions.",
+        "Transformers combine attention with position information; context affects representations."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LangModels/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "4cec6d502d3a31f80bd300733a0e2a0cd8602cfc530681a907d6426f5949955b",
+      "snapshot": "6f7369055c4d.md",
+      "bytes": 5214,
+      "supportedFacts": [
+        "Language models support text prediction/generation from context.",
+        "Prompts specify tasks and examples can illustrate task patterns; generation is not source verification."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/21-GeneticAlgorithms/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "6e0e5df10421ce117d4857fca8fb0cd36899817f21d18facbfc32088d7e724a2",
+      "snapshot": "1d9bf9a26621.md",
+      "bytes": 3985,
+      "supportedFacts": [
+        "Genetic search uses candidate representations, a fitness objective, selection, crossover and mutation.",
+        "Constraints and valid candidate representations matter; search can find local rather than guaranteed global optima."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/22-DeepRL/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "907433d4615b2ae1414f73c5468fc904715fcaaf3c0dcd9da5ee9e34a179ebbe",
+      "snapshot": "7b0d7b00b9ec.md",
+      "bytes": 8378,
+      "supportedFacts": [
+        "Reinforcement learning relates states/observations, actions, environment transitions, rewards and a policy.",
+        "Policy learning seeks reward over interaction; the chosen reward defines incentives."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/23-MultiagentSystems/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "6da359e7186418cf93e09d7dbc11ced33fa60e8ed66bc3d293a83f5bb63db9e5",
+      "snapshot": "9c2e66531cb6.md",
+      "bytes": 12638,
+      "supportedFacts": [
+        "Multiple interacting agents can create collective behaviour using local rules.",
+        "Reactive and deliberative agents use different decision structures; interactions affect results."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    },
+    {
+      "url": "https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/7-Ethics/README.md",
+      "retrievedAt": "2026-10-13",
+      "sha256": "7054d55f9955c06e3be5f6c1204b007e11837f05195fbd779df6b4239d526c0b",
+      "snapshot": "7181d534fcfc.md",
+      "bytes": 4393,
+      "supportedFacts": [
+        "Responsible AI principles include fairness, reliability/safety, privacy/security, inclusion, transparency and accountability.",
+        "Data bias and model error require investigation; human roles and responsibility need definition."
+      ],
+      "reviewScope": "Teaching chapter reviewed; original fictional exercises and assessment items authored separately."
+    }
+  ],
+  "adaptationScope": "Six offline conceptual lessons. Excludes full programming labs, advanced generative-image architecture detail and cloud deployment.",
+  "translationProvenance": "Original Codex English; Google public GTX automated translation for fr/pt/ar/ha/yo/ig; targeted wording repairs; independent bilingual review pending."
+}

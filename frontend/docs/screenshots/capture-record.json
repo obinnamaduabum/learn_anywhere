@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-10-13",
+  "device": "iPhone 17 simulator",
+  "configuration": "Debug",
+  "navigation": "Device Hub native accessibility controls",
+  "capture": "Flutter MCP screenshot",
+  "screenshots": [
+    "frontend/docs/screenshots/06-language-picker.png",
+    "frontend/docs/screenshots/01-discover.png",
+    "frontend/docs/screenshots/02-course-contents.png",
+    "frontend/docs/screenshots/03-read-lesson.png",
+    "frontend/docs/screenshots/04-explained-version.png",
+    "frontend/docs/screenshots/05-final-quiz.png",
+    "frontend/docs/screenshots/07-downloads.png",
+    "frontend/docs/screenshots/09-home.png",
+    "frontend/docs/screenshots/08-profile.png"
+  ],
+  "verified": "Visible discovery, course contents, regular/explained lesson, quiz entry, language choices, downloads, profile and home.",
+  "limitations": [
+    "Quiz was not answered or submitted.",
+    "No network-disabled offline test.",
+    "Flutter MCP expression evaluation/tap/frame-settlement checks unavailable in this Xcode debug session."
+  ],
+  "captureNormalization": "Exterior black render margin removed on images 02\u201306; no app content changed. All images1206x2622."
+}

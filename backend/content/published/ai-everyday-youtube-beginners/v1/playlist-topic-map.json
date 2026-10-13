@@ -1,0 +1,94 @@
+{
+  "title": "FREE AI Course for Beginners",
+  "publisher": "Raj Photo Editing and Much More",
+  "url": "https://www.youtube.com/playlist?list=PLTukPelH6ee59Kt9WLEcR5Yea9uFZTuiO",
+  "verifiedScope": "Playlist title, publisher and twelve class titles inspected in YouTube. The first two videos have no available transcript; spoken video teaching claims have not been verified.",
+  "classes": [
+    {
+      "index": 1,
+      "topic": "What is AI and how AI works",
+      "url": "https://www.youtube.com/watch?v=yfIJDmjh0uA"
+    },
+    {
+      "index": 2,
+      "topic": "Large language models",
+      "url": "https://www.youtube.com/watch?v=VMxM-1GUfSc"
+    },
+    {
+      "index": 3,
+      "topic": "Machine learning and algorithms",
+      "url": "https://www.youtube.com/watch?v=tjOKh8oOT1s"
+    },
+    {
+      "index": 4,
+      "topic": "Prompts",
+      "url": "https://www.youtube.com/watch?v=dD-co5nPhQE"
+    },
+    {
+      "index": 5,
+      "topic": "ChatGPT",
+      "url": "https://www.youtube.com/watch?v=mBDoEUA7RJY"
+    },
+    {
+      "index": 6,
+      "topic": "Google Gemini",
+      "url": "https://www.youtube.com/watch?v=HGdLbg552SE"
+    },
+    {
+      "index": 7,
+      "topic": "Notebook LM",
+      "url": "https://www.youtube.com/watch?v=UBC6xixWARM"
+    },
+    {
+      "index": 8,
+      "topic": "Presentations with AI",
+      "url": "https://www.youtube.com/watch?v=Vx90blYOwwM"
+    },
+    {
+      "index": 9,
+      "topic": "AI videos",
+      "url": "https://www.youtube.com/watch?v=m39NmQ2Cc-8"
+    },
+    {
+      "index": 10,
+      "topic": "AI voice",
+      "url": "https://www.youtube.com/watch?v=2B-9RPBAuGg"
+    },
+    {
+      "index": 11,
+      "topic": "Cartoon animations",
+      "url": "https://www.youtube.com/watch?v=fUDg5p56wFA"
+    },
+    {
+      "index": 12,
+      "topic": "Creating songs with AI",
+      "url": "https://www.youtube.com/watch?v=YsaIz61KlSM"
+    }
+  ],
+  "lessonTopicMapping": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8,
+      9,
+      10
+    ],
+    [
+      11
+    ]
+  ]
+}

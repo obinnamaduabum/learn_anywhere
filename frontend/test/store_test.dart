@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
@@ -42,7 +43,22 @@ void main() {
   setUp(() async {
     directory = await Directory.systemTemp.createTemp('learning-test-');
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
+  });
+  test('fresh installation does not seed a bundled course', () async {
+    final emptyDirectory = await Directory.systemTemp.createTemp(
+      'empty-library-',
+    );
+    final fresh = LearningStore(emptyDirectory);
+    try {
+      await fresh.initialize();
+      expect(fresh.pack, isEmpty);
+      expect(fresh.courseId, isEmpty);
+      expect(await fresh.database!.query('packs'), isEmpty);
+    } finally {
+      await fresh.database!.close();
+      await emptyDirectory.delete(recursive: true);
+    }
   });
   test(
     'explained lesson preference is opt-in and persists across profile edits',
@@ -51,7 +67,7 @@ void main() {
       await store.saveLearnerProfile(null, '', '', explainedVersions: true);
       await store.database!.close();
       store = LearningStore(directory);
-      await store.initialize();
+      await initializeFixture(store);
       expect(store.preferExplained, isTrue);
       await store.saveLearnerProfile(null, '', '');
       expect(store.preferExplained, isTrue);
@@ -64,16 +80,16 @@ void main() {
     await store.setAutoDownload(true);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.autoDownload, isTrue);
     await store.setAutoDownload(false);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.autoDownload, isFalse);
   });
   test('saved languages are course scoped and update after deletion', () async {
-    await store.savePack('fr', bundled: true);
+    await seedFixtureLanguage(store, 'fr');
     expect(store.savedLanguageCounts({'id': store.courseId}), {
       'en': 1,
       'fr': 1,
@@ -93,7 +109,7 @@ void main() {
     expect(store.savedLanguageCounts({'id': store.courseId}), {'en': 1});
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.savedLanguageCounts({'id': store.courseId}), {'en': 1});
   });
   test('variable lesson counts validate and complete the final task', () async {
@@ -128,7 +144,7 @@ void main() {
     await store.setFontScale(1.25);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.fontScale, 1.25);
     await store.setFontScale(10);
     expect(store.fontScale, 1.4);
@@ -141,7 +157,7 @@ void main() {
     await store.setDarkTheme(true);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.darkTheme, isTrue);
   });
   tearDown(() async {
@@ -155,7 +171,7 @@ void main() {
       await store.choosePreferredLanguage('ar');
       await store.database!.close();
       store = LearningStore(directory);
-      await store.initialize();
+      await initializeFixture(store);
       expect(store.hasChosenLanguage, true);
       expect(store.preferredLanguage, 'ar');
       expect(store.appLanguage, 'ar');
@@ -178,7 +194,7 @@ void main() {
     expect(store.packNotice, contains('preference is saved'));
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.preferredLanguage, 'fr');
     expect(store.lessonLanguage, 'en');
   });
@@ -203,7 +219,7 @@ void main() {
     await store.answer(0, 0, 0);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.answers(0), [0]);
     expect(store.lessonProgress(0)['read'], true);
     expect(store.xp, 10);
@@ -240,7 +256,7 @@ void main() {
   test(
     'language conversion uses locally stored content and stable quiz answers',
     () async {
-      await store.savePack('fr', bundled: true);
+      await seedFixtureLanguage(store, 'fr');
       await store.readLesson(0);
       await store.answer(0, 0, 0);
       await store.changeLanguages('en', 'fr');
@@ -249,7 +265,7 @@ void main() {
       expect(store.answers(0), [0]);
       await store.database!.close();
       store = LearningStore(directory);
-      await store.initialize();
+      await initializeFixture(store);
       expect(store.lessonLanguage, 'fr');
       expect(store.lessons[0]['questions'].length, 3);
     },

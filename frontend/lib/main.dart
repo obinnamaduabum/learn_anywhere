@@ -4,6 +4,7 @@ import 'dart:io';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -2942,6 +2943,36 @@ String lessonReadingText(String body) => body.replaceAll(
   'Read all lessons in this part, then take the final quiz.',
 );
 
+/// Renders backend-authored formatting without inferring or rewriting content.
+class LessonMarkdownBody extends StatelessWidget {
+  const LessonMarkdownBody({super.key, required this.text});
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return MarkdownBody(
+      data: text,
+      sizedImageBuilder: (_) => const SizedBox.shrink(),
+      styleSheet: MarkdownStyleSheet.fromTheme(theme).copyWith(
+        p: theme.textTheme.bodyLarge?.copyWith(height: 1.65),
+        h1: theme.textTheme.headlineSmall?.copyWith(
+          fontWeight: FontWeight.w700,
+        ),
+        h2: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700),
+        h3: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+        strong: const TextStyle(fontWeight: FontWeight.w700),
+        blockSpacing: 20,
+        blockquoteDecoration: BoxDecoration(
+          color: theme.colorScheme.surfaceContainerHighest,
+          borderRadius: BorderRadius.circular(12),
+        ),
+        blockquotePadding: const EdgeInsets.all(16),
+      ),
+    );
+  }
+}
+
 class LessonReadingBody extends StatelessWidget {
   const LessonReadingBody({super.key, required this.text});
   final String text;
@@ -3163,6 +3194,12 @@ class _LessonPageState extends State<LessonPage> {
       final lessonBody = lessonReadingText(
         isExplained ? explainedText! : lesson['body'] as String,
       );
+      final markdown =
+          !isExplained &&
+              lesson['bodyMarkdown'] is String &&
+              (lesson['bodyMarkdown'] as String).trim().isNotEmpty
+          ? lesson['bodyMarkdown'] as String
+          : null;
       return Directionality(
         textDirection: widget.store.lessonLanguage == 'ar'
             ? TextDirection.rtl
@@ -3262,7 +3299,10 @@ class _LessonPageState extends State<LessonPage> {
                         ? '${tr(widget.store, 'Explained version')} · ${tr(widget.store, 'AI-generated')}'
                         : '${tr(widget.store, 'Explained version')} · ${widget.store.savedExplanations!['explanationVersion']}',
                   ),
-                LessonReadingBody(text: lessonBody),
+                if (markdown != null)
+                  LessonMarkdownBody(text: markdown)
+                else
+                  LessonReadingBody(text: lessonBody),
                 const SizedBox(height: 24),
                 Surface(
                   padding: const EdgeInsets.all(16),

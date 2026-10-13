@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:io';
 import 'dart:async';
 import 'dart:convert';
@@ -331,7 +332,7 @@ void main() {
       await tester.runAsync(() async {
         await store.database!.close();
         store = LearningStore(dir, baseUrl: 'http://127.0.0.1:9');
-        await store.initialize();
+        await initializeFixture(store);
         store.selectedCourseIds.add(store.courseId);
         final cachedPack =
             jsonDecode(jsonEncode(store.pack)) as Map<String, dynamic>;
@@ -780,7 +781,7 @@ void main() {
   setUp(() async {
     dir = await Directory.systemTemp.createTemp('learning-ui-');
     store = LearningStore(dir);
-    await store.initialize();
+    await initializeFixture(store);
     store.selectedCourseIds.add(store.courseId);
     store.hasChosenLanguage = true;
     store.hasCompletedLearnerProfile = true;
@@ -1099,7 +1100,7 @@ void main() {
   ) async {
     final store = SwipeLessonStore()..autoReadAloud = false;
     store.pack =
-        jsonDecode(File('assets/packs/en.json').readAsStringSync())
+        jsonDecode(File('test/fixtures/packs/en.json').readAsStringSync())
             as Map<String, dynamic>;
     store.lessonProgress(0)['readingFraction'] = 1.0;
     store.lessonProgress(1)['readingFraction'] = 1.0;
@@ -1234,7 +1235,7 @@ void main() {
       find.text('Understanding AI — Week 1: Recognising AI'),
       findsOneWidget,
     );
-    expect(store.courseId, 'digital-safety-v1');
+    expect(store.courseId, 'sample-course');
     expect(tester.takeException(), isNull);
     await tester.pumpWidget(const SizedBox());
   });

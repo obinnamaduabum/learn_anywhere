@@ -1,0 +1,698 @@
+# AI for Beginners — Draft review
+
+This original Learn Anywhere adaptation contains six substantial offline conceptual lessons, 18 four-option assessment questions, and six shorter simpler explained versions per language. It is a scoped adaptation of Microsoft’s AI for Beginners curriculum, not the full 12-week coding curriculum or an official Microsoft course.
+
+The selected scope covers symbolic reasoning, neural learning/evaluation, convolution and visual output types, text representations/context/generation, genetic algorithms/reinforcement learning/multi-agent coordination, and responsible workflow design. Full programming labs, tensor derivatives, advanced generative-image architectures (GANs/VAEs), detailed network architectures, and cloud deployment are excluded. No live AI, videos, account login, paid tool, or internet connection is required for the learning activities once a pack is downloaded.
+
+Audience assumption: beginner adults with limited mobile data. No actual community/country was supplied: examples are explicitly fictional and geographically neutral. Draft ID microsoft-ai-for-beginners; proposed unused version 1 has not been verified against the administrator database.
+
+Review status: AI-generated draft; human review pending. English was authored by Codex and reviewed structurally and conceptually by another Codex agent. Translations use Google’s public machine-translation endpoint and are awaiting independent bilingual review, especially Hausa, Yoruba, and Igbo. This is not an expert certification. Correct indices/IDs/option order are preserved. Reading-time values are recalculated from each translated body’s whitespace-delimited word count to meet the current backend’s validation; unlike other numerical metadata, they can differ by language.
+
+Source claims were reviewed from actual Microsoft teaching chapters, not just a syllabus. Original worked examples, activities, questions, and prose were created for this adaptation. The source licence is MIT; its notice is included. References are only in source metadata, avoiding duplicate references within lesson bodies. Source snapshots are hashed in source-evidence.json.
+
+The backend currently requires an existing administrator login/session to import drafts. No legitimate session was available, so nothing was imported or published. After reviewing, an administrator can POST the supplied import-request JSON to /api/v1/admin/drafts with a valid staff Bearer token. Publication is a separate approval action. No admin account was created and no authentication was bypassed.
+
+## Lesson 1: Choose an AI approach
+
+Describe a task, represent knowledge, and trace a small rule system.
+
+## Start with a task
+
+Artificial intelligence is a field concerned with computational methods for tasks such as recognising patterns, reasoning with knowledge, and choosing actions. A useful first question is not whether a computer seems clever. Ask what task it performs, what information it receives, and how someone can check its result. A system that sorts messages needs different evidence from one that identifies objects in photographs. Both may be described as AI, but the shared name tells us little about their quality.
+
+Consider an invented library that receives requests for books. A request contains a title, a membership number, and a preferred collection date. The desired output is a suggestion: reserve the book, ask for missing information, or send the request to a librarian. The task is bounded. A suggestion does not mean the system understands all literature or can handle every library problem. Success on one task is evidence about that task under the conditions tested.
+
+Describe inputs precisely. A title is text; availability is a stored fact; a collection date is a date. Describe the output just as precisely. A short message, a category, and a proposed action are different outputs. If we mix these together without a clear definition, we may celebrate a fluent message even when its reservation decision is wrong. Clear task descriptions let people discuss evidence rather than impressions.
+
+## Two ways to build behaviour
+
+One approach represents knowledge explicitly and applies rules to it. This is called **symbolic AI**. For example, a system may store the fact that a book is available and the rule that an available book can be reserved for an active member. Another approach learns numerical patterns from examples. A neural network might learn to identify book covers from labelled photographs. Its parameters are adjusted during training rather than every recognition rule being written by a person.
+
+These approaches can be combined. A learned model might estimate which title appears in a blurry photograph, while an explicit rule checks whether that title is available. The quality of the whole workflow depends on both stages. If the title estimate is wrong, a perfectly applied availability rule can still reserve the wrong book. Drawing the stages helps us locate errors and decide where a person should check the result.
+
+Learning from examples is called machine learning. It is one part of AI, not a label for every computer calculation. Multiplying a price by a quantity follows an explicit calculation. Learning to classify an unfamiliar image uses a different process. Neither approach is automatically superior. The suitable approach depends on the problem, the available knowledge, the examples, and the consequences of errors.
+
+## Facts, relations, and rules
+
+Knowledge representation makes relevant information usable by a system. Write three facts on paper: Book P is available; Member R is active; Member R requests Book P. Then write a rule: if a member is active and a requested book is available, suggest reserving that book. The rule has conditions and a conclusion. We can trace exactly which facts support the suggestion. This trace is more informative than simply saying that the computer chose it.
+
+A relation connects things. Member R requests Book P connects a member to a book. A small network of concepts can represent books, authors, and categories through labelled relationships. Such a network can help answer structured questions, but it does not automatically make every statement correct. Someone still needs to define the relations consistently, enter reliable facts, and decide what kinds of reasoning are allowed.
+
+A rule is also different from a fact about the current situation. Book P is available may change after someone borrows it. The reservation rule may remain the same. Keeping this distinction visible helps maintain a system: update changing facts without silently changing policy, and revise a policy explicitly when the rules change. A well-organised system needs both accurate information and appropriate reasoning.
+
+## Trace a worked example
+
+Add a second rule: if a member requests a book and availability is unknown, ask a librarian to check availability. Suppose Member R requests Book Q, and no availability fact for Book Q is stored. We should not invent the fact that it is available. The second rule describes a deliberate next step. Unknown information is a reason to ask, not permission to guess. This principle matters even in a tiny paper simulation.
+
+Now add a fact that Member R is inactive. The reservation rule does not apply because one condition fails. A person can inspect that condition and decide whether the stored membership status is accurate. An understandable trace does not guarantee a fair policy or correct data; it makes the reasoning inspectable. A system can consistently follow a bad rule, so consistency and suitability need separate review.
+
+Imagine two rules suggesting conflicting actions. One suggests reserving an available book; another blocks reservations for inactive members. If the facts say both active and inactive, the issue is not solved by accepting whichever rule is read first. The representation contains a conflict. Record the conflict and ask for a correction or a defined resolution policy. Maintaining a knowledge base includes handling missing and inconsistent information.
+
+## Test boundaries rather than personality
+
+A conversational answer can sound human while being mistaken. Fluency is useful for communication, but it is not a substitute for checking the task. In the library example, test whether suggestions agree with the facts and rules. Include missing availability, inactive membership, and conflicting facts. Such cases reveal limits that ordinary successful requests may hide. A narrow system should have a clear way to stop or ask for help.
+
+When examples are used for learning, ask whether they represent the situations in which the system will be used. Photographs taken in bright light may not support claims about dark photographs. Explicit rules have a different limitation: people may find it hard to state every relevant rule, or the rules may become difficult to maintain. Comparing limitations helps us choose a practical design without assuming that one method solves every problem.
+
+## Practise offline and recap
+
+On paper, invent five book requests using fictional names or letters. Write four facts and two rules for your library. For each request, show which conditions hold, which information is missing, and what suggestion follows. Include one request that can be answered, one that needs more information, and one with conflicting facts. Do not use real membership details. Your completed traces are the evidence of your reasoning.
+
+Next, choose a second task, such as recognising a handwritten title. Explain why examples might help where explicit spelling rules alone are insufficient. Draw a workflow that sends an uncertain recognition to a person before a reservation is made. Compare it with your rule-only workflow. Recap by naming the input, output, representation, and checking method. You have practised describing AI through observable behaviour, tracing symbolic reasoning, and recognising where learned patterns and human checks may be needed.
+
+## Review the representation
+
+Before finishing your library rules, ask another reader to trace one request using only your notes. If they need to invent a missing condition, revise the representation. Define whether available means on the shelf now or available on the requested collection date. Those meanings are different, and a rule needs the meaning relevant to its task. Add a dated fact if the task requires it. Also separate a suggestion from an action: suggesting a reservation is not the same as changing the reservation record. Write who performs the action after checking the suggestion. Finally, record what should happen when facts change between the suggestion and the action. A second availability check may be needed. These details make a bounded workflow easier to inspect. Your paper system is complete when its ordinary cases and limitations can be traced without guessing. Keep the definitions with your rules so a future reader can reproduce your decisions under the same assumptions.
+
+### Explained version
+
+Start with a clear task
+
+AI can recognise patterns, reason with rules, or choose actions. Say what information goes in and what result should come out. A tool that suggests a book reservation is only doing a narrow task. It does not prove that it understands every library problem.
+
+Rules and learning
+
+Symbolic AI stores facts and uses rules. A fact might say Book P is available. A rule might say: if the member is active and the requested book is available, suggest a reservation. Machine learning learns patterns from examples. It could help read a title from a photograph. A workflow can use both methods.
+
+Try the rule
+
+Write these facts: Member R is active; Book P is available; Member R requests Book P. The reservation rule applies because its conditions are met. Now change the request to Book Q, whose availability is unknown. Ask a librarian to check. Do not turn missing information into an invented fact.
+
+Check limits
+
+A clear reasoning trace helps you inspect a decision, but the facts or rules can still be wrong. Conflicting facts need correction. A fluent answer is not proof that a task was done correctly. Include unusual and missing-information cases in your tests.
+
+Paper activity
+
+Invent five requests, four facts, and two rules. Trace each suggestion. Include a successful request, missing information, and conflicting facts. Use fictional details. Then draw a workflow for recognising a handwritten title and checking it before making a reservation. Recap: state the input, output, method, and way to check the result.
+
+### Assessment review
+
+A book request has no availability information. What is the appropriate next step?
+
+1. Assume the book is available
+2. Ask for an availability check
+3. Reserve a different book silently
+4. Mark the member inactive
+
+Correct option: 2. Missing information does not establish availability. A defined check is safer than inventing a fact.
+
+Which task most directly illustrates learning from examples?
+
+1. Adding two book prices
+2. Applying a written membership rule
+3. Sorting dates chronologically
+4. Recognising book covers from labelled photographs
+
+Correct option: 4. A model can learn recognition patterns from labelled photographs. Fixed calculations and explicit rules do not by themselves learn from examples.
+
+A rule trace is understandable. What still requires review?
+
+1. Whether its facts and policy are appropriate
+2. Whether it sounds like a person
+3. Whether it uses the longest sentence
+4. Whether it avoids all stored facts
+
+Correct option: 1. Transparency makes reasoning inspectable; it does not guarantee accurate facts or suitable policy.
+
+### Source metadata
+
+- [Microsoft AI for Beginners — Introduction to AI; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md)
+- [Microsoft AI for Beginners — Knowledge representation and expert systems; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md)
+
+## Lesson 2: Understand neural learning
+
+Follow a tiny weighted model and distinguish learning from memorisation.
+
+## Turn examples into a learning task
+
+A neural network uses adjustable numerical **parameters** to transform inputs into outputs. Training changes those parameters using examples and an objective. The word neural describes an inspiration for the design; it does not mean an artificial network has a human brain, feelings, or understanding. To judge one, describe the task and inspect its errors. A useful model must perform on relevant new cases, not merely repeat results on cases used to adjust it.
+
+Imagine an invented sorting task for cardboard shapes. Each example records width and height, and a label says whether the shape belongs to a chosen category. Width and height are features: numerical properties supplied to the model. The label is the expected category for a training example. Features, labels, and predictions are different. If we accidentally supply the label as an input, apparent success may reflect that shortcut rather than learning the intended relationship.
+
+Choose units consistently. If some widths are measured in centimetres and others in millimetres, the numbers no longer have a shared interpretation. Record how measurements were obtained and what the labels mean. This preparation is part of the learning problem. A complicated network cannot repair a task whose categories are undefined. Labels may also contain mistakes, which affect what the training process rewards.
+
+## Calculate a small model
+
+A perceptron is a simple model for separating two categories. It combines features using weights and a decision threshold. For a paper exercise, define score as two times width plus height. Suggest category A when the score is at least ten. These numbers are invented for practice, not measurements from a real trained system. They let us observe how a weighted calculation changes a decision.
+
+For width three and height two, the score is eight, so the suggestion is outside category A. For width four and height three, the score is eleven, so the suggestion is category A. The width has greater influence because its weight is two while the height weight is one. Changing a weight changes the boundary between decisions. A threshold determines where the numerical score becomes a category.
+
+Now imagine that the expected label for the first shape is category A. The model has made an error. Training would use errors across examples to adjust weights according to a defined update method. In this activity, you can change the width weight from two to three and recompute both scores. You are exploring the effect of a parameter change, not reproducing a complete optimisation algorithm. Keep that distinction clear.
+
+## Layers and optimisation
+
+One simple separator cannot capture every pattern. A multilayer network places transformations in sequence. Outputs from one layer become inputs to another, with nonlinear transformations enabling richer relationships. More layers and parameters increase what a network can represent, but they also increase the need for appropriate data and evaluation. A larger network is not automatically a better choice for a particular task.
+
+A loss function gives a numerical measure of prediction error during learning. An optimisation method changes parameters to reduce that objective. Gradient-based methods use information about how the loss changes with parameters. Backpropagation efficiently computes needed derivatives through the layers. You do not need to calculate those derivatives here, but it helps to distinguish the objective, the calculation of gradients, and the parameter updates.
+
+The learning rate controls the size of update steps in common gradient methods. Too large a step can overshoot useful values; a very small step can make learning slow. Training involves choices such as the architecture, loss, update method, and stopping point. Software frameworks help perform tensor calculations and differentiation. They make implementation easier, but they cannot decide whether the task or examples are suitable without human judgment.
+
+## Training, validation, and a held-out test
+
+Training examples influence parameter updates. Validation examples help compare choices and decide when to stop. A held-out test is reserved for a later estimate of performance after those choices. If we repeatedly change the design to fit test results, that set is no longer an independent final check. Keeping roles separate helps avoid overly optimistic claims. It is particularly important when people try many designs.
+
+Suppose model X makes one error on twenty training shapes and eight errors on twenty validation shapes. Model Y makes three training errors and four validation errors. For this invented comparison, Y performs better on the validation shapes even though X looks better on its training examples. This is why training success alone is insufficient. The comparison supports a limited conclusion about these examples, not a universal claim about future shapes.
+
+Overfitting occurs when a model captures quirks or noise in training examples that do not transfer well. A common warning is training error becoming very low while validation error stays high or increases. Underfitting means the model fails to capture useful relationships even in its training data. More suitable examples, reduced complexity, stopping earlier, and regularisation can help with overfitting, depending on the situation.
+
+## Look beyond one score
+
+Different errors can have different consequences. A sorter that wrongly accepts a damaged item makes a different mistake from one that wrongly rejects a usable item. Count the two types separately. An overall percentage may conceal that one category is handled poorly. Inspect examples near the decision threshold and ask whether measurements, labels, or the task definition explain the difficulty.
+
+Generalisation also depends on conditions. If the training shapes were neatly drawn but future shapes are folded or measured differently, evaluation should include that difference. Do not claim suitability for situations absent from the checks. Write the conditions next to every reported result. A modest description of tested behaviour is more useful than an impressive number without context.
+
+Data leakage happens when information unavailable at real prediction time slips into training or evaluation. For example, a feature saying already accepted would reveal the outcome in a sorting task. Repeated copies of the same shape across training and test sets can also make the comparison too easy. Ask what the model will actually know when it must decide, then align the examples with that situation.
+
+## Practise the learning workflow
+
+Draw twelve fictional shapes or record twelve invented width-height pairs. Give each a category using a rule you write privately. Separate eight examples for exploring weights and four for checking your final choice. Begin with the score formula above. Record each prediction and disagreement. Change one weight or the threshold, then record what improved and what worsened. Do not repeatedly change your model after viewing the final check set.
+
+Keep a small experiment record: features and units; meaning of labels; initial parameters; change made; errors before and after; and limits of the final check. If you need to try another design, create a fresh check set or describe your previous check as exploratory. Paper experimentation makes the logic visible without pretending to train a production network. You can inspect tradeoffs and learn why some changes help one example while hurting another.
+
+For independent practice, compare two candidate parameter settings on the same validation examples. Choose one and explain your reason before opening a held-out example. A useful explanation mentions the evidence and the conditions, rather than saying that more parameters must be better. Recap by tracing features to a weighted score, an output, an error, and a possible parameter update. Then name the separate purposes of training, validation, and final testing.
+
+## Check a change deliberately
+
+When comparing settings, change only one feature of the experiment at a time where practical. If you alter labels, units, weights, and examples simultaneously, it becomes hard to explain why the score changed. Record your prediction before trying the change. For example, increasing the width weight should raise scores for shapes with positive width, but that may correct some decisions and create new errors. A useful experiment reports both effects. If two settings have the same total number of mistakes, compare the kinds of mistakes and your stated objective rather than inventing a winner. A small dataset may leave uncertainty. You can report that uncertainty and propose another relevant check. The purpose of the paper model is to make this reasoning visible; it is not to imitate every step of a software framework. Keep the measurement procedure consistent throughout the comparison.
+
+### Explained version
+
+A network learns numerical settings
+
+Features are the input measurements. Labels are the expected answers on training examples. Predictions are the model’s answers. Training changes numerical settings called parameters. A neural network is a calculation system; its name does not prove it thinks like a person.
+
+A paper example
+
+Use score = two times width plus height. Choose category A when the score is at least ten. Width three and height two gives eight. Width four and height three gives eleven. These are invented practice values. Changing a weight changes how much a feature affects the score. An error is a disagreement with the expected label.
+
+Learning and layers
+
+A loss measures error. Optimisation changes parameters to reduce loss. Backpropagation helps calculate how parameters affect loss in a multilayer network. Nonlinear layers allow more complex patterns. More complexity still needs suitable data and checks.
+
+Check new examples
+
+Training examples adjust the model. Validation examples help choose settings. Keep a separate final test after those choices. Low training error with much higher validation error may indicate overfitting: learning details that do not transfer. Record different kinds of errors and the conditions you tested. Do not supply future information as an input.
+
+Offline practice
+
+Invent twelve labelled width-height pairs. Use eight to explore the score and keep four aside. Record predictions, change one setting, and compare errors. Choose your final setting before checking the held-out examples. Keep your units, labels, changes, and limitations in your notes. Recap the path: features, score, prediction, error, update, and check on new examples.
+
+### Assessment review
+
+Model X has lower training error but higher validation error than model Y. What does this suggest?
+
+1. X must be better in every situation
+2. Validation examples should be deleted
+3. X may be overfitting its training examples
+4. Y cannot learn any patterns
+
+Correct option: 3. A gap between training and validation performance can indicate overfitting. Training accuracy alone is not decisive.
+
+What is a feature in the cardboard-shape example?
+
+1. The desired category
+2. The width measurement
+3. The final test score
+4. The human reviewer’s name
+
+Correct option: 2. Width is an input measurement. The desired category is a label, not an input feature for this task.
+
+When should a separate final test be used?
+
+1. To choose every weight repeatedly
+2. To replace all training examples
+3. To guarantee every future prediction
+4. After design choices for a later performance estimate
+
+Correct option: 4. A held-out test is most useful after design choices. Repeatedly tuning against it undermines its role as an independent check.
+
+### Source metadata
+
+- [Microsoft AI for Beginners — Perceptron; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/03-Perceptron/README.md)
+- [Microsoft AI for Beginners — Multilayer networks; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/04-OwnFramework/README.md)
+- [Microsoft AI for Beginners — Frameworks and overfitting; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md)
+
+## Lesson 3: Explain computer vision
+
+Represent a tiny image, compare visual tasks, and inspect transfer-learning limits.
+
+## Images are numerical inputs
+
+Computer vision applies computational methods to images. To understand a visual model, begin with the representation and task. A digital image can be viewed as a grid of **pixels**. A grayscale pixel records an intensity; a colour image commonly records several channel values at each location. Those numbers are inputs to a model. The model is not directly given the human experience of seeing an object and understanding its surroundings.
+
+Imagine a six-by-six grid on paper. Write zero for a dark square and one for a bright square. Place a bright vertical line in the second column. You have made a tiny numerical image. Move the line to the fifth column and the grid changes, although a person may still describe both pictures as a vertical line. This illustrates why recognising patterns across different positions is useful. A model needs a method suited to the structure of images.
+
+Real photographs contain many variations: lighting, size, angle, background, and blur. A useful evaluation considers the variations expected in use. A model checked only on clean centred drawings has not thereby been checked on blurry photographs. Keep the description of the test conditions separate from the model’s name. Familiar technical names do not remove the need for evidence about the actual situation.
+
+## Local patterns and convolution
+
+A convolution uses a small set of numerical weights across local image regions. Think of a small window moving over the grid. At each position, it combines nearby pixel values with those weights. The same weights are reused at different positions. This sharing helps detect a local pattern wherever it appears. It is a mathematical operation, not a human eye moving across the picture.
+
+A simple hand-designed filter may respond to certain changes in brightness, such as an edge. A convolutional neural network can learn filters during training. Early layers often respond to relatively local visual patterns; later transformations combine information to support the task. Avoid treating any one learned feature as a guaranteed human concept. It is enough to understand that local computations are combined into representations useful for prediction.
+
+The relation between patterns matters. Two edges can form different shapes depending on their arrangement. If a system relies on the background instead of the object, it may perform well in familiar photographs and fail elsewhere. Ask which variations were present in training and which were tested. Inspecting mistakes can reveal a shortcut that a single summary score hides.
+
+## Choose the output you need
+
+Image classification assigns a category to an image. If an invented picture shows a cup on a desk, the desired classification might be cup. This does not specify where the cup is. Object detection identifies objects and estimates locations, often using rectangular boxes. If there are two cups, a detector may produce two boxes and categories. These are different outputs and need different labels during training and checks during evaluation.
+
+Segmentation assigns categories to pixels or regions. Instead of drawing a rectangle around a cup, it can identify the pixels that belong to the cup. A rectangle may include background; a segmented region aims to follow the relevant shape. Neither output is universally better. If a task needs only an image category, detailed outlines may be unnecessary. If it needs a boundary, a category alone is insufficient.
+
+State your required output before selecting a model. Count objects, locate them, identify their categories, and outline them are distinct requirements. A system that reports cup correctly may still miss one cup or draw an inaccurate box. Evaluation should match the needed output. Separating these tasks prevents a vague claim of image recognition from hiding missing functionality.
+
+## Reuse learning carefully
+
+Transfer learning reuses knowledge represented in a model trained on one dataset for a related task. A common workflow begins with a pretrained network and adapts some components to new labelled examples. Early visual representations can sometimes be useful beyond the original categories. Reuse can reduce the amount of training needed, but it does not guarantee suitability for the new images or objectives.
+
+Imagine a network trained on many everyday objects and adapted to distinguish drawings of cups from drawings of bowls. Some learned visual patterns may help. Yet drawings differ from photographs, and the available categories may differ. The adapted model still needs relevant examples and independent evaluation. Pretraining is a starting point, not proof that the new task has been solved.
+
+Freezing a layer means leaving its parameters unchanged during adaptation. Fine-tuning updates selected parameters using the new task’s data. These choices affect flexibility and the risk of fitting a small dataset too closely. A paper activity cannot reproduce large-scale training, but you can reason about what is reused, what changes, and how to check the adapted result. That reasoning is valuable before anyone runs code.
+
+## Inspect errors and uncertainty
+
+Suppose a classifier is correct on eighteen of twenty bright drawings but only eleven of twenty dim drawings. These invented counts suggest checking lighting conditions rather than reporting just one combined number. Some differences may reflect the examples or labels, and small sample sizes limit conclusions. The next step is to investigate and design a better check. A score should guide questions, not end them.
+
+For detection, inspect missed objects, extra boxes, wrong categories, and inaccurate locations separately. For segmentation, inspect incorrect region boundaries and missed areas. A high classification score does not measure these location errors. The output type determines what correctness means. Write two concrete mistakes that would matter for your chosen task before you choose any success measure.
+
+Confidence scores are outputs of a model, not a universal guarantee of correctness. A confidently incorrect prediction is possible, especially under unfamiliar conditions. If the consequence of an error matters, define when a person reviews the result and what information they see. A review step should have a purpose, such as checking uncertain object counts, and a way to correct mistakes rather than simply accepting every suggestion.
+
+## Guided paper investigation
+
+Draw four tiny grids containing a vertical line, four containing a horizontal line, and four containing another shape. Change position and thickness deliberately. Write a description of the information each grid contains. Simulate a small moving window by inspecting neighbouring squares at different positions. You do not need to invent training mathematics: note where a repeated local pattern appears and how that pattern could contribute to a category.
+
+Now draw a larger picture with two cups and one bowl. Produce three answers: an image category description, rectangles locating each object, and an outline of each object’s region. Compare what each answer reveals and omits. If a reader needs to count cups, which answer provides the necessary information? If a reader needs a cup’s exact outline, what extra detail is required? Keep your annotated picture as evidence of the distinctions.
+
+For independent practice, design an evaluation plan for a fictional cup detector. Include changes in background, position, light, and overlap. Describe expected labels, two meaningful error types, and a human correction process. Explain what transfer learning might reuse and why you still need new checks. Recap the journey from pixels to local patterns to task-specific outputs. Your goal is to explain the workflow and its limits, not to claim that a paper exercise trains a deployed vision system.
+
+## Document your image labels
+
+For your cup picture, write a labelling guide that explains what counts as a cup and how to handle an object partly hidden by another. A detector’s expected box should follow the same rule for every example. If different people label the same object differently, apparent model errors may partly reflect inconsistent expectations. Compare two annotations and discuss the disagreement before counting errors. Do not change the expected label merely to make a prediction look right. Keep the task definition stable and record any deliberate revision. Also distinguish the visible part of an object from an estimated full outline. Your segmentation task needs to specify which is expected. These choices matter even when no training is performed. They show why task definition, representation, labels, and evaluation belong together. A clear annotation guide allows another person to inspect your paper experiment under the same conditions.
+
+### Explained version
+
+Pictures become numbers
+
+A digital picture is a grid of pixels. Each pixel holds brightness or colour values. A model uses these numbers. Different light, angles, backgrounds, and blur can affect its results.
+
+Local patterns
+
+A convolution combines nearby pixel values using a small set of weights. The same weights move across the picture. A convolutional network learns useful filters from examples and combines local information through layers. It may still learn an unhelpful shortcut, such as using the background.
+
+Three tasks
+
+Classification gives an image category. Detection gives categories and locations, often as boxes. Segmentation marks which pixels belong to a region. A picture category does not tell you an object’s outline. Choose the output needed for your task before judging success.
+
+Reusing a model
+
+Transfer learning adapts a pretrained model to a related task. Frozen layers keep their settings; fine-tuned layers change. Reuse can help, but new images and categories still need relevant evaluation.
+
+Check mistakes
+
+Look separately at missed objects, extra objects, wrong categories, and inaccurate locations. Check different lighting and backgrounds. A confidence score is not proof of correctness. Decide when a person checks and corrects the output.
+
+Paper activity
+
+Draw tiny grids with vertical and horizontal lines in different positions. Inspect repeated local patterns. Then draw two cups and a bowl. Give a category description, draw object boxes, and outline object regions. Compare the information each provides. Plan checks for a fictional detector, including light, position, and overlap. Recap: pixels, local patterns, output type, and suitable checks.
+
+### Assessment review
+
+A task needs the pixels belonging to a cup. Which output directly fits?
+
+1. A single picture category
+2. The file name
+3. A rectangle around the desk
+4. The pixels forming the cup region
+
+Correct option: 4. Segmentation identifies relevant pixels or regions. Classification and a surrounding rectangle do not provide the same outline.
+
+What makes convolution useful for local patterns at different positions?
+
+1. Reusing the same local weights across positions
+2. Keeping every image at one location
+3. Ignoring all neighbouring pixels
+4. Replacing evaluation with a model name
+
+Correct option: 1. Shared local weights can respond to a pattern across positions. They do not remove the need for evaluation.
+
+After adapting a pretrained network to new drawings, what is still needed?
+
+1. A promise of perfect accuracy
+2. Only the original model’s score
+3. Relevant evaluation on the new task
+4. Removing all new labels
+
+Correct option: 3. Transfer learning reuses representations, but suitability for new images and categories must be checked.
+
+### Source metadata
+
+- [Microsoft AI for Beginners — Convolutional networks; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/README.md)
+- [Microsoft AI for Beginners — Transfer learning; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/08-TransferLearning/README.md)
+- [Microsoft AI for Beginners — Object detection; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/11-ObjectDetection/README.md)
+- [Microsoft AI for Beginners — Segmentation; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/12-Segmentation/README.md)
+
+## Lesson 4: Represent and interpret language
+
+Compare word counts, embeddings, context, and generated text.
+
+## Define the language task
+
+Natural language processing applies computational methods to text or language. Some tasks assign categories to messages. Others identify names, translate sentences, or generate continuations. These tasks require different outputs and different ways of checking correctness. Before thinking about a powerful language model, write what the input is and what the answer should contain. A model that produces fluent sentences may still be unsuitable for extracting exact dates from a notice.
+
+Imagine an invented collection of short library messages. Some ask to renew a loan; others ask about opening hours. A classification task assigns renewal or hours to each message. A generation task writes a reply. An extraction task identifies a requested date. The same message can support all three tasks, but each output serves a different purpose. Separating them helps us build checks that match the actual need.
+
+Language varies with spelling, phrasing, context, and audience. Two people can request the same action using different words. A word can also have several meanings. Do not assume that success on one language, writing style, or message type transfers automatically to another. Evaluate the forms of language expected in the task. If you translate examples, check that important meanings, conditions, and negations remain intact.
+
+## Tokens and numerical representations
+
+A **token** is a unit used to represent text for processing. Depending on the method, tokens may be characters, words, or pieces of words. Tokenisation separates the text into those units. A vocabulary maps units to identifiers. The identifiers make computation possible, but an identifier itself is not human understanding. Its usefulness depends on the model and how the representation is learned or constructed.
+
+For a paper example, choose the vocabulary book, renew, and open. Count how often each appears in a message. The sentence renew book now gives counts of one for book, one for renew, and zero for open. A bag-of-words representation records these counts while discarding order. This can provide useful clues for some classification tasks, but it loses information about how the words relate.
+
+Compare the invented sentences the dog chased the child and the child chased the dog. Their word counts match, but their meanings differ because the roles are reversed. The example shows a limitation of ignoring order. A count-based method may still be useful for a bounded purpose, but the representation must preserve the distinctions the task needs. A convenient representation is not sufficient for every language problem.
+
+## Weighting and embeddings
+
+A common word appearing in almost every document may provide little help in distinguishing categories. TF-IDF is a weighting approach that considers a term’s frequency in a document and how widely it appears across a collection. Terms frequent in one document but uncommon across the collection can receive greater emphasis. The weights depend on the collection, so they are not universal measures of meaning or importance.
+
+An embedding represents a token as a vector of numbers. Learned embeddings can place tokens used in related contexts closer together in that numerical space. This is useful for modelling relationships, but closeness is not a guarantee that two words mean the same thing. Related words can have contrasting meanings, and patterns in the training text may encode unwanted associations. Inspect behaviour in context rather than treating the vector as a dictionary definition.
+
+Static word embeddings give a token the same representation across occurrences. Contextual representations can vary with surrounding text. Consider bank in a sentence about a river and bank in a sentence about savings. The surrounding words help distinguish the uses. A representation that includes context can support this distinction better than simply assigning the same category based on the isolated word.
+
+## Sequences and attention
+
+Recurrent networks process sequence information through successive steps, carrying a state from earlier steps. This allows order to influence later processing. Long sequences can still be challenging. Attention mechanisms provide a way to weight relationships between positions when computing representations or outputs. The weights allow relevant information from other positions to influence a prediction rather than forcing everything through one final summary.
+
+Transformers use attention as a central component. Self-attention relates positions within a sequence. Different positions can draw information from other positions in ways useful for the task. This is a numerical mechanism; it is not proof of human attention or conscious thought. Understanding its role helps explain why the context supplied to a model can affect its output.
+
+A model’s architecture does not guarantee correct interpretation. A sentence with a negation or exception can still be mishandled. If the task is to extract instructions from a notice, include cases such as return the book on Tuesday unless the library is closed. A system that recognises Tuesday but drops the exception may produce a harmful practical instruction. Test meaning-bearing details, not just familiar vocabulary.
+
+## Generated language and prompts
+
+A language model learns patterns that support predictions over text. Generating a continuation involves producing tokens conditioned on available context. A prompt supplies that context and task instructions. Giving examples in a prompt can illustrate a desired pattern of response, sometimes called few-shot prompting. This may help behaviour on a task, but it is not the same as verifying every generated claim against evidence.
+
+For an offline simulation, write a short fictional notice: the library opens at ten on Saturday; renewals require the membership number. Ask for a two-sentence reply based only on that notice. Write the reply yourself, then underline each claim and connect it to a supporting phrase. If your reply adds an unsupported closing time, remove it. You can practise grounding a response without using a live model.
+
+Fluent generated text can contain unsupported statements. A clear prompt can reduce ambiguity about the task, but it cannot guarantee truth. Checking a reply requires evidence, especially for dates, conditions, names, and actions. If a source does not answer a question, the useful response may be that the information is unavailable. Do not reward invented detail merely because it makes a response seem complete.
+
+## Practise representation and checking
+
+Write six fictional messages, with three about renewals and three about opening hours. Construct a small vocabulary and record word counts. Try assigning categories from the counts. Then add a message containing both subjects and one containing a negation. Describe what information the counts miss. Keep the messages and your explanations as evidence of the representation’s strengths and limitations.
+
+Next, write two sentences using the same ambiguous word with different meanings. Underline surrounding words that help a reader distinguish them. Explain why context matters. You do not need to produce real embedding numbers: the goal is to reason about what a useful representation must capture. Distinguish an analogy about closeness from a measurement you actually performed.
+
+For independent practice, create a source notice and three questions: one answered directly, one requiring a careful reading of a condition, and one not answered. Write replies and trace their claims to the notice. Compare classification, extraction, and generation outputs for one message. Recap the sequence from tokens to representations to context-sensitive processing and checked outputs. Good language workflows combine suitable representations with practical evidence checks, while recognising that convincing wording alone does not establish correctness.
+
+## Check meaning after translation
+
+If you create a version of your fictional notice in another language, compare the essential meaning sentence by sentence. Check the day, time, required information, and any exception separately. The requirement to bring a membership number should remain a requirement; the absence of a closing time should remain an absence. A translation can sound natural while changing one of these details. If you do not know both languages, label the translation as awaiting a bilingual check instead of claiming it has been verified. The same principle applies when a model summarises a long notice: shorter wording must still preserve conditions relevant to the task. Your check sheet can list each claim, its supporting phrase, and whether the reply preserves it. This is a practical way to review language outputs without assuming that fluent style is reliable evidence of preserved meaning.
+
+### Explained version
+
+Choose the language task
+
+Classifying a message, extracting a date, and writing a reply are different tasks. State which answer you need. Check the languages and writing styles that people will actually use.
+
+Represent words with numbers
+
+Tokens are text units: characters, words, or word pieces. A vocabulary gives them identifiers. Bag-of-words counts words but loses order. The dog chased the child and the child chased the dog have matching word counts but different meanings.
+
+Weights and context
+
+TF-IDF can emphasise words that are frequent in one document but less common across the collection. Embeddings represent tokens with numerical vectors. Related contexts can produce related vectors, but closeness does not mean identical meaning. Context helps distinguish bank beside a river from bank for savings.
+
+Attention and generation
+
+Sequence models use order. Attention weights relationships between positions. Transformers use attention to build context-sensitive representations. This is a computation, not proof of conscious thought. Language models predict text using context. A prompt states the task and can show examples, but it cannot guarantee factual accuracy.
+
+Check every claim
+
+Write a fictional notice: the library opens at ten on Saturday; renewals require a membership number. Write a reply and connect each claim to the notice. Do not invent a closing time. If the notice does not answer a question, say the information is unavailable.
+
+Offline activity
+
+Invent six messages about renewals and opening hours. Count selected words, then add a mixed-topic message and a negation. Note what counts miss. Write two uses of an ambiguous word and underline helpful context. Finally, make a notice and three questions: direct, conditional, and unanswered. Trace each reply to evidence. Recap tokens, representation, context, and checked output.
+
+### Assessment review
+
+Why do word counts fail to distinguish the dog chased the child from the child chased the dog?
+
+1. It preserves every grammatical relation
+2. It discards word order
+3. It always translates the sentence
+4. It has no numerical representation
+
+Correct option: 2. Word counts can match when roles reverse. Bag-of-words does not preserve the ordering needed to distinguish those meanings.
+
+A notice gives an opening time but no closing time. What should a grounded reply do?
+
+1. Invent a plausible closing time
+2. Use a confident tone instead of evidence
+3. Treat the opening time as the closing time
+4. Say the closing time is unavailable from the notice
+
+Correct option: 4. The notice does not support a closing time. Missing information should remain explicit rather than be filled with invention.
+
+What does attention provide in a language model?
+
+1. A numerical way to weight relationships between positions
+2. Proof of conscious awareness
+3. A guarantee that all claims are true
+4. A replacement for task-specific evaluation
+
+Correct option: 1. Attention is a computational mechanism for weighting context. It does not establish consciousness or truth.
+
+### Source metadata
+
+- [Microsoft AI for Beginners — Text representation; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/README.md)
+- [Microsoft AI for Beginners — Word embeddings; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/README.md)
+- [Microsoft AI for Beginners — Transformers; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/README.md)
+- [Microsoft AI for Beginners — Language models; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LangModels/README.md)
+
+## Lesson 5: Compare ways to improve decisions
+
+Simulate evolutionary search, reward-based learning, and cooperating agents.
+
+## Different problems need different feedback
+
+Not every AI method learns from a labelled answer for each input. Some search for a good solution among many candidates. Others learn from the consequences of actions. Some involve several interacting decision makers. Understanding the kind of feedback available helps distinguish these methods. Begin with what can change, what result matters, and how success is assessed. A method’s name is less useful than a clear description of that process.
+
+Imagine an invented puzzle: arrange three deliveries in an order that reduces travel. Each arrangement is a candidate solution. You can calculate a total travel distance and compare candidates. There may be no labelled perfect answer available beforehand. In another puzzle, a moving piece receives a reward when it reaches a destination. Here actions change a state over time. These examples involve different structures even though both seek a better outcome.
+
+A third puzzle has two moving pieces sharing a narrow passage. Each piece’s action affects the other. Independent decisions can produce blocking or conflict, so coordination becomes part of the task. Write down what each participant can observe and what rules govern interaction. Without that information, claims about cooperation are vague. A collection of components is not automatically a successful coordinated system.
+
+## Evolutionary search
+
+A genetic algorithm searches using a population of candidate solutions. A candidate is represented in a form that can be changed. A **fitness** function evaluates how suitable it is for the objective. Selection gives better-performing candidates a greater role in forming later populations. Variation may combine parts of candidates through crossover or alter parts through mutation. The terminology is inspired by evolution, but the method operates on representations and calculations.
+
+For a paper example, represent a route as an ordering of the letters A, B, and C. Invent travel distances between a start point and the three stops. Calculate the distance for A-B-C and B-A-C. Compare the totals using the same distance rules. A candidate with a lower total distance has better fitness if the objective is minimising travel. This conclusion depends on the invented objective and distances.
+
+Make a variation by exchanging two stops. This small mutation produces a new candidate that you can evaluate. If you combine candidate fragments, ensure the result remains a valid route with each stop appearing once. Representation matters: a sequence containing A twice and omitting C is not a valid solution to the stated task. An optimisation process must respect constraints as well as compare scores.
+
+Selection and variation do not guarantee the globally best solution. A search may settle on a good candidate or miss a better one. Compare the chosen route with alternatives that you can enumerate in this tiny puzzle. In a larger problem, exhaustive comparison may be impractical, so the quality of the evaluation and stopping criteria becomes important. Describe the result as the best found under the search performed, not automatically the best possible.
+
+## Learning from rewards
+
+Reinforcement learning involves an agent interacting with an environment. A state describes relevant aspects of the situation. The agent takes an action, the environment changes, and a reward provides feedback. A policy determines how actions are chosen. The goal commonly concerns accumulated reward over time, not merely the immediate reward for the next move. This distinguishes reward-based interaction from simply predicting a supplied label.
+
+Draw a small grid with a start square and a destination. Define actions as moving up, down, left, or right when permitted. Set a reward for reaching the destination and a small cost for each step. These invented rules define the learning problem. A short path can yield better total reward than a long path. Record the sequence of states, actions, and rewards rather than describing only the last square.
+
+Exploration tries actions to learn about their outcomes. Exploitation uses current knowledge to select promising actions. Always choosing the apparently best known move can miss an undiscovered route; always trying unrelated moves may waste effort. The balance depends on the environment and learning stage. In the paper puzzle, compare a familiar route with an alternative, then record what the new experience teaches you.
+
+A reward is a design choice, not a complete expression of everything people value. If a puzzle rewards speed but ignores collisions, a policy may optimise speed while causing collisions. Changing the reward or constraints changes the task. Think carefully about what the agent is encouraged to do. Good reward scores do not automatically imply a safe or useful outcome outside the defined environment.
+
+## Several interacting agents
+
+A multi-agent system contains several agents whose actions and interactions matter. They may cooperate, compete, or have partly shared goals. Each may observe only part of the situation. Communication can help coordination but also introduces choices about what to send, when to send it, and how to handle delays or conflicting messages. The collective behaviour depends on these interaction rules.
+
+In the shared-passage puzzle, assign one paper marker to each of two agents. Define a rule that an agent must wait when the passage is occupied. Define who goes first when both arrive together. Now trace a case where neither can see the other’s approach until the last moment. What signal or shared rule prevents both entering? Your design should specify the information needed, rather than assuming that cooperation emerges automatically.
+
+Compare a centrally assigned turn order with a rule negotiated by the agents. A central plan can be easy to inspect but requires access to relevant information. Local rules can allow independent action but must handle conflicts. Neither choice is universally correct. Ask what happens if an agent fails, a message arrives late, or the observation is incomplete. Record the resulting behaviour and a recovery step.
+
+## Match method to evidence
+
+Evolutionary search evaluates candidate solutions. Reinforcement learning uses action consequences and rewards over time. Multi-agent reasoning considers interactions among agents. Neural networks can be components within these methods, so the categories are not mutually exclusive. For example, a policy may use a neural representation. Identify the learning feedback and interaction structure before deciding which description is most useful.
+
+A simulation is evidence about its own rules. A successful paper route does not demonstrate successful delivery planning in a real town, where distances, delays, safety, and changing requirements matter. Keep invented exercises clearly separate from observed performance. The goal is to practise the structure of a method and recognise what further evidence would be required for a practical application.
+
+## Complete three offline experiments
+
+First, write distances for three fictional stops, evaluate three candidate orders, and create one valid mutation. Record the best candidate you actually checked and one limitation of your search. Second, draw the reward grid, trace two paths, and calculate their total rewards. Explain how changing a step cost would affect the comparison. Third, trace two agents using a shared passage under a clear turn-taking rule.
+
+For independent practice, choose one puzzle and change a condition: a blocked square, a new route constraint, or a delayed signal. Predict the effect before tracing the result. Keep your prediction, trace, and revised explanation together. Recap by naming the representation, feedback, objective, and constraints. You have compared three ways to improve decisions while showing why an attractive score needs a suitable objective and a realistic checking environment.
+
+## Compare objectives explicitly
+
+Return to your three-stop route and add a second objective, such as respecting a required visit order. The shortest route may violate that order. Decide whether the requirement is a strict constraint or a preference with a penalty, and explain the choice. Two people can prefer different candidates because they are solving different objectives. Clarify that difference before arguing about the search method. In the reward grid, similarly distinguish a prohibited move from a move that is merely costly. An agent should not be allowed to violate a strict rule just because another reward compensates for it. These paper distinctions help you inspect optimisation claims. Write both the numerical score and the constraint status for each candidate. Then explain which candidates are eligible and how you compare the eligible ones. A high score without a suitable objective and constraints is incomplete evidence.
+
+### Explained version
+
+Identify the feedback
+
+Some methods compare candidate solutions. Others learn from rewards after actions. Several agents may also interact. Ask what can change and how success is measured.
+
+Evolutionary search
+
+A genetic algorithm keeps candidate solutions, evaluates fitness, selects useful candidates, and creates variations. Crossover combines parts; mutation changes parts. A route must still contain each required stop once. The best route you checked is not necessarily the best possible route.
+
+Reward-based learning
+
+In reinforcement learning, an agent observes a state, takes an action, and receives a reward as the environment changes. A policy chooses actions. Total reward over several steps can matter more than immediate reward. Exploration tries possibilities; exploitation uses what is already known. A reward for speed alone may ignore collisions, so the objective needs care.
+
+Interacting agents
+
+Several agents can cooperate or compete. Their observations and communication affect results. Two markers sharing a narrow passage need rules for waiting and deciding who goes first. Test missing information and delayed signals instead of assuming coordination works.
+
+Offline experiments
+
+Invent distances for three stops. Compare three orders and one valid mutation. Draw a grid, assign a destination reward and a step cost, then compare two paths. Finally, trace two markers sharing a passage. State their turn-taking rule. Change a constraint or signal and predict what happens. Keep traces as evidence about these invented puzzles, not real-world performance. Recap the representation, feedback, objective, and constraints for each method.
+
+### Assessment review
+
+A route candidate repeats stop A and omits stop C. What should be checked first?
+
+1. Whether its representation satisfies the route constraints
+2. Whether its name sounds advanced
+3. Whether it is written in a longer sentence
+4. Whether it uses a neural network
+
+Correct option: 1. A candidate must satisfy the stated constraints. A low score on an invalid route does not solve the task.
+
+Why can an agent maximise speed yet produce undesirable behaviour?
+
+1. Rewards never influence behaviour
+2. It has no available actions
+3. The reward may omit collision consequences
+4. Every fast action is necessarily safe
+
+Correct option: 3. A reward can leave out important consequences. Optimising that reward does not guarantee safety.
+
+Two agents reach a shared passage together. What supports reliable coordination?
+
+1. Assuming they know every hidden fact
+2. A clear rule for taking turns, with the information the agents need
+3. Ignoring all delayed signals
+4. Rewarding each for entering first
+
+Correct option: 2. Coordination needs rules and information for conflicts. Independent pressure to enter first can worsen the conflict.
+
+### Source metadata
+
+- [Microsoft AI for Beginners — Genetic algorithms; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/21-GeneticAlgorithms/README.md)
+- [Microsoft AI for Beginners — Deep reinforcement learning; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/22-DeepRL/README.md)
+- [Microsoft AI for Beginners — Multi-agent systems; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/23-MultiagentSystems/README.md)
+
+## Lesson 6: Design a responsible AI workflow
+
+Combine the course ideas into a testable paper project with safeguards.
+
+## Responsibility begins with the task
+
+An AI workflow includes more than a model. People choose the problem, collect examples, define outputs, inspect results, and act on suggestions. Responsible design considers all of these stages. A useful question is who benefits, who could be affected by mistakes, and who can correct the result. A system that performs a narrow prediction well may still be unsuitable for a particular decision. Technical performance and responsible use require related but distinct evidence.
+
+For a final project, imagine an invented library message assistant. It suggests whether a message concerns a renewal, opening hours, or another issue. A librarian checks the suggestion and writes the actual reply. The assistant is not allowed to change accounts or send messages on its own. This limited purpose gives us a practical place to apply representation, evaluation, transparency, and human correction. All messages used in the activity will be fictional.
+
+Write the purpose in one sentence. Then list what the assistant is allowed to do and what remains a human decision. A clear boundary helps prevent people from treating a category suggestion as a verified answer. If the assistant is uncertain or the message concerns something outside the defined categories, the workflow should send it to a person. The limit is part of the design, not an embarrassment to hide.
+
+## Fairness and inclusion
+
+Fairness involves investigating how a system’s behaviour affects different people and situations. Patterns in training examples can reproduce or amplify unwanted biases. A single overall accuracy score can conceal poor performance for a particular language style or group of messages. Begin by considering relevant variations and whether they are represented in the examples and checks. Do not invent demographic conclusions from a small fictional exercise.
+
+In the library project, compare a short message with a longer message expressing the same request. Include a spelling variation and a message using an indirect question. Does the workflow handle the meanings consistently? If one wording is often misclassified, record that limitation and define a correction. For a real deployment, meaningful fairness evaluation would require appropriate evidence and involvement from affected people, beyond this paper simulation.
+
+Inclusion also concerns whether people can use the workflow. A person should not be forced to have fast internet or perfect typing to ask a library question. An offline paper exercise avoids those requirements for learning, but a deployed product would need its own accessibility review. Consider alternate communication channels and understandable replies. An efficient tool is less useful if it excludes the people it is meant to serve.
+
+## Reliability and safety
+
+Reliability means checking performance under relevant conditions and recognising failures. Safety involves considering consequences and reducing the chance or severity of harm. In a low-stakes classification task, a mistake may merely delay a reply. If the same design were used for an urgent or sensitive decision, consequences could be much greater. Do not transfer a workflow to a new domain without reviewing its requirements and evidence.
+
+Create two error categories for the library assistant: assigning the wrong subject and failing to recognise that a message lies outside its scope. Count both in your paper test. A workflow that confidently assigns every message to a familiar category may handle unusual requests badly. Define a fallback such as manual reading when the task does not fit. A fallback should have an actual action and responsible person, not just a vague warning.
+
+Human review also needs design. Show the reviewer the original message, suggested category, and any uncertainty or scope limitation. Allow the category to be corrected before a reply is written. A person who cannot see the original message cannot meaningfully judge the suggestion. Avoid a review process that merely encourages clicking accept. Useful oversight gives people information, authority, and time to investigate relevant mistakes.
+
+## Privacy and security
+
+Privacy asks what information is collected, why it is needed, and how it is used. Security asks how the information and system are protected against unauthorised access or alteration. These concerns apply even when a model is accurate. For the paper project, use invented messages and no real membership numbers, names, or contact details. You can learn the workflow without collecting someone else’s personal information.
+
+For a hypothetical real system, describe the minimum information required for each stage. A subject classifier may not need a complete account history. A staff member handling a renewal may need some account information, but that does not mean every model input should include it. Separate purposes and permissions. Reducing unnecessary collection makes the workflow easier to reason about and lowers avoidable exposure.
+
+Keep source records and model outputs distinct. A suggestion about a message should not silently replace the message itself. If someone corrects a category, record that correction in an appropriate way without exposing personal details to unrelated users. A privacy plan needs operational rules about access, retention, and correction; it is not completed by declaring the model trustworthy. This exercise creates a design sketch rather than a legal or security certification.
+
+## Transparency and accountability
+
+Transparency includes making clear when AI is involved and explaining the role it plays. A notice could say that a category suggestion helps a librarian organise messages and that the librarian writes the response. The notice should describe the actual workflow. Do not imply that a person has verified a reply if no review occurred. Do not imply that a model performed a task when the result came from an explicit rule or a human.
+
+**Accountability** means assigning responsibility for decisions and remedies. Name a role in the fictional project, such as the librarian on duty, that can correct a misrouted message. Define how a user can request a correction and how recurring failures are investigated. Saying the AI did it does not resolve responsibility. A system should have a practical path from an error report to a person who can act.
+
+Interpretability can help people inspect why a model behaves as it does, but an understandable explanation is not proof that the outcome is fair or accurate. In a rule system, show which facts and rules led to the suggestion. In a learned system, record the inputs, intended task, and observed limitations without inventing an explanation of internal reasoning. Communicate what you know and what remains uncertain.
+
+## Build your evidence package
+
+Recap your project with a one-page design sheet. Include purpose, input, output, chosen approach, and a baseline method for comparison. A baseline might be manual sorting using written category definitions. Explain why your proposed approach fits the task. If you choose a learned model, identify the needed labelled examples and a separate check. If you choose explicit rules, list the facts and conditions they use.
+
+Practise with eight fictional messages. Include direct requests, spelling variation, mixed topics, and a message outside the categories. Predict the output, apply your proposed paper method, and record disagreements with your intended labels. Keep the original messages and category definitions alongside the results. This gives a reader enough information to inspect the exercise instead of accepting an unsupported success claim.
+
+Plan your safeguards. Write one fairness or inclusion concern, one privacy choice, one meaningful error, and one fallback action. Identify who reviews suggestions and who handles correction requests. Finally, demonstrate the workflow by walking another person, or your own written narration, through two messages: an ordinary case and a difficult case. Show where the suggestion is checked and how a mistake can be corrected.
+
+Finish by stating what your evidence does and does not establish. It demonstrates your understanding of a small designed workflow under invented conditions. It does not establish production accuracy, legal compliance, or readiness for every language and audience. Your next step could be gathering appropriate real-world requirements with permission and reviewing them with relevant people. Keep the project sheet, traces, limitations, and safeguard plan together as the completed offline task.
+
+## Review before extending the task
+
+If you later add automatic replies to the library assistant, treat that as a new responsibility rather than a small wording change. Generated replies introduce claims that must be checked against reliable notices and account information. Decide what information may be included, which claims a librarian verifies, and what happens when the source is incomplete. If you add another language, review language coverage and the preservation of conditions, not just whether a translated screen appears. Extend your evidence package with the changed purpose, new examples, and additional safeguards. Earlier paper success covers only the earlier task. This habit keeps expanding systems connected to reviewable evidence. You can propose an extension in your project sheet, but label it as a proposal until its requirements and checks have been completed.
+
+### Explained version
+
+Responsibility covers the whole workflow
+
+People choose the task, examples, checks, and actions. Good prediction alone does not make every use suitable. Ask who benefits, who may be affected by errors, and who can correct them.
+
+A fictional project
+
+Design a library message assistant that suggests renewal, opening hours, or another issue. A librarian reads the original message, checks the category, and writes the reply. The assistant does not change accounts or send messages. Unfamiliar requests go to a person.
+
+Six concerns
+
+Fairness: check meaningful differences in messages, including wording and spelling. Inclusion: consider who can use the workflow and how they can ask for help. Reliability and safety: record errors and their consequences. Privacy and security: use only needed information and protect access. Transparency: describe the AI’s actual role. Accountability: assign a person who can correct mistakes and investigate recurring failures.
+
+Useful human review
+
+Give the reviewer the original message and suggestion, and allow correction. Do not claim a review happened when it did not. A clear explanation helps inspection but does not prove accuracy or fairness.
+
+Your final offline task
+
+Write a one-page sheet with purpose, inputs, outputs, approach, and a simple comparison method. Invent eight messages, including spelling variation, mixed topics, and an out-of-scope request. Predict and trace categories. Record errors and limitations. Add a privacy choice, an inclusion concern, a fallback, and a responsible reviewer role. Demonstrate one ordinary case and one difficult case, showing how correction works. Keep the sheet and traces as evidence of your understanding. This paper project does not certify real-world readiness.
+
+### Assessment review
+
+Which review step gives the librarian useful oversight?
+
+1. Accepting every category automatically
+2. Reading only the model’s score
+3. Seeing the original message and being able to correct the suggestion
+4. Hiding messages outside the categories
+
+Correct option: 3. A reviewer needs the original information and authority to correct a result. A ceremonial acceptance step is insufficient.
+
+What should be used in this project that requires no internet connection?
+
+1. Real contact details copied without permission
+2. Fictional messages without personal membership details
+3. Every available account history
+4. Only messages that guarantee perfect results
+
+Correct option: 2. Fictional messages support learning without unnecessary personal data. They still need varied and difficult cases.
+
+What does successful paper testing establish?
+
+1. Understanding of the designed workflow under invented conditions
+2. Legal compliance for every deployment
+3. Perfect accuracy in all languages
+4. That no future review is needed
+
+Correct option: 1. The evidence supports the paper exercise’s limited scope. It does not establish deployment readiness or universal accuracy.
+
+### Source metadata
+
+- [Microsoft AI for Beginners — Ethical and responsible AI; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/7-Ethics/README.md)
+- [Microsoft AI for Beginners — Frameworks and overfitting; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md)
+- [Microsoft AI for Beginners — Introduction to AI; original Learn Anywhere activities](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md)

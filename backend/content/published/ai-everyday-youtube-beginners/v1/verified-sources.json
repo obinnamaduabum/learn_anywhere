@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Google for Developers — What is Machine Learning?",
+    "url": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml",
+    "supportedFacts": "ML uses data to train models; supervised, unsupervised and generative learning; numeric prediction versus content generation."
+  },
+  {
+    "name": "Google for Developers — Introduction to Large Language Models",
+    "url": "https://developers.google.com/machine-learning/crash-course/llm",
+    "supportedFacts": "Language models learn text patterns and predict token sequences; tokens need not equal complete words."
+  },
+  {
+    "name": "Microsoft Learn — Prompt engineering techniques",
+    "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/prompt-engineering",
+    "supportedFacts": "Prompt components include instructions, source content, context and examples; useful for specifying and reviewing tasks."
+  },
+  {
+    "name": "OpenAI Help Center — What is ChatGPT?",
+    "url": "https://help.openai.com/en/articles/6783457-what-is-chatgpt",
+    "supportedFacts": "Conversational assistant context and the need to check inaccurate or misleading responses. Outdated model-generation, cutoff and internet-access statements are not used."
+  },
+  {
+    "name": "Google — Gemini Apps Privacy Hub",
+    "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+    "supportedFacts": "Data handling is service-specific; practice uses fictional data and makes no fixed claims about account settings."
+  },
+  {
+    "name": "Google — Create a notebook in Gemini Notebook",
+    "url": "https://support.google.com/gemininotebook/answer/16206563?hl=en",
+    "supportedFacts": "Current notebook documentation includes supplied sources, questions about sources and generated notes/study-guide outputs. Playlist uses the older Notebook LM topic name."
+  },
+  {
+    "name": "Microsoft Learn — Text to speech overview",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech",
+    "supportedFacts": "Text-to-speech converts written text to synthesized speech. The course does not require Azure accounts or paid resources."
+  },
+  {
+    "name": "UNESCO — Recommendation on the Ethics of Artificial Intelligence",
+    "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+    "supportedFacts": "Human oversight, transparency and fairness as AI ethics principles; no expert certification or legal determination claimed."
+  },
+  {
+    "name": "Suno — Does Suno own the music I make?",
+    "url": "https://help.suno.com/en/articles/2416769",
+    "supportedFacts": "The provider distinguishes conditions according to the creation-time subscription plan. This supports checking actual terms, not a general copyright or ownership conclusion."
+  }
+]

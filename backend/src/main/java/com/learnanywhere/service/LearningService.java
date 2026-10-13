@@ -230,6 +230,13 @@ public class LearningService implements ILearningService {
           || !l.path("questions").isArray()
           || l.path("questions").isEmpty())
         throw invalid("Lesson needs ordered ID, title, accessible text and quiz");
+      if (l.has("bodyMarkdown")) {
+        JsonNode markdown = l.get("bodyMarkdown");
+        if (!markdown.isTextual() || StringUtils.isBlank(markdown.asText())
+            || markdown.asText().length() > 100000
+            || markdown.asText().matches("(?s).*<[^>]+>.*"))
+          throw invalid("bodyMarkdown must be nonempty Markdown text up to 100000 characters without HTML");
+      }
       String format = l.path("format").asText("text");
       if (!Arrays.asList("text", "video", "slides").contains(format)) throw invalid("Unsupported format");
       if (format.equals("slides") && (!l.path("slides").isArray() || l.path("slides").isEmpty()))
@@ -269,10 +276,8 @@ public class LearningService implements ILearningService {
           || !event
               .checklist()
               .containsAll(
-                  pack.path("id").asText().equals("digital-safety-v1")
-                      ? Arrays.asList("screen_lock", "unique_password", "mfa", "backup")
-                      : Arrays.asList("recap", "practice", "plan", "demonstrate")))
-        throw invalid("Complete safety checklist");
+                  Arrays.asList("recap", "practice", "plan", "demonstrate")))
+        throw invalid("Complete practical task checklist");
       state.put("taskComplete", true);
       rewards.put("final-task", 100);
       return;

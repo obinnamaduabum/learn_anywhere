@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
@@ -29,7 +30,7 @@ void main() {
       baseUrl: 'http://127.0.0.1:9',
       identity: identity,
     );
-    await store.initialize();
+    await initializeFixture(store);
     await store.readLesson(0);
     await store.answer(0, 0, 0);
     expect(store.pendingEvents, 2);
@@ -40,7 +41,7 @@ void main() {
       baseUrl: 'http://127.0.0.1:9',
       identity: identity,
     );
-    await store.initialize();
+    await initializeFixture(store);
     expect(await store.database!.query('outbox'), queued);
     await store.sync();
     expect(store.syncError, isNotNull);
@@ -57,7 +58,7 @@ void main() {
       final dir = await Directory.systemTemp.createTemp('learning-live-');
       final identity = MemoryIdentity();
       final store = LearningStore(dir, baseUrl: liveApi, identity: identity);
-      await store.initialize();
+      await initializeFixture(store);
       await store.refreshCatalog();
       expect(store.catalogError, isNull);
       expect(store.catalog, isNotEmpty);
@@ -82,7 +83,7 @@ void main() {
       expect(store.syncError, isNull);
       expect(store.confirmedPoints, 80);
       final digital = store.catalog.firstWhere(
-        (c) => c['id'] == 'digital-safety-v1',
+        (c) => c['id'] == 'sample-course',
       );
       final budgeting = store.catalog.firstWhere(
         (c) => c['id'] == 'everyday-budgeting-v1',

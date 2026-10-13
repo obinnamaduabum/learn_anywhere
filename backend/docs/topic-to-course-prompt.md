@@ -47,6 +47,7 @@ Each lesson must contain:
 - subtitle: nonempty accessible string explaining what the learner will do;
 - body: nonempty plain-text string, 1,000–3,000 whitespace-delimited words of substantive explanation, with an estimated 5–15 minutes of reading; short paragraphs separated by \n\n and meaningful headings;
 - format: exact string "text";
+- bodyMarkdown: the same complete wording as body, structured with `##` section headings, short paragraphs separated by blank lines, `**bold**` key terms, bullets for parallel concepts and numbered lists for steps. Use short blockquotes for practical notes only. Avoid HTML, images, tables, embedded media, links, excessive bold and quiz answers. The frontend only renders this backend-authored structure; it must not infer headings from sentences. Keep body as matching plain text for narration and older clients;
 - minutes: integer equal to the body word count divided by 200 and rounded up (5–15); exclude the time spent doing practice activities and quizzes;
 - takeaways: three concise nonempty strings;
 - sourceName: nonempty string naming the credible supplied source/publisher and distinguishing original exercises;

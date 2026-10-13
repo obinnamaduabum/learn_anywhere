@@ -226,3 +226,8 @@ Use HTTPS when sending admin credentials outside this authorized local demo. Ema
 ### Independent explanation versions
 
 Flyway V10 adds explanation_versions, tied to the exact course/version/language pack. Admin sessions can save drafts with POST /api/v1/admin/explanations, inspect GET /api/v1/admin/explanations/{id}, and explicitly approve with POST /api/v1/admin/explanations/{id}/approve plus reviewer. Drafts are invisible to public downloads. GET /api/v1/explanations/{course}/{language}?version=N returns the latest approved explanation version, falling back to legacy embedded explanations. Existing course versions and progress stay unchanged. Validation requires one ordered nonempty text per lesson, maximum 6000 characters.
+
+
+### Lesson presentation contract
+
+Lessons retain plain-text `body` for narration and older clients. New authored/generated lessons may include `bodyMarkdown` with backend-authored headings, paragraph breaks, bold key terms, lists and short notes. Markdown is optional for backward compatibility, validated as nonempty text (maximum 100,000 characters) without HTML. New AI drafts are prompted to include it. Published pack bytes remain immutable; formatting existing content requires a new reviewed pack version. Flutter renders `bodyMarkdown` when present and falls back to `body` for older packs. Narration continues to use plain `body`.

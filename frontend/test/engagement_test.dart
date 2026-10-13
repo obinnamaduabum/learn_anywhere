@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -16,7 +17,7 @@ void main() {
   setUp(() async {
     directory = await Directory.systemTemp.createTemp('engagement-');
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     store.catalog = [
       {
         'id': 'sample',
@@ -58,7 +59,7 @@ void main() {
     await store.saveReadingPosition(1, .45);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.learnerAge, 25);
     expect(store.learnerGender, 'Non-binary');
     expect(store.hasCompletedLearnerProfile, true);
@@ -82,7 +83,7 @@ void main() {
     expect(store.pendingEvents, initialEvents);
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.isBookmarked(0), true);
     await store.toggleBookmark(0);
     expect(store.isBookmarked(0), false);
@@ -91,14 +92,14 @@ void main() {
   test(
     'Discover course bookmarks persist independently of lesson bookmarks',
     () async {
-      await store.toggleCourseBookmark('digital-safety-v1');
-      expect(store.bookmarkedCourses, contains('digital-safety-v1'));
+      await store.toggleCourseBookmark('sample-course');
+      expect(store.bookmarkedCourses, contains('sample-course'));
       expect(store.isBookmarked(0), false);
       await store.database!.close();
       store = LearningStore(directory);
-      await store.initialize();
-      expect(store.bookmarkedCourses, contains('digital-safety-v1'));
-      await store.toggleCourseBookmark('digital-safety-v1');
+      await initializeFixture(store);
+      expect(store.bookmarkedCourses, contains('sample-course'));
+      await store.toggleCourseBookmark('sample-course');
       expect(store.bookmarkedCourses, isEmpty);
     },
   );
@@ -327,7 +328,7 @@ void main() {
     );
     await store.database!.close();
     store = LearningStore(directory);
-    await store.initialize();
+    await initializeFixture(store);
     expect(store.learnerDateOfBirth, DateTime(2000, 2, 29));
     await expectLater(
       store.saveLearnerProfile(

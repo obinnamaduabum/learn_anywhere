@@ -144,28 +144,19 @@ class LearningStore extends ChangeNotifier {
     return result;
   }
 
-  String courseId = 'digital-safety-v1';
+  String courseId = '';
   int courseVersion = 1;
-  String courseTitle = 'Digital Safety';
+  String courseTitle = '';
   final Map<String, dynamic> courseStates = {};
   final Map<String, int> _packSizes = {};
   String get courseKey => '$courseId:$courseVersion';
-  List<String> get taskLabels => courseId == 'digital-safety-v1'
-      ? [
-          'Set a screen lock on my device',
-          'Use a unique password',
-          'Turn on multi-factor authentication',
-          'Back up important files',
-        ]
-      : [
-          'Explain the main ideas in my own words',
-          'Practise one skill from this course',
-          'Write down steps to use the skill again',
-          'Demonstrate what I learned',
-        ];
-  List<String> get taskKeys => courseId == 'digital-safety-v1'
-      ? ['screen_lock', 'unique_password', 'mfa', 'backup']
-      : ['recap', 'practice', 'plan', 'demonstrate'];
+  List<String> get taskLabels => [
+    'Explain the main ideas in my own words',
+    'Practise one skill from this course',
+    'Write down steps to use the skill again',
+    'Demonstrate what I learned',
+  ];
+  List<String> get taskKeys => ['recap', 'practice', 'plan', 'demonstrate'];
   String appLanguage = 'en';
   String preferredLanguage = 'en';
   bool hasChosenLanguage = false;
@@ -540,9 +531,9 @@ class LearningStore extends ChangeNotifier {
         selectedCourseIds.addAll(
           (data['selectedCourseIds'] as List? ?? []).cast<String>(),
         );
-        courseId = data['courseId'] as String? ?? 'digital-safety-v1';
+        courseId = data['courseId'] as String? ?? '';
         courseVersion = data['courseVersion'] as int? ?? 1;
-        courseTitle = data['courseTitle'] as String? ?? 'Digital Safety';
+        courseTitle = data['courseTitle'] as String? ?? '';
         courseStates.addAll(
           data['courseStates'] as Map<String, dynamic>? ?? {},
         );
@@ -615,6 +606,7 @@ class LearningStore extends ChangeNotifier {
       deviceId =
           '${DateTime.now().microsecondsSinceEpoch}-${Random.secure().nextInt(1 << 32)}';
     }
+    downloaded.clear();
     downloaded.addAll(
       (await database!.query(
         'packs',
@@ -633,31 +625,62 @@ class LearningStore extends ChangeNotifier {
     }
     if (!languages.containsKey(appLanguage)) appLanguage = 'en';
     if (!lessonLanguages.containsKey(lessonLanguage)) lessonLanguage = 'en';
-    // The small English starter pack ships with the app and is ready offline.
-    if (downloaded.isEmpty) {
-      if (courseId != 'digital-safety-v1') {
-        courseStates[courseKey] = {
-          'progress': progress.map((k, v) => MapEntry('$k', v)),
-          'taskComplete': taskComplete,
-          'safetyChecklist': safetyChecklist.toList(),
-        };
-        courseId = 'digital-safety-v1';
-        courseVersion = 1;
-        courseTitle = 'Digital Safety';
-        progress.clear();
-        safetyChecklist.clear();
-        taskComplete = false;
+    // Remove the retired bundled demo without touching genuine offline courses.
+    await database!.delete(
+      'packs',
+      where: 'course_id = ?',
+      whereArgs: ['digital-safety-v1'],
+    );
+    await database!.delete(
+      'outbox',
+      where: 'course_id = ?',
+      whereArgs: ['digital-safety-v1'],
+    );
+    _packSizes.removeWhere((key, _) => key.startsWith('digital-safety-v1:'));
+    courseStates.removeWhere((key, _) => key.startsWith('digital-safety-v1:'));
+    selectedCourseIds.remove('digital-safety-v1');
+    bookmarkedCourses.remove('digital-safety-v1');
+    downloadActivity.removeWhere(
+      (item) =>
+          item['courseId'] == 'digital-safety-v1' ||
+          (item['key'] as String? ?? '').startsWith('digital-safety-v1:'),
+    );
+    if (courseId == 'digital-safety-v1' || downloaded.isEmpty) {
+      downloaded.clear();
+      progress.clear();
+      safetyChecklist.clear();
+      taskComplete = false;
+      pack = {};
+      courseId = '';
+      courseTitle = '';
+      final saved = await database!.query(
+        'packs',
+        orderBy: 'saved_at DESC',
+        limit: 1,
+      );
+      if (saved.isNotEmpty) {
+        courseId = saved.first['course_id'] as String;
+        courseVersion = saved.first['version'] as int;
+        lessonLanguage = saved.first['language'] as String;
+        final value =
+            jsonDecode(saved.first['json'] as String) as Map<String, dynamic>;
+        await selectCourse({
+          'id': courseId,
+          'title': value['title'] ?? courseId,
+          'packs': [
+            {'language': lessonLanguage, 'version': courseVersion},
+          ],
+        }, learnerSelected: false);
       }
-      await savePack('en', bundled: true);
     }
-    if (!downloaded.contains(lessonLanguage)) {
-      lessonLanguage = downloaded.contains(preferredLanguage)
-          ? preferredLanguage
-          : downloaded.contains('en')
-          ? 'en'
-          : downloaded.first;
+    if (downloaded.isNotEmpty) {
+      if (!downloaded.contains(lessonLanguage)) {
+        lessonLanguage = downloaded.contains(preferredLanguage)
+            ? preferredLanguage
+            : downloaded.first;
+      }
+      await _loadPack();
     }
-    await _loadPack();
     if (!eventsMigrated) {
       _migrateProgressEvents();
       eventsMigrated = true;
@@ -712,9 +735,7 @@ class LearningStore extends ChangeNotifier {
             .toSet();
       }
     }
-    return courseId == 'digital-safety-v1'
-        ? languages.keys.toSet()
-        : downloaded;
+    return downloaded;
   }
 
   Future<int> packBytes(String lang) async {
@@ -727,9 +748,7 @@ class LearningStore extends ChangeNotifier {
         }
       }
     }
-    return utf8
-        .encode(await rootBundle.loadString('assets/packs/$lang.json'))
-        .length;
+    return 0;
   }
 
   Future<String> _get(String route, {bool trackDownload = false}) async {
@@ -846,9 +865,9 @@ class LearningStore extends ChangeNotifier {
     }
   }
 
-  Future<void> savePack(String lang, {bool bundled = false}) async {
+  Future<void> savePack(String lang) async {
     try {
-      await _savePack(lang, bundled: bundled);
+      await _savePack(lang);
     } catch (_) {
       for (final item in downloadActivity) {
         if (item['key'] == '$courseKey:$lang') item['status'] = 'failed';
@@ -858,29 +877,14 @@ class LearningStore extends ChangeNotifier {
     }
   }
 
-  Future<void> _savePack(String lang, {bool bundled = false}) async {
-    String content;
-    bool preview = bundled;
+  Future<void> _savePack(String lang) async {
     packNotice = null;
-    if (bundled) {
-      content = await rootBundle.loadString('assets/packs/$lang.json');
-    } else {
-      try {
-        packDownloadProgress = null;
-        notifyListeners();
-        content = await _get(
-          '/api/v1/packs/$courseId/$lang?version=$courseVersion',
-          trackDownload: true,
-        );
-      } catch (_) {
-        if (courseId != 'digital-safety-v1') rethrow;
-        // Keep the Flutter prototype usable while backend work is paused.
-        // The UI explicitly identifies included preview content.
-        content = await rootBundle.loadString('assets/packs/$lang.json');
-        preview = true;
-        packNotice = 'Backend unavailable. Using the included preview pack.';
-      }
-    }
+    packDownloadProgress = null;
+    notifyListeners();
+    final content = await _get(
+      '/api/v1/packs/$courseId/$lang?version=$courseVersion',
+      trackDownload: true,
+    );
     final value = jsonDecode(content) as Map<String, dynamic>;
     if (value['id'] != courseId ||
         value['version'] != courseVersion ||
@@ -888,7 +892,7 @@ class LearningStore extends ChangeNotifier {
         !hasValidLessonIds(value['lessons'])) {
       throw const FormatException('Invalid lesson pack');
     }
-    value['_origin'] = preview ? 'Included preview' : 'Backend';
+    value['_origin'] = 'Backend';
     await database!.insert('packs', {
       'pack_key': '$courseKey:$lang',
       'course_id': courseId,
@@ -1508,7 +1512,7 @@ class LearningStore extends ChangeNotifier {
     final content = jsonEncode(snapshot());
     final events = List<Map<String, dynamic>>.from(_newEvents);
     _newEvents.clear();
-    final courseId = pack['id'] as String? ?? 'digital-safety-v1';
+    final courseId = pack['id'] as String? ?? '';
     final eventLanguage = lessonLanguage;
     final version = pack['version'] as int? ?? 1;
     _writes = _writes.catchError((Object _) {}).then((_) async {

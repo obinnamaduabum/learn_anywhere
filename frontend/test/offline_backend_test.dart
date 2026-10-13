@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:convert';
 import 'dart:io';
 
@@ -32,7 +33,7 @@ void main() {
       );
       var requests = 0;
       try {
-        await store.initialize();
+        await initializeFixture(store);
         await store.readLesson(0);
         final originalCourse = store.courseKey;
         final template = jsonEncode(store.pack);
@@ -102,7 +103,7 @@ void main() {
       identity: identity,
     );
     try {
-      await store.initialize();
+      await initializeFixture(store);
       final template = jsonEncode(store.pack);
       final parts = <Map<String, dynamic>>[];
       for (var i = 1; i <= 16; i++) {
@@ -157,7 +158,7 @@ void main() {
         baseUrl: 'http://127.0.0.1:9',
         identity: identity,
       );
-      await store.initialize();
+      await initializeFixture(store);
       expect(store.courseId, 'offline-part-16');
       expect(store.lessonLanguage, 'fr');
       expect(store.downloaded, {'fr'});

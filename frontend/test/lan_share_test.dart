@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:convert';
 import 'dart:io';
 
@@ -46,14 +47,14 @@ void main() {
       final sender = LearningStore(Directory('${directory.path}/a'));
       final receiver = LearningStore(Directory('${directory.path}/b'));
       try {
-        await sender.initialize();
-        await receiver.initialize();
+        await initializeFixture(sender);
+        await initializeFixture(receiver);
         await receiver.readLesson(0);
         final progress = jsonEncode(
           receiver.progress.map((k, v) => MapEntry('$k', v)),
         );
         final pack =
-            jsonDecode(await File('assets/packs/en.json').readAsString())
+            jsonDecode(await File('test/fixtures/packs/en.json').readAsString())
                 as Map<String, dynamic>;
         pack['id'] = 'peer-course';
         pack['lessons'] = (pack['lessons'] as List).take(3).toList();

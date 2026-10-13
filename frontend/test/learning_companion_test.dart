@@ -1,3 +1,4 @@
+import 'fixture_store.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
@@ -40,7 +41,7 @@ void main() {
   setUp(() async {
     directory = await Directory.systemTemp.createTemp('companion-');
     store = LearningStore(directory, identity: TestIdentity());
-    await store.initialize();
+    await initializeFixture(store);
   });
   tearDown(() async {
     await store.database?.close();
@@ -79,7 +80,7 @@ void main() {
         baseUrl: 'http://127.0.0.1:${server.port}',
         identity: TestIdentity(),
       );
-      await store.initialize();
+      await initializeFixture(store);
       await HttpOverrides.runZoned(
         () => store.downloadExplanations(),
         createHttpClient: (_) => realHttp.createHttpClient(null),
@@ -108,7 +109,7 @@ void main() {
       );
       await store.database!.close();
       store = LearningStore(directory, identity: TestIdentity());
-      await store.initialize();
+      await initializeFixture(store);
       expect(
         store.savedExplanations!['lessons'][0]['text'],
         'Reviewed lesson 0',
@@ -148,7 +149,7 @@ void main() {
         baseUrl: 'http://127.0.0.1:${server.port}',
         identity: TestIdentity(),
       );
-      await store.initialize();
+      await initializeFixture(store);
       await store.saveLearnerProfile(
         null,
         'Woman',
@@ -177,7 +178,7 @@ void main() {
         baseUrl: 'http://127.0.0.1:1',
         identity: TestIdentity(),
       );
-      await store.initialize();
+      await initializeFixture(store);
       expect(await store.requestCompanion(0, 'prerequisites'), reply);
       expect(store.isRead(1), false);
     },

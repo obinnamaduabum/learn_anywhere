@@ -1,0 +1,28 @@
+{
+  "durationSeconds": 240.021333,
+  "width": 1920,
+  "height": 1080,
+  "frameRate": "24/1",
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "fullDecode": "passed",
+  "decodeErrors": "",
+  "audioRmsDb": -17.903463,
+  "audioPeakDb": -1.898084,
+  "sizeBytes": 13288477,
+  "extractedReviewFramesSeconds": [
+    2,
+    25,
+    45,
+    65,
+    85,
+    105,
+    125,
+    145,
+    165,
+    185,
+    205,
+    225
+  ],
+  "captionMethod": "Sentence captions timed against each locally synthesized audio sentence; timing scaled with any chapter audio speed adjustment."
+}
