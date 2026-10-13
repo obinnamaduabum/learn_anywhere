@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="630" viewBox="0 0 1560 630">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="#0f766e"/></marker></defs>
+<rect width="100%" height="100%" fill="#f0f9f8"/><text x="30" y="40" font-family="sans-serif" font-size="26" font-weight="bold" fill="#143747">Phone SQLite · saved learning and pending activity</text>
+<text x="30" y="68" font-family="sans-serif" font-size="15" fill="#486774">Solid arrows: enforced FK parent → child. PK/FK/UK: primary/foreign/unique keys; grouped keys are composite.</text>
+<rect x="30" y="110" width="450" height="106" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M42,110 H468 Q480,110 480,122 V152 H30 V122 Q30,110 42,110" fill="#0f766e"/>
+<text x="47" y="138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">state</text>
+<text x="47" y="176" fill="#183b49" font-family="monospace" font-size="17">id INTEGER PK</text>
+<text x="47" y="203" fill="#183b49" font-family="monospace" font-size="17">json TEXT</text>
+<rect x="550" y="110" width="450" height="106" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M562,110 H988 Q1000,110 1000,122 V152 H550 V122 Q550,110 562,110" fill="#0f766e"/>
+<text x="567" y="138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">catalog</text>
+<text x="567" y="176" fill="#183b49" font-family="monospace" font-size="17">id INTEGER PK</text>
+<text x="567" y="203" fill="#183b49" font-family="monospace" font-size="17">json TEXT</text>
+<rect x="30" y="340" width="450" height="214" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M42,340 H468 Q480,340 480,352 V382 H30 V352 Q30,340 42,340" fill="#0f766e"/>
+<text x="47" y="368" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">packs</text>
+<text x="47" y="406" fill="#183b49" font-family="monospace" font-size="17">pack_key TEXT PK</text>
+<text x="47" y="433" fill="#183b49" font-family="monospace" font-size="17">course_id TEXT</text>
+<text x="47" y="460" fill="#183b49" font-family="monospace" font-size="17">version INTEGER</text>
+<text x="47" y="487" fill="#183b49" font-family="monospace" font-size="17">language TEXT</text>
+<text x="47" y="514" fill="#183b49" font-family="monospace" font-size="17">json TEXT</text>
+<text x="47" y="541" fill="#183b49" font-family="monospace" font-size="17">saved_at TEXT</text>
+<rect x="550" y="340" width="450" height="214" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M562,340 H988 Q1000,340 1000,352 V382 H550 V352 Q550,340 562,340" fill="#0f766e"/>
+<text x="567" y="368" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">outbox</text>
+<text x="567" y="406" fill="#183b49" font-family="monospace" font-size="17">sequence INTEGER PK</text>
+<text x="567" y="433" fill="#183b49" font-family="monospace" font-size="17">event_id TEXT UK</text>
+<text x="567" y="460" fill="#183b49" font-family="monospace" font-size="17">course_id TEXT</text>
+<text x="567" y="487" fill="#183b49" font-family="monospace" font-size="17">version INTEGER</text>
+<text x="567" y="514" fill="#183b49" font-family="monospace" font-size="17">language TEXT</text>
+<text x="567" y="541" fill="#183b49" font-family="monospace" font-size="17">event_json TEXT</text>
+<text x="30" y="588" font-family="sans-serif" font-size="16" fill="#486774">Source-defined schema • No database records accessed • See tables.md for composite constraints and nullable relationships.</text></svg>

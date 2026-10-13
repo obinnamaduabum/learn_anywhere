@@ -120,6 +120,26 @@ Flutter stores downloaded packs, cached catalog data, preferences, progress, and
 
 See [backend architecture](backend/design/architecture.md) for service boundaries and [backend setup](backend/README.md) for API details.
 
+### Database tables
+
+The diagrams cover 13 PostgreSQL tables and four phone SQLite tables. Solid arrows show enforced foreign keys; dashed links show application relationships.
+
+[Open the responsive diagram viewer](docs/database-diagram/index.html) · [Mermaid source and relationship notes](docs/database-diagram/tables.md)
+
+**PostgreSQL content and publication**
+
+[<img src="docs/database-diagram/postgres-content.svg" alt="PostgreSQL content and publication table relationships" width="800">](docs/database-diagram/postgres-content.svg)
+
+**PostgreSQL activity and administration**
+
+[<img src="docs/database-diagram/postgres-activity.svg" alt="PostgreSQL learner activity and staff table relationships" width="800">](docs/database-diagram/postgres-activity.svg)
+
+**Phone SQLite storage**
+
+[<img src="docs/database-diagram/phone-sqlite.svg" alt="Phone SQLite saved content and pending activity tables" width="800">](docs/database-diagram/phone-sqlite.svg)
+
+Click a diagram to open its full-size SVG. Download the HTML viewer with its neighboring files to use the fit-to-page and full-size controls locally.
+
 ## Local development
 
 ### Requirements

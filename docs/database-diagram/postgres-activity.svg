@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1390" viewBox="0 0 1560 1390">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="#0f766e"/></marker></defs>
+<rect width="100%" height="100%" fill="#f0f9f8"/><text x="30" y="40" font-family="sans-serif" font-size="26" font-weight="bold" fill="#143747">PostgreSQL · learner activity and staff administration</text>
+<text x="30" y="68" font-family="sans-serif" font-size="15" fill="#486774">Solid arrows: enforced FK parent → child. PK/FK/UK: primary/foreign/unique keys; grouped keys are composite.</text>
+<path d="M220 243 V650" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<path d="M340 243 V550 H775 V650" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<path d="M460 243 V520 H1295 V650" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<path d="M690 243 V590 H330 V650" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<path d="M800 243 V650" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<path d="M1295 486 V650" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<path d="M480 1180 H550" fill="none" stroke="#0f766e" stroke-width="2.4"  marker-end="url(#arrow)"/>
+<rect x="30" y="110" width="450" height="133" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M42,110 H468 Q480,110 480,122 V152 H30 V122 Q30,110 42,110" fill="#0f766e"/>
+<text x="47" y="138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">installations</text>
+<text x="47" y="176" fill="#183b49" font-family="monospace" font-size="17">id uuid PK</text>
+<text x="47" y="203" fill="#183b49" font-family="monospace" font-size="17">token_hash bytea UK</text>
+<text x="47" y="230" fill="#183b49" font-family="monospace" font-size="17">created_at timestamptz</text>
+<rect x="550" y="110" width="450" height="133" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M562,110 H988 Q1000,110 1000,122 V152 H550 V122 Q550,110 562,110" fill="#0f766e"/>
+<text x="567" y="138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">course_releases</text>
+<text x="567" y="176" fill="#183b49" font-family="monospace" font-size="17">course_id text PK FK</text>
+<text x="567" y="203" fill="#183b49" font-family="monospace" font-size="17">version integer PK</text>
+<text x="567" y="230" fill="#183b49" font-family="monospace" font-size="17">lesson_count integer</text>
+<rect x="1070" y="110" width="450" height="376" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M1082,110 H1508 Q1520,110 1520,122 V152 H1070 V122 Q1070,110 1082,110" fill="#0f766e"/>
+<text x="1087" y="138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">content_drafts</text>
+<text x="1087" y="176" fill="#183b49" font-family="monospace" font-size="17">id bigint PK</text>
+<text x="1087" y="203" fill="#183b49" font-family="monospace" font-size="17">course_id text</text>
+<text x="1087" y="230" fill="#183b49" font-family="monospace" font-size="17">language text</text>
+<text x="1087" y="257" fill="#183b49" font-family="monospace" font-size="17">provider text</text>
+<text x="1087" y="284" fill="#183b49" font-family="monospace" font-size="17">model text</text>
+<text x="1087" y="311" fill="#183b49" font-family="monospace" font-size="17">status text</text>
+<text x="1087" y="338" fill="#183b49" font-family="monospace" font-size="17">topics jsonb</text>
+<text x="1087" y="365" fill="#183b49" font-family="monospace" font-size="17">reviewed_by text</text>
+<text x="1087" y="392" fill="#183b49" font-family="monospace" font-size="17">reviewed_at timestamptz</text>
+<text x="1087" y="419" fill="#183b49" font-family="monospace" font-size="17">payload jsonb</text>
+<text x="1087" y="446" fill="#183b49" font-family="monospace" font-size="17">created_at timestamptz</text>
+<text x="1087" y="473" fill="#183b49" font-family="monospace" font-size="17">standard_read_time_minutes integer</text>
+<rect x="30" y="650" width="450" height="214" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M42,650 H468 Q480,650 480,662 V692 H30 V662 Q30,650 42,650" fill="#0f766e"/>
+<text x="47" y="678" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">course_progress</text>
+<text x="47" y="716" fill="#183b49" font-family="monospace" font-size="17">installation_id uuid PK FK</text>
+<text x="47" y="743" fill="#183b49" font-family="monospace" font-size="17">course_id text PK FK</text>
+<text x="47" y="770" fill="#183b49" font-family="monospace" font-size="17">version integer PK FK</text>
+<text x="47" y="797" fill="#183b49" font-family="monospace" font-size="17">state jsonb</text>
+<text x="47" y="824" fill="#183b49" font-family="monospace" font-size="17">points integer</text>
+<text x="47" y="851" fill="#183b49" font-family="monospace" font-size="17">updated_at timestamptz</text>
+<rect x="550" y="650" width="450" height="241" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M562,650 H988 Q1000,650 1000,662 V692 H550 V662 Q550,650 562,650" fill="#0f766e"/>
+<text x="567" y="678" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">activity_events</text>
+<text x="567" y="716" fill="#183b49" font-family="monospace" font-size="17">installation_id uuid PK FK</text>
+<text x="567" y="743" fill="#183b49" font-family="monospace" font-size="17">event_id text PK</text>
+<text x="567" y="770" fill="#183b49" font-family="monospace" font-size="17">course_id text FK</text>
+<text x="567" y="797" fill="#183b49" font-family="monospace" font-size="17">version integer FK</text>
+<text x="567" y="824" fill="#183b49" font-family="monospace" font-size="17">digest text</text>
+<text x="567" y="851" fill="#183b49" font-family="monospace" font-size="17">payload jsonb</text>
+<text x="567" y="878" fill="#183b49" font-family="monospace" font-size="17">received_at timestamptz</text>
+<rect x="1070" y="650" width="450" height="268" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M1082,650 H1508 Q1520,650 1520,662 V692 H1070 V662 Q1070,650 1082,650" fill="#0f766e"/>
+<text x="1087" y="678" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">course_requests</text>
+<text x="1087" y="716" fill="#183b49" font-family="monospace" font-size="17">id uuid PK</text>
+<text x="1087" y="743" fill="#183b49" font-family="monospace" font-size="17">installation_id uuid FK UK</text>
+<text x="1087" y="770" fill="#183b49" font-family="monospace" font-size="17">title text</text>
+<text x="1087" y="797" fill="#183b49" font-family="monospace" font-size="17">language text</text>
+<text x="1087" y="824" fill="#183b49" font-family="monospace" font-size="17">source text</text>
+<text x="1087" y="851" fill="#183b49" font-family="monospace" font-size="17">status text</text>
+<text x="1087" y="878" fill="#183b49" font-family="monospace" font-size="17">draft_id bigint FK</text>
+<text x="1087" y="905" fill="#183b49" font-family="monospace" font-size="17">created_at timestamptz</text>
+<rect x="30" y="1110" width="450" height="214" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M42,1110 H468 Q480,1110 480,1122 V1152 H30 V1122 Q30,1110 42,1110" fill="#0f766e"/>
+<text x="47" y="1138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">admin_users</text>
+<text x="47" y="1176" fill="#183b49" font-family="monospace" font-size="17">id uuid PK</text>
+<text x="47" y="1203" fill="#183b49" font-family="monospace" font-size="17">email text UK</text>
+<text x="47" y="1230" fill="#183b49" font-family="monospace" font-size="17">password_hash text</text>
+<text x="47" y="1257" fill="#183b49" font-family="monospace" font-size="17">failed_logins integer</text>
+<text x="47" y="1284" fill="#183b49" font-family="monospace" font-size="17">locked_until timestamptz</text>
+<text x="47" y="1311" fill="#183b49" font-family="monospace" font-size="17">created_at timestamptz</text>
+<rect x="550" y="1110" width="450" height="160" rx="12" fill="white" stroke="#aac8c5"/>
+<path d="M562,1110 H988 Q1000,1110 1000,1122 V1152 H550 V1122 Q550,1110 562,1110" fill="#0f766e"/>
+<text x="567" y="1138" fill="white" font-family="sans-serif" font-size="21" font-weight="bold">admin_sessions</text>
+<text x="567" y="1176" fill="#183b49" font-family="monospace" font-size="17">token_hash bytea PK</text>
+<text x="567" y="1203" fill="#183b49" font-family="monospace" font-size="17">user_id uuid FK</text>
+<text x="567" y="1230" fill="#183b49" font-family="monospace" font-size="17">expires_at timestamptz</text>
+<text x="567" y="1257" fill="#183b49" font-family="monospace" font-size="17">created_at timestamptz</text>
+<text x="30" y="1348" font-family="sans-serif" font-size="16" fill="#486774">Source-defined schema • No database records accessed • See tables.md for composite constraints and nullable relationships.</text></svg>
