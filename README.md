@@ -8,23 +8,25 @@ Watch the [four-minute narrated app walkthrough](frontend/docs/demo/learn-anywhe
 
 This walkthrough was captured on 13 October 2026 in the running iPhone 17 Debug app. Navigation used Device Hub accessibility controls; screenshots used Flutter MCP. The images show the actual app and the published **AI for Everyday Tasks** course. No quiz answers were submitted for this walkthrough.
 
+Screenshots are displayed at a compact phone size. Click any screenshot to view the full-resolution image.
+
 ### 1. Choose your language
 
 On first launch, choose a language. Later, tap the globe in the toolbar, choose **English, Français, Português, العربية, Hausa, Yorùbá, or Igbo**, then tap **Apply languages**. A missing published lesson pack downloads before it is applied. Download while connected; saved lessons remain available offline. An unavailable translation produces a message instead of silently discarding your preference.
 
-![The seven supported language choices, with English selected](frontend/docs/screenshots/06-language-picker.png)
+<a href="frontend/docs/screenshots/06-language-picker.png"><img src="frontend/docs/screenshots/06-language-picker.png" alt="The seven supported language choices, with English selected" width="360"></a>
 
 ### 2. Discover a course
 
 Open **Discover**, search using **Find a course**, and tap **View course**. Pull down or tap **Refresh** to fetch newly published courses. Cards show a description, category, lesson count, and final quiz. Internet is needed to discover new content and download missing packs.
 
-![Discover showing AI for Everyday Tasks and Microsoft AI for Beginners](frontend/docs/screenshots/01-discover.png)
+<a href="frontend/docs/screenshots/01-discover.png"><img src="frontend/docs/screenshots/01-discover.png" alt="Discover showing AI for Everyday Tasks and Microsoft AI for Beginners" width="360"></a>
 
 ### 3. Open the contents and save the course
 
 Opening a course downloads its selected-language pack when needed. The contents page lists the lessons, their reading state, and languages saved on this device. Tap any lesson to begin. For a series, choose a part first. Lesson counts follow the material; this course has six lessons. Opening or skipping a lesson does not by itself mark it read or earn quiz points.
 
-![AI for Everyday Tasks contents with ordered lessons and saved English language](frontend/docs/screenshots/02-course-contents.png)
+<a href="frontend/docs/screenshots/02-course-contents.png"><img src="frontend/docs/screenshots/02-course-contents.png" alt="AI for Everyday Tasks contents with ordered lessons and saved English language" width="360"></a>
 
 ### 4. Read, listen, or switch to an explanation
 
@@ -32,33 +34,33 @@ The lesson shows its reading estimate and **Ready offline** status. Read the tex
 
 Tap the **teal lightbulb** to substitute a shorter explained version on the same page. **Explained version · 1** identifies the saved explanation version. Tap the button again to return to regular content. Both views use the same final assessment. Pages reopen at the top while keeping saved progress.
 
-![Regular lesson with reading time, offline status, read-aloud controls and teal explanation button](frontend/docs/screenshots/03-read-lesson.png)
+<a href="frontend/docs/screenshots/03-read-lesson.png"><img src="frontend/docs/screenshots/03-read-lesson.png" alt="Regular lesson with reading time, offline status, read-aloud controls and teal explanation button" width="360"></a>
 
-![Shorter explained version of the same lesson](frontend/docs/screenshots/04-explained-version.png)
+<a href="frontend/docs/screenshots/04-explained-version.png"><img src="frontend/docs/screenshots/04-explained-version.png" alt="Shorter explained version of the same lesson" width="360"></a>
 
 ### 5. Take the final quiz and apply the skill
 
 Return to the contents page and tap **Take final quiz**. Choose an answer and use **Next question**. Answers save locally; correctness stays hidden during the assessment. Submit at the end to see the score, then use **Review answers** for correct answers and explanations. The captured screen shows question 1 of 18 before an answer is selected. After completing the assessment, follow the practical **Final challenge** instructions. Reading progress and quiz completion are separate.
 
-![First final quiz question with four choices and Next question disabled before selection](frontend/docs/screenshots/05-final-quiz.png)
+<a href="frontend/docs/screenshots/05-final-quiz.png"><img src="frontend/docs/screenshots/05-final-quiz.png" alt="First final quiz question with four choices and Next question disabled before selection" width="360"></a>
 
 ### 6. Reopen saved courses offline
 
 Open **Downloads** to see the device's saved course library. **Ready offline** confirms that a pack is saved. Tap **Open course** to return to its contents, or **Manage languages** to review available and saved languages. Saved languages remain available without another download; discovering new courses and fetching updates need a connection.
 
-![Downloads listing saved courses, saved languages, offline status and course-management actions](frontend/docs/screenshots/07-downloads.png)
+<a href="frontend/docs/screenshots/07-downloads.png"><img src="frontend/docs/screenshots/07-downloads.png" alt="Downloads listing saved courses, saved languages, offline status and course-management actions" width="360"></a>
 
 ### 7. Continue from Home
 
 **Home** shows your saved courses and reading progress. Use **Start course** or **Continue learning** to resume. Progress, answers, bookmarks, and downloaded materials stay on the device between visits; pending learning activity synchronizes when the backend is reachable.
 
-![Home showing the current course, reading progress and continuation actions](frontend/docs/screenshots/09-home.png)
+<a href="frontend/docs/screenshots/09-home.png"><img src="frontend/docs/screenshots/09-home.png" alt="Home showing the current course, reading progress and continuation actions" width="360"></a>
 
 ### 8. Adjust your learning preferences
 
 Open **Profile** for progress, badges, the final challenge, and **Settings**. Choose **Teal light** or **Teal dark**, adjust font size, and review the learning and accessibility controls. The optional learner profile can start lessons with explained content. Preferences persist on the device. Learners do not need an account or password to read downloaded courses.
 
-![Profile with course progress, final challenge and appearance settings](frontend/docs/screenshots/08-profile.png)
+<a href="frontend/docs/screenshots/08-profile.png"><img src="frontend/docs/screenshots/08-profile.png" alt="Profile with course progress, final challenge and appearance settings" width="360"></a>
 
 The captured walkthrough verifies these screens and navigation. It does not claim a completed quiz, a real-device offline-network test, or independent bilingual review of the lesson translations.
 
